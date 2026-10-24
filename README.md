@@ -64,3 +64,8 @@ Small corpus (95 claims, 6 theories); single-pass extraction noise floor (stabil
 reference labels are judge-after-audit, not ground truth; held-out keys control the prompt, not training
 data (the obfuscation control is the measured response); open-weight panel leg deferred (no key). Deeper
 arms (AB3/AB4/SS pilots, TD extensions, protocol game, B5) are paper v2.
+
+## Citation
+Khatri, A. (2026). *A deterministic, auditable engine for cross-theory claim comparison: cross-field
+discovery with built-in verification* (paper v1). Code and locked registry:
+https://github.com/Anuja-Khatri/consilience-verification · Preregistration: DOI 10.17605/OSF.IO/5N24M.
