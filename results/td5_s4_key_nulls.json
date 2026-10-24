@@ -1,0 +1,16 @@
+{
+  "key": "cogitate",
+  "n_rows": 3,
+  "n_null": 1000,
+  "real_recovered": 2,
+  "real_recovered_plus_partial": 2,
+  "null_recovered_mean": 0.531,
+  "null_recovered_std": 0.6473,
+  "z_recovered": 2.2693,
+  "empirical_p_recovered": 0.075,
+  "null_recovered_partial_mean": 0.769,
+  "z_recovered_partial": 1.6282,
+  "empirical_p_recovered_partial": 0.155,
+  "axes_sampled_from": "vocab (12 axes, none excluded)",
+  "families_sampled_from": "per-theory corpus value marginals"
+}

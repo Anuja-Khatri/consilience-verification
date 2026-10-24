@@ -1,0 +1,45 @@
+{
+  "fork_id": "IIT×ActiveInference:temporal_profile:iit_t003xactive-inference_c032",
+  "axis": "temporal_profile",
+  "pair": "IIT × Active Inference",
+  "side_resolution": {
+    "left": {
+      "theory": "IIT",
+      "value": "sustained_maintenance"
+    },
+    "right": {
+      "theory": "Active Inference",
+      "value": "slower_dynamics_at_higher_hierarchy"
+    }
+  },
+  "supporting": [
+    {
+      "ref": "koch2016",
+      "cite": "Koch, Massimini, Boly & Tononi (2016). Neural correlates of consciousness: progress and problems. Nature Reviews Neuroscience 17(5):307–321.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27094080/",
+      "line": "Best anatomical candidates for content-specific correlates sit in a posterior temporo-parietal-occipital zone, not the fronto-parietal task network."
+    },
+    {
+      "ref": "boly2017",
+      "cite": "Boly, Massimini, Tsuchiya, Postle, Koch & Tononi (2017). Are the Neural Correlates of Consciousness in the Front or in the Back of the Cerebral Cortex? J Neurosci 37(40):9603–9613.",
+      "url": "https://www.jneurosci.org/content/37/40/9603",
+      "line": "Clinical and neuroimaging evidence marshalled for a posterior locus of the correlates of conscious content."
+    }
+  ],
+  "challenging": [
+    {
+      "ref": "kiebel2008",
+      "cite": "Kiebel, Daunizeau & Friston (2008). A Hierarchy of Time-Scales and the Brain. PLoS Computational Biology 4(11):e1000209.",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000209",
+      "line": "Higher cortical levels encode slower-changing states; a separation of timescales across the hierarchy."
+    },
+    {
+      "ref": "raut2020",
+      "cite": "Raut, Snyder & Raichle (2020). Hierarchical dynamics as a macroscopic organizing principle of the human brain. PNAS 117(34):20890–20897.",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2003383117",
+      "line": "Timescales lengthen along the cortical hierarchy; slower dynamics in higher-order regions."
+    }
+  ],
+  "grade": "mixed",
+  "note": "Grade on the typed side-resolution; NOT on the held-out review."
+}

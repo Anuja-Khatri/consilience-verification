@@ -1,0 +1,147 @@
+{
+  "fork_id": "IIT×NREP:observable_commitment:iit_t001xnrep_c006",
+  "axis": "observable_commitment",
+  "pair": "IIT × NREP",
+  "register": "INTREPID-18",
+  "sides": {
+    "left": {
+      "theory": "IIT",
+      "value": "perturbational_complexity_index",
+      "polarity": "asserts",
+      "claim_ids": [
+        "iit_t001"
+      ],
+      "quotes": [
+        "IIT predicts that loss and recovery of consciousness is associated with breakdown and recovery of information integration capacity, measurable via the perturbational complexity index (PCI)…"
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "value grounded in cited passage"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "NREP",
+      "value": "externally_observable_validation_required",
+      "polarity": "asserts",
+      "claim_ids": [
+        "nrep_c006"
+      ],
+      "quotes": [
+        "Consciousness should be attributed only to systems displaying manifest, externally observable properties (wakefulness, conscious-like behaviors, validated physiological measures); theoretical measures must be cross-validated against such…"
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.87"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [
+      {
+        "passage_id": "iit_3_0_0082",
+        "score": 7.333,
+        "excerpt": "– A has selective causes within the system (ciw0), but not the future states of the system – A has no selective effects on the system (ei~0, what A does…"
+      },
+      {
+        "passage_id": "iit_4_0_0050",
+        "score": 4.5,
+        "excerpt": "This assumption is embedded in IIT’s postulate of intrinsicality and has several consequences. One is that, from the intrinsic perspective, the quality and quantity of existence must be observer-independent and…"
+      },
+      {
+        "passage_id": "iit_3_0_0083",
+        "score": 3.0,
+        "excerpt": "In this case, the state of element A constrains the future states of the system – A has selective effects on the system (eiw0), but not the past states of…"
+      },
+      {
+        "passage_id": "iit_3_0_0188",
+        "score": 2.667,
+        "excerpt": "First, the need for reciprocal interactions within a complex is not merely an empirical observation, but it has theoretical validity because it is derived directly from the phenomenological axiom of…"
+      },
+      {
+        "passage_id": "iit_4_0_0049",
+        "score": 2.0,
+        "excerpt": "While IIT must still be considered as work in progress, having undergone successive refine- ments, IIT 4.0 is the first formulation of IIT that strives to characterize Φ-structures completely and…"
+      },
+      {
+        "passage_id": "iit_4_0_0232",
+        "score": 2.0,
+        "excerpt": "It is not feasible to perform all possible observations and manipula- tions to fully characterize a universal TPM, or to perform all calculations on the TPM that would be necessary…"
+      }
+    ],
+    "right": [
+      {
+        "passage_id": "nrep_2019_0145",
+        "score": 5.5,
+        "excerpt": "This approach should take into account that machines, having much faster processing units at their disposal, may use other strategies for solving complex problems than relying on conscious surveys of…"
+      },
+      {
+        "passage_id": "nrep_2019_0041",
+        "score": 3.0,
+        "excerpt": "We may be aware of the global sensory consequences of habitual actions but remain largely unaware of the sensory details or their underlying fine movements (Lisman and Sternberg, 2013; Pennartz,…"
+      },
+      {
+        "passage_id": "nrep_2019_0046",
+        "score": 2.667,
+        "excerpt": "Conscious experience also continues in the absence of overt decisions or motor actions, such as during dreaming, daydreaming or passive observation without motor intentions or planning (Treserras et al., 2009;…"
+      },
+      {
+        "passage_id": "nrep_2019_0043",
+        "score": 2.0,
+        "excerpt": "It would be extremely difficult to negotiate such complex problem sets if subjects would have to work without some sort of situational survey offering a quick grasp on the situation…"
+      },
+      {
+        "passage_id": "nrep_2019_0533",
+        "score": 1.833,
+        "excerpt": "The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited,…"
+      },
+      {
+        "passage_id": "nrep_2019_0129",
+        "score": 1.5,
+        "excerpt": "Today, DLNNs come remarkably close to this, having not only achieved complex scene classification, but also semantic labeling and verbal description of scenes (Karpathy and Fei-Fei, 2015; LeCun et al.,…"
+      },
+      {
+        "passage_id": "nrep_2019_0045",
+        "score": 1.167,
+        "excerpt": "In other vertebrates, similar brain structures indicate the presence of consciousness. In vertebrates, functional analogs of cortex and thalamus may support consciousness Psychometrics and meta-cognitive judgment Psychometric properties of stimulus…"
+      }
+    ]
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "now",
+    "rationale": "",
+    "citation_rows": [
+      {
+        "tag": "Complexity",
+        "n": 51
+      },
+      {
+        "tag": "Variability",
+        "n": 9
+      },
+      {
+        "tag": "PHI Approximation",
+        "n": 7
+      },
+      {
+        "tag": "Criticality",
+        "n": 1
+      }
+    ],
+    "evidence_verdict": "CONTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed); INTREPID review held out (§0.5)"
+  },
+  "status": "clean",
+  "correction_note": null,
+  "caveat": "A4 INTREPID-register dossiers (18-fork standing_predictions). instrument v1-era forks + approved store (frozen-store). The INTREPID review is a HELD-OUT answer key — never consulted here (§0.5); validity is checked against the theories' OWN corpora only."
+}

@@ -1,0 +1,122 @@
+{
+  "n_discoveries": 9,
+  "discoveries": [
+    {
+      "id": "D1",
+      "title": "Mean-field self-organized criticality ↔ neuronal avalanches",
+      "grade": "isomorphism",
+      "provenance": "engine",
+      "match_ref": "ED24_C11__G6_C3",
+      "side_a": {
+        "claim_id": "ED24_C11"
+      },
+      "side_b": {
+        "claim_id": "G6_C3"
+      }
+    },
+    {
+      "id": "D2",
+      "title": "Self-organized criticality ↔ neuronal avalanches",
+      "grade": "isomorphism",
+      "provenance": "original",
+      "match_ref": "F9_C3__G6_C5",
+      "side_a": {
+        "claim_id": "F9_C3"
+      },
+      "side_b": {
+        "claim_id": "G6_C5"
+      }
+    },
+    {
+      "id": "D3",
+      "title": "Samkhya ordered emergence ↔ spontaneous symmetry breaking",
+      "grade": "generative + partial",
+      "provenance": "original",
+      "match_ref": "E4_C16__F6_C2",
+      "side_a": {
+        "claim_id": "E4_C16"
+      },
+      "side_b": {
+        "claim_id": "F6_C2"
+      }
+    },
+    {
+      "id": "D4",
+      "title": "Developmental differentiation cascade ↔ Samkhya tattva cascade",
+      "grade": "partial",
+      "provenance": "engine",
+      "match_ref": "ED04_C5__E4_C16",
+      "side_a": {
+        "claim_id": "ED04_C5"
+      },
+      "side_b": {
+        "claim_id": "E4_C16"
+      }
+    },
+    {
+      "id": "D5",
+      "title": "Order parameter ↔ perturbational complexity index (consciousness onset)",
+      "grade": "generative",
+      "provenance": "original",
+      "match_ref": "F6_C4__G5_C10",
+      "side_a": {
+        "claim_id": "F6_C4"
+      },
+      "side_b": {
+        "claim_id": "G5_C10"
+      }
+    },
+    {
+      "id": "D6",
+      "title": "Critical-slowing-down early warning ↔ PCI",
+      "grade": "generative",
+      "provenance": "engine",
+      "match_ref": "ED06_C6__G5_C5",
+      "side_a": {
+        "claim_id": "ED06_C6"
+      },
+      "side_b": {
+        "claim_id": "G5_C5"
+      }
+    },
+    {
+      "id": "D7",
+      "title": "Reflexivity: autopoiesis ↔ gauge self-interaction ↔ Wheeler's loop",
+      "grade": "generative (triangulation)",
+      "provenance": "supplementary",
+      "match_ref": "VA_C1__B1_C12",
+      "side_a": {
+        "claim_id": "VA_C1"
+      },
+      "side_b": {
+        "claim_id": "B1_C12"
+      }
+    },
+    {
+      "id": "D8",
+      "title": "Ecological extinction cascade ↔ SUSY decay to a single relic",
+      "grade": "partial",
+      "provenance": "engine",
+      "match_ref": "ED21_C1__A1_C1",
+      "side_a": {
+        "claim_id": "ED21_C1"
+      },
+      "side_b": {
+        "claim_id": "A1_C1"
+      }
+    },
+    {
+      "id": "D9",
+      "title": "Least-fixed-point grammar semantics ↔ satkaryavada",
+      "grade": "generative",
+      "provenance": "engine",
+      "match_ref": "ED17_C4__E4_C5",
+      "side_a": {
+        "claim_id": "ED17_C4"
+      },
+      "side_b": {
+        "claim_id": "E4_C5"
+      }
+    }
+  ]
+}

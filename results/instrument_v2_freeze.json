@@ -1,0 +1,22 @@
+{
+  "instrument_tag": "v2",
+  "adopted_decoding": "baseline (single-pass, provider-default; no temperature per v2.0.3)",
+  "adoption_decision": "adopt-baseline",
+  "adoption_packet": "review/a5_adoption_2026-10.md",
+  "adoption_rule": "preregistered gate stability≥0.70 AND windowed coverage≥0.85; candidate confweighted failed (0.346/0.258); t0 not-applicable → baseline.",
+  "prompt": {
+    "v1_system_sha256": "758e5943ea2192ece7179fa7de1ca8cdede2502cc7e9b3b2942cd430ece60117",
+    "definitions_block_sha256": "a0a88d9c09a503a034674af3571b51e19eb04935cc911793ae16b356f3396765",
+    "v2_system_sha256": "2fc0035d100d63c835db7f50ae7db92e7c960fc164abb3b46205f00af0e04ed6",
+    "definitions_source": "vocab/entity_types.yaml + axes.yaml (Task-3b condition B; ablation NOT rerun — +0.105 entity-κ directional, CIs cross 0)"
+  },
+  "models": {
+    "extractor": "claude-sonnet-4-6",
+    "checker": "claude-haiku-4-5-20251001",
+    "extract_max_tokens": 1500,
+    "haiku_max_tokens": 200
+  },
+  "engine_fingerprint": "09b90e8d4d07e1c1349c2054ffc7bbd6847e6e481a1f438d5998e8f5dcb27057",
+  "date": "2026-10",
+  "determinism": "rests on the pipeline/llm.py cache (sha256 full request + replicate_tag), not on decoding (Anthropic exposes no temperature knob)."
+}

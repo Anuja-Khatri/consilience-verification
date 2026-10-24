@@ -1,0 +1,39 @@
+{
+  "fork_id": "IIT×ActiveInference:mechanism_scale:iit_n023xactive-inference_c027",
+  "axis": "mechanism_scale",
+  "pair": "IIT × Active Inference",
+  "side_resolution": {
+    "left": {
+      "theory": "IIT",
+      "value": "mesoscale_spatiotemporal_grain"
+    },
+    "right": {
+      "theory": "Active Inference",
+      "value": "message_passing_gradient_descent"
+    }
+  },
+  "supporting": [
+    {
+      "ref": "hoel2016",
+      "cite": "Hoel, Albantakis, Marshall & Tononi (2016). Can the macro beat the micro? Integrated information across spatiotemporal scales. Neuroscience of Consciousness 2016(1):niw012.",
+      "url": "https://academic.oup.com/nc/article/2016/1/niw012/2757132",
+      "line": "The spatiotemporal grain that maximises intrinsic irreducibility can be a coarser (macro/meso) scale, not necessarily the finest micro scale."
+    }
+  ],
+  "challenging": [
+    {
+      "ref": "bastos2012",
+      "cite": "Bastos, Usrey, Adams, Mangun, Fries & Friston (2012). Canonical Microcircuits for Predictive Coding. Neuron 76(4):695–711.",
+      "url": "https://doi.org/10.1016/j.neuron.2012.10.038",
+      "line": "Assigns predictive-coding roles to specific cortical laminae — a microcircuit-scale mechanistic account."
+    },
+    {
+      "ref": "friston2009",
+      "cite": "Friston & Kiebel (2009). Predictive coding under the free-energy principle. Phil. Trans. R. Soc. B 364:1211–1221.",
+      "url": "https://www.fil.ion.ucl.ac.uk/~karl/Predictive%20coding%20under%20the%20free-energy%20principle.pdf",
+      "line": "Message-passing / precision-weighting formulation of cortical inference under the free-energy principle."
+    }
+  ],
+  "grade": "mixed",
+  "note": "Grade on the typed side-resolution; NOT on the held-out review."
+}

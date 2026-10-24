@@ -1,0 +1,49 @@
+fork_id: IIT×ActiveInference:locus:iit_n013xactive-inference_c037
+axis: locus
+pair: IIT × Active Inference
+sides:
+  left:
+    theory: IIT
+    value: intrinsic_not_broadcast
+    polarity: asserts
+  right:
+    theory: Active Inference
+    value: subcortical_basal_ganglia
+    polarity: asserts
+observable: Whether conscious experience correlates more strongly with measures of
+  intrinsic causal structure (e.g., integrated information) in local cortical regions
+  versus with activity patterns and computational roles of subcortical basal ganglia
+  circuits during conscious perception tasks.
+outcome_space:
+- pattern: Conscious experience correlates most strongly with intrinsic causal structure
+    in local cortical regions, regardless of subcortical basal ganglia activity.
+  favors: IIT
+- pattern: Conscious experience correlates most strongly with activity patterns and
+    computational roles of subcortical basal ganglia circuits, regardless of intrinsic
+    causal structure in local cortical regions.
+  favors: ActInf
+- pattern: Conscious experience correlates with both intrinsic causal structure in
+    local cortical regions and subcortical basal ganglia activity, with neither being
+    clearly primary.
+  favors: both
+- pattern: Conscious experience correlates with neither intrinsic causal structure
+    in local cortical regions nor subcortical basal ganglia activity.
+  favors: neither
+favors:
+  ? Conscious experience correlates most strongly with intrinsic causal structure
+    in local cortical regions, regardless of subcortical basal ganglia activity.
+  : IIT
+  ? Conscious experience correlates most strongly with activity patterns and computational
+    roles of subcortical basal ganglia circuits, regardless of intrinsic causal structure
+    in local cortical regions.
+  : ActInf
+  ? Conscious experience correlates with both intrinsic causal structure in local
+    cortical regions and subcortical basal ganglia activity, with neither being clearly
+    primary.
+  : both
+  ? Conscious experience correlates with neither intrinsic causal structure in local
+    cortical regions nor subcortical basal ganglia activity.
+  : neither
+vacuous: false
+vacuity_rationale: The two values make empirically distinct claims about the neural
+  locus of consciousness, allowing for discriminating measurement patterns.

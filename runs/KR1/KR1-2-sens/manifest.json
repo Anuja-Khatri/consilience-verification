@@ -1,0 +1,72 @@
+{
+  "task": "KR1",
+  "runid": "KR1-2-sens",
+  "instrument_tag": "v2",
+  "corpus_tag": "v1",
+  "engine_fingerprint": "09b90e8d4d07e1c1349c2054ffc7bbd6847e6e481a1f438d5998e8f5dcb27057",
+  "artifact_stamp": "2026-10",
+  "config_snapshot": {
+    "models": {
+      "extractor": "claude-sonnet-4-6",
+      "checker": "claude-haiku-4-5-20251001",
+      "perturber": "claude-sonnet-4-6",
+      "verifier": "gpt-4.1",
+      "panel": [
+        "gpt-4.1",
+        "gemini-pro-latest",
+        "qwen2.5-72b-instruct"
+      ],
+      "game_agent": "claude-sonnet-4-6",
+      "transcriber": "claude-sonnet-4-6"
+    },
+    "seeds": {
+      "global": 20261022,
+      "extraction_runs": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "gwot_restarts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "thresholds_ngram": {
+      "n_chars": 8,
+      "minhash_perm": 128,
+      "jaccard_flag": 0.5,
+      "mode": "word_unique",
+      "word_n_guard": 8,
+      "word_n_prov": 10,
+      "benign_set": "miu",
+      "amended_by": "D-034"
+    }
+  },
+  "inputs": [
+    {
+      "path": "/Users/anujakhatri3/consilience-verification/runs/KR1/KR1-2/v2_claims.json",
+      "kind": "extraction",
+      "sha256": "33549a8e4117f8c80f9245c18b784aaf0b23d4fe495376ae94e7880221b87fff"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "results/kr1_v2_sensitivity.json",
+      "sha256": "10d19b73979978dd35d9e192a8ef89d0deb4d25ef8930da9969b4aadf92e5f91",
+      "kind": "file"
+    }
+  ],
+  "seeds": {},
+  "model_provenance": [],
+  "notes": "KR1 v2 gated {'recovered': 1, 'partial': 0, 'missed': 2, 'beyond': 9} vs ungated {'recovered': 2, 'partial': 0, 'missed': 1, 'beyond': 16}; differs=True; responsible=['iit_c009']"
+}

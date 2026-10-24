@@ -1,0 +1,114 @@
+{
+  "fork_id": "IIT×ActiveInference:mechanism_scale:iit_n023xactive-inference_c038",
+  "axis": "mechanism_scale",
+  "pair": "IIT × Active Inference",
+  "register": "INTREPID-18",
+  "sides": {
+    "left": {
+      "theory": "IIT",
+      "value": "mesoscale_spatiotemporal_grain",
+      "polarity": "asserts",
+      "claim_ids": [
+        "iit_n023"
+      ],
+      "quotes": [
+        "The PSC operates at a definite spatio-temporal grain (local cortical neuron groups over ~100 ms intervals); perturbations at the appropriate grain change experience, fixing the…"
+      ],
+      "provenance_check": {
+        "status": "FAIL",
+        "detail": "claim not grounded in cited passages"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "Active Inference",
+      "value": "neuromodulatory_precision_encoding",
+      "polarity": "asserts",
+      "claim_ids": [
+        "active-inference_c038"
+      ],
+      "quotes": [
+        "Neuromodulators (dopamine, noradrenaline) encode distinct precision parameters over policies and state transitions respectively, mapping functional roles onto specific neurochemical systems."
+      ],
+      "provenance_check": {
+        "status": "FAIL",
+        "detail": "claim not grounded in cited passages"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [
+      {
+        "passage_id": "iit_nrn_2016_0070",
+        "score": 10.5,
+        "excerpt": "Macro-states are defined according to the rule that if ≥50% of the neurons in the group are in a given micro-state (such as low firing, high firing or bursting), then…"
+      },
+      {
+        "passage_id": "iit_nrn_2016_0057",
+        "score": 7.5,
+        "excerpt": "Ideally, systematic manipulation and recording of this particular set of neuronal groups would show that it has the maximum value of Φ, whereas any other assortment of neuronal groups in…"
+      },
+      {
+        "passage_id": "iit_4_0_0185",
+        "score": 4.5,
+        "excerpt": "Again, because the modules are small, their Φ values are low. Intriguingly, a brain region such as the cerebellum, whose anatomical organization is highly modular, does not contribute to con-…"
+      },
+      {
+        "passage_id": "iit_3_0_0226",
+        "score": 3.0,
+        "excerpt": "Moreover, discrete, analytically tractable brain models based on neuroanatomical connectivity such as [68] could provide a suitable approximation of large-scale neural mechanisms yet permit the rigorous measurement of integrated information.…"
+      },
+      {
+        "passage_id": "iit_nrn_2016_0049",
+        "score": 2.667,
+        "excerpt": "In this case, IIT predicts that finer grained neural states, despite their demonstrable neuro- physiological effects, make no difference to the content of experience. Note that spatio-temporal grain and the…"
+      },
+      {
+        "passage_id": "iit_3_0_0171",
+        "score": 2.333,
+        "excerpt": "‘‘broadcast’’ the information they represent and ‘‘ignite’’ fronto-parietal networks [7,10]. This is because, in IIT, information is not in the message that is broadcasted by an element, but in the…"
+      },
+      {
+        "passage_id": "iit_3_0_0098",
+        "score": 1.333,
+        "excerpt": "that ‘‘causes should not be multiplied beyond necessity’’, i.e. that causal superposition is not allowed [6]. In the present context this means that only one set of synapses can be…"
+      },
+      {
+        "passage_id": "iit_3_0_0189",
+        "score": 1.333,
+        "excerpt": "As was discussed above, a complex can be conscious, at least in principle, even though none of its neurons may be firing, no feed-back or reentrant loop may be activated,…"
+      },
+      {
+        "passage_id": "iit_nrn_2016_0115",
+        "score": 1.167,
+        "excerpt": "This also implies that local strengthening or weakening of such horizontal connections in topographic areas should lead to a local distortion of experienced visual space, even though the feedforward mapping…"
+      },
+      {
+        "passage_id": "iit_nrn_2016_0099",
+        "score": 1.0,
+        "excerpt": "In principle, these differences in organization can explain why lesions of the cerebellum, which has four times more neurons than the cerebral cortex58, do not seem to affect consciousness7,8. Furthermore,…"
+      }
+    ],
+    "right": []
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "now",
+    "rationale": "",
+    "citation_rows": [],
+    "evidence_verdict": "UNTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed); INTREPID review held out (§0.5)"
+  },
+  "status": "clean",
+  "correction_note": null,
+  "caveat": "A4 INTREPID-register dossiers (18-fork standing_predictions). instrument v1-era forks + approved store (frozen-store). The INTREPID review is a HELD-OUT answer key — never consulted here (§0.5); validity is checked against the theories' OWN corpora only."
+}

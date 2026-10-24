@@ -1,0 +1,42 @@
+fork_id: IIT×NREP:locus:iit_c010xnrep_c017
+axis: locus
+pair: IIT × NREP
+sides:
+  left:
+    theory: IIT
+    value: single_maximal_complex
+    polarity: asserts
+  right:
+    theory: NREP
+    value: distributed_multi_region
+    polarity: asserts
+observable: Spatial distribution of neural activity patterns most predictive of conscious
+  report across the brain during conscious perception tasks.
+outcome_space:
+- pattern: Conscious report is consistently predicted by activity within a single,
+    spatially contiguous, maximally integrated neural complex, with minimal contribution
+    from other regions.
+  favors: IIT
+- pattern: Conscious report is best predicted by distributed activity patterns spanning
+    multiple, spatially separated brain regions, with no single maximal complex accounting
+    for the majority of predictive power.
+  favors: NREP
+- pattern: Both a single maximal complex and distributed multi-region patterns equally
+    predict conscious report, with no clear advantage for either configuration.
+  favors: both
+favors:
+  ? Conscious report is consistently predicted by activity within a single, spatially
+    contiguous, maximally integrated neural complex, with minimal contribution from
+    other regions.
+  : IIT
+  ? Conscious report is best predicted by distributed activity patterns spanning multiple,
+    spatially separated brain regions, with no single maximal complex accounting for
+    the majority of predictive power.
+  : NREP
+  ? Both a single maximal complex and distributed multi-region patterns equally predict
+    conscious report, with no clear advantage for either configuration.
+  : both
+vacuous: false
+vacuity_rationale: The two values make empirically distinct claims about the spatial
+  organization of neural correlates of consciousness, allowing for discriminating
+  measurement patterns.

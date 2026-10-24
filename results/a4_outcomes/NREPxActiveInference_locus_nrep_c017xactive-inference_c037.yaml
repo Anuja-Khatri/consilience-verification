@@ -1,0 +1,48 @@
+fork_id: NREP×ActiveInference:locus:nrep_c017xactive-inference_c037
+axis: locus
+pair: NREP × Active Inference
+sides:
+  left:
+    theory: NREP
+    value: distributed_multi_region
+    polarity: asserts
+  right:
+    theory: Active Inference
+    value: subcortical_basal_ganglia
+    polarity: asserts
+observable: Neural activity patterns correlated with conscious report across brain
+  regions, specifically comparing distributed multi-region cortical activity versus
+  localized subcortical basal ganglia activity
+outcome_space:
+- pattern: Conscious report is consistently associated with distributed, coordinated
+    activity across multiple cortical and subcortical regions, with no dominant localization
+    to the basal ganglia
+  favors: NREP
+- pattern: Conscious report is consistently associated with localized activity predominantly
+    in the subcortical basal ganglia, with minimal involvement of distributed cortical
+    regions
+  favors: ActInf
+- pattern: Conscious report is associated with both distributed multi-region activity
+    and strong, localized basal ganglia activity simultaneously
+  favors: both
+- pattern: No consistent neural activity pattern is found to correlate with conscious
+    report in either distributed cortical or basal ganglia regions
+  favors: neither
+favors:
+  ? Conscious report is consistently associated with distributed, coordinated activity
+    across multiple cortical and subcortical regions, with no dominant localization
+    to the basal ganglia
+  : NREP
+  ? Conscious report is consistently associated with localized activity predominantly
+    in the subcortical basal ganglia, with minimal involvement of distributed cortical
+    regions
+  : ActInf
+  ? Conscious report is associated with both distributed multi-region activity and
+    strong, localized basal ganglia activity simultaneously
+  : both
+  ? No consistent neural activity pattern is found to correlate with conscious report
+    in either distributed cortical or basal ganglia regions
+  : neither
+vacuous: false
+vacuity_rationale: The two values make empirically distinct claims about the neural
+  locus of consciousness, allowing for discriminating measurement patterns.

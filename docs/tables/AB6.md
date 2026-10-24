@@ -1,0 +1,6 @@
+# AB6 — registry metrics
+
+| metric_id | value | 95% CI | n | instrument | corpus | prereg | pilot | caveats |
+|---|---|---|---|---|---|---|---|---|
+| `ab6.acc_abstracted` | 0.7966 |  | 59 | v2 | v1 | Y | N | QuaSAR-style abstract-then-judge vs direct-judge, one model (claude-sonnet-4-6), provider-default decoding (Anthropic has no temperature knob, D-015). 60-pair seeded subsample of frozen bench v0.1 (all 14 positives + direction-error negatives first, seeded fill). Reference = binary judge-after-audit (NOT a leaderboard/gold). Imbalanced (14 pos / 45 neg) → per-class + direction-error reject accuracies in runs/AB6/AB6-1/ab6_detail.json.; abstract-then-judge; per-class pos=0.286 neg=0.956; direction-error reject acc=None (n=0); malformed 1 |
+| `ab6.acc_direct` | 0.75 |  | 60 | v2 | v1 | Y | N | QuaSAR-style abstract-then-judge vs direct-judge, one model (claude-sonnet-4-6), provider-default decoding (Anthropic has no temperature knob, D-015). 60-pair seeded subsample of frozen bench v0.1 (all 14 positives + direction-error negatives first, seeded fill). Reference = binary judge-after-audit (NOT a leaderboard/gold). Imbalanced (14 pos / 45 neg) → per-class + direction-error reject accuracies in runs/AB6/AB6-1/ab6_detail.json.; direct quote→judgment; per-class pos=0.133 neg=0.956; direction-error reject acc=None (n=0); malformed 0 |

@@ -1,0 +1,72 @@
+# SPEC v2.0.1 §0.3 — single config, no magic constants in code.
+# Every script loads this; CLI overrides only with --override-reason "text" (logged).
+paths:
+  engine: ~/consilience-demo/demo
+  miu: ~/miu-demo
+  eval_prior: ~/consilience-demo/demo    # found at Day-0 (W0.1)
+  sprint: ~/consilience-verification
+
+models:
+  extractor: claude-sonnet-4-6            # parity with production p2
+  checker:   claude-haiku-4-5-20251001    # same-family consistency checker (NEVER call it independent)
+  perturber: claude-sonnet-4-6
+  verifier:  gpt-4.1                       # cross-family verifier
+  panel:     [gpt-4.1, gemini-pro-latest, qwen2.5-72b-instruct]   # B3; gemini-2.5-pro retired(404)->gemini-pro-latest (D-028); qwen deferred (no TOGETHER key)
+  game_agent: claude-sonnet-4-6            # TD4 both agents (same model, separated contexts)
+  transcriber: claude-sonnet-4-6           # KR2 quarantined key transcription
+
+seeds:
+  global: 20261022
+  extraction_runs: [11, 22, 33, 44, 55]
+  gwot_restarts: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+budget_usd:
+  A2: 40
+  A5: 120
+  A6: 80
+  B2: 170
+  B3: 90
+  B4: 10
+  B5: 30
+  TD1_aif: 40
+  TD1b_ml: 15
+  TD2_variants: 30
+  TD4_game: 60
+  AB_bench: 50        # includes the embedding ladder (v1.0's B1)
+  KR_keys: 20
+  SS_spectro: 5
+  VJ_logic: 0
+  slack: 140
+  hard_total: 900
+
+thresholds:
+  consensus_keep_min_runs: 4
+  adopt_consensus_min_stability: 0.70
+  adopt_min_approved_coverage: 0.85
+  ngram:
+    # ORIGINAL preregistered statistic (char-8-gram MinHash Jaccard) — UNSATISFIABLE: benign FPR
+    # over engine passages is 7.7% (char-8gram@0.50) / 5.3% (word-8gram) / 2.6% (word-10gram),
+    # because the holdout keys QUOTE the theory papers that are the engine corpus. Retained for record.
+    n_chars: 8
+    minhash_perm: 128
+    jaccard_flag: 0.5
+    # AMENDED A5.4 (owner-approved, D-034): leakage = a sprint artifact shares an exact >=word_n_guard
+    # run with K_unique = (word-shingles of key texts) − (word-shingles of engine corpus). Benign FPR
+    # measured on the independent MIU corpus = 0.15% (<1%); synthetic leaks (from K_unique) 3/3.
+    mode: word_unique
+    word_n_guard: 8
+    word_n_prov: 10             # condition-1 provenance traces shared >=10-word runs
+    benign_set: miu
+    amended_by: D-034
+  b1_gold_positive: ["formal", "partial"]
+  gwot_epsilons: [0.001, 0.005, 0.01, 0.05, 0.1]
+  quote_word_cap: 25
+
+corpus_tags:
+  v1: engine-frozen
+  v2: +aif-deepened
+  v2b: +ml-bridge
+  v2c: +iit4
+
+dates:
+  artifact_stamp: "2026-10"      # no wall clocks inside hashed artifacts

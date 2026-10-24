@@ -1,0 +1,272 @@
+{
+  "new_claims": 11,
+  "duplicates_among_approved": 0,
+  "new_correspondences": [
+    {
+      "pair": "aif×iit",
+      "grade": "generative",
+      "left": "aif2_c008",
+      "right": "iit_c016"
+    },
+    {
+      "pair": "aif×iit",
+      "grade": "generative",
+      "left": "aif2_c008",
+      "right": "iit_n006"
+    },
+    {
+      "pair": "aif×iit",
+      "grade": "generative",
+      "left": "aif2_c009",
+      "right": "iit_c004"
+    },
+    {
+      "pair": "aif×iit",
+      "grade": "generative",
+      "left": "aif2_c009",
+      "right": "iit_c007"
+    },
+    {
+      "pair": "aif×iit",
+      "grade": "generative",
+      "left": "aif2_c012",
+      "right": "iit_c016"
+    },
+    {
+      "pair": "aif×iit",
+      "grade": "generative",
+      "left": "aif2_c012",
+      "right": "iit_n006"
+    },
+    {
+      "pair": "aif×iit",
+      "grade": "generative",
+      "left": "aif2_c017",
+      "right": "iit_c001"
+    },
+    {
+      "pair": "aif×iit",
+      "grade": "generative",
+      "left": "aif2_c017",
+      "right": "iit_c005"
+    },
+    {
+      "pair": "aif×iit",
+      "grade": "generative",
+      "left": "aif2_c017",
+      "right": "iit_c012"
+    },
+    {
+      "pair": "aif×gnwt",
+      "grade": "generative",
+      "left": "aif2_c008",
+      "right": "gnwt_c013"
+    },
+    {
+      "pair": "aif×gnwt",
+      "grade": "generative",
+      "left": "aif2_c008",
+      "right": "gnwt_c017"
+    },
+    {
+      "pair": "aif×gnwt",
+      "grade": "generative",
+      "left": "aif2_c008",
+      "right": "gnwt_c020"
+    },
+    {
+      "pair": "aif×gnwt",
+      "grade": "generative",
+      "left": "aif2_c008",
+      "right": "gnwt_n004"
+    },
+    {
+      "pair": "aif×gnwt",
+      "grade": "generative",
+      "left": "aif2_c008",
+      "right": "gnwt_n008"
+    },
+    {
+      "pair": "aif×gnwt",
+      "grade": "generative",
+      "left": "aif2_c008",
+      "right": "gnwt_n010"
+    },
+    {
+      "pair": "aif×gnwt",
+      "grade": "generative",
+      "left": "aif2_c009",
+      "right": "gnwt_c001"
+    },
+    {
+      "pair": "aif×gnwt",
+      "grade": "generative",
+      "left": "aif2_c009",
+      "right": "gnwt_c015"
+    },
+    {
+      "pair": "aif×gnwt",
+      "grade": "generative",
+      "left": "aif2_c012",
+      "right": "gnwt_c013"
+    },
+    {
+      "pair": "aif×gnwt",
+      "grade": "generative",
+      "left": "aif2_c012",
+      "right": "gnwt_c017"
+    },
+    {
+      "pair": "aif×gnwt",
+      "grade": "generative",
+      "left": "aif2_c012",
+      "right": "gnwt_c020"
+    },
+    {
+      "pair": "aif×gnwt",
+      "grade": "generative",
+      "left": "aif2_c012",
+      "right": "gnwt_n004"
+    },
+    {
+      "pair": "aif×gnwt",
+      "grade": "generative",
+      "left": "aif2_c012",
+      "right": "gnwt_n008"
+    },
+    {
+      "pair": "aif×gnwt",
+      "grade": "generative",
+      "left": "aif2_c012",
+      "right": "gnwt_n010"
+    }
+  ],
+  "new_forks": [
+    {
+      "pair": "aif×iit",
+      "axis": "mechanism_scale",
+      "left": "aif2_c005",
+      "right": "iit_n023"
+    },
+    {
+      "pair": "aif×iit",
+      "axis": "temporal_profile",
+      "left": "aif2_c015",
+      "right": "iit_t003"
+    },
+    {
+      "pair": "aif×iit",
+      "axis": "mechanism_scale",
+      "left": "aif2_c016",
+      "right": "iit_n023"
+    },
+    {
+      "pair": "aif×iit",
+      "axis": "locus",
+      "left": "aif2_c018",
+      "right": "iit_c010"
+    },
+    {
+      "pair": "aif×iit",
+      "axis": "locus",
+      "left": "aif2_c018",
+      "right": "iit_n007"
+    },
+    {
+      "pair": "aif×iit",
+      "axis": "locus",
+      "left": "aif2_c018",
+      "right": "iit_n013"
+    },
+    {
+      "pair": "aif×iit",
+      "axis": "locus",
+      "left": "aif2_c018",
+      "right": "iit_t002"
+    },
+    {
+      "pair": "aif×iit",
+      "axis": "locus",
+      "left": "aif2_c020",
+      "right": "iit_c010"
+    },
+    {
+      "pair": "aif×iit",
+      "axis": "locus",
+      "left": "aif2_c020",
+      "right": "iit_n007"
+    },
+    {
+      "pair": "aif×iit",
+      "axis": "locus",
+      "left": "aif2_c020",
+      "right": "iit_n013"
+    },
+    {
+      "pair": "aif×iit",
+      "axis": "locus",
+      "left": "aif2_c020",
+      "right": "iit_t002"
+    },
+    {
+      "pair": "aif×iit",
+      "axis": "mechanism_scale",
+      "left": "aif2_c021",
+      "right": "iit_n023"
+    },
+    {
+      "pair": "aif×iit",
+      "axis": "temporal_profile",
+      "left": "aif2_c024",
+      "right": "iit_t003"
+    },
+    {
+      "pair": "aif×gnwt",
+      "axis": "temporal_profile",
+      "left": "aif2_c015",
+      "right": "gnwt_c018"
+    },
+    {
+      "pair": "aif×gnwt",
+      "axis": "temporal_profile",
+      "left": "aif2_c015",
+      "right": "gnwt_c025"
+    },
+    {
+      "pair": "aif×gnwt",
+      "axis": "temporal_profile",
+      "left": "aif2_c015",
+      "right": "gnwt_n013"
+    },
+    {
+      "pair": "aif×gnwt",
+      "axis": "locus",
+      "left": "aif2_c018",
+      "right": "gnwt_c003"
+    },
+    {
+      "pair": "aif×gnwt",
+      "axis": "locus",
+      "left": "aif2_c020",
+      "right": "gnwt_c003"
+    },
+    {
+      "pair": "aif×gnwt",
+      "axis": "temporal_profile",
+      "left": "aif2_c024",
+      "right": "gnwt_c018"
+    },
+    {
+      "pair": "aif×gnwt",
+      "axis": "temporal_profile",
+      "left": "aif2_c024",
+      "right": "gnwt_c025"
+    },
+    {
+      "pair": "aif×gnwt",
+      "axis": "temporal_profile",
+      "left": "aif2_c024",
+      "right": "gnwt_n013"
+    }
+  ]
+}

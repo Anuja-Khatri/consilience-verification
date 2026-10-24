@@ -1,0 +1,118 @@
+{
+  "amendment": "owner Option 1 (D-034): leakage = shared \u22658-word run with K_unique (key shingles \u2212 engine-corpus shingles); benign FPR on MIU; leaks from K_unique.",
+  "preregistered_failure_reported": {
+    "char_8gram_jaccard_fpr@0.50": 0.0767,
+    "word_8gram_fpr": 0.053,
+    "word_10gram_fpr": 0.0263,
+    "reason": "keys quote the theory papers that are the engine corpus"
+  },
+  "n_guard_words": 8,
+  "k_unique_size": 61158,
+  "miu_benign_n": 6478,
+  "miu_benign_fp": 4,
+  "miu_benign_fpr": 0.00062,
+  "synthetic_leaks_flagged": "3/3",
+  "provenance_condition1": {
+    "shared_10word_runs": 242,
+    "engine_before_key": 232,
+    "same_year": 10,
+    "engine_after_key": 0,
+    "year_unknown": 0,
+    "same_year_examples": [
+      {
+        "run": "made possible through the support of a grant from templeton",
+        "engine_doc": "iit_4_0",
+        "engine_year": 2023,
+        "key_docs": [
+          "Melloni et al. 2023, COGITATE protocol, PLOS One"
+        ],
+        "key_year": 2023
+      },
+      {
+        "run": "a set of units that can be observed and manipulated",
+        "engine_doc": "iit_4_0",
+        "engine_year": 2023,
+        "key_docs": [
+          "Melloni et al. 2023, COGITATE protocol, PLOS One"
+        ],
+        "key_year": 2023
+      },
+      {
+        "run": "et al this is an open access article distributed under",
+        "engine_doc": "iit_4_0",
+        "engine_year": 2023,
+        "key_docs": [
+          "Melloni et al. 2023, COGITATE protocol, PLOS One"
+        ],
+        "key_year": 2023
+      },
+      {
+        "run": "provided the original author and source are credited data availability",
+        "engine_doc": "iit_4_0",
+        "engine_year": 2023,
+        "key_docs": [
+          "Melloni et al. 2023, COGITATE protocol, PLOS One"
+        ],
+        "key_year": 2023
+      },
+      {
+        "run": "al this is an open access article distributed under the",
+        "engine_doc": "iit_4_0",
+        "engine_year": 2023,
+        "key_docs": [
+          "Melloni et al. 2023, COGITATE protocol, PLOS One"
+        ],
+        "key_year": 2023
+      },
+      {
+        "run": "medium provided the original author and source are credited data",
+        "engine_doc": "iit_4_0",
+        "engine_year": 2023,
+        "key_docs": [
+          "Melloni et al. 2023, COGITATE protocol, PLOS One"
+        ],
+        "key_year": 2023
+      },
+      {
+        "run": "through the support of a grant from templeton world charity",
+        "engine_doc": "iit_4_0",
+        "engine_year": 2023,
+        "key_docs": [
+          "Melloni et al. 2023, COGITATE protocol, PLOS One"
+        ],
+        "key_year": 2023
+      },
+      {
+        "run": "possible through the support of a grant from templeton world",
+        "engine_doc": "iit_4_0",
+        "engine_year": 2023,
+        "key_docs": [
+          "Melloni et al. 2023, COGITATE protocol, PLOS One"
+        ],
+        "key_year": 2023
+      },
+      {
+        "run": "the support of a grant from templeton world charity foundation",
+        "engine_doc": "iit_4_0",
+        "engine_year": 2023,
+        "key_docs": [
+          "Melloni et al. 2023, COGITATE protocol, PLOS One"
+        ],
+        "key_year": 2023
+      },
+      {
+        "run": "the original author and source are credited data availability statement",
+        "engine_doc": "iit_4_0",
+        "engine_year": 2023,
+        "key_docs": [
+          "Melloni et al. 2023, COGITATE protocol, PLOS One"
+        ],
+        "key_year": 2023
+      }
+    ],
+    "untraceable": [],
+    "same_year_note": "same-year shared runs are PLOS journal boilerplate (open-access license, Templeton funding acknowledgement, a shared 2014 DOI/PMID) + one generic phrase, shared between two 2023 PLOS articles (IIT 4.0 and the COGITATE protocol) \u2014 traceable to pre-dating PLOS templates and the 2014 reference, NOT key-novel content; not reverse-contamination.",
+    "verdict": "clean"
+  },
+  "chosen": true
+}

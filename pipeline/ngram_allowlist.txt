@@ -1,0 +1,17 @@
+# pipeline/ngram_allowlist.txt — A5.4 acknowledged-benign key-unique runs (D-034).
+# STATUS: CONFIRMED by owner (D-036). All 7 runs verified engine-traceable
+# (docs/a5_4_allowlist_provenance.md: 7/7, 7-8/8 run words in a single IIT passage + 5-7-word
+# contiguous subruns in iit_nrn_2016/iit_3_0/iit_4_0). Reported in the KR1 v2 caveat meanwhile.
+# Each line is a >=8-word run flagged by the n-gram guard that inspection + owner condition-1
+# confirmed is CONVERGENT CANONICAL IIT DOCTRINE (e.g. the IIT postulate 'the physical substrate
+# of consciousness must have intrinsic cause-effect power'), independently produced by the
+# extractor from the engine's IIT source passages and traceable to pre-dating IIT theory
+# (Oizumi 2014 / Albantakis 2023), NOT the holdout keys' novel content. Same pattern as
+# lint_allowlist.txt. New/unacknowledged key-unique runs still fail CI (holdout_check2 stage 2).
+iit predicts that the physical substrate of consciousness
+intrinsic cause effect power of the physical substrate
+of consciousness must have intrinsic cause effect power
+physical substrate of consciousness must have intrinsic cause
+substrate of consciousness must have intrinsic cause effect
+the intrinsic cause effect power of the physical
+the physical substrate of consciousness must have intrinsic

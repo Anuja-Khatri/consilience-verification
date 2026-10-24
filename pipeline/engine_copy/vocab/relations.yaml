@@ -1,0 +1,7 @@
+# demo_v0 edge/relation vocabulary for theory graphs. DEMO-SCOPED — not ontology v1.
+version: demo_v0
+relations:
+  grounds: "src provides the grounding/argument for dst (e.g., a causal-power argument grounds a constraint)."
+  entails: "src logically entails dst."
+  predicts_observable: "src (identity/mechanism) predicts a measurement/observable dst."
+  constrains: "src restricts what dst can be (e.g., exclusion constrains locus)."

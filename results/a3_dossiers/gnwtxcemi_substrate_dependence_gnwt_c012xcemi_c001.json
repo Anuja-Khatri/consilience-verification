@@ -1,0 +1,124 @@
+{
+  "fork_id": "gnwtxcemi:substrate_dependence:gnwt_c012xcemi_c001",
+  "axis": "substrate_dependence",
+  "pair": "gnwtxcemi",
+  "beyond_key": true,
+  "sides": {
+    "left": {
+      "theory": "GNWT",
+      "value": "neuroanatomically_grounded",
+      "polarity": "asserts",
+      "claim_ids": [
+        "gnwt_c012"
+      ],
+      "quotes": [
+        "The GNW is substrate-dependent in that it is grounded in specific neuroanatomical recurrent connectivity in the human brain, not any substrate."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.50"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "CEMI",
+      "value": "substrate_dependent_em_field",
+      "polarity": "asserts",
+      "claim_ids": [
+        "cemi_c001"
+      ],
+      "quotes": [
+        "The brain's EM field, rather than its matter, is the only feasible physical substrate for conscious integrated information."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.50"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [
+      {
+        "passage_id": "gnwt_neuron_2020_0062",
+        "score": 5.5,
+        "excerpt": "Taken together, these findings suggest that the critical brain regions engaging in the recurrent interactions for conscious perception may be task and stimulus dependent: whereas recurrent, metastable activity in the…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0064",
+        "score": 1.833,
+        "excerpt": "A study by Hasson et al. (2007) further suggests that the content of what we consciously hear does not depend on early modality-speciﬁc responses in auditory cortex, but rather on…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2020_0061",
+        "score": 1.833,
+        "excerpt": "On trials in which the monkeys failed to perceive the figure-ground stimulus, they presumably saw the texture elements, which were of high contrast, and only failed to perceive that the…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0014",
+        "score": 1.667,
+        "excerpt": "First, it tends to overestimate conscious perception: there are many conditions in which subjects perform better than chance, yet still deny perceiving the stimulus. Second, performance can be at chance…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2020_0163",
+        "score": 1.667,
+        "excerpt": "A multisite, preregistered, adversarial collaboration testing the main predictions of the GNW versus IIT using fMRI, MEG, and intracranial recordings during passive viewing and active dual-tasking is currently underway (Reardon,…"
+      },
+      {
+        "passage_id": "gnwt_science_2017_0115",
+        "score": 1.5,
+        "excerpt": "Remarkably, those patients can localize visual stimuli in their blind field, but they cannot report them (C1) nor can they effectively assess their likelihood of success (C2)—they believe that they…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0104",
+        "score": 1.167,
+        "excerpt": "Due to these ﬂuctuations, across trials, the very same stimulus does or does not lead to global ignition, depending in part on the precise phase of the stimulus relative to…"
+      }
+    ],
+    "right": [
+      {
+        "passage_id": "cemi_2020_0065",
+        "score": 4.0,
+        "excerpt": "From a neuronal perspective there appears to be no obvious reason why synchrony should make a difference to neural proc- essing: neurons deliver the same information and perform the same…"
+      },
+      {
+        "passage_id": "cemi_2020_0066",
+        "score": 3.333,
+        "excerpt": "Yet neurons need not fire synchronously to distribute information globally and re-entrant circuits need not, necessarily, fire synchronously. Similarly, there seems to be no obvious reason why conscious neural processing…"
+      },
+      {
+        "passage_id": "cemi_2020_0059",
+        "score": 3.0,
+        "excerpt": "firing neurons—in these same regions did correlate with per- ception. It seems that though neuron firing rate in the primary visual cortex does not see the stimulus, synchronicity of neuron…"
+      },
+      {
+        "passage_id": "cemi_2020_0032",
+        "score": 2.333,
+        "excerpt": "All that is required is a causal chain. Nevertheless, nerves are, of course, physical connected, but, in the example, those encoding Jennifer Anniston’s face are no more physically connected to…"
+      },
+      {
+        "passage_id": "cemi_2020_0080",
+        "score": 1.167,
+        "excerpt": "The cemi field theory also naturally accounts for the fact that the non-conscious mind appears to operate as a parallel processor that can perform several tasks simultaneously, such as whistling…"
+      }
+    ]
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "not_current",
+    "rationale": "",
+    "citation_rows": [],
+    "evidence_verdict": "UNTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed)"
+  },
+  "status": "clean",
+  "correction_note": null
+}

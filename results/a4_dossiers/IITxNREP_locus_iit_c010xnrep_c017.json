@@ -1,0 +1,207 @@
+{
+  "fork_id": "IIT×NREP:locus:iit_c010xnrep_c017",
+  "axis": "locus",
+  "pair": "IIT × NREP",
+  "register": "INTREPID-18",
+  "sides": {
+    "left": {
+      "theory": "IIT",
+      "value": "single_maximal_complex",
+      "polarity": "asserts",
+      "claim_ids": [
+        "iit_c010"
+      ],
+      "quotes": [
+        "The exclusion postulate restricts the locus of consciousness to a single maximally irreducible system (complex), not any subset or superset."
+      ],
+      "provenance_check": {
+        "status": "FAIL",
+        "detail": "claim not grounded in cited passages"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "NREP",
+      "value": "distributed_multi_region",
+      "polarity": "asserts",
+      "claim_ids": [
+        "nrep_c017"
+      ],
+      "quotes": [
+        "Conscious experience is coded across distributed neocortical and hippocampal systems, with hippocampus providing a spatiotemporal scaffold and neocortex coding sensory content; no single locus."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.58"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [
+      {
+        "passage_id": "iit_3_0_0074",
+        "score": 4.0,
+        "excerpt": "Just like cause information (ci), effect information (ei) of A = 1 is quantified as the distance between the effect repertoire of A and the unconstrained future repertoire puc(ABCf ):…"
+      },
+      {
+        "passage_id": "iit_3_0_0081",
+        "score": 4.0,
+        "excerpt": "The constrained distribution of future states is A’s effect repertoire (right). Cause information (ci) is quantified by measuring the distance D between the cause repertoire and the unconstrained past repertoire…"
+      },
+      {
+        "passage_id": "iit_3_0_0069",
+        "score": 2.0,
+        "excerpt": "The constrained distribution of past states is called A’s cause repertoire. In Figure 3A the connections between A and BCD are substituted by noise. Therefore, the current state of A…"
+      },
+      {
+        "passage_id": "iit_3_0_0098",
+        "score": 1.667,
+        "excerpt": "that ‘‘causes should not be multiplied beyond necessity’’, i.e. that causal superposition is not allowed [6]. In the present context this means that only one set of synapses can be…"
+      },
+      {
+        "passage_id": "iit_4_0_0164",
+        "score": 1.5,
+        "excerpt": "Defining φr in this way guarantees that the integrated information of a relation cannot exceed the inte- grated information of its weakest distinction. For a given set of distinctions, the…"
+      },
+      {
+        "passage_id": "iit_4_0_0017",
+        "score": 1.167,
+        "excerpt": "make specific predictions regarding the quality and quantity of our experiences and their sub- strate within the brain, and (c) to extrapolate from our own consciousness to infer the presence…"
+      }
+    ],
+    "right": [
+      {
+        "passage_id": "nrep_2019_0041",
+        "score": 6.0,
+        "excerpt": "We may be aware of the global sensory consequences of habitual actions but remain largely unaware of the sensory details or their underlying fine movements (Lisman and Sternberg, 2013; Pennartz,…"
+      },
+      {
+        "passage_id": "nrep_2019_0145",
+        "score": 5.5,
+        "excerpt": "This approach should take into account that machines, having much faster processing units at their disposal, may use other strategies for solving complex problems than relying on conscious surveys of…"
+      },
+      {
+        "passage_id": "nrep_2019_0046",
+        "score": 2.667,
+        "excerpt": "Conscious experience also continues in the absence of overt decisions or motor actions, such as during dreaming, daydreaming or passive observation without motor intentions or planning (Treserras et al., 2009;…"
+      },
+      {
+        "passage_id": "nrep_2019_0043",
+        "score": 2.0,
+        "excerpt": "It would be extremely difficult to negotiate such complex problem sets if subjects would have to work without some sort of situational survey offering a quick grasp on the situation…"
+      },
+      {
+        "passage_id": "nrep_2019_0533",
+        "score": 1.833,
+        "excerpt": "The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited,…"
+      },
+      {
+        "passage_id": "nrep_2019_0129",
+        "score": 1.5,
+        "excerpt": "Today, DLNNs come remarkably close to this, having not only achieved complex scene classification, but also semantic labeling and verbal description of scenes (Karpathy and Fei-Fei, 2015; LeCun et al.,…"
+      },
+      {
+        "passage_id": "nrep_2019_0045",
+        "score": 1.167,
+        "excerpt": "In other vertebrates, similar brain structures indicate the presence of consciousness. In vertebrates, functional analogs of cortex and thalamus may support consciousness Psychometrics and meta-cognitive judgment Psychometric properties of stimulus…"
+      }
+    ]
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "now",
+    "rationale": "",
+    "citation_rows": [
+      {
+        "tag": "Posterior",
+        "n": 165
+      },
+      {
+        "tag": "Parietal",
+        "n": 145
+      },
+      {
+        "tag": "Frontal",
+        "n": 144
+      },
+      {
+        "tag": "V1",
+        "n": 48
+      },
+      {
+        "tag": "Subcortical structures",
+        "n": 34
+      },
+      {
+        "tag": "DMN",
+        "n": 16
+      },
+      {
+        "tag": "A1",
+        "n": 10
+      },
+      {
+        "tag": "S1",
+        "n": 7
+      },
+      {
+        "tag": "Temporal",
+        "n": 7
+      },
+      {
+        "tag": "Ventral Stream",
+        "n": 7
+      },
+      {
+        "tag": "AAN",
+        "n": 4
+      },
+      {
+        "tag": "Cerebellum",
+        "n": 3
+      },
+      {
+        "tag": "Visual Network",
+        "n": 3
+      },
+      {
+        "tag": "Dorsal Stream",
+        "n": 2
+      },
+      {
+        "tag": "Sensorimotor",
+        "n": 2
+      },
+      {
+        "tag": "ARN",
+        "n": 1
+      },
+      {
+        "tag": "ART",
+        "n": 1
+      },
+      {
+        "tag": "Dorsal Attention Network",
+        "n": 1
+      },
+      {
+        "tag": "V4",
+        "n": 1
+      }
+    ],
+    "evidence_verdict": "CONTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed); INTREPID review held out (§0.5)"
+  },
+  "status": "clean",
+  "correction_note": null,
+  "caveat": "A4 INTREPID-register dossiers (18-fork standing_predictions). instrument v1-era forks + approved store (frozen-store). The INTREPID review is a HELD-OUT answer key — never consulted here (§0.5); validity is checked against the theories' OWN corpora only."
+}

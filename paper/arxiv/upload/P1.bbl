@@ -1,0 +1,105 @@
+\begin{thebibliography}{10}
+
+\bibitem{albantakis2023}
+Larissa Albantakis, Leonardo Barbosa, Graham Findlay, Matteo Grasso, et~al.
+\newblock Integrated information theory ({IIT}) 4.0: Formulating the properties
+  of phenomenal existence in physical terms.
+\newblock {\em PLOS Computational Biology}, 19, 2023.
+\newblock DOI \url{https://doi.org/10.1371/journal.pcbi.1011465}.
+
+\bibitem{buckley2017}
+Christopher~L. Buckley, Chang~Sub Kim, Simon McGregor, and Anil~K. Seth.
+\newblock The free energy principle for action and perception: A mathematical
+  review.
+\newblock {\em Journal of Mathematical Psychology}, 81, 2017.
+\newblock \url{https://arxiv.org/abs/1705.09156}; DOI
+  \url{https://doi.org/10.1016/j.jmp.2017.09.004}.
+
+\bibitem{byrt1993}
+Ted Byrt, Janet Bishop, and John~B. Carlin.
+\newblock Bias, prevalence and kappa.
+\newblock {\em Journal of Clinical Epidemiology}, 46, 1993.
+\newblock DOI \url{https://doi.org/10.1016/0895-4356(93)90018-V}.
+
+\bibitem{cogitate2025}
+{Cogitate Consortium}.
+\newblock Adversarial testing of global neuronal workspace and integrated
+  information theories of consciousness.
+\newblock {\em Nature}, 642, 2025.
+\newblock DOI \url{https://doi.org/10.1038/s41586-025-08888-1}.
+
+\bibitem{cohen1960}
+Jacob Cohen.
+\newblock A coefficient of agreement for nominal scales.
+\newblock {\em Educational and Psychological Measurement}, 20, 1960.
+\newblock DOI \url{https://doi.org/10.1177/001316446002000104}.
+
+\bibitem{z3}
+Leonardo de~Moura and Nikolaj Bj{\o}rner.
+\newblock {Z3}: An efficient {SMT} solver.
+\newblock In {\em Tools and Algorithms for the Construction and Analysis of
+  Systems (TACAS)}, volume 4963, 2008.
+\newblock LNCS. DOI \url{https://doi.org/10.1007/978-3-540-78800-3_24}.
+
+\bibitem{kambhampati2024}
+Subbarao Kambhampati, Karthik Valmeekam, Lin Guan, Mudit Verma, Kaya Stechly,
+  Siddhant Bhambri, Lucas Saldyt, and Anil~B. Murthy.
+\newblock Position: {LLMs} can't plan, but can help planning in {LLM}-modulo
+  frameworks.
+\newblock In {\em International Conference on Machine Learning (ICML)}, 2024.
+\newblock PMLR 235.
+
+\bibitem{kendall1938}
+Maurice~G. Kendall.
+\newblock A new measure of rank correlation.
+\newblock {\em Biometrika}, 30, 1938.
+\newblock DOI \url{https://doi.org/10.1093/biomet/30.1-2.81}.
+
+\bibitem{levine2018}
+Sergey Levine.
+\newblock Reinforcement learning and control as probabilistic inference:
+  Tutorial and review, 2018.
+\newblock \url{https://arxiv.org/abs/1805.00909}.
+
+\bibitem{luppi2024}
+Andrea~I. Luppi, Pedro A.~M. Mediano, Fernando~E. Rosas, et~al.
+\newblock A synergistic workspace for human consciousness revealed by
+  integrated information decomposition.
+\newblock {\em eLife}, 12, 2024.
+\newblock DOI \url{https://doi.org/10.7554/eLife.88173}.
+
+\bibitem{cogitate_prereg}
+Lucia Melloni, Liad Mudrik, Michael Pitts, et~al.
+\newblock An adversarial collaboration protocol for testing contrasting
+  predictions of global neuronal workspace and integrated information theory.
+\newblock {\em PLOS ONE}, 18, 2023.
+\newblock Preregistered study protocol, e0268577. DOI
+  \url{https://doi.org/10.1371/journal.pone.0268577}. OSF registration
+  \url{https://osf.io/92tbg}.
+
+\bibitem{memoli2011}
+Facundo M{\'e}moli.
+\newblock Gromov-wasserstein distances and the metric approach to object
+  matching.
+\newblock {\em Foundations of Computational Mathematics}, 11, 2011.
+\newblock DOI \url{https://doi.org/10.1007/s10208-011-9093-5}.
+
+\bibitem{millidge2022}
+Beren Millidge, Alexander Tschantz, and Christopher~L. Buckley.
+\newblock Predictive coding approximates backprop along arbitrary computation
+  graphs.
+\newblock {\em Neural Computation}, 34, 2022.
+\newblock \url{https://arxiv.org/abs/2006.04182}.
+
+\bibitem{mathlib}
+{The mathlib Community}.
+\newblock The {Lean} mathematical library.
+\newblock In {\em Certified Programs and Proofs (CPP)}, 2020.
+\newblock DOI \url{https://doi.org/10.1145/3372885.3373824}.
+
+\bibitem{williams_beer2010}
+Paul~L. Williams and Randall~D. Beer.
+\newblock Nonnegative decomposition of multivariate information, 2010.
+\newblock \url{https://arxiv.org/abs/1004.2515}.
+
+\end{thebibliography}

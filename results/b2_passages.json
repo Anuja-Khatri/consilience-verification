@@ -1,0 +1,663 @@
+{
+  "n": 40,
+  "seed": 20261022,
+  "target_axes": [
+    "locus",
+    "connectivity",
+    "temporal_profile",
+    "observable_commitment",
+    "substrate_dependence"
+  ],
+  "note": "stratified over IIT/GNWT × 5 target axes (fork axes locus/connectivity/temporal_profile included by construction) + seeded fill from approved-claims passages; frozen pre-run.",
+  "passages": [
+    {
+      "passage_id": "gnwt_neuron_2011_0047",
+      "theory": "GNWT",
+      "primary_axis": "temporal_profile",
+      "text": "Four intracranial signatures of conscious access were identiﬁed. (A) Although invisible words elicited event-related potentials, mostly early (<300 ms) and at posterior sites, only visible words elicited massive and durable voltages in a late time window, particularly from the few available frontal electrodes. (B) Gamma-band power increases were detectable for invisible words, but in a late time window (>300 ms) gamma power was massively ampliﬁed when the words were visible, particularly in the high-gamma range (50–100 Hz). Reduced power was seen in the alpha and lower beta bands. (C) Phase synchrony increased for invisible words in a late time window (300–500 ms) in the beta frequency range (13–30 Hz). (D) Causal relations across distant electrodes, assessed by Granger causality gain due to word presence, increased massively during the same time window. The bottom row shows causal gain for a particular electrode pair as a function of time.",
+      "canonical": [
+        {
+          "claim_id": "gnwt_c018",
+          "entity_type": "threshold",
+          "axis": "temporal_profile",
+          "polarity": "asserts",
+          "value": "late_onset_threshold"
+        }
+      ]
+    },
+    {
+      "passage_id": "gnwt_neuron_2011_0054",
+      "theory": "GNWT",
+      "primary_axis": "temporal_profile",
+      "text": "The masking paradigm afforded a more precise measurement of the timing of conscious information progres- sion in the visual system. In area V1, multiunit recordings during both threshold judgments (Supe` r et al., 2001) and masking para- digms (Lamme et al., 2002) identiﬁed two successive response periods. The ﬁrst period was phasic, was time-locked to stimulus onset, and reﬂected objective properties such as stimulus orien- tation, whether or not they were detectable by the animal.",
+      "canonical": [
+        {
+          "claim_id": "gnwt_c018",
+          "entity_type": "threshold",
+          "axis": "temporal_profile",
+          "polarity": "asserts",
+          "value": "late_onset_threshold"
+        }
+      ]
+    },
+    {
+      "passage_id": "gnwt_neuron_2011_0072",
+      "theory": "GNWT",
+      "primary_axis": "locus",
+      "text": "William James (1890) noted how conscious attention and effort are required for the controlled execution of novel nonrou- tine sequential tasks but is no longer needed or even detrimental once routine sets in. Thus, the comparison of effortful versus automatic tasks provides another contrast that, although not quite as minimal as the previous ones, should at least provide signatures of conscious-level processing consistent with other paradigms. Indeed, a broad network including inferior and dorsolateral prefrontal, anterior cingulated, and lateral parietal Figure 5.",
+      "canonical": [
+        {
+          "claim_id": "gnwt_c003",
+          "entity_type": "substrate",
+          "axis": "locus",
+          "polarity": "asserts",
+          "value": "prefrontal_parietal_cortical_network"
+        }
+      ]
+    },
+    {
+      "passage_id": "gnwt_neuron_2011_0077",
+      "theory": "GNWT",
+      "primary_axis": "locus",
+      "text": "In conclusion, human neuroimaging methods and electro- physiological recordings during conscious access, under a broad variety of paradigms, consistently reveal a late ampliﬁca- tion of relevant sensory activity, long-distance cortico-cortical synchronization at beta and gamma frequencies, and ‘‘ignition’’ of a large-scale prefronto-parietal network. III. Theoretical Modeling of Conscious Access The above experiments provide a convergent database of observations.",
+      "canonical": [
+        {
+          "claim_id": "gnwt_c003",
+          "entity_type": "substrate",
+          "axis": "locus",
+          "polarity": "asserts",
+          "value": "prefrontal_parietal_cortical_network"
+        }
+      ]
+    },
+    {
+      "passage_id": "gnwt_neuron_2011_0118",
+      "theory": "GNWT",
+      "primary_axis": "locus",
+      "text": "As predicted, MS patients showed abnormal conscious perception of masked stimuli: they needed a longer target-mask delay before conscious access occurred. Furthermore, this behavioral anomaly correlated with structural damage in the dorsolateral prefrontal white matter and the right occipito-frontal fasciculus (Figure 8). Importantly, subliminal priming was preserved.",
+      "canonical": [
+        {
+          "claim_id": "gnwt_c003",
+          "entity_type": "substrate",
+          "axis": "locus",
+          "polarity": "asserts",
+          "value": "prefrontal_parietal_cortical_network"
+        }
+      ]
+    },
+    {
+      "passage_id": "gnwt_neuron_2020_0001",
+      "theory": "GNWT",
+      "primary_axis": "temporal_profile",
+      "text": "We examine the GNW hypothesis in light of recent data that contrast brain activity evoked by either conscious or nonconscious contents, as well as during conscious or non-conscious states, particularly general anesthesia. We also discuss the relationship between the intertwined concepts of conscious processing, attention, and working memory. Introduction The nature and mechanism of conscious processing is arguably one of the most intriguing questions in 21st-century neuroscience.",
+      "canonical": [
+        {
+          "claim_id": "gnwt_c025",
+          "entity_type": "emergent_property",
+          "axis": "temporal_profile",
+          "polarity": "asserts",
+          "value": "gradual_buildup"
+        }
+      ]
+    },
+    {
+      "passage_id": "gnwt_neuron_2020_0075",
+      "theory": "GNWT",
+      "primary_axis": "locus",
+      "text": "Irrespective of the precise interpretation of these experiments, the final result of attentional selection enters consciousness, where it can use the GNW to activate all features that belong to the same object even if they are represented in different cortical areas (Roelfsema and Houtkamp, 2011), allowing conscious perception to be occupied by coherent, multifeature, and multimodal objects (Figure 4). In this view, the establishment of coherent objects by labeling their features with enhanced neuronal activity causes these objects to enter into awareness (Roelfsema and Houtkamp, 2011), which is a hypothesis that could be tested in future work. Conscious Representations and Working Memory Interactions between cortical processors also take place long after a sensory stimulus is gone in order to enable mental operations in working memory.",
+      "canonical": [
+        {
+          "claim_id": "gnwt_c003",
+          "entity_type": "substrate",
+          "axis": "locus",
+          "polarity": "asserts",
+          "value": "prefrontal_parietal_cortical_network"
+        }
+      ]
+    },
+    {
+      "passage_id": "gnwt_neuron_2020_0133",
+      "theory": "GNWT",
+      "primary_axis": "locus",
+      "text": "Both the GNW and IIT ascribe importance to neural activity beyond early sensory cortices, neural information sharing, and recurrent connections as a mechanism of integration. However, the neuronal mechanisms of conscious processing also differ between the GNW theory and IIT. As noted, the prefrontal cortex is one of the nodes of the highly distributed GNW network.",
+      "canonical": [
+        {
+          "claim_id": "gnwt_c003",
+          "entity_type": "substrate",
+          "axis": "locus",
+          "polarity": "asserts",
+          "value": "prefrontal_parietal_cortical_network"
+        }
+      ]
+    },
+    {
+      "passage_id": "gnwt_neuron_2020_0134",
+      "theory": "GNWT",
+      "primary_axis": "locus",
+      "text": "IIT, on the other hand, minimizes the relevance of the prefrontal cortex and, based on anatomical considerations, considers a posterior complex—the so-called posterior cortical “hot zone”—to be sufficient for conscious experience. Furthermore, IIT is ostensibly a theory of phenomenal consciousness, whereas the GNW theory is focused on conscious access and processing and, furthermore, brings into question the very distinction between phenomenal and access consciousness. The theories also differ in testability.",
+      "canonical": [
+        {
+          "claim_id": "gnwt_c003",
+          "entity_type": "substrate",
+          "axis": "locus",
+          "polarity": "asserts",
+          "value": "prefrontal_parietal_cortical_network"
+        },
+        {
+          "claim_id": "gnwt_c004",
+          "entity_type": "information",
+          "axis": "observable_commitment",
+          "polarity": "asserts",
+          "value": "access_consciousness_primary"
+        }
+      ]
+    },
+    {
+      "passage_id": "gnwt_neuron_2020_0434",
+      "theory": "GNWT",
+      "primary_axis": "substrate_dependence",
+      "text": "Figure 1. The Global Neuronal Workspace (GNW) Hypothesis (A–C) Original schemas from Dehaene et al. (1998) illustrating the main tenets of the GNW hypothesis: local, specialized cortical processors are linked, at a central level, by a core set of highly interconnected areas (A) containing a high density of large pyramidal neurons with long-distance axons (B). At any given moment, this architecture can select a piece of information within one or several processors, amplify it, and broadcast it to all other processors, thus rendering it consciously accessible and available for verbal report.",
+      "canonical": [
+        {
+          "claim_id": "gnwt_c012",
+          "entity_type": "substrate",
+          "axis": "substrate_dependence",
+          "polarity": "asserts",
+          "value": "neuroanatomically_grounded"
+        },
+        {
+          "claim_id": "gnwt_c013",
+          "entity_type": "system",
+          "axis": "architecture",
+          "polarity": "asserts",
+          "value": "global_neuronal_workspace_broadcast"
+        }
+      ]
+    },
+    {
+      "passage_id": "gnwt_science_2017_0020",
+      "theory": "GNWT",
+      "primary_axis": "substrate_dependence",
+      "text": "Elucidating the brain mechanisms of vigilance is an essential scientific goal with major consequences for our understanding of sleep, anesthesia, coma, or vegetative state. For lack of space, we do not deal with this aspect here, however, because its computational impact seems minimal: obviously, a machine must be properly turned on for its computations to unfold normally. We suggest that it is useful to distinguish two other es- sential dimensions of conscious computation.",
+      "canonical": [
+        {
+          "claim_id": "gnwt_n011",
+          "entity_type": "substrate",
+          "axis": "substrate_dependence",
+          "polarity": "asserts",
+          "value": "substrate_independent"
+        }
+      ]
+    },
+    {
+      "passage_id": "gnwt_science_2017_0025",
+      "theory": "GNWT",
+      "primary_axis": "locus",
+      "text": "This is not to say that C1 and C2 do not involve overlapping physical substrates; in fact, as we review below, in the human brain, both de- pend on prefrontal cortex. But we argue that, empirically and conceptually, the two may come apart, as there can be C1 without C2, for instance when reportable processing is not accompanied by accurate metacognition, or C2 without C1, for instance when a self-monitoring operation unfolds without being consciously reportable. As such, it is advan- tageous to consider these computations separately before we consider their synergy.",
+      "canonical": [
+        {
+          "claim_id": "gnwt_c003",
+          "entity_type": "substrate",
+          "axis": "locus",
+          "polarity": "asserts",
+          "value": "prefrontal_parietal_cortical_network"
+        },
+        {
+          "claim_id": "gnwt_n004",
+          "entity_type": "system",
+          "axis": "architecture",
+          "polarity": "asserts",
+          "value": "dual_component_C1_C2"
+        }
+      ]
+    },
+    {
+      "passage_id": "gnwt_science_2017_0056",
+      "theory": "GNWT",
+      "primary_axis": "temporal_profile",
+      "text": "For instance, rivalling pictures or ambiguous words are perceived in an all-or-none manner: at any given time, we subjectively perceive only a single interpretation out of many possible ones (even though the others continue to be processed unconsciously (Panagiotaropoulos et al. 2012; Logothetis 1998)). The serial operation of consciousness is attested by phenomena such as the attentional blink and the psychological refractory period, whereby conscious access to a first item A prevents or delays the perception of a second competing item B (Luck et al.",
+      "canonical": [
+        {
+          "claim_id": "gnwt_n013",
+          "entity_type": "constraint",
+          "axis": "temporal_profile",
+          "polarity": "asserts",
+          "value": "serial_all_or_none"
+        }
+      ]
+    },
+    {
+      "passage_id": "gnwt_science_2017_0063",
+      "theory": "GNWT",
+      "primary_axis": "locus",
+      "text": "2016; Trübutschek et al. 2017)). By contrast, the stable, reproducible representation of high- quality information by a distributed activity pattern in higher cortical areas is a feature of conscious processing (Table 1).",
+      "canonical": [
+        {
+          "claim_id": "gnwt_c003",
+          "entity_type": "substrate",
+          "axis": "locus",
+          "polarity": "asserts",
+          "value": "prefrontal_parietal_cortical_network"
+        }
+      ]
+    },
+    {
+      "passage_id": "gnwt_science_2017_0112",
+      "theory": "GNWT",
+      "primary_axis": "substrate_dependence",
+      "text": "54 S. Dehaene et al. define consciousness unless one also considers the nature and depth of the information being processed. We contend that a machine endowed with C1 and C2 would behave as if it were conscious—for instance, it would know that it is seeing something, would express confidence in it, would report it to others, could suffer hallucinations when its monitoring mechanisms break down, and may even expe- rience the same perceptual illusions as humans.",
+      "canonical": [
+        {
+          "claim_id": "gnwt_n011",
+          "entity_type": "substrate",
+          "axis": "substrate_dependence",
+          "polarity": "asserts",
+          "value": "substrate_independent"
+        }
+      ]
+    },
+    {
+      "passage_id": "gnwt_science_2017_0113",
+      "theory": "GNWT",
+      "primary_axis": "observable_commitment",
+      "text": "Still, such a purely functional definition of consciousness may leave some readers unsatisfied. Are we “over-intellectualizing” consciousness, by assuming that some high-level cognitive functions are necessary tied to consciousness? Are we leav- ing aside the experiential component (“what it is like” to be conscious)?",
+      "canonical": [
+        {
+          "claim_id": "gnwt_c004",
+          "entity_type": "information",
+          "axis": "observable_commitment",
+          "polarity": "asserts",
+          "value": "access_consciousness_primary"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_3_0_0022",
+      "theory": "IIT",
+      "primary_axis": "substrate_dependence",
+      "text": "N INFORMATION: Consciousness is informative: each experience differs in its particular way from other possible experiences. Thus, an experience of pure darkness is what it is by differing, Author Summary Integrated information theory (IIT) approaches the rela- tionship between consciousness and its physical substrate by first identifying the fundamental properties of experi- ence itself: existence, composition, information, integra- tion, and exclusion. IIT then postulates that the physical substrate of consciousness must satisfy these very prop- erties.",
+      "canonical": [
+        {
+          "claim_id": "iit_c002",
+          "entity_type": "substrate",
+          "axis": "substrate_dependence",
+          "polarity": "asserts",
+          "value": "substrate_dependent"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_3_0_0027",
+      "theory": "IIT",
+      "primary_axis": "substrate_dependence",
+      "text": "Postulates. To parallel the phenomenological axioms, IIT posits a set of postulates. These list the properties physical systems must satisfy in order to generate experience.",
+      "canonical": [
+        {
+          "claim_id": "iit_c002",
+          "entity_type": "substrate",
+          "axis": "substrate_dependence",
+          "polarity": "asserts",
+          "value": "substrate_dependent"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_3_0_0031",
+      "theory": "IIT",
+      "primary_axis": "locus",
+      "text": "N EXCLUSION: A mechanism can contribute to consciousness at most one cause-effect repertoire, the one having the maximum value of integration/irreducibility QMax. This is its maximally irreducible cause-effect repertoire (MICE, or quale sensu stricto (in the narrow sense of the word, [5])). If the MICE exists, the mechanism constitutes a concept.",
+      "canonical": [
+        {
+          "claim_id": "iit_c010",
+          "entity_type": "constraint",
+          "axis": "locus",
+          "polarity": "asserts",
+          "value": "single_maximal_complex"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_3_0_0041",
+      "theory": "IIT",
+      "primary_axis": "substrate_dependence",
+      "text": "mechanisms might be characterized at various spatio-temporal scales, down to the micro-physical level, although for any given system there will be a scale at which causal interactions are strongest [20]. In what follows, we consider systems in which the elementary mechanisms are discrete logic gates or linear threshold units (Text S2) and assume that these mechanisms are the ones mediating the strongest causal interactions. Box 1.",
+      "canonical": [
+        {
+          "claim_id": "iit_c002",
+          "entity_type": "substrate",
+          "axis": "substrate_dependence",
+          "polarity": "asserts",
+          "value": "substrate_dependent"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_3_0_0092",
+      "theory": "IIT",
+      "primary_axis": "substrate_dependence",
+      "text": "By contrast, in Figure 7C mechanism AB does not exist from the intrinsic perspective of the system, because the information ‘All ON’ as such does not make any difference to the future state of the system. Similarly, in Figure 7D, A~1 and B~1 do not specify an irreducible past cause for the irreducible future effect that the AND gate will be ON. Exclusion: A maximally irreducible cause-effect repertoire (MICE) specified by a subset of elements (a concept).",
+      "canonical": [
+        {
+          "claim_id": "iit_c002",
+          "entity_type": "substrate",
+          "axis": "substrate_dependence",
+          "polarity": "asserts",
+          "value": "substrate_dependent"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_3_0_0103",
+      "theory": "IIT",
+      "primary_axis": "locus",
+      "text": "Finally note that the exclusion postulate is applied to the possible cause-effect repertoires of a single mechanism (elementary or higher order). Exclusion does not apply across mechanisms within a set of elements, since elementary and higher order mechanisms can have different causal roles (concepts) in the set, as emphasized by the composition postulate. Systems of mechanisms We now turn from the level of mechanisms to the level of a system of mechanisms, and apply the postulates of IIT with the objective of deriving the experience or quale generated by a system in a bottom up manner, from the set of all its concepts.",
+      "canonical": [
+        {
+          "claim_id": "iit_c010",
+          "entity_type": "constraint",
+          "axis": "locus",
+          "polarity": "asserts",
+          "value": "single_maximal_complex"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_3_0_0116",
+      "theory": "IIT",
+      "primary_axis": "substrate_dependence",
+      "text": "This corresponds, at the level of mechanisms, to finding the minimum Figure 9. A concept: A mechanism that specifies a maximally irreducible cause-effect repertoire. The core cause and effect of mechanism A are Ac=BCp and Ac=Bf , respectively.",
+      "canonical": [
+        {
+          "claim_id": "iit_c002",
+          "entity_type": "substrate",
+          "axis": "substrate_dependence",
+          "polarity": "asserts",
+          "value": "substrate_dependent"
+        },
+        {
+          "claim_id": "iit_c006",
+          "entity_type": "threshold",
+          "axis": "unit_threshold",
+          "polarity": "asserts",
+          "value": "maximal_integrated_information"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_3_0_0139",
+      "theory": "IIT",
+      "primary_axis": "substrate_dependence",
+      "text": "value of the quale; the quality or content of the experience corresponds to the particular constellation of concepts that constitutes the quale – a particular shape in qualia space. Note that, by specifying the quality of an experience, the particular shape of each constellation also distinguishes it from other possible experiences, just like the particular shape of a tetrahedron is what makes it a tetrahedron and distinguishes it from a cube, an icosahedron, and so on. s indicated by the figure, once a phenomenological analysis of the essential properties (axioms) of consciousness has been translated into a set of postulates that the physical mechanisms generating consciousness must satisfy, it becomes possible to invert the process: One can now ask, for any set of physical mechanisms, whether it is associated with phenomenology (is there ‘‘something it is like to be it,’’ from its own intrinsic perspective), how much of it (the quantity or level of conscious- ness), and of which kind (the quality or content of the experience). As also indicated by the figure, these phenomenological properties should be considered as intrinsic properties of physical mechanisms arranged in a certain way, meaning that a complex of physical mechanisms in a certain state is necessarily associated with its quale.",
+      "canonical": [
+        {
+          "claim_id": "iit_c002",
+          "entity_type": "substrate",
+          "axis": "substrate_dependence",
+          "polarity": "asserts",
+          "value": "substrate_dependent"
+        },
+        {
+          "claim_id": "iit_c006",
+          "entity_type": "threshold",
+          "axis": "unit_threshold",
+          "polarity": "asserts",
+          "value": "maximal_integrated_information"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_3_0_0167",
+      "theory": "IIT",
+      "primary_axis": "connectivity",
+      "text": "Due to the characteristic bistability between on and off states of most neurons in the cerebral cortex, even though the anatomical connectivity is unchanged, functional and effective connectiv- ity become virtually homogeneous [39,40]. Under such conditions, consciousness invariably fades [14]. The examples of Figure 17B and C also suggest that both the richness of concepts and the level of consciousness should increase with the refinement of cortical connections during neural develop- ment and the associate increase in functional specialization (e.g. [41]).",
+      "canonical": [
+        {
+          "claim_id": "iit_c025",
+          "entity_type": "constraint",
+          "axis": "connectivity",
+          "polarity": "asserts",
+          "value": "heterogeneous_connectivity_required"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_4_0_0036",
+      "theory": "IIT",
+      "primary_axis": "substrate_dependence",
+      "text": "According to IIT, the physical properties characterized by the postulates are necessary and sufficient for an entity to be conscious. They are necessary because they are needed to account for the properties of experience that are essential, in the sense that it is inconceivable for an experience to lack any one of them. They are also sufficient because no additional property of experience is essential, in the sense that it is conceivable for an experience to lack that property.",
+      "canonical": [
+        {
+          "claim_id": "iit_c002",
+          "entity_type": "substrate",
+          "axis": "substrate_dependence",
+          "polarity": "asserts",
+          "value": "substrate_dependent"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_4_0_0054",
+      "theory": "IIT",
+      "primary_axis": "substrate_dependence",
+      "text": "We assume that the system updates in discrete steps, that the state space OU is finite, and that the individual random variables Ui 2 U are conditionally independent from each other given the preceding state of U: pð\u0016u j uÞ ¼ Y n i¼1 pð\u0016ui j uÞ: ð2Þ Finally, we assume a complete description of the substrate, which means that we can determine the conditional probabilities in (2) for every system state, with pð\u0016u j uÞ ¼ pð\u0016u j doðuÞÞ [10, 26–28], where the “do-operator” do(u) indicates that u is imposed by intervention. This implies that U must correspond to a causal network [10], and T U is a transition probability matrix (TPM) of size |OU| (see (6) in S1 Notes). The TPM T U, which forms the starting point of IIT’s analysis, serves as an overall descrip- tion of a system’s causal evolution under all possible interventions: what is the probability that the system will transition into each of its possible states upon being initialized into every possi- ble state (Fig 1)? (Notably, there is no additional role for intrinsic physical properties or laws of nature.) In practice, a causal model will be neither complete nor atomic (capturing the smallest units that can be observed and manipulated), but will capture the relevant features of what we are trying to explain and predict (see (7) in S1 Notes).",
+      "canonical": [
+        {
+          "claim_id": "iit_c002",
+          "entity_type": "substrate",
+          "axis": "substrate_dependence",
+          "polarity": "asserts",
+          "value": "substrate_dependent"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_4_0_0237",
+      "theory": "IIT",
+      "primary_axis": "substrate_dependence",
+      "text": "Another prediction that follows from first principles is that constituents of the main complex can support conscious contents even if they are mostly inactive, but not if they are inactivated [4, 11]. Yet another prediction is that the complete inactivation of constituents of the main complex should lead to absolute agnosia (unawareness that anything is missing). IIT further predicts that the quality of experience should be accounted for by the way the Φ-structure is composed, which in turn depends on the architecture of the substrate specifying it.",
+      "canonical": [
+        {
+          "claim_id": "iit_c002",
+          "entity_type": "substrate",
+          "axis": "substrate_dependence",
+          "polarity": "asserts",
+          "value": "substrate_dependent"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_nrn_2016_0001",
+      "theory": "IIT",
+      "primary_axis": "locus",
+      "text": "However, despite increasingly refined clinical and experimental studies, a proper understanding of the relationship between consciousness and the brain has yet to be established5,6. For example, it is not known why the cortex supports consciousness when the cerebellum does not, despite having four times as many neurons7,8, or why consciousness fades during deep sleep while the cerebral cortex remains active. There are also many other difficult questions about consciousness.",
+      "canonical": [
+        {
+          "claim_id": "iit_t002",
+          "entity_type": "substrate",
+          "axis": "locus",
+          "polarity": "asserts",
+          "value": "posterior_hot_zone"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_nrn_2016_0015",
+      "theory": "IIT",
+      "primary_axis": "locus",
+      "text": "The anal- ysis of this system, performed according to the postulates of IIT, identifies a conceptual structure supported by a complex constituted of the elements A, B and C in their current ON states. The borders of the complex, which include elements A, B, and C but exclude element D, are indicated by the green circle. According to IIT, such a complex would be a physical substrate of consciousness (Supplementary information S1 (figure)).",
+      "canonical": [
+        {
+          "claim_id": "iit_n007",
+          "entity_type": "boundary",
+          "axis": "locus",
+          "polarity": "asserts",
+          "value": "maximal_irreducible_complex"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_nrn_2016_0041",
+      "theory": "IIT",
+      "primary_axis": "locus",
+      "text": "IIT offers theoretical clarity on the empirical notion of the NCC5. Specifically, it states that the content-specific NCC correspond to the neural elements of the PSC in a particular state (activity pattern), which specify a particular phenomenal content; the full NCC correspond to the neural elements constituting the PSC irrespective of their particular state; the background conditions are factors that enable consciousness, such as neuromodulators and external inputs that maintain adequate excitability, which are kept fixed when evaluating the Φ value of the PSC. Most importantly, the axioms and postulates of IIT can be used to provide a single, general principle for identifying the PSC in the brain — namely that the PSC must correspond to a complex of neural elements with maximum intrinsic cause–effect power.",
+      "canonical": [
+        {
+          "claim_id": "iit_t002",
+          "entity_type": "substrate",
+          "axis": "locus",
+          "polarity": "asserts",
+          "value": "posterior_hot_zone"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_nrn_2016_0066",
+      "theory": "IIT",
+      "primary_axis": "locus",
+      "text": "Does this mean that the PSC shrinks, like when colour areas are inactivated, or that brain regions supporting self-reflection remain inside the PSC but are inactive, in the same way that colour areas are inactive when watching a black and white movie? The location and size of the PSC is likely to change during sleep, during seizures, in patients with conversion and dissociative disorders, and possibly during hypnosis. During slow wave sleep, for example, neurons are bistable and show off-periods during which they become hyperpolarized (down-states) and silent29.",
+      "canonical": [
+        {
+          "claim_id": "iit_t002",
+          "entity_type": "substrate",
+          "axis": "locus",
+          "polarity": "asserts",
+          "value": "posterior_hot_zone"
+        },
+        {
+          "claim_id": "iit_t003",
+          "entity_type": "state",
+          "axis": "temporal_profile",
+          "polarity": "asserts",
+          "value": "sustained_maintenance"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_nrn_2016_0067",
+      "theory": "IIT",
+      "primary_axis": "temporal_profile",
+      "text": "However, these off-periods are usually not global, but affect local subsets of brain areas at different times30. Hence it is possible that during slow wave sleep the PSC may become smaller and reconfigure substantially. Sustained inactivation of certain areas during sleep may make dreaming patients incapable of reflective thought.",
+      "canonical": [
+        {
+          "claim_id": "iit_t003",
+          "entity_type": "state",
+          "axis": "temporal_profile",
+          "polarity": "asserts",
+          "value": "sustained_maintenance"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_nrn_2016_0071",
+      "theory": "IIT",
+      "primary_axis": "observable_commitment",
+      "text": "The lower panel shows the same data after temporal coarse-graining over 100 ms intervals. Macro-states are defined according to the rule that if a neuron increases (or decreases) its firing rate by >50% within 100 ms post-stimulus compared with the baseline, the macro state is considered to be high (or low) firing. In this example, the macro-level (100 ms intervals) has higher cause–effect power (more deterministic responses) than the micro-level (10 ms intervals). c | To identify the neural states that support consciousness, optoge- netic perturbations could be used to drive one neuron to fire either at low frequency, high tonic frequency or bursting (top trace) resulting in spectral peaks at 2 Hz (green), 50 Hz (red) and 150 Hz (yellow) for neurons N1–N4 (data are shown as a firing rate histogram).",
+      "canonical": [
+        {
+          "claim_id": "iit_t001",
+          "entity_type": "measurement",
+          "axis": "observable_commitment",
+          "polarity": "asserts",
+          "value": "perturbational_complexity_index"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_nrn_2016_0079",
+      "theory": "IIT",
+      "primary_axis": "observable_commitment",
+      "text": "2). Here, the elements are groups of neurons, the timescale is over 100 ms and there are three states (low, high and burst firing). b | In a healthy, awake participant, the set of neural elements specifying the conceptual structure with the highest Φmax is assumed, based on current evidence, to be a complex of neuronal groups distributed over the posterior cortex and portions of the anterior cortex5. Empirical studies can, in principle, establish whether the full neural corre- lates of consciousness5 correspond to the maximum of intrinsic cause–effect power, thereby corroborating or falsifying a key prediction of integrated information theory. c | The boundaries of the PSC (green line) may change after cortical lesions, such as those causing absolute achromatopsia, result- ing in a smaller PSC. d | The PSC boundaries may also move as a result of changes in excitability and effective connectivity, as might occur during pure thought that is devoid of sensory content. e | The PSC could also split into two large local maxima of cause–effect power (represented here by green and blue boundaries) as a result of anatomical disconnections, such as in split-brain patients, in which instance each hemisphere would have its own consciousness. f | The PSC may also split as a result of functional disconnec- tions, which may occur in some psychiatric disorders and perhaps under certain dual-task conditions — for example while driving and talking at the same time. g | The coexistence of a large major complex with one or more minor complexes that may support sophisticated, seemingly unconscious performance could be a common occurrence in everyday life.",
+      "canonical": [
+        {
+          "claim_id": "iit_n005",
+          "entity_type": "measurement",
+          "axis": "observable_commitment",
+          "polarity": "asserts",
+          "value": "empirically_measurable_via_causal_perturbation"
+        },
+        {
+          "claim_id": "iit_t002",
+          "entity_type": "substrate",
+          "axis": "locus",
+          "polarity": "asserts",
+          "value": "posterior_hot_zone"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_nrn_2016_0094",
+      "theory": "IIT",
+      "primary_axis": "locus",
+      "text": "The figure also shows a neural information channel from the PSC to Broca’s area, formed dynamically by top-down attentional mechanisms located in the prefrontal cortex, which select which subset of elements of the PSC should drive the report (FIG. 4). This channel conveys extrinsic information and has a low Shannon capacity (only four letters at a time can be reported), which corresponds to the mutual information between its inputs and outputs.",
+      "canonical": [
+        {
+          "claim_id": "iit_n013",
+          "entity_type": "process",
+          "axis": "locus",
+          "polarity": "asserts",
+          "value": "intrinsic_not_broadcast"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_nrn_2016_0096",
+      "theory": "IIT",
+      "primary_axis": "locus",
+      "text": "Likewise, conscious information is not something that is transmitted or broadcast from one part of the brain to another77,78 (Supplementary information S5 (box)). PERSPECTIVES 8 | ADVANCE ONLINE PUBLICATION www.nature.com/nrn © 2 0 1 6 M a c m i l l a n P u b l i s h e r s L i m i t e d . A l l r i g h t s r e s e r v e d .",
+      "canonical": [
+        {
+          "claim_id": "iit_n013",
+          "entity_type": "process",
+          "axis": "locus",
+          "polarity": "asserts",
+          "value": "intrinsic_not_broadcast"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_nrn_2016_0111",
+      "theory": "IIT",
+      "primary_axis": "observable_commitment",
+      "text": "During the initial formulation of IIT, a systematic set of experiments was designed to test its specific prediction that consciousness requires both integration and differentiation67. An empirical measure, the perturbational complexity index (PCI), which can gauge the intrinsic cause–effect power of the cortex, has been introduced as a practical proxy for Φmax (REF. 68).",
+      "canonical": [
+        {
+          "claim_id": "iit_t001",
+          "entity_type": "measurement",
+          "axis": "observable_commitment",
+          "polarity": "asserts",
+          "value": "perturbational_complexity_index"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_nrn_2016_0112",
+      "theory": "IIT",
+      "primary_axis": "observable_commitment",
+      "text": "Calculating the PCI involves two steps: perturbing the cerebral cortex using transcranial magnetic stimulation to engage deterministic interactions among distributed groups of cortical neurons (integration) and measuring the incompressibility (algorithmic complexity) of the resulting responses (information). The PCI is high only if brain responses are both integrated and differentiated, corresponding to a distributed spatio-temporal pattern of causal interactions that is complex and hence not very compressible. So far, studies using PCI have confirmed the prediction of IIT that the loss and recovery of consciousness is associated with the breakdown and recovery of the capacity for information integration.",
+      "canonical": [
+        {
+          "claim_id": "iit_t001",
+          "entity_type": "measurement",
+          "axis": "observable_commitment",
+          "polarity": "asserts",
+          "value": "perturbational_complexity_index"
+        }
+      ]
+    },
+    {
+      "passage_id": "iit_nrn_2016_0115",
+      "theory": "IIT",
+      "primary_axis": "locus",
+      "text": "This also implies that local strengthening or weakening of such horizontal connections in topographic areas should lead to a local distortion of experienced visual space, even though the feedforward mapping of visual inputs from the world remains unchanged. More generally, IIT predicts that changes in the efficacy of the connections among elements of the PSC should lead to changes in experience even when these changes are not accompanied by changes in activity. A counterintuitive consequence of this prediction is that a brain area could contribute to an experience even if it is inactive but not if its connections or neurons are inactivated.",
+      "canonical": [
+        {
+          "claim_id": "iit_t002",
+          "entity_type": "substrate",
+          "axis": "locus",
+          "polarity": "asserts",
+          "value": "posterior_hot_zone"
+        }
+      ]
+    }
+  ]
+}

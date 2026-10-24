@@ -1,0 +1,47 @@
+{
+  "task": "KR1",
+  "runid": "KR1-2",
+  "instrument_tag": "v2",
+  "approved": 74,
+  "rejected": 10,
+  "n_rows": 84,
+  "v2_forks": 32,
+  "key_predictions": 3,
+  "v1_counts": {
+    "recovered": 2,
+    "partial": 1,
+    "missed": 0,
+    "beyond": 6
+  },
+  "v2_counts": {
+    "recovered": 2,
+    "partial": 0,
+    "missed": 1,
+    "beyond": 9
+  },
+  "v2_rows": [
+    {
+      "row_id": "P1",
+      "axis": "locus",
+      "status": "RECOVERED",
+      "fam_ok": true,
+      "dir_ok": true,
+      "detail": "axis match; family=ok, direction=ok"
+    },
+    {
+      "row_id": "P2",
+      "axis": "temporal_profile",
+      "status": "MISSED",
+      "detail": "no engine item on this axis"
+    },
+    {
+      "row_id": "P3",
+      "axis": "connectivity",
+      "status": "RECOVERED",
+      "fam_ok": true,
+      "dir_ok": true,
+      "detail": "axis match; family=ok, direction=ok"
+    }
+  ],
+  "caveat": "KR1 v2 COGITATE diff on the Anu-APPROVED instrument-v2 re-extraction. OUTCOME-INFORMED REVISION (D-040/D-041, verbatim): \"iit_c009 was initially rejected at the gate; after a sensitivity check showed it was the sole binding claim for P3, it was re-reviewed and approved on codebook-consistency grounds (matching approved canonical iit_c025). Original gated result {1,0,2,9} and revised {2,0,1,9}; fully ungated sensitivity {2,0,1,16} are both reported.\" (revised-gated = iit_c009 approved, gnwt_c022 still rejected, 74/84; the ungated {2,0,1,16} has identical recovered/partial/missed, differing only in beyond because it also restores the other 10 rejected claims; P3 MISSED→RECOVERED holds in both). P2 (temporal_profile) remains MISSED and is attributed to the INSTRUMENT: no IIT temporal_profile claim was ever extracted (not a gate effect). Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. Engine never ingested the COGITATE key text (holdout green; A5.4 guard clean, docs/a5_4_allowlist_provenance.md). instrument_tag v2; numbers lock §0.10(9) — full v2 set (KR2–KR5 v2) completes the snapshot."
+}

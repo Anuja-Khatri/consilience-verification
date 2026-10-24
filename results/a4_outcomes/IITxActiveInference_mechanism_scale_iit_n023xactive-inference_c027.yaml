@@ -1,0 +1,51 @@
+fork_id: IIT×ActiveInference:mechanism_scale:iit_n023xactive-inference_c027
+axis: mechanism_scale
+pair: IIT × Active Inference
+sides:
+  left:
+    theory: IIT
+    value: mesoscale_spatiotemporal_grain
+    polarity: asserts
+  right:
+    theory: Active Inference
+    value: message_passing_gradient_descent
+    polarity: asserts
+observable: The minimal spatiotemporal scale at which perturbations or disruptions
+  to neural activity selectively disrupt conscious experience, compared to the scale
+  at which message-passing or gradient descent dynamics are observed to be necessary
+  for conscious report.
+outcome_space:
+- pattern: Disruption of mesoscale spatiotemporal patterns (e.g., local neural assemblies
+    or microcircuits) abolishes conscious experience, even when message-passing or
+    gradient descent dynamics at larger or smaller scales are preserved.
+  favors: IIT
+- pattern: Disruption of message-passing or gradient descent dynamics (e.g., prediction
+    error minimization across hierarchical levels), regardless of the specific spatiotemporal
+    scale, abolishes conscious experience, even when mesoscale patterns are intact.
+  favors: ActInf
+- pattern: Both mesoscale spatiotemporal patterns and message-passing/gradient descent
+    dynamics must be disrupted to abolish conscious experience; disrupting only one
+    is insufficient.
+  favors: both
+- pattern: Neither disruption selectively abolishes conscious experience; conscious
+    report persists despite either or both disruptions.
+  favors: neither
+favors:
+  ? Disruption of mesoscale spatiotemporal patterns (e.g., local neural assemblies
+    or microcircuits) abolishes conscious experience, even when message-passing or
+    gradient descent dynamics at larger or smaller scales are preserved.
+  : IIT
+  ? Disruption of message-passing or gradient descent dynamics (e.g., prediction error
+    minimization across hierarchical levels), regardless of the specific spatiotemporal
+    scale, abolishes conscious experience, even when mesoscale patterns are intact.
+  : ActInf
+  ? Both mesoscale spatiotemporal patterns and message-passing/gradient descent dynamics
+    must be disrupted to abolish conscious experience; disrupting only one is insufficient.
+  : both
+  ? Neither disruption selectively abolishes conscious experience; conscious report
+    persists despite either or both disruptions.
+  : neither
+vacuous: false
+vacuity_rationale: The two theories make empirically distinguishable claims about
+  the necessary scale or mechanism for consciousness, allowing for discriminating
+  measurement patterns.

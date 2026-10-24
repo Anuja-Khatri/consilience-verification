@@ -1,0 +1,32 @@
+{
+  "n_approved": 23,
+  "n_rejected": 3,
+  "rejected": [
+    "e01",
+    "e02",
+    "e05"
+  ],
+  "n_nonempty": 20,
+  "n_empty": 3,
+  "empty_ids": [
+    "e03",
+    "e04",
+    "e06"
+  ],
+  "p_at_1": {
+    "min": 0.95,
+    "product": 0.95
+  },
+  "p_at_5": {
+    "min": 0.95,
+    "product": 0.95
+  },
+  "empty_query_fpr": {
+    "min": 0.6667,
+    "product": 0.6667
+  },
+  "empty_query_fpr_preliminary_6q": {
+    "min": 0.833,
+    "product": 0.833
+  }
+}

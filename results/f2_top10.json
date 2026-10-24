@@ -1,0 +1,103 @@
+{
+  "weights": [
+    1,
+    1,
+    1
+  ],
+  "top10": [
+    {
+      "u": 26,
+      "pair": "nrep_c002\u00d7cemi_c001",
+      "grade": "partial"
+    },
+    {
+      "u": 22,
+      "pair": "gnwt_c012\u00d7active-inference_c003",
+      "grade": "partial"
+    },
+    {
+      "u": 22,
+      "pair": "iit_c002\u00d7nrep_c002",
+      "grade": "partial"
+    },
+    {
+      "u": 21,
+      "pair": "orch-or_c002\u00d7nrep_c002",
+      "grade": "partial"
+    },
+    {
+      "u": 20,
+      "pair": "iit_c001\u00d7active-inference_c013",
+      "grade": "generative"
+    },
+    {
+      "u": 20,
+      "pair": "orch-or_c002\u00d7cemi_c001",
+      "grade": "partial"
+    },
+    {
+      "u": 19,
+      "pair": "gnwt_n011\u00d7cemi_c026",
+      "grade": "partial"
+    },
+    {
+      "u": 19,
+      "pair": "iit_c005\u00d7active-inference_c013",
+      "grade": "partial"
+    },
+    {
+      "u": 19,
+      "pair": "iit_c012\u00d7active-inference_c013",
+      "grade": "generative"
+    },
+    {
+      "u": 15,
+      "pair": "gnwt_n010\u00d7cemi_c014",
+      "grade": "generative"
+    }
+  ],
+  "n_ranked": 216,
+  "generative_flagged": 201,
+  "partial_only_top10": [
+    {
+      "u": 26,
+      "pair": "nrep_c002\u00d7cemi_c001"
+    },
+    {
+      "u": 22,
+      "pair": "gnwt_c012\u00d7active-inference_c003"
+    },
+    {
+      "u": 22,
+      "pair": "iit_c002\u00d7nrep_c002"
+    },
+    {
+      "u": 21,
+      "pair": "orch-or_c002\u00d7nrep_c002"
+    },
+    {
+      "u": 20,
+      "pair": "orch-or_c002\u00d7cemi_c001"
+    },
+    {
+      "u": 19,
+      "pair": "gnwt_n011\u00d7cemi_c026"
+    },
+    {
+      "u": 19,
+      "pair": "iit_c005\u00d7active-inference_c013"
+    },
+    {
+      "u": 15,
+      "pair": "iit_c002\u00d7orch-or_c002"
+    },
+    {
+      "u": 10,
+      "pair": "active-inference_c006\u00d7cemi_c014"
+    },
+    {
+      "u": 9,
+      "pair": "iit_c003\u00d7orch-or_c003"
+    }
+  ]
+}

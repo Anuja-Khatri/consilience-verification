@@ -1,0 +1,62 @@
+# demo_v0 controlled axis vocabulary (the normalization backbone).
+# DEMO-SCOPED — not ontology v1. The extractor MUST map every claim to exactly one axis or `none`.
+version: demo_v0
+axes:
+  - identity_relation      # is-identity vs correlation
+  - locus                  # where conscious content lives (posterior vs PFC)
+  - temporal_profile       # sustained vs phasic/ignition
+  - connectivity           # short-range posterior vs long-range fronto-posterior
+  - substrate_dependence   # substrate-dependent vs substrate-independent
+  - computability          # computable/simulable vs non-computable
+  - mechanism              # the causal mechanism invoked
+  - mechanism_scale        # network scale vs molecular/quantum scale
+  - unit_threshold         # what gates one discrete conscious unit/event
+  - fundamentality         # emergent vs fundamental/proto-experiential
+  - architecture           # required system architecture
+  - observable_commitment  # the empirical/observable space committed to
+
+# Axis -> canonical entity_types (adjudication 2026-08-13, ruling a.2).
+# Vocabulary-level harmonization applied at D3 normalize to EVERY theory identically,
+# BEFORE any pair is judged. An approved claim whose entity_type is off its axis's list
+# is remapped to the axis's FIRST (canonical) type, and the remap is logged. This makes
+# entity_type a meaningful confidence signal (the judge no longer vetoes on it — the hard
+# veto is AXIS mismatch). First element = canonical target.
+canonical_entity_types:
+  identity_relation:     [invariant, emergent_property]
+  locus:                 [substrate, boundary, constraint, process, observer]
+  temporal_profile:      [state, process]
+  connectivity:          [constraint]
+  substrate_dependence:  [substrate]
+  computability:         [constraint, substrate]
+  mechanism:             [process, state, constraint]
+  mechanism_scale:       [process]
+  unit_threshold:        [threshold, constraint]
+  fundamentality:        [information, field, process, emergent_property, observer]
+  architecture:          [system, invariant, constraint, substrate, process]
+  observable_commitment: [measurement, information]
+
+# Axis -> observable link table, used by D5 decidability.
+# A fork is `now`-decidable iff both theories share an observable id AND equal scale.
+observable_links:
+  locus: [regional_decoding]
+  temporal_profile: [temporal_generalization, ignition_signature]
+  connectivity: [connectivity_metrics]
+  substrate_dependence: [none]
+  observable_commitment: [regional_decoding, temporal_generalization, connectivity_metrics, ignition_signature]
+  # mechanism_scale resolves per-theory (disjoint measurement spaces -> not_current unless a bridge exists)
+  mechanism_scale:
+    IIT: [regional_decoding]
+    GNWT: [regional_decoding]
+    "Orch-OR": [molecular_spectroscopy, anesthetic_molecular_assay]
+    # New theories (2026-08-13): all brain-network-scale (neural/field/cognitive, not molecular).
+    # This is the theory-scale seed decidability needs; each maps to a brain_network observable.
+    NREP: [regional_decoding]
+    "Active Inference": [regional_decoding]
+    CEMI: [connectivity_metrics]
+  # axes without a direct observable default to `none` (not `now`-decidable)
+  identity_relation: [none]
+  computability: [none]
+  mechanism: [none]
+  unit_threshold: [none]
+  fundamentality: [none]
+  architecture: [none]

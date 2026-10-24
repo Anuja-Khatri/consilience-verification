@@ -1,0 +1,45 @@
+{
+  "fork_id": "IIT×ActiveInference:locus:iit_n007xactive-inference_c037",
+  "axis": "locus",
+  "pair": "IIT × Active Inference",
+  "side_resolution": {
+    "left": {
+      "theory": "IIT",
+      "value": "maximal_irreducible_complex"
+    },
+    "right": {
+      "theory": "Active Inference",
+      "value": "subcortical_basal_ganglia"
+    }
+  },
+  "supporting": [
+    {
+      "ref": "koch2016",
+      "cite": "Koch, Massimini, Boly & Tononi (2016). Neural correlates of consciousness: progress and problems. Nature Reviews Neuroscience 17(5):307–321.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27094080/",
+      "line": "Best anatomical candidates for content-specific correlates sit in a posterior temporo-parietal-occipital zone, not the fronto-parietal task network."
+    },
+    {
+      "ref": "boly2017",
+      "cite": "Boly, Massimini, Tsuchiya, Postle, Koch & Tononi (2017). Are the Neural Correlates of Consciousness in the Front or in the Back of the Cerebral Cortex? J Neurosci 37(40):9603–9613.",
+      "url": "https://www.jneurosci.org/content/37/40/9603",
+      "line": "Clinical and neuroimaging evidence marshalled for a posterior locus of the correlates of conscious content."
+    }
+  ],
+  "challenging": [
+    {
+      "ref": "merker2007",
+      "cite": "Merker (2007). Consciousness without a cerebral cortex: A challenge for neuroscience and medicine. Behavioral and Brain Sciences 30(1):63–81.",
+      "url": "https://www.researchgate.net/publication/6355200",
+      "line": "Argues an upper-brainstem / subcortical system can generate primary consciousness; cortex enriches but does not constitute it."
+    },
+    {
+      "ref": "subcortical2026",
+      "cite": "When does consciousness arise? A subcortical model of its origins (2026). Brain Structure and Function.",
+      "url": "https://link.springer.com/article/10.1007/s00429-026-03113-9",
+      "line": "Models subcortical (midbrain/basal) structures as the origin of basic conscious states."
+    }
+  ],
+  "grade": "mixed",
+  "note": "Grade on the typed side-resolution; NOT on the held-out review."
+}

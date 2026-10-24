@@ -1,0 +1,10 @@
+# Manually authored bridge entries (D5). A fork is `bridge`-decidable only under a
+# stated, UNPROVEN assumption. demo_v0. Not ingested; authored, oracle-reviewed.
+version: demo_v0
+bridges:
+  - id: microtubule_network_anesthesia
+    applies_to_axis: mechanism_scale
+    pair: [IIT, Orch-OR]
+    note: "Decidable ONLY IF microtubule quantum states measurably modulate network-scale integration (e.g. under anesthesia)."
+    first_test_scale: molecular   # E4: the bridge itself is testable first at molecular scale
+    proven: false

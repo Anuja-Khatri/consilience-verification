@@ -1,0 +1,13 @@
+{
+  "key": "elife",
+  "n_rows": 14,
+  "n_null": 1000,
+  "real_recovered": 0,
+  "real_recovered_plus_partial": 6,
+  "null_recovered_mean": 0.0,
+  "null_rp_mean": 9.237,
+  "z_recovered": 0.0,
+  "p_recovered": 1.0,
+  "z_recovered_partial": -1.8993,
+  "p_recovered_partial": 0.981
+}

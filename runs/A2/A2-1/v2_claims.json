@@ -1,0 +1,2129 @@
+{
+  "instrument_tag": "v2",
+  "pairs": [
+    {
+      "match_id": "ed_match_18",
+      "role": "survivor",
+      "a1_first_fail": null,
+      "old_grade": null,
+      "old_decidability": null,
+      "sides": {
+        "a": {
+          "claim_id": "ED21_C1",
+          "domain": "physics",
+          "located": true,
+          "source_file": "sources/engine-discovered/ed21_competitive_exclusion_cascade.pdf",
+          "passage": "However, this classical paradigm in ecology relies on implications derived from simple, deterministic models. Here we show how the predictions of a symmetric, deterministic model about the way extinctions proceed can be utterly different from the results derived from the same model when ecological drift (demographic stochasticity) is explicitly considered. Using analytical approximations to the steady-state conditional probabilities for assemblages with two and three species, we demonstrate that stochastic competitive exclusion leads to a cascade of extinctions, whereas the symmetric, deterministic model predicts a multiple collapse of species. To test the robustness of our results, we have studied the effect of environmental stochasticity and relaxed the species symmetry assumption. Our conclusions highlight the crucial role of stochasticity when deriving reliable theoretical predictions for species community assembly.",
+          "passage_id": "mius_ed_match_18_a_1",
+          "claims": []
+        },
+        "b": {
+          "claim_id": "A1_C1",
+          "domain": "cosmology",
+          "located": true,
+          "source_file": "sources/hagelin-physics/A1-supersymmetric-relics-big-bang-1984.pdf",
+          "passage": "In the very early universe, all these particles would be present in thermal equilibrium. As the temperature falls, the heavier new particles decay into the lighter ones. Eventually, only the lightest supersymmetric particle (LSP) will be left. It can disappear only by pair annihilation. We must require that this pair annihilation is efficient enough to reduce the present day number density of the LSP to an acceptable level.",
+          "passage_id": "mius_ed_match_18_b_1",
+          "claims": [
+            {
+              "claim_id": "mius_ed_match_18_b_c001",
+              "theory": "cosmology",
+              "entity_type": "constraint",
+              "axis": "none",
+              "value": "pair_annihilation_efficiency_required",
+              "polarity": "asserts",
+              "statement": "The lightest supersymmetric particle (LSP) persists as a stable relic through pair annihilation inefficiency, setting a constraint on its present-day number density.",
+              "passage_ids": [
+                "mius_ed_match_18_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_ed_match_18_b_c002",
+              "theory": "cosmology",
+              "entity_type": "process",
+              "axis": "mechanism",
+              "value": "thermal_decay_cascade",
+              "polarity": "asserts",
+              "statement": "In the early universe, supersymmetric particles exist in thermal equilibrium, with heavier particles decaying into lighter ones as temperature falls.",
+              "passage_ids": [
+                "mius_ed_match_18_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_ed_match_18_b_c003",
+              "theory": "cosmology",
+              "entity_type": "invariant",
+              "axis": "identity_relation",
+              "value": "LSP_as_stable_relic",
+              "polarity": "asserts",
+              "statement": "The LSP is the lightest stable remnant of supersymmetric particle decay, removable only by pair annihilation.",
+              "passage_ids": [
+                "mius_ed_match_18_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_ed_match_18_b_c004",
+              "theory": "cosmology",
+              "entity_type": "threshold",
+              "axis": "unit_threshold",
+              "value": "annihilation_efficiency_threshold",
+              "polarity": "asserts",
+              "statement": "A threshold condition on pair annihilation efficiency gates whether the LSP relic density reaches an acceptable level.",
+              "passage_ids": [
+                "mius_ed_match_18_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "match_id": "supp_match_02",
+      "role": "survivor",
+      "a1_first_fail": null,
+      "old_grade": null,
+      "old_decidability": null,
+      "sides": {
+        "a": {
+          "claim_id": "LV_C9",
+          "domain": "neuroscience",
+          "located": true,
+          "source_file": "sources/neuroscience/levin-bioelectric-2014.pdf",
+          "passage": "This again illustrates the potential divergence of genetic versus physiological information, especially since the phenotype is stab le across fission (this animal's most frequent reproductive mode), and thus coul d have significant implications for evolution. Although epigenetic processes may be involved, chromatin modification mechanisms alone are not a sufficient expla nation, since the ectopic heads (tissue that might be suggested to have been epi genetically reprogrammed into a head state from its original tail identity) are thrown away at each generation of cutting. What remains is a gut fragment, which somehow knows that it is to form two heads, not one, upon further cutting; the information about basic anatomical polarity and body organization must be stored in a distributed form throughout the animal. Quantitative, field-like models of this circuit remain to be developed to understand precisely how information gui ding specific shape outcomes is encoded in (represented by) bioelectric states a mong cells. ## CONCLUSION: NEXT STEPS AND BEYOND Major open questions for future progress include the mechanisms by which cells c ompare bioelectric state across distances, additional molecular details of the i nteractions of bioelectrical signals with chemical gradients and physical forces",
+          "passage_id": "mius_supp_match_02_a_1",
+          "claims": [
+            {
+              "claim_id": "mius_supp_match_02_a_c001",
+              "theory": "neuroscience",
+              "entity_type": "information",
+              "axis": "none",
+              "value": "bioelectric_state_encoded_distributed",
+              "polarity": "asserts",
+              "statement": "Information guiding specific shape outcomes is encoded in (represented by) bioelectric states among cells in a distributed form throughout the animal.",
+              "passage_ids": [
+                "mius_supp_match_02_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_02_a_c002",
+              "theory": "neuroscience",
+              "entity_type": "system",
+              "axis": "architecture",
+              "value": "distributed",
+              "polarity": "asserts",
+              "statement": "The information about basic anatomical polarity and body organization must be stored in a distributed form throughout the animal, not localized to a single region.",
+              "passage_ids": [
+                "mius_supp_match_02_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_02_a_c003",
+              "theory": "neuroscience",
+              "entity_type": "constraint",
+              "axis": "mechanism",
+              "value": "epigenetic_chromatin_insufficient",
+              "polarity": "asserts",
+              "statement": "Chromatin modification mechanisms alone are not a sufficient explanation for the encoded morphogenetic information.",
+              "passage_ids": [
+                "mius_supp_match_02_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_02_a_c004",
+              "theory": "neuroscience",
+              "entity_type": "field",
+              "axis": "mechanism",
+              "value": "bioelectric_field_model",
+              "polarity": "asserts",
+              "statement": "Quantitative, field-like models of bioelectric circuits are needed to understand how information guiding shape outcomes is encoded in bioelectric states.",
+              "passage_ids": [
+                "mius_supp_match_02_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        },
+        "b": {
+          "claim_id": "G4_C7",
+          "domain": "neuroscience",
+          "located": true,
+          "source_file": "sources/neuroscience/G4_tononi_2004_iit.pdf",
+          "passage": "Do interactions within a cortico-thalamic minicolumn qualify as intrinsic mini- loops that support the main complex without being part of it? Unfortunately, answering these questions and prop- erly testing the predictions of the theory requires a much better understanding of cortical neuroanatomy than is presently available [50,51]. Consciousness can be split if the thalamocortical system is split Studies of split-brain patients, whose corpus callosum was sectioned for therapeutic reasons, show that each hemi- sphere has its own, private conscious experience. The dominant, linguistically competent hemisphere does not seem to suffer a major impairment of consciousness after the operation. The non-dominant hemisphere, although it loses some important abilities and its residual capacities are harder to assess, also appears to be conscious. [5].",
+          "passage_id": "mius_supp_match_02_b_1",
+          "claims": [
+            {
+              "claim_id": "mius_supp_match_02_b_c001",
+              "theory": "neuroscience",
+              "entity_type": "system",
+              "axis": "locus",
+              "value": "thalamocortical_system",
+              "polarity": "asserts",
+              "statement": "Consciousness is located in and generated by the thalamocortical system, such that splitting it produces two separate conscious experiences.",
+              "passage_ids": [
+                "mius_supp_match_02_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_02_b_c002",
+              "theory": "neuroscience",
+              "entity_type": "state",
+              "axis": "none",
+              "value": "split_yields_two_conscious_streams",
+              "polarity": "asserts",
+              "statement": "Splitting the thalamocortical system (via corpus callosum section) results in two independent conscious experiences, one per hemisphere.",
+              "passage_ids": [
+                "mius_supp_match_02_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "match_id": "ed_match_17",
+      "role": "failure",
+      "a1_first_fail": "provenance",
+      "old_grade": null,
+      "old_decidability": null,
+      "sides": {
+        "a": {
+          "claim_id": "ED04_C5",
+          "domain": "physics",
+          "located": true,
+          "source_file": "sources/engine-discovered/ed04_french_flag_positional_information.pdf",
+          "passage": "and Hunchback together regulate the anterior portions of the embryo while Nanos and Caudal regulate the posterior, activating gap gene expression, in turn activating pair-rule gene expression, and leading to the expression of segment-polarity genes and homeotic selector genes that ultimately specify the body plan [9]. While some work focuses on how regulation and expression of this gene network encodes positional information [13, 23, 7, 20], our analogy is to the primary morphogen inputs from maternal effect genes, modeled as external inputs to distributed cellular agents. These inputs are the maternal effect factors - like Bcd - which initially carry positional information.",
+          "passage_id": "mius_ed_match_17_a_1",
+          "claims": []
+        },
+        "b": {
+          "claim_id": "E4_C16",
+          "domain": "vedanta",
+          "located": true,
+          "source_file": "sources/vedanta/E4_samkhya_karika.txt",
+          "passage": "These two men associate for a common purpose, viz., going to a distant place, and they separate as soon as their common object is attained ; so is the Purusa linked with Prakrti for a particular object {i.e., for our enjoyment) and they must part as soon as that object is attained. XXII. qtfsiRf: 1 prakrter-mahams-tato-'hamkaras-tasmad- gana^-ca sodasakah I tasmad-api soda^akat pahcabhyah pahca bhutani II XXII. From Prakrti proceeds the Maha> ttattva (equivalent to Buddhi) ; thence the Ahamkara Tattva (the ego-sense) ; thence the aggregate of the sixteen (11 sense-organs, including the mind, and the 5 Tanmatras) ; and from the latter five the five Mahabhutas come out. Notes 1. These are the only ingredients of the sense-world - which we are now enquiring into. tCarikas 101 XXIII.",
+          "passage_id": "mius_ed_match_17_b_1",
+          "claims": [
+            {
+              "claim_id": "mius_ed_match_17_b_c001",
+              "theory": "vedanta",
+              "entity_type": "substrate",
+              "axis": "substrate_dependence",
+              "value": "substrate_independent",
+              "polarity": "asserts",
+              "statement": "Consciousness (Purusa) is a distinct, non-material witness that associates with Prakrti (matter) for the purpose of experience and liberation, not reducible to material substrate.",
+              "passage_ids": [
+                "mius_ed_match_17_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_ed_match_17_b_c002",
+              "theory": "vedanta",
+              "entity_type": "system",
+              "axis": "architecture",
+              "value": "hierarchical_emanation",
+              "polarity": "asserts",
+              "statement": "The manifest world unfolds in a hierarchical sequence from Prakrti through Mahat/Buddhi, Ahamkara, the sixteen evolutes, and the five Mahabhutas — consciousness is not identical to any of these evolutes.",
+              "passage_ids": [
+                "mius_ed_match_17_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_ed_match_17_b_c003",
+              "theory": "vedanta",
+              "entity_type": "invariant",
+              "axis": "identity_relation",
+              "value": "purusa_not_identical_to_prakrti",
+              "polarity": "asserts",
+              "statement": "The association of Purusa and Prakrti is purposive and terminates upon attainment of its object (liberation), making the conscious witness fundamentally distinct from the process of manifestation.",
+              "passage_ids": [
+                "mius_ed_match_17_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_ed_match_17_b_c004",
+              "theory": "vedanta",
+              "entity_type": "constraint",
+              "axis": "none",
+              "value": "experience_constituted_by_prakrti_evolutes_only",
+              "polarity": "asserts",
+              "statement": "Experience and the sense-world are constituted entirely by the evolutes of Prakrti (Buddhi, Ahamkara, sense-organs, Tanmatras, Mahabhutas), not by Purusa itself.",
+              "passage_ids": [
+                "mius_ed_match_17_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "match_id": "match_14",
+      "role": "failure",
+      "a1_first_fail": "provenance",
+      "old_grade": "generative",
+      "old_decidability": "conditional",
+      "sides": {
+        "a": {
+          "claim_id": "G8_C4",
+          "domain": "tm_research",
+          "located": true,
+          "source_file": "sources/tm-research/G8_hagelin_1999_dc_maharishi_effect.txt",
+          "passage": "Participants were housed in hotels and college dormitories at 8 locations around the District and at the Univer- sity of Maryland. Participants collectively practiced the TM-Sidhi program twice daily in halls set aside for this purpose at each of the housing locations.© Several alternate ways of specifying the independent variable were examined - the total number of partic- ipants, the total number squared, and the number in each housing area squared and then added - and all were highly intercorrelated (0.96 to 0.99). Because the theory specifies that the effect of such coherence-creating assemblies varies as the square of the number of participants, the analyses reported below used the total number of participants in the Transcendental Meditation and TM-Sidhi programs squared. The primary outcome was violent crime. As defined by the FBI Uniform Crime Report (UCR) program (Federal Bureau of Investi- gation, 1994), violent crime consists of homicides (murder and non- negligent manslaughter), forcible rapes, aggravated assaults and robberies.",
+          "passage_id": "mius_match_14_a_1",
+          "claims": [
+            {
+              "claim_id": "mius_match_14_a_c001",
+              "theory": "tm_research",
+              "entity_type": "threshold",
+              "axis": "unit_threshold",
+              "value": "square_of_participant_count",
+              "polarity": "asserts",
+              "statement": "The effect of coherence-creating assemblies varies as the square of the number of participants, so the independent variable is total participants squared.",
+              "passage_ids": [
+                "mius_match_14_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_14_a_c002",
+              "theory": "tm_research",
+              "entity_type": "measurement",
+              "axis": "observable_commitment",
+              "value": "violent_crime_rate",
+              "polarity": "asserts",
+              "statement": "The primary observable outcome predicted is violent crime reduction (homicides, rapes, assaults, robberies).",
+              "passage_ids": [
+                "mius_match_14_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_14_a_c003",
+              "theory": "tm_research",
+              "entity_type": "process",
+              "axis": "mechanism",
+              "value": "collective_coherence_field_effect",
+              "polarity": "asserts",
+              "statement": "Collective TM-Sidhi practice generates a coherence-creating effect that propagates beyond the immediate participants.",
+              "passage_ids": [
+                "mius_match_14_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_14_a_c004",
+              "theory": "tm_research",
+              "entity_type": "system",
+              "axis": "architecture",
+              "value": "collective_co_located_assembly",
+              "polarity": "asserts",
+              "statement": "The conscious/coherence effect is group-assembly-dependent, requiring co-located collective practice.",
+              "passage_ids": [
+                "mius_match_14_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        },
+        "b": {
+          "claim_id": "F6_C4",
+          "domain": "condensed_matter",
+          "located": true,
+          "source_file": "sources/physics/symmetry_breaking.pdf",
+          "passage": "SciPost Physics Lecture Notes Submission generators will play an important role in the classification of Nambu-Goldstone modes in Chapter 3. 2.5.2 The order parameter Having classified all possible inequivalent symmetry-breaking states, it would be useful to have an operator whose expectation value can be used to distinguish between them. Ideally, such an operator would have expectation value zero in any symmetric state, and a unique non-zero expectation value for each of the sets of equivalent broken-symmetry states. As it turns out, such an operator can be defined, and is called the order param- eter operator. order parameter operator Actually the word order parameter is often used to denote any quantity whose expectation value is non-zero in the broken-symmetry phase, and zero in the sym- metric state, without having the additional benefit of distinguishing between inequivalent symmetry-breaking configurations. A well-known example can be found in the theory of superconductivity, where the amplitude of the gap function (see Section 7.2) is often called the superconducting order parameter.",
+          "passage_id": "mius_match_14_b_1",
+          "claims": []
+        }
+      }
+    },
+    {
+      "match_id": "match_19",
+      "role": "failure",
+      "a1_first_fail": "relation-not-in-quote",
+      "old_grade": "partial",
+      "old_decidability": "beyond",
+      "sides": {
+        "a": {
+          "claim_id": "B1_C5",
+          "domain": "vedanta",
+          "located": true,
+          "source_file": "sources/hagelin-consciousness/B1-is-consciousness-unified-field-FULL.pdf",
+          "passage": "CONSCIOUSNESS AND THE UNIFIED FIELD Maharishi's work, which will be further outlined in subsequent sections, is based on his revival of an ancient science of consciousness known as Vedic science. Vedic science gives consciousness a unique ontological status. According to the Vedic tradition, consciousness is not an emergent property of matter that comes into existence through the functioning of the human nervous system, but is considered fundamental in nature. It is the essential core of life-a vast, unbounded, unified field which gives rise to and pervades all manifest phenomena (Maharishi Mahesh Yogi, 1966; Bhagavad Gita, 1975; Sankaracharya, 1977; Principal Upanishads, 1974). The nature of consciousness which is said to characterize this unified field is pure consciousness-an abstract, unbounded field of consciousness which is not qualified by any object or individual experience.",
+          "passage_id": "mius_match_19_a_1",
+          "claims": [
+            {
+              "claim_id": "mius_match_19_a_c001",
+              "theory": "vedanta",
+              "entity_type": "constraint",
+              "axis": "fundamentality",
+              "value": "fundamental_not_emergent",
+              "polarity": "asserts",
+              "statement": "Consciousness is not an emergent property of matter arising from the nervous system; it is fundamental in nature.",
+              "passage_ids": [
+                "mius_match_19_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_19_a_c002",
+              "theory": "vedanta",
+              "entity_type": "field",
+              "axis": "fundamentality",
+              "value": "proto_experiential_field",
+              "polarity": "asserts",
+              "statement": "Consciousness is a vast, unbounded, unified field that gives rise to and pervades all manifest phenomena.",
+              "passage_ids": [
+                "mius_match_19_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_19_a_c003",
+              "theory": "vedanta",
+              "entity_type": "substrate",
+              "axis": "substrate_dependence",
+              "value": "substrate_independent",
+              "polarity": "asserts",
+              "statement": "Pure consciousness is substrate-independent; it is not qualified by any object or individual experience and is not tied to the human nervous system.",
+              "passage_ids": [
+                "mius_match_19_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_19_a_c004",
+              "theory": "vedanta",
+              "entity_type": "invariant",
+              "axis": "identity_relation",
+              "value": "consciousness_is_unified_field",
+              "polarity": "asserts",
+              "statement": "Consciousness is the essential core of life and is identical to the unified field underlying all manifest phenomena.",
+              "passage_ids": [
+                "mius_match_19_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        },
+        "b": {
+          "claim_id": "G4_C10",
+          "domain": "neuroscience",
+          "located": true,
+          "source_file": "sources/neuroscience/G4_tononi_2004_iit.pdf",
+          "passage": "Testing the hypothesis: The information integration theory accounts, in a principled manner, for several neurobiological observations concerning consciousness. As shown here, these include the association of consciousness with certain neural systems rather than with others; the fact that neural processes underlying consciousness can influence or be influenced by neural processes that remain unconscious; the reduction of consciousness during dreamless sleep and generalized seizures; and the time requirements on neural interactions that support consciousness. Implications of the hypothesis: The theory entails that consciousness is a fundamental quantity, that it is graded, that it is present in infants an d animals, and that it should be possible to build conscious artifacts. Published: 02 November 2004 BMC Neuroscience 2004, 5:42 doi:10.1186/1471-2202-5-42 Received: 10 August 2004 Accepted: 02 November 2004 This article is available from: http://www.biomedcentral.com/1471-2202/5/42 © 2004 Tononi; licensee BioMed Central Ltd. This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/2.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.",
+          "passage_id": "mius_match_19_b_1",
+          "claims": [
+            {
+              "claim_id": "mius_match_19_b_c001",
+              "theory": "neuroscience",
+              "entity_type": "emergent_property",
+              "axis": "fundamentality",
+              "value": "fundamental_and_graded",
+              "polarity": "asserts",
+              "statement": "Consciousness is a fundamental quantity that is graded rather than all-or-nothing.",
+              "passage_ids": [
+                "mius_match_19_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_19_b_c002",
+              "theory": "neuroscience",
+              "entity_type": "system",
+              "axis": "architecture",
+              "value": "selective_neural_system",
+              "polarity": "asserts",
+              "statement": "Consciousness is associated with certain neural systems rather than others, and neural processes underlying consciousness can influence or be influenced by unconscious processes.",
+              "passage_ids": [
+                "mius_match_19_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_19_b_c003",
+              "theory": "neuroscience",
+              "entity_type": "information",
+              "axis": "mechanism",
+              "value": "integrated_information",
+              "polarity": "asserts",
+              "statement": "Consciousness depends on information integration (Phi), a quantity measurable in neural systems, accounting for reductions during dreamless sleep and seizures.",
+              "passage_ids": [
+                "mius_match_19_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_19_b_c004",
+              "theory": "neuroscience",
+              "entity_type": "substrate",
+              "axis": "substrate_dependence",
+              "value": "substrate_independent",
+              "polarity": "asserts",
+              "statement": "It should be possible to build conscious artifacts, implying consciousness is substrate-independent and depends on the right information integration architecture.",
+              "passage_ids": [
+                "mius_match_19_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "match_id": "supp_match_14",
+      "role": "failure",
+      "a1_first_fail": "relation-not-in-quote",
+      "old_grade": null,
+      "old_decidability": null,
+      "sides": {
+        "a": {
+          "claim_id": "FR_C4",
+          "domain": "condensed_matter",
+          "located": true,
+          "source_file": "sources/neuroscience/froehlich-coherence-review.pdf",
+          "passage": "We argue that these subsystems are the best candidates for possible sites of quantum effects. 2) A brief overview of the criticism of coherence and decoherence 2-1) Membrane The original Fröhlich model was general and did not limit the mechanism of biological coherence to any particular cellular structure. In his model, when the energy supply exceeds a critical level, the dipolar ensemble of biologically relevant molecules populates a steady state of non-linear vibrations characterized by a high degree of structural and functional order [29]. This (electrically polarized) ordered state expresses itself in terms of long-range phase correlations, which are physically similar to such phenomena as superconductivity and superfluidity, where the behaviour of particles is collective and inseparable. The existence of very strong static electric fields across the cell membrane led Fröhlich to consider cellular membranes to be the source of the postulated coherent vibrations [29].",
+          "passage_id": "mius_supp_match_14_a_1",
+          "claims": [
+            {
+              "claim_id": "mius_supp_match_14_a_c001",
+              "theory": "condensed_matter",
+              "entity_type": "threshold",
+              "axis": "unit_threshold",
+              "value": "energy_supply_exceeds_critical_level",
+              "polarity": "asserts",
+              "statement": "Quantum coherence effects in biological systems require energy supply exceeding a critical level to populate a non-linear vibrational steady state.",
+              "passage_ids": [
+                "mius_supp_match_14_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_14_a_c002",
+              "theory": "condensed_matter",
+              "entity_type": "system",
+              "axis": "locus",
+              "value": "cellular_membrane",
+              "polarity": "asserts",
+              "statement": "Cellular membranes are the candidate sites for quantum coherent vibrations underlying consciousness-relevant effects.",
+              "passage_ids": [
+                "mius_supp_match_14_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_14_a_c003",
+              "theory": "condensed_matter",
+              "entity_type": "process",
+              "axis": "mechanism",
+              "value": "long_range_phase_coherence",
+              "polarity": "asserts",
+              "statement": "The mechanism involves long-range phase correlations (collective, inseparable behaviour) analogous to superconductivity and superfluidity.",
+              "passage_ids": [
+                "mius_supp_match_14_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_14_a_c004",
+              "theory": "condensed_matter",
+              "entity_type": "system",
+              "axis": "mechanism_scale",
+              "value": "molecular_subcellular",
+              "polarity": "asserts",
+              "statement": "The relevant scale of mechanism is molecular/subcellular (dipolar ensembles of biologically relevant molecules at membrane level).",
+              "passage_ids": [
+                "mius_supp_match_14_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        },
+        "b": {
+          "claim_id": "F2_C1",
+          "domain": "condensed_matter",
+          "located": true,
+          "source_file": "sources/physics/bec_ketterle.pdf",
+          "passage": "When atoms are cooled to the point where λdB is comparable to the interatomic separation, the atomic wavep ackets \"overlap\" and the indistinguishability of particles becomes important (fig. 1). At this temperature , bosons undergo a phase transition and form a Bose-Einstein condensate, a coherent cloud of atoms all oc cupying the same quantum mechanical state. The transition temperature and the peak atomic density n are related as nλ3 dB ≃ 2.612. Bose-Einstein condensation in gases allows for a \"first-pri nciples\" theoretical description because there is a clear hierarchy of length and energy scales (table I).",
+          "passage_id": "mius_supp_match_14_b_1",
+          "claims": [
+            {
+              "claim_id": "mius_supp_match_14_b_c001",
+              "theory": "condensed_matter",
+              "entity_type": "transformation",
+              "axis": "mechanism",
+              "value": "phase_transition_to_coherent_ground_state",
+              "polarity": "asserts",
+              "statement": "Bose-Einstein condensation is a phase transition where bosons collectively occupy the same quantum mechanical state when atomic wavepackets overlap.",
+              "passage_ids": [
+                "mius_supp_match_14_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_14_b_c002",
+              "theory": "condensed_matter",
+              "entity_type": "threshold",
+              "axis": "unit_threshold",
+              "value": "phase_space_density_threshold",
+              "polarity": "asserts",
+              "statement": "The condensate transition is gated by a quantitative threshold: nλ³_dB ≃ 2.612, relating peak density and thermal de Broglie wavelength.",
+              "passage_ids": [
+                "mius_supp_match_14_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_14_b_c003",
+              "theory": "condensed_matter",
+              "entity_type": "system",
+              "axis": "architecture",
+              "value": "hierarchical_scale_separated",
+              "polarity": "asserts",
+              "statement": "BEC in gases admits a first-principles theoretical description due to a clear hierarchy of length and energy scales.",
+              "passage_ids": [
+                "mius_supp_match_14_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_14_b_c004",
+              "theory": "condensed_matter",
+              "entity_type": "constraint",
+              "axis": "mechanism_scale",
+              "value": "quantum_scale",
+              "polarity": "asserts",
+              "statement": "Particle indistinguishability (quantum statistics) becomes the operative mechanism when de Broglie wavelength is comparable to interatomic separation.",
+              "passage_ids": [
+                "mius_supp_match_14_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "match_id": "ed_match_01",
+      "role": "failure",
+      "a1_first_fail": "scale-mismatch",
+      "old_grade": null,
+      "old_decidability": null,
+      "sides": {
+        "a": {
+          "claim_id": "ED24_C11",
+          "domain": "condensed_matter",
+          "located": true,
+          "source_file": "sources/engine-discovered/ed24_meanfield_branching_avalanche.pdf",
+          "passage": "In the limit N → ∞, the distribution φ(p) therefore approaches a delta function, δ(p − pc). In Fig. 3 we show the avalanche size distribution D(s) for different values of the number of generations n. We observe a scaling region ( D(s) ∼ s− τ with τ = 3 /2), whose size increases with n, and an exponential cutoff. The power-law scaling is a signature of the mean-field criticality of the SOBP model. In Fig. 4 we report the distribution of active sites at the boundary, D(σ), for different values of the number of generations.",
+          "passage_id": "mius_ed_match_01_a_1",
+          "claims": [
+            {
+              "claim_id": "mius_ed_match_01_a_c001",
+              "theory": "condensed_matter",
+              "entity_type": "process",
+              "axis": "mechanism",
+              "value": "self_organized_criticality",
+              "polarity": "asserts",
+              "statement": "The system approaches a critical point (delta function at p_c) in the thermodynamic limit, indicating self-organized criticality as the governing mechanism.",
+              "passage_ids": [
+                "mius_ed_match_01_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_ed_match_01_a_c002",
+              "theory": "condensed_matter",
+              "entity_type": "measurement",
+              "axis": "observable_commitment",
+              "value": "power_law_avalanche_distribution",
+              "polarity": "asserts",
+              "statement": "Avalanche size distribution follows a power-law scaling D(s) ~ s^{-tau} with tau=3/2, a signature of mean-field criticality.",
+              "passage_ids": [
+                "mius_ed_match_01_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_ed_match_01_a_c003",
+              "theory": "condensed_matter",
+              "entity_type": "emergent_property",
+              "axis": "mechanism_scale",
+              "value": "generation_scale_dependent_criticality",
+              "polarity": "asserts",
+              "statement": "The scaling region increases with the number of generations n, indicating a scale-dependent emergent critical behavior.",
+              "passage_ids": [
+                "mius_ed_match_01_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        },
+        "b": {
+          "claim_id": "G6_C3",
+          "domain": "neuroscience",
+          "located": true,
+          "source_file": "sources/neuroscience/G6_beggs_plenz_2003_avalanches.pdf",
+          "passage": "Conversely, at /H9004t /H11021IEIavg long avalanches would be preferentially fragmented into several smaller ava- lanches, resulting in a power law with a steeper slope. When the power law was calculated at the highest spatial resolution (200 /H9262m) and the corresponding IEIavg for each culture (Fig. 4A), the power law exponent /H9251was observed to be /H110021.50 /H110060.008 for electrode number and /H110021.49 /H110060.005 for summed LFP ampli- tude (Fig. 4B,C) (linear regression /H11006SE). Thus, despite the large variability in IEI avg between individual cultures of 2.7 - 6 msec (equivalent to a \"propagation velocity\" of /H1101174 -33 mm/sec), the power law exponent was constant when the data were binned at the corresponding IEI avg.",
+          "passage_id": "mius_ed_match_01_b_1",
+          "claims": [
+            {
+              "claim_id": "mius_ed_match_01_b_c001",
+              "theory": "neuroscience",
+              "entity_type": "invariant",
+              "axis": "none",
+              "value": "power_law_exponent_minus_1_5",
+              "polarity": "asserts",
+              "statement": "Neuronal avalanche size distributions follow a power law with exponent -1.5, invariant across cultures when binned at the appropriate inter-event interval.",
+              "passage_ids": [
+                "mius_ed_match_01_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_ed_match_01_b_c002",
+              "theory": "neuroscience",
+              "entity_type": "emergent_property",
+              "axis": "mechanism_scale",
+              "value": "scale_invariant_criticality",
+              "polarity": "asserts",
+              "statement": "The critical power-law exponent is preserved across different spatial and temporal scales when the time bin matches the average inter-event interval, indicating scale-invariant neural dynamics.",
+              "passage_ids": [
+                "mius_ed_match_01_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "match_id": "ed_match_06",
+      "role": "failure",
+      "a1_first_fail": "scale-mismatch",
+      "old_grade": null,
+      "old_decidability": null,
+      "sides": {
+        "a": {
+          "claim_id": "ED06_C6",
+          "domain": "physics",
+          "located": true,
+          "source_file": "sources/engine-discovered/ed06_earlywarning_dynamic_regime.pdf",
+          "passage": "Decay rate (b), lag-1 autocorrelation (per unit time) (d) and variance (f) for both nonlinear dynamic (numerical calculation, blue) and linear quasi-static (linearised Ornstein-Uhlenbeck, red). Escape rate (c) and Cumulative probability of escape (e) for dynamic (blue) and Kramers' (red). dXt =−κXtdt + √ 2DdWt (23) For the static Ornstein-Uhlenbeck process the autocorre- lation and variance is given by 13: Autocorrelation: a = exp(−κ∆t)≈ 1−κ∆t Variance: V = D κ (24) Therefore, at the end of each time step ∆ t we calculate the linear quasi-static decay rate (b), autocorrelation (d) and variance (f) in red. Once again the indicators, au- tocorrelation and variance increase, as we move closer to the bifurcation, indicating a possible bifurcation-induced tipping event. However, there is a clear difference be- tween the linear quasi-static and the nonlinear dynamic calculated values. The following section analyses this sys- tematic difference in detail.",
+          "passage_id": "mius_ed_match_06_a_1",
+          "claims": [
+            {
+              "claim_id": "mius_ed_match_06_a_c001",
+              "theory": "physics",
+              "entity_type": "measurement",
+              "axis": "observable_commitment",
+              "value": "critical_slowing_down_indicators",
+              "polarity": "asserts",
+              "statement": "Autocorrelation and variance increase as the system approaches a bifurcation, indicating a bifurcation-induced tipping event.",
+              "passage_ids": [
+                "mius_ed_match_06_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_ed_match_06_a_c002",
+              "theory": "physics",
+              "entity_type": "constraint",
+              "axis": "computability",
+              "value": "nonlinear_dynamics_not_reducible_to_linear_approximation",
+              "polarity": "asserts",
+              "statement": "There is a systematic difference between linear quasi-static and nonlinear dynamic calculated values of autocorrelation and variance near bifurcation.",
+              "passage_ids": [
+                "mius_ed_match_06_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        },
+        "b": {
+          "claim_id": "G5_C5",
+          "domain": "neuroscience",
+          "located": true,
+          "source_file": "sources/neuroscience/G5_casali_2013_pci.pdf",
+          "passage": "PCI is calculated by (i) perturbing the cor tex with transcranial magnetic stimu- lation (TMS) to engage distributed interactions in the bra in (integration) and (ii) compressing the spatiotemporal pattern of these electrocortical responses to measure their algorithmic complexity (information). We test PCI on a large data set of TMS-evoked potentials recorded in healthy subjects during wakefulness, dreaming, nonrapid eye movement sleep, and different levels of sedation induced by anesthetic agents (midazolam, xenon, and propofol), as well as in patients who had emerged from coma (vegetative state, minimally conscious state, and locked-in syn- drome). PCI reliably discriminated the level of consciousn ess in single individuals during wakefulness, sleep, and anesthesia, as well as in patients who had emerged fromcoma and recovered a minimal level of consciousness. PCI can potentially be used for objective determination of the level of consciousness at the bedside. INTRODUCTION A fundamental shortcoming of clinical practice is the lack of a reliable method to objectively assess the level of consciousness.",
+          "passage_id": "mius_ed_match_06_b_1",
+          "claims": [
+            {
+              "claim_id": "mius_ed_match_06_b_c001",
+              "theory": "neuroscience",
+              "entity_type": "measurement",
+              "axis": "observable_commitment",
+              "value": "tms_evoked_spatiotemporal_complexity",
+              "polarity": "asserts",
+              "statement": "Consciousness level can be objectively measured by the spatiotemporal complexity (algorithmic compressibility) of TMS-evoked cortical responses (PCI).",
+              "passage_ids": [
+                "mius_ed_match_06_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_ed_match_06_b_c002",
+              "theory": "neuroscience",
+              "entity_type": "information",
+              "axis": "mechanism",
+              "value": "integrated_spatiotemporal_information",
+              "polarity": "asserts",
+              "statement": "Consciousness requires distributed cortical integration and information; PCI captures both as its defining empirical signature.",
+              "passage_ids": [
+                "mius_ed_match_06_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_ed_match_06_b_c003",
+              "theory": "neuroscience",
+              "entity_type": "emergent_property",
+              "axis": "none",
+              "value": "graded_consciousness_level",
+              "polarity": "asserts",
+              "statement": "PCI discriminates levels of consciousness across wakefulness, sleep, anesthesia, and disorders of consciousness, committing to a graded, measurable consciousness level.",
+              "passage_ids": [
+                "mius_ed_match_06_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_ed_match_06_b_c004",
+              "theory": "neuroscience",
+              "entity_type": "system",
+              "axis": "architecture",
+              "value": "distributed_cortical_network",
+              "polarity": "asserts",
+              "statement": "The locus of consciousness-relevant activity is the distributed cortex, engaged via long-range interactions triggered by TMS perturbation.",
+              "passage_ids": [
+                "mius_ed_match_06_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "match_id": "ed_match_05",
+      "role": "failure",
+      "a1_first_fail": "provenance",
+      "old_grade": null,
+      "old_decidability": null,
+      "sides": {
+        "a": {
+          "claim_id": "ED17_C4",
+          "domain": "physics",
+          "located": true,
+          "source_file": "sources/engine-discovered/ed17_context_free_tree_grammars.pdf",
+          "passage": "We define the MCFTG as a straightforward generalization of the MCF G, based on tree substitution rather than string substitution, where a (second-order) tree s ubstitution is a tree homomorphism. How- ever, our formal syntactic definition of the MCFTG is closer to the o ne of the context-free tree grammar (CFTG) as in, e.g., [31, 37, 42, 58, 61, 81, 90]. Just as for the MCFG, the semantics of the MCFTG is a least fixed point semantics, which can easily be viewed as a semantics b ased on parse trees (Theorem 9). Moreover, we provide a rewriting semantics for MCFTGs (similar to th e one for CFTGs and similar to the one in [78] for MCFGs) leading to a usual notion of derivation, for which the derivation trees then equal the parse trees (Theorem 19). Intuitively, an MCFTG G is a simple (i.e., linear and nondeleting) context-free tree grammar (spCFTG) in which several nontermin als are rewritten in one derivation step.",
+          "passage_id": "mius_ed_match_05_a_1",
+          "claims": []
+        },
+        "b": {
+          "claim_id": "E4_C5",
+          "domain": "vedanta",
+          "located": true,
+          "source_file": "sources/vedanta/E4_samkhya_karika.txt",
+          "passage": "This shows that the effect has a certain fixed relation to its cause. (3) Sarva Sambhavabhavat : It is not possible to press out oil from sand. Oil can be obtained from mustard seed or such other seeds in which it exists. This shows that the effect always exists in latent form in its cause ; otherwise, it would be possible to produce all things from anything. (4) Saktasya Sakyakaranat : It is common knowledge that the effect must be such as is within the power of the cause to create. Karikas 81 There must therefore be a relation between the cause and the effect as regards potency also. (5) Karanabhavat : The cause and its effect have inherent or intrinsic similarity or they may be as non-different as the woven cloth from its cause, viz.t the threads. According to Samkhya, everything has a cause.",
+          "passage_id": "mius_ed_match_05_b_1",
+          "claims": [
+            {
+              "claim_id": "mius_ed_match_05_b_c001",
+              "theory": "vedanta",
+              "entity_type": "invariant",
+              "axis": "identity_relation",
+              "value": "cause_effect_non_different",
+              "polarity": "asserts",
+              "statement": "Every effect pre-exists in latent form in its cause (satkaryavada); cause and effect are non-different in essence.",
+              "passage_ids": [
+                "mius_ed_match_05_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_ed_match_05_b_c002",
+              "theory": "vedanta",
+              "entity_type": "substrate",
+              "axis": "substrate_dependence",
+              "value": "substrate_dependent",
+              "polarity": "asserts",
+              "statement": "Consciousness (as effect) must pre-exist in latent form in its substrate/cause; it cannot arise from a substrate that does not already contain it.",
+              "passage_ids": [
+                "mius_ed_match_05_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_ed_match_05_b_c003",
+              "theory": "vedanta",
+              "entity_type": "constraint",
+              "axis": "fundamentality",
+              "value": "proto_experiential_ground_required",
+              "polarity": "asserts",
+              "statement": "The production of any phenomenon is constrained by the potency intrinsic to its cause; arbitrary emergence is denied.",
+              "passage_ids": [
+                "mius_ed_match_05_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_ed_match_05_b_c004",
+              "theory": "vedanta",
+              "entity_type": "constraint",
+              "axis": "none",
+              "value": "universal_causation",
+              "polarity": "asserts",
+              "statement": "Everything has a cause; nothing arises uncaused or from a causally unrelated substrate.",
+              "passage_ids": [
+                "mius_ed_match_05_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "match_id": "supp_match_03",
+      "role": "failure",
+      "a1_first_fail": "relation-not-in-quote",
+      "old_grade": null,
+      "old_decidability": null,
+      "sides": {
+        "a": {
+          "claim_id": "VA_C1",
+          "domain": "phenomenology",
+          "located": true,
+          "source_file": "sources/neuroscience/varela-autopoiesis.pdf",
+          "passage": "1), the &'s produced within he enclosure by Interaction [1] can replace n the chain, via [2], the elements © that decay as a result of [3] (Fig. 2). In this man- ner, a unity is produced which constitutes a network of productions of components that generate and participate in the network of = productions that produced these components © by effectively realizing the network as a dis- tinguishable entity in the universe where the elements exist. Within this universe these systems satisfy the autopoietic organization. In fact, element * and elements O produce element © in an enclosure formed by a bidi- mensional chain of 6's; as a result the 0's produced in the enclosure replace the decay- ing G's of the boundary, so that the enclosure remains closed for * under continuous turn- over of elements, and under recursive genera- tion of the network of productions which thus remains invariant (Figs.",
+          "passage_id": "mius_supp_match_03_a_1",
+          "claims": [
+            {
+              "claim_id": "mius_supp_match_03_a_c001",
+              "theory": "phenomenology",
+              "entity_type": "invariant",
+              "axis": "identity_relation",
+              "value": "network_production_identity",
+              "polarity": "asserts",
+              "statement": "A living system constitutes itself as a distinguishable unity through a network of productions of components that generate and participate in that very network, remaining invariant under continuous turnover.",
+              "passage_ids": [
+                "mius_supp_match_03_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_03_a_c002",
+              "theory": "phenomenology",
+              "entity_type": "boundary",
+              "axis": "mechanism",
+              "value": "self_maintaining_closure",
+              "polarity": "asserts",
+              "statement": "The autopoietic organization is realized as a closed boundary that maintains itself through recursive self-generation of its components.",
+              "passage_ids": [
+                "mius_supp_match_03_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_03_a_c003",
+              "theory": "phenomenology",
+              "entity_type": "invariant",
+              "axis": "temporal_profile",
+              "value": "invariant_under_turnover",
+              "polarity": "asserts",
+              "statement": "The network of productions remains invariant despite continuous turnover of material elements, constituting the system's identity.",
+              "passage_ids": [
+                "mius_supp_match_03_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_03_a_c004",
+              "theory": "phenomenology",
+              "entity_type": "system",
+              "axis": "architecture",
+              "value": "autopoietic_network",
+              "polarity": "asserts",
+              "statement": "The autopoietic system is architecturally defined by a network in which components both produce and are produced by the same network they constitute.",
+              "passage_ids": [
+                "mius_supp_match_03_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        },
+        "b": {
+          "claim_id": "B1_C12",
+          "domain": "physics",
+          "located": true,
+          "source_file": "sources/hagelin-consciousness/B1-is-consciousness-unified-field-FULL.pdf",
+          "passage": "Since the laws of nature formally ex press the order and intelligence governing the behavior of natural phenomena, as the laws of nature become more compact and concentrated, intelligence can be said to become more concentrated. If, as particle theorists are inclined to believe, all the laws of nature have their ultimate origin in the dynamics of the unified field, then the unified field must itself em body the total intelligence of nature's functioning. From a field theorist's perspective, an attribute of \"self-awareness\" can be seen in the non-Abelian property of self-interaction present in unified, non-Abelian gauge fields. An example of an Abelian field is electromagnetism, which governs most phenomena at macroscopic scales. Because the equations governing the electromagnetic field are linear in the field strength, the electromagnetic field does not possess the self-interacting property of a non-Abelian field.",
+          "passage_id": "mius_supp_match_03_b_1",
+          "claims": [
+            {
+              "claim_id": "mius_supp_match_03_b_c001",
+              "theory": "physics",
+              "entity_type": "field",
+              "axis": "fundamentality",
+              "value": "fundamental_proto_experiential",
+              "polarity": "asserts",
+              "statement": "The unified field embodies the total intelligence of nature's functioning, grounding self-awareness in the non-Abelian self-interaction property of unified gauge fields.",
+              "passage_ids": [
+                "mius_supp_match_03_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_03_b_c002",
+              "theory": "physics",
+              "entity_type": "invariant",
+              "axis": "identity_relation",
+              "value": "self_awareness_is_self_interaction",
+              "polarity": "asserts",
+              "statement": "Self-awareness is identified with the non-Abelian self-interaction property present in unified gauge fields, not with linear (Abelian) fields like electromagnetism.",
+              "passage_ids": [
+                "mius_supp_match_03_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_03_b_c003",
+              "theory": "physics",
+              "entity_type": "constraint",
+              "axis": "mechanism",
+              "value": "non_abelian_self_interaction_required",
+              "polarity": "asserts",
+              "statement": "Abelian fields (e.g., electromagnetism) lack self-interaction and therefore do not instantiate self-awareness.",
+              "passage_ids": [
+                "mius_supp_match_03_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_03_b_c004",
+              "theory": "physics",
+              "entity_type": "substrate",
+              "axis": "substrate_dependence",
+              "value": "substrate_dependent",
+              "polarity": "asserts",
+              "statement": "The unified field is the ultimate substrate from which all laws of nature and consciousness derive.",
+              "passage_ids": [
+                "mius_supp_match_03_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "match_id": "match_04",
+      "role": "failure",
+      "a1_first_fail": "relation-not-in-quote",
+      "old_grade": "isomorphism",
+      "old_decidability": "decidable_now",
+      "sides": {
+        "a": {
+          "claim_id": "F9_C3",
+          "domain": "physics",
+          "located": true,
+          "source_file": "sources/physics/soc_review.pdf",
+          "passage": "The concept has even been invoked to explain the unpredictable nature of econo mic systems, i.e. why you can't beat the stock market 5. The prototypical example is a sandpile. On slowly adding grains of sand to an empty table, a pile will grow until its slope becomes critical and avala nches spill over the sides. If the slope becomes too large, a large catastr ophic avalanche is likely, and the slope will reduce. If the slope is too small, th en the sand will accumulate to make the pile steeper.",
+          "passage_id": "mius_match_04_a_1",
+          "claims": [
+            {
+              "claim_id": "mius_match_04_a_c001",
+              "theory": "physics",
+              "entity_type": "process",
+              "axis": "mechanism",
+              "value": "self_organized_criticality",
+              "polarity": "asserts",
+              "statement": "A system at self-organized criticality maintains a critical slope through avalanche dynamics that are unpredictable in size and timing.",
+              "passage_ids": [
+                "mius_match_04_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_04_a_c002",
+              "theory": "physics",
+              "entity_type": "threshold",
+              "axis": "unit_threshold",
+              "value": "critical_slope",
+              "polarity": "asserts",
+              "statement": "The critical state is maintained via a threshold: if slope is too large, large avalanches reduce it; if too small, accumulation increases it.",
+              "passage_ids": [
+                "mius_match_04_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        },
+        "b": {
+          "claim_id": "G6_C5",
+          "domain": "neuroscience",
+          "located": true,
+          "source_file": "sources/neuroscience/G6_beggs_plenz_2003_avalanches.pdf",
+          "passage": "These network modes have also been described in cortical networks in vitro [e.g., /H9253-oscillations (Plenz and Kitai, 1996), synchrony (Kamioka et al., 1996), and waves (Nakagami et al., 1996)]. In the present study, we identified a new mode of spontaneous activity in cortical networks from organotypic cultures and acute slices: the neuronal avalanche. Neuronal avalanches were charac- terized by three distinct findings: (1) Propagation of synchro- nized LFP activity was described by a power law. (2) The slope of this power law, as well as the branching parameter, indicate that the mechanism underlying these avalanches is a critical branch- ing process. (3) Our network simulations and pharmacological experiments suggest that a critical branching process optimizes information transmission while preserving stability in cortical networks. The analysis presented here focuses exclusively on the propa- gation of sharp (/H1102120 msec) negative LFP peaks. Such LFPs peaks are commonly observed in slice cultures (Jimbo and Robinson, 2000) or evoked extracellular potentials in acute slices.",
+          "passage_id": "mius_match_04_b_1",
+          "claims": [
+            {
+              "claim_id": "mius_match_04_b_c001",
+              "theory": "neuroscience",
+              "entity_type": "process",
+              "axis": "mechanism",
+              "value": "critical_branching_process",
+              "polarity": "asserts",
+              "statement": "Neuronal avalanches in cortical networks are characterized by a power law distribution of propagation, indicating a critical branching process as the underlying mechanism.",
+              "passage_ids": [
+                "mius_match_04_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_04_b_c002",
+              "theory": "neuroscience",
+              "entity_type": "information",
+              "axis": "none",
+              "value": "optimized_information_transmission_at_criticality",
+              "polarity": "asserts",
+              "statement": "A critical branching process optimizes information transmission while preserving stability in cortical networks.",
+              "passage_ids": [
+                "mius_match_04_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_04_b_c003",
+              "theory": "neuroscience",
+              "entity_type": "system",
+              "axis": "mechanism_scale",
+              "value": "network_scale",
+              "polarity": "asserts",
+              "statement": "Neuronal avalanche activity operates at the network scale, observable in cortical networks via local field potentials.",
+              "passage_ids": [
+                "mius_match_04_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "match_id": "match_45",
+      "role": "failure",
+      "a1_first_fail": "provenance",
+      "old_grade": "partial",
+      "old_decidability": "beyond",
+      "sides": {
+        "a": {
+          "claim_id": "A6_C11",
+          "domain": "bridge",
+          "located": true,
+          "source_file": "sources/hagelin-physics/mcDM-miu-news.txt",
+          "passage": "The researchers hypothesize that mcDM particles may coalesce around human bodies, forming a \"subtle body\" resembling a quantum-coherent superfluid. David Scharf, MIU physics professor, notes: \"There's a great deal of it in the atmosphere. It accumulates around things-rocks, anything-but would especially accumulate around animals, which have a lot of cellular surface area with electrical discontinuities that would attract dark matter.\" Hagelin elaborates: \"These hidden sector particles could, and most likely would, bind together to form more complex hidden sector systems, starting with hidden sector atoms and molecules, leading to more complex structures including (hypothetically) subtle bodies.\" This subtle body, behaving as a superfluid like liquid helium, could serve as a quantum co-processor to the physical brain, potentially explaining mind-body interaction. The cold mcDM particles, bathed in galactic dark matter at approximately two degrees above absolute zero, maintain their cryogenic temperatures despite proximity to ordinary matter. Preliminary 2021 experiments examined weight changes inside capacitors designed to detect dark matter accumulation.",
+          "passage_id": "mius_match_45_a_1",
+          "claims": [
+            {
+              "claim_id": "mius_match_45_a_c001",
+              "theory": "bridge",
+              "entity_type": "substrate",
+              "axis": "substrate_dependence",
+              "value": "substrate_dependent",
+              "polarity": "asserts",
+              "statement": "mcDM particles coalesce around human bodies to form a 'subtle body' that serves as a quantum co-processor to the physical brain, explaining mind-body interaction.",
+              "passage_ids": [
+                "mius_match_45_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_45_a_c002",
+              "theory": "bridge",
+              "entity_type": "system",
+              "axis": "architecture",
+              "value": "dual_substrate_quantum_coherent",
+              "polarity": "asserts",
+              "statement": "The subtle body behaves as a quantum-coherent superfluid, functioning as a distinct physical system that interfaces with the biological brain.",
+              "passage_ids": [
+                "mius_match_45_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_45_a_c003",
+              "theory": "bridge",
+              "entity_type": "process",
+              "axis": "mechanism_scale",
+              "value": "quantum_scale",
+              "polarity": "asserts",
+              "statement": "The subtle body (mcDM superfluid) is the locus of mind-body interaction, operating at a quantum scale distinct from ordinary neural tissue.",
+              "passage_ids": [
+                "mius_match_45_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_45_a_c004",
+              "theory": "bridge",
+              "entity_type": "measurement",
+              "axis": "observable_commitment",
+              "value": "mass_change_in_capacitor",
+              "polarity": "asserts",
+              "statement": "Weight changes inside capacitors are predicted as an empirical observable of dark matter accumulation around biological systems.",
+              "passage_ids": [
+                "mius_match_45_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        },
+        "b": {
+          "claim_id": "E3_C10",
+          "domain": "vedanta",
+          "located": true,
+          "source_file": "sources/vedanta/E3_drig_drishya_viveka.txt",
+          "passage": "R II the material cause of mind and egosm TB one *&i&w. of the nature of insen- tiency f&fr subtle sf^m the three states attains wi similarly STRRT is born W*re dies. 12. The subtle^ body which is the material cause of the mind and egoism is one 2 and of the nature 3 of insentiency. It moves 4 in the three states and is born and it dies. 1 Subtle body This is the same as the Antah- karana and is called lingam* because it enables the Jiva or the embodied being to realise Biahman.",
+          "passage_id": "mius_match_45_b_1",
+          "claims": [
+            {
+              "claim_id": "mius_match_45_b_c001",
+              "theory": "vedanta",
+              "entity_type": "substrate",
+              "axis": "substrate_dependence",
+              "value": "substrate_dependent",
+              "polarity": "asserts",
+              "statement": "The subtle body (linga sharira) is the material cause of mind and egoism, is of the nature of insentiency, and moves through the three states (waking, dream, deep sleep).",
+              "passage_ids": [
+                "mius_match_45_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_45_b_c002",
+              "theory": "vedanta",
+              "entity_type": "constraint",
+              "axis": "fundamentality",
+              "value": "emergent_not_fundamental",
+              "polarity": "asserts",
+              "statement": "The subtle body is born and dies, indicating that the vehicle of mind and egoism is a transient, non-conscious material substrate.",
+              "passage_ids": [
+                "mius_match_45_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_45_b_c003",
+              "theory": "vedanta",
+              "entity_type": "system",
+              "axis": "architecture",
+              "value": "antahkarana_linga_sharira",
+              "polarity": "asserts",
+              "statement": "The subtle body enables the Jiva (embodied being) to realise Brahman, functioning as the architectural locus through which consciousness-realisation occurs.",
+              "passage_ids": [
+                "mius_match_45_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_45_b_c004",
+              "theory": "vedanta",
+              "entity_type": "state",
+              "axis": "temporal_profile",
+              "value": "multi_state_traversal",
+              "polarity": "asserts",
+              "statement": "The subtle body traverses three states (waking, dream, deep sleep), implying conscious experience is state-indexed and temporally profiled across these transitions.",
+              "passage_ids": [
+                "mius_match_45_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "match_id": "match_08",
+      "role": "failure",
+      "a1_first_fail": "provenance",
+      "old_grade": "generative",
+      "old_decidability": "decidable_now",
+      "sides": {
+        "a": {
+          "claim_id": "A6_C6",
+          "domain": "physics",
+          "located": true,
+          "source_file": "sources/hagelin-physics/mcDM-miu-news.txt",
+          "passage": "These charges, measuring from a millionth to a billionth of an electron's charge, enable significantly greater interactions than gravity alone permits. Recent astronomical observations supporting this theory reveal that dark matter exhibits clustering on smaller scales than WIMP theory predicts, suggesting electromagnetic interaction. This clustering cannot result from gravity alone, indicating that electromagnetism likely governs hidden sector particle behavior. Hagelin's team has theorized that over 4.5 billion years, mcDM particles would accumulate within Earth and cluster in low-altitude orbits around it. Because electromagnetism underlies most physics, chemistry, and biology, charged dark matter particles would interact electromagnetically with ordinary matter-including terrestrial and biological materials, including humans.",
+          "passage_id": "mius_match_08_a_1",
+          "claims": [
+            {
+              "claim_id": "mius_match_08_a_c001",
+              "theory": "physics",
+              "entity_type": "field",
+              "axis": "mechanism",
+              "value": "electromagnetic_interaction",
+              "polarity": "asserts",
+              "statement": "Dark matter particles carry fractional electromagnetic charges (millionth to billionth of an electron's charge), enabling electromagnetic interactions beyond gravity alone.",
+              "passage_ids": [
+                "mius_match_08_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_08_a_c002",
+              "theory": "physics",
+              "entity_type": "measurement",
+              "axis": "observable_commitment",
+              "value": "sub_wimp_scale_clustering",
+              "polarity": "asserts",
+              "statement": "Dark matter clustering on smaller scales than WIMP theory predicts indicates electromagnetic rather than purely gravitational governance of hidden sector particles.",
+              "passage_ids": [
+                "mius_match_08_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_08_a_c003",
+              "theory": "physics",
+              "entity_type": "substrate",
+              "axis": "substrate_dependence",
+              "value": "substrate_independent",
+              "polarity": "asserts",
+              "statement": "Charged dark matter particles interact electromagnetically with ordinary matter including biological systems.",
+              "passage_ids": [
+                "mius_match_08_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_08_a_c004",
+              "theory": "physics",
+              "entity_type": "process",
+              "axis": "temporal_profile",
+              "value": "sustained_accumulation",
+              "polarity": "asserts",
+              "statement": "Over 4.5 billion years, mcDM particles accumulate within Earth and cluster in low-altitude orbits.",
+              "passage_ids": [
+                "mius_match_08_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        },
+        "b": {
+          "claim_id": "F1a_C5",
+          "domain": "cosmology",
+          "located": true,
+          "source_file": "sources/physics/abell3827_massey.pdf",
+          "passage": "We find that each of the central galaxies retains a dark matter halo, but that (at least) one of these is spatially offset from its stars. The best-constrained offset is 1.62+0.47 −0.49 kpc, where the 68% confidence limit includes both statistical error and systematic biases in mass modelling. Such offsets are not seen in field galaxies, but are predicted during the long infall to a cluster, if dark matter self-interactions generate an extra drag force. With such a small physical separation, it is difficult to definitively rule out astrophysical effects operating exclusively in dense cluster core environments - but if interpreted solely as evidence for self-interacting dark matter, this offset implies a cross-section σDM/m ∼ (1.7 ± 0.7) × 10−4 cm2/g ×(tinfall/109 yrs)−2, where tinfall is the infall duration. Key words: dark matter - astroparticle physics - galaxies: clusters: individual: Abell 3827 - gravitational lensing: strong ⋆ e-mail: r.j.massey@durham.ac.uk c© 2014 RAS arXiv:1504.03388v1 [astro-ph.CO] 13 Apr 2015",
+          "passage_id": "mius_match_08_b_1",
+          "claims": [
+            {
+              "claim_id": "mius_match_08_b_c001",
+              "theory": "cosmology",
+              "entity_type": "measurement",
+              "axis": "observable_commitment",
+              "value": "spatial_offset_halo_stars",
+              "polarity": "asserts",
+              "statement": "A spatial offset of 1.62 kpc is observed between a dark matter halo and its stellar component in a cluster galaxy, constituting a predicted observable of self-interacting dark matter.",
+              "passage_ids": [
+                "mius_match_08_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_08_b_c002",
+              "theory": "cosmology",
+              "entity_type": "process",
+              "axis": "mechanism",
+              "value": "self_interaction_drag",
+              "polarity": "asserts",
+              "statement": "Dark matter self-interactions generate an extra drag force during cluster infall, producing offsets between dark matter halos and stars not seen in field galaxies.",
+              "passage_ids": [
+                "mius_match_08_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_08_b_c003",
+              "theory": "cosmology",
+              "entity_type": "information",
+              "axis": "none",
+              "value": "self_interaction_cross_section",
+              "polarity": "asserts",
+              "statement": "The implied self-interacting dark matter cross-section is σDM/m ~ (1.7 ± 0.7) × 10⁻⁴ cm²/g × (tinfall/10⁹ yrs)⁻², a quantitative constraint on dark matter properties.",
+              "passage_ids": [
+                "mius_match_08_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_08_b_c004",
+              "theory": "cosmology",
+              "entity_type": "constraint",
+              "axis": "none",
+              "value": "astrophysical_confound_not_excluded",
+              "polarity": "asserts",
+              "statement": "Astrophysical effects exclusive to dense cluster core environments cannot be definitively ruled out as an alternative explanation for the observed offset.",
+              "passage_ids": [
+                "mius_match_08_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "match_id": "supp_match_22",
+      "role": "failure",
+      "a1_first_fail": "provenance",
+      "old_grade": null,
+      "old_decidability": null,
+      "sides": {
+        "a": {
+          "claim_id": "LV_C3",
+          "domain": "neuroscience",
+          "located": true,
+          "source_file": "sources/neuroscience/levin-bioelectric-2014.pdf",
+          "passage": "els and pumps, under the control of concentration and electric gradients. (B) Ch ange of Vmem is transduced into cellular effector cascades by a range of mechani sms, including voltage-sensitive phosphatases, voltage-gated calcium channels, a nd voltage-sensitive transporters of signaling molecules such as serotonin and b utyrate. (Diagram modified, with permission, from Figure 1B of .) (C) Bioelectri cal signals feed into epigenetic and transcriptional cascades and thus trigger c hanges in cell properties such as proliferation, differentiation, migration, sha pe change, and programmed cell death. (D) Voltage reporter dye reveals gradients of Vmem across the anterior-posterior axis of planarian flatworms. (Taken, with permission, from Figure 2B of .) (E) In amputated worms, a circuit composed of proton and potassium conductances sets the voltage states at each blastema, whic h in turn determines the anatomical identity of each end of a regenerating fragm ent. (Diagram taken, with permission, from Figure 7C of .) (F) Manipulating this circuit in amputated planaria using pharmacological or genetic techniques that target ion flux allows the programming of stem cell-mediated morphogenesis to sp ecific anatomical outcomes, such as the creation of two-head animals shown here. ## NEW CONTROL KNOBS: RESTING POTENTIAL DETERMINES SINGLE-CELL STATE In general, terminally differentiated, quiescent cells tend to be strongly polar ized (bearing a more-negative resting potential), whereas embryonic, stem, and t umor cells tend to be depolarized (closer to zero; ). The picture is complicated by two still poorly understood factors: the relationship of overall Vmem state to the cell cycle-dependent (sinusoidally varying) changes in voltage potential ( ; ; ) and the fact that many cells in fact do not have a single Vmem but bear a set of distinct voltage domains over their surface ( ; ; ). Crucially, Vmem is not simply a readout but is also a functional determinant of cell behavior, such as proliferative state and plasticity ( ), due to a number o f mechanisms that functionally couple voltage potential changes to downstream ca scades ( ). These data derive from genetic experiments, as well as pharmacologic al screens designed to identify compounds that regulate stem cell differentiatio n or cancer progression ( ; ). Differentiation and proliferation are controlled by changes in Vmem, as shown in human mesenchymal stem cells ( , ; ), cardiomyoc ytes ( ), inhibitory postsynaptic currents ( ), vascular muscle ( ), embryonic s tem cells ( ; ), myoblasts (in which hyperpolarization driven by the Kir2.1 chan nel plays a key role; ; ), the specification of neurotransmitter types ( ), and the control of precursor differentiation ( ; ; ; ; ; ) in the developing nervous system and heart.",
+          "passage_id": "mius_supp_match_22_a_1",
+          "claims": [
+            {
+              "claim_id": "mius_supp_match_22_a_c001",
+              "theory": "neuroscience",
+              "entity_type": "invariant",
+              "axis": "mechanism",
+              "value": "vmem_as_causal_determinant",
+              "polarity": "asserts",
+              "statement": "Resting membrane potential (Vmem) is a functional determinant of cell behavior such as proliferative state and plasticity, not merely a readout.",
+              "passage_ids": [
+                "mius_supp_match_22_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_22_a_c002",
+              "theory": "neuroscience",
+              "entity_type": "process",
+              "axis": "mechanism",
+              "value": "bioelectric_to_transcriptional_transduction",
+              "polarity": "asserts",
+              "statement": "Bioelectrical signals (Vmem changes) feed into epigenetic and transcriptional cascades to trigger changes in cell properties including differentiation and proliferation.",
+              "passage_ids": [
+                "mius_supp_match_22_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_22_a_c003",
+              "theory": "neuroscience",
+              "entity_type": "information",
+              "axis": "none",
+              "value": "bioelectric_morphogenetic_coding",
+              "polarity": "asserts",
+              "statement": "Voltage states at regeneration sites determine anatomical identity outcomes, establishing bioelectric coding of morphogenetic information.",
+              "passage_ids": [
+                "mius_supp_match_22_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_22_a_c004",
+              "theory": "neuroscience",
+              "entity_type": "threshold",
+              "axis": "unit_threshold",
+              "value": "vmem_polarity_gates_cell_state",
+              "polarity": "asserts",
+              "statement": "Terminally differentiated quiescent cells tend to be strongly polarized (more-negative Vmem), while embryonic, stem, and tumor cells tend to be depolarized, establishing a Vmem threshold distinguishing cell states.",
+              "passage_ids": [
+                "mius_supp_match_22_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        },
+        "b": {
+          "claim_id": "A6_C6",
+          "domain": "physics",
+          "located": true,
+          "source_file": "sources/hagelin-physics/mcDM-miu-news.txt",
+          "passage": "These charges, measuring from a millionth to a billionth of an electron's charge, enable significantly greater interactions than gravity alone permits. Recent astronomical observations supporting this theory reveal that dark matter exhibits clustering on smaller scales than WIMP theory predicts, suggesting electromagnetic interaction. This clustering cannot result from gravity alone, indicating that electromagnetism likely governs hidden sector particle behavior. Hagelin's team has theorized that over 4.5 billion years, mcDM particles would accumulate within Earth and cluster in low-altitude orbits around it. Because electromagnetism underlies most physics, chemistry, and biology, charged dark matter particles would interact electromagnetically with ordinary matter-including terrestrial and biological materials, including humans.",
+          "passage_id": "mius_supp_match_22_b_1",
+          "claims": [
+            {
+              "claim_id": "mius_supp_match_22_b_c001",
+              "theory": "physics",
+              "entity_type": "constraint",
+              "axis": "mechanism",
+              "value": "electromagnetic_interaction",
+              "polarity": "asserts",
+              "statement": "Dark matter particles carry fractional electromagnetic charges (millionth to billionth of an electron's charge), enabling electromagnetic interactions beyond gravity alone.",
+              "passage_ids": [
+                "mius_supp_match_22_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_22_b_c002",
+              "theory": "physics",
+              "entity_type": "measurement",
+              "axis": "observable_commitment",
+              "value": "sub_wimp_scale_clustering",
+              "polarity": "asserts",
+              "statement": "Dark matter clusters on smaller scales than WIMP gravity-only predictions, indicating electromagnetic rather than purely gravitational governing mechanism.",
+              "passage_ids": [
+                "mius_supp_match_22_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_22_b_c003",
+              "theory": "physics",
+              "entity_type": "substrate",
+              "axis": "substrate_dependence",
+              "value": "substrate_independent",
+              "polarity": "asserts",
+              "statement": "Charged dark matter particles interact electromagnetically with ordinary matter including biological/terrestrial materials.",
+              "passage_ids": [
+                "mius_supp_match_22_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_22_b_c004",
+              "theory": "physics",
+              "entity_type": "process",
+              "axis": "mechanism_scale",
+              "value": "planetary_scale_accumulation",
+              "polarity": "asserts",
+              "statement": "Over 4.5 billion years, mcDM particles accumulate within Earth and cluster in low-altitude orbits.",
+              "passage_ids": [
+                "mius_supp_match_22_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "match_id": "match_54",
+      "role": "failure",
+      "a1_first_fail": "provenance",
+      "old_grade": "thematic",
+      "old_decidability": "beyond",
+      "sides": {
+        "a": {
+          "claim_id": "C2_C9",
+          "domain": "cosmology",
+          "located": true,
+          "source_file": "sources/hagelin-presentations/C2-hagelin-quantum-physics-perspective-of-consciousness-2014.en.txt",
+          "passage": "But that inner awareness, inner light of consciousness, is not extinguished by that. Time passes instantly because there's no gears turning, no cognitive processing in the brain that are ticking off time. So that's a very quick process of going in and going out, but during that whole time the continuum of the unboundedness or universali- universality of the self persists. And that's that's what the research shows in longer-term meditators that during the high amplitude delta waves of deep sleep superimposed is the high amplitude alpha coherence of samadhi in one state that you could call enlightened sleep or witnessing sleep. Couple more points about enlightenment cuz this is a very important subject.",
+          "passage_id": "mius_match_54_a_1",
+          "claims": [
+            {
+              "claim_id": "mius_match_54_a_c001",
+              "theory": "cosmology",
+              "entity_type": "invariant",
+              "axis": "identity_relation",
+              "value": "persistent_universal_self",
+              "polarity": "asserts",
+              "statement": "The continuum of unbounded universal self persists through all states including deep sleep, constituting an invariant substrate of consciousness.",
+              "passage_ids": [
+                "mius_match_54_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_54_a_c002",
+              "theory": "cosmology",
+              "entity_type": "measurement",
+              "axis": "observable_commitment",
+              "value": "delta_alpha_coherence_cooccurrence",
+              "polarity": "asserts",
+              "statement": "Enlightened sleep is characterized by simultaneous high-amplitude delta and high-amplitude alpha coherence (samadhi) as an observable neural signature.",
+              "passage_ids": [
+                "mius_match_54_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_54_a_c003",
+              "theory": "cosmology",
+              "entity_type": "substrate",
+              "axis": "substrate_dependence",
+              "value": "substrate_independent",
+              "polarity": "asserts",
+              "statement": "Conscious self-awareness is substrate-independent of ongoing cognitive/neural processing, persisting without brain activity ticking off time.",
+              "passage_ids": [
+                "mius_match_54_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_54_a_c004",
+              "theory": "cosmology",
+              "entity_type": "state",
+              "axis": "temporal_profile",
+              "value": "sustained",
+              "polarity": "asserts",
+              "statement": "The conscious continuum is sustained across sleep/wake transitions rather than being phasic or state-bound.",
+              "passage_ids": [
+                "mius_match_54_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        },
+        "b": {
+          "claim_id": "F8a_C1",
+          "domain": "cosmology",
+          "located": true,
+          "source_file": "sources/physics/cyclic_steinhardt_turok.pdf",
+          "passage": "The second version, the Cyclic universe[1], exploited the currently observed dark energ y to solve the flatness and homogeneity puzzles, again before the big bang. This new cosmology provides a su rprisingly complete picture of cosmic history in which high energy inflation is no longer required. Instead, t he universe undergoes a periodic (and classically, eternal) sequence of big bangs and big crunches. Each b ang results in baryogenesis, dark matter formation, nucleosynthesis and galaxy formation, and ends with an epoch of low energy acceleration of the type we see today. The decay of the dark energy generates both the energy required for the next big bang, and the scale-invariant density perturbations required for struc ture formation in the next cycle.",
+          "passage_id": "mius_match_54_b_1",
+          "claims": [
+            {
+              "claim_id": "mius_match_54_b_c001",
+              "theory": "cosmology",
+              "entity_type": "process",
+              "axis": "temporal_profile",
+              "value": "cyclic_periodic",
+              "polarity": "asserts",
+              "statement": "The universe undergoes a periodic, eternally repeating sequence of big bangs and big crunches (cyclic cosmology).",
+              "passage_ids": [
+                "mius_match_54_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_54_b_c002",
+              "theory": "cosmology",
+              "entity_type": "constraint",
+              "axis": "mechanism",
+              "value": "inflation_unnecessary",
+              "polarity": "asserts",
+              "statement": "High energy inflation is not required; the flatness and homogeneity puzzles are solved by cyclic dynamics before the big bang.",
+              "passage_ids": [
+                "mius_match_54_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_54_b_c003",
+              "theory": "cosmology",
+              "entity_type": "transformation",
+              "axis": "mechanism",
+              "value": "dark_energy_decay_drives_next_cycle",
+              "polarity": "asserts",
+              "statement": "The decay of dark energy generates both the energy for the next big bang and scale-invariant density perturbations for structure formation.",
+              "passage_ids": [
+                "mius_match_54_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_54_b_c004",
+              "theory": "cosmology",
+              "entity_type": "state",
+              "axis": "none",
+              "value": "per_cycle_cosmological_sequence",
+              "polarity": "asserts",
+              "statement": "Each cycle produces baryogenesis, dark matter formation, nucleosynthesis, and galaxy formation, ending with a low-energy acceleration epoch.",
+              "passage_ids": [
+                "mius_match_54_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "match_id": "supp_match_23",
+      "role": "failure",
+      "a1_first_fail": "provenance",
+      "old_grade": null,
+      "old_decidability": null,
+      "sides": {
+        "a": {
+          "claim_id": "LV_C7",
+          "domain": "neuroscience",
+          "located": true,
+          "source_file": "sources/neuroscience/levin-bioelectric-2014.pdf",
+          "passage": "Ion transporters, such as the V-ATPase, are required for normal left -right patterning in several vertebrate models ( ), zebrafish fin regeneration ( ), and zebrafish eye development ( ). These examples illustrate that bioelectri c patterns can be necessary aspects of development because, when they are specif ically disrupted, predictable and coherent changes in morphogenesis occur. Of im portance, many of these data sets used distinct ion species (potassium, sodium, chloride, or protons) to show that the necessary parameter is indeed the voltage potential, not any one channel gene (which could have had scaffold or binding r oles) or even any one ion type (which could have had chemical, not electrical, r oles). As with the gain-of-function examples discussed later, the voltage is wha t matters for the outcome, not which ion or channel was used to set it. In addition to specifying directly the pattern of subsequent anatomy, some bioel ectric signals seem to trigger whole developmental modules.",
+          "passage_id": "mius_supp_match_23_a_1",
+          "claims": [
+            {
+              "claim_id": "mius_supp_match_23_a_c001",
+              "theory": "neuroscience",
+              "entity_type": "invariant",
+              "axis": "identity_relation",
+              "value": "voltage_potential_is_necessary_parameter",
+              "polarity": "asserts",
+              "statement": "Voltage potential, not specific ion type or channel gene, is the necessary parameter for bioelectric patterning outcomes in morphogenesis.",
+              "passage_ids": [
+                "mius_supp_match_23_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_23_a_c002",
+              "theory": "neuroscience",
+              "entity_type": "constraint",
+              "axis": "mechanism",
+              "value": "bioelectric_pattern_required_for_morphogenesis",
+              "polarity": "asserts",
+              "statement": "Bioelectric patterns are necessary aspects of development: specific disruption produces predictable, coherent changes in morphogenesis.",
+              "passage_ids": [
+                "mius_supp_match_23_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_23_a_c003",
+              "theory": "neuroscience",
+              "entity_type": "process",
+              "axis": "mechanism_scale",
+              "value": "bioelectric_trigger_of_developmental_module",
+              "polarity": "asserts",
+              "statement": "Bioelectric signals can trigger whole developmental modules, not merely specifying local anatomical pattern.",
+              "passage_ids": [
+                "mius_supp_match_23_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        },
+        "b": {
+          "claim_id": "E8_C5",
+          "domain": "vedanta",
+          "located": true,
+          "source_file": "sources/vedanta/E8_taittiriya_sbe15.txt",
+          "passage": "Because it is fed on, or because it feeds on beings, therefore it is called food (anna). Different from this, which consists of the essence of food, is the other, the inner Self, which consists of breath. The former is filled by this. It also has the shape of man. Like the human shape of the former is the human shape of the latter.",
+          "passage_id": "mius_supp_match_23_b_1",
+          "claims": [
+            {
+              "claim_id": "mius_supp_match_23_b_c001",
+              "theory": "vedanta",
+              "entity_type": "substrate",
+              "axis": "substrate_dependence",
+              "value": "substrate_independent",
+              "polarity": "asserts",
+              "statement": "The self (atman) is distinct from the physical/food body and constitutes an inner, subtler substrate underlying it.",
+              "passage_ids": [
+                "mius_supp_match_23_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_23_b_c002",
+              "theory": "vedanta",
+              "entity_type": "system",
+              "axis": "architecture",
+              "value": "nested_hierarchical_layers",
+              "polarity": "asserts",
+              "statement": "The inner Self consists of breath (prana), a subtler layer nested within the gross material body, indicating a hierarchical architecture of selves.",
+              "passage_ids": [
+                "mius_supp_match_23_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_23_b_c003",
+              "theory": "vedanta",
+              "entity_type": "invariant",
+              "axis": "identity_relation",
+              "value": "structural_form_identity_across_levels",
+              "polarity": "asserts",
+              "statement": "The breath-self fills and takes the same form as the food-body, asserting an identity of structural form across levels of selfhood.",
+              "passage_ids": [
+                "mius_supp_match_23_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_supp_match_23_b_c004",
+              "theory": "vedanta",
+              "entity_type": "constraint",
+              "axis": "locus",
+              "value": "inner_subtle_body",
+              "polarity": "asserts",
+              "statement": "Consciousness/selfhood is not reducible to the material (food) body; the locus of the self is an inner subtle body distinct from gross matter.",
+              "passage_ids": [
+                "mius_supp_match_23_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "match_id": "match_49",
+      "role": "failure",
+      "a1_first_fail": "provenance",
+      "old_grade": "partial",
+      "old_decidability": "decidable_now",
+      "sides": {
+        "a": {
+          "claim_id": "E2_C3",
+          "domain": "vedanta",
+          "located": true,
+          "source_file": "sources/vedanta/E2_brahma_sutras_shankara.txt",
+          "passage": "The full sense of the Sutra therefore is : That omniscient omnipotent cause from which proceed the origin, subsistence, and dissolu¬ tion of this world-which world is differentiated by names and forms, contains many agents and enjoyers, is the abode of the fruits of actions, these fruits having their definite places, times, and causes 1 , and the nature of whose arrange¬ ment cannot even be conceived by the mind,-that cause, we say, is Brahman. Since the other forms of existence (such as increase, decline, &c.) are included in origination, subsistence, and dissolution, only the three latter are referred to in the Sutra, As the six stages of existence enumerated by Yaska 2 are possible only during the period of the world's subsistence, it might-were they referred to in the Sutra-be suspected that what is meant are not the origin, subsistence, and dissolution (of the world) as dependent on the first cause. To preclude this suspicion the Sutra is to be taken as referring, in addition to the world's origination from Brahman, only to its subsistence in Brahman, and final dissolution into Brahman. The origin, &c. of a world possessing the attributes stated above cannot possibly proceed from anything else but a Lord possessing the stated qualities ; not either from a non-intelligent pradhana 3 , or from atoms, or from non- 1 So the compound is to be divided according to An. Gi. and Go.; the BhL proposes another less plausible division.",
+          "passage_id": "mius_match_49_a_1",
+          "claims": [
+            {
+              "claim_id": "mius_match_49_a_c001",
+              "theory": "vedanta",
+              "entity_type": "invariant",
+              "axis": "fundamentality",
+              "value": "fundamental_proto_experiential",
+              "polarity": "asserts",
+              "statement": "Brahman is the omniscient, omnipotent cause from which proceed the origin, subsistence, and dissolution of the world; Brahman IS the ultimate ground of all existence.",
+              "passage_ids": [
+                "mius_match_49_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_49_a_c002",
+              "theory": "vedanta",
+              "entity_type": "constraint",
+              "axis": "substrate_dependence",
+              "value": "substrate_dependent",
+              "polarity": "asserts",
+              "statement": "The world's origin, subsistence, and dissolution cannot proceed from a non-intelligent cause (pradhana, atoms, or non-being); consciousness/intelligence is the necessary substrate.",
+              "passage_ids": [
+                "mius_match_49_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_49_a_c003",
+              "theory": "vedanta",
+              "entity_type": "system",
+              "axis": "architecture",
+              "value": "non_decomposable_unified_ground",
+              "polarity": "asserts",
+              "statement": "The differentiated world of names, forms, agents, and enjoyers subsists in and dissolves back into Brahman, which is the single underlying system.",
+              "passage_ids": [
+                "mius_match_49_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_49_a_c004",
+              "theory": "vedanta",
+              "entity_type": "boundary",
+              "axis": "observable_commitment",
+              "value": "trans_cognitive_non_observable",
+              "polarity": "asserts",
+              "statement": "The arrangement of the world (names, forms, agents, enjoyers, fruits of action) cannot even be conceived by the mind, pointing to a trans-cognitive locus of ultimate reality.",
+              "passage_ids": [
+                "mius_match_49_a_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        },
+        "b": {
+          "claim_id": "F8a_C1",
+          "domain": "cosmology",
+          "located": true,
+          "source_file": "sources/physics/cyclic_steinhardt_turok.pdf",
+          "passage": "The second version, the Cyclic universe[1], exploited the currently observed dark energ y to solve the flatness and homogeneity puzzles, again before the big bang. This new cosmology provides a su rprisingly complete picture of cosmic history in which high energy inflation is no longer required. Instead, t he universe undergoes a periodic (and classically, eternal) sequence of big bangs and big crunches. Each b ang results in baryogenesis, dark matter formation, nucleosynthesis and galaxy formation, and ends with an epoch of low energy acceleration of the type we see today. The decay of the dark energy generates both the energy required for the next big bang, and the scale-invariant density perturbations required for struc ture formation in the next cycle.",
+          "passage_id": "mius_match_49_b_1",
+          "claims": [
+            {
+              "claim_id": "mius_match_49_b_c001",
+              "theory": "cosmology",
+              "entity_type": "process",
+              "axis": "mechanism",
+              "value": "cyclic_bang_crunch_sequence",
+              "polarity": "asserts",
+              "statement": "The universe undergoes a periodic, classically eternal sequence of big bangs and big crunches, replacing high-energy inflation.",
+              "passage_ids": [
+                "mius_match_49_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_49_b_c002",
+              "theory": "cosmology",
+              "entity_type": "transformation",
+              "axis": "mechanism",
+              "value": "dark_energy_decay_drives_next_cycle",
+              "polarity": "asserts",
+              "statement": "The decay of dark energy generates the energy required for the next big bang and the scale-invariant density perturbations for structure formation.",
+              "passage_ids": [
+                "mius_match_49_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_49_b_c003",
+              "theory": "cosmology",
+              "entity_type": "constraint",
+              "axis": "mechanism",
+              "value": "inflation_unnecessary",
+              "polarity": "asserts",
+              "statement": "High-energy inflation is not required; flatness and homogeneity puzzles are solved by cyclic dynamics before the big bang.",
+              "passage_ids": [
+                "mius_match_49_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            },
+            {
+              "claim_id": "mius_match_49_b_c004",
+              "theory": "cosmology",
+              "entity_type": "state",
+              "axis": "temporal_profile",
+              "value": "recurrent_cosmological_epochs",
+              "polarity": "asserts",
+              "statement": "Each cycle produces baryogenesis, dark matter formation, nucleosynthesis, and galaxy formation, ending in low-energy acceleration.",
+              "passage_ids": [
+                "mius_match_49_b_1"
+              ],
+              "extractor_model": "claude-sonnet-4-6",
+              "agreement": false,
+              "status": "draft"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

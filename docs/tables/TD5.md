@@ -1,0 +1,10 @@
+# TD5 — registry metrics
+
+| metric_id | value | 95% CI | n | instrument | corpus | prereg | pilot | caveats |
+|---|---|---|---|---|---|---|---|---|
+| `r1.key_null_p_cogitate` | 0.075 |  | 1000 | v2 | v1 | Y | N | KR1 COGITATE key-recovery EMPIRICAL permutation p: fraction of 1000 random typed-row keys that recover ≥ the real 2/3 = 0.075. Same null as r1.key_null_z_cogitate (recovered-count distribution, μ=0.531 σ=0.647). p and z come from the SAME null; the normal-approx z=2.27 OVERSTATES significance because the null is discrete (recovered∈{0,1,2,3}) and right-skewed — the empirical p=0.075 is the honest figure and does NOT reach α=0.05 (suggestive only). |
+| `r1.key_null_z_cogitate` | 2.269 |  | 1000 | v2 | v1 | Y | N | KR1 COGITATE key-recovery null: real recovered 2/3 vs 1000 random 3-row keys (axes sampled from the 12-axis vocab, value-families from per-theory corpus marginals), diffed against the Anu-approved instrument-v2 IIT×GNWT forks. null recovered μ=0.531 σ=0.647; empirical p(≥2)=0.075. Recovered+partial: real 2, null μ=0.769, z=1.62816017456199, p=0.155. The chance rate that makes the 2/3 recovery interpretable.; KR2 INTREPID recovery is qualitative (register-verification) → row-recovery null N/A; KR3/KR4/KR5 nulls await their held-out PDFs (machinery identical). |
+| `r1.null_z_corr_count_s1` | 2.271 |  | 1000 | frozen-store | v1 | Y | N | real 221 vs s1 null (μ=206.19, σ=6.52, p(≥real)=0.001); ported judge, node-only (count edge-independent) |
+| `r1.null_z_corr_count_s1_uniform` | 4.426 |  | 1000 | frozen-store | v1 | Y | N | real 221 vs s1_uniform null (μ=114.88, σ=23.98, p(≥real)=0.002); ported judge, node-only (count edge-independent) |
+| `r1.null_z_corr_count_s2` | -2.241 |  | 1000 | frozen-store | v1 | Y | N | real 221 vs s2 null (μ=224.19, σ=1.43, p(≥real)=0.99101); ported judge, node-only (count edge-independent) |
+| `r1.null_z_corr_count_s3` | -0.016 |  | 1000 | frozen-store | v1 | Y | N | real 221 vs s3 null (μ=221.16, σ=9.92, p(≥real)=0.55844); ported judge, node-only (count edge-independent) |

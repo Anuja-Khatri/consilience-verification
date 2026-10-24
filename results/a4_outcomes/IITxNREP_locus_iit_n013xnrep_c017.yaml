@@ -1,0 +1,41 @@
+fork_id: IIT×NREP:locus:iit_n013xnrep_c017
+axis: locus
+pair: IIT × NREP
+sides:
+  left:
+    theory: IIT
+    value: intrinsic_not_broadcast
+    polarity: asserts
+  right:
+    theory: NREP
+    value: distributed_multi_region
+    polarity: asserts
+observable: Spatial-temporal pattern of neural activity correlated with conscious
+  report, specifically whether conscious content is localized to a single region with
+  high intrinsic integration or distributed across multiple regions without a single
+  locus of integration.
+outcome_space:
+- pattern: Conscious content is consistently associated with high integration within
+    a single neural region, with minimal distributed activation across other regions.
+  favors: IIT
+- pattern: Conscious content is consistently associated with simultaneous, distributed
+    activation across multiple neural regions, with no single region showing dominant
+    integration.
+  favors: NREP
+- pattern: Conscious content is associated with both a highly integrated region and
+    distributed multi-region activation, or neither pattern is consistently observed.
+  favors: neither
+favors:
+  ? Conscious content is consistently associated with high integration within a single
+    neural region, with minimal distributed activation across other regions.
+  : IIT
+  ? Conscious content is consistently associated with simultaneous, distributed activation
+    across multiple neural regions, with no single region showing dominant integration.
+  : NREP
+  ? Conscious content is associated with both a highly integrated region and distributed
+    multi-region activation, or neither pattern is consistently observed.
+  : neither
+vacuous: false
+vacuity_rationale: The two values make empirically distinct claims about the spatial
+  organization of neural correlates of consciousness, allowing for discriminating
+  measurement patterns.

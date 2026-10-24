@@ -1,0 +1,17 @@
+{
+  "model": "gemini-3.1-pro-preview",
+  "model_versions": [
+    "gemini-3.1-pro-preview"
+  ],
+  "typing_coverage": "95/95",
+  "grade_coverage": "60/60",
+  "cross_vendor_kappa": {
+    "panel_entity_kappa": 0.525,
+    "panel_axis_kappa": 0.503,
+    "panel_polarity_pabak": 0.811
+  },
+  "modal_vs_judge": 0.485,
+  "gpt_vs_judge": 0.317,
+  "gemini_tried": 156,
+  "gemini_got": 156
+}

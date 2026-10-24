@@ -1,0 +1,123 @@
+{
+  "bench_tag": "v0.1+a2-posthoc",
+  "n_items": 13,
+  "reference": {
+    "strict_positive": 0,
+    "weak_positive(generative)": 10,
+    "with_weak_positive": 10,
+    "negative(fork/none)": 3
+  },
+  "note": "post-hoc supplement over A2 pairs with approved claims both sides; NEVER merged into v0.1. 0 strict positives → with-weak reference used; N tiny.",
+  "auroc_with_weak": {
+    "mpnet": 0.7,
+    "typed": 0.5667,
+    "tfidf": 0.8,
+    "judge": 1.0
+  },
+  "items": [
+    {
+      "match_id": "supp_match_02",
+      "new_grade": "generative",
+      "ref": 1,
+      "mpnet": 0.2963,
+      "typed": 0.348,
+      "tfidf": 0.1005
+    },
+    {
+      "match_id": "match_19",
+      "new_grade": "generative",
+      "ref": 1,
+      "mpnet": 0.7484,
+      "typed": 0.6399,
+      "tfidf": 0.2296
+    },
+    {
+      "match_id": "supp_match_14",
+      "new_grade": "generative",
+      "ref": 1,
+      "mpnet": 0.3642,
+      "typed": 0.2303,
+      "tfidf": 0.0802
+    },
+    {
+      "match_id": "ed_match_01",
+      "new_grade": "generative",
+      "ref": 1,
+      "mpnet": 0.1133,
+      "typed": 0.2299,
+      "tfidf": 0.0678
+    },
+    {
+      "match_id": "ed_match_06",
+      "new_grade": "fork",
+      "ref": 0,
+      "mpnet": 0.1703,
+      "typed": 0.5337,
+      "tfidf": 0.0103
+    },
+    {
+      "match_id": "supp_match_03",
+      "new_grade": "generative",
+      "ref": 1,
+      "mpnet": 0.4469,
+      "typed": 0.19,
+      "tfidf": 0.0468
+    },
+    {
+      "match_id": "match_04",
+      "new_grade": "generative",
+      "ref": 1,
+      "mpnet": 0.5916,
+      "typed": 0.725,
+      "tfidf": 0.1153
+    },
+    {
+      "match_id": "match_45",
+      "new_grade": "generative",
+      "ref": 1,
+      "mpnet": 0.4391,
+      "typed": 1.0,
+      "tfidf": 0.1616
+    },
+    {
+      "match_id": "match_08",
+      "new_grade": "generative",
+      "ref": 1,
+      "mpnet": 0.5198,
+      "typed": 0.1562,
+      "tfidf": 0.149
+    },
+    {
+      "match_id": "supp_match_22",
+      "new_grade": "generative",
+      "ref": 1,
+      "mpnet": 0.0599,
+      "typed": 0.4403,
+      "tfidf": 0.0127
+    },
+    {
+      "match_id": "match_54",
+      "new_grade": "fork",
+      "ref": 0,
+      "mpnet": 0.2596,
+      "typed": 0.242,
+      "tfidf": 0.0416
+    },
+    {
+      "match_id": "supp_match_23",
+      "new_grade": "generative",
+      "ref": 1,
+      "mpnet": 0.119,
+      "typed": 0.2509,
+      "tfidf": 0.0394
+    },
+    {
+      "match_id": "match_49",
+      "new_grade": "none",
+      "ref": 0,
+      "mpnet": 0.2039,
+      "typed": 0.2074,
+      "tfidf": 0.069
+    }
+  ]
+}

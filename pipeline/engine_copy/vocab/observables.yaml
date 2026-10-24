@@ -1,0 +1,12 @@
+# demo_v0 observable spaces + scale levels. DEMO-SCOPED — not ontology v1.
+# scale must match across two theories for a fork to be `now`-decidable (D5).
+version: demo_v0
+observables:
+  - {id: regional_decoding,        scale: brain_network}
+  - {id: temporal_generalization,  scale: brain_network}
+  - {id: connectivity_metrics,     scale: brain_network}
+  - {id: ignition_signature,       scale: brain_network}
+  - {id: molecular_spectroscopy,   scale: molecular}
+  - {id: anesthetic_molecular_assay, scale: molecular}
+  - {id: behavioral_report,        scale: behavioral}
+  - {id: none,                     scale: "n/a"}

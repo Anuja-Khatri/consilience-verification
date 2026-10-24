@@ -1,0 +1,82 @@
+{
+  "task": "KR4",
+  "runid": "KR4-1",
+  "instrument_tag": "v2",
+  "corpus_tag": "v2b",
+  "engine_fingerprint": "09b90e8d4d07e1c1349c2054ffc7bbd6847e6e481a1f438d5998e8f5dcb27057",
+  "artifact_stamp": "2026-10",
+  "config_snapshot": {
+    "models": {
+      "extractor": "claude-sonnet-4-6",
+      "checker": "claude-haiku-4-5-20251001",
+      "perturber": "claude-sonnet-4-6",
+      "verifier": "gpt-4.1",
+      "panel": [
+        "gpt-4.1",
+        "gemini-pro-latest",
+        "qwen2.5-72b-instruct"
+      ],
+      "game_agent": "claude-sonnet-4-6",
+      "transcriber": "claude-sonnet-4-6"
+    },
+    "seeds": {
+      "global": 20261022,
+      "extraction_runs": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "gwot_restarts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "thresholds_ngram": {
+      "n_chars": 8,
+      "minhash_perm": 128,
+      "jaccard_flag": 0.5,
+      "mode": "word_unique",
+      "word_n_guard": 8,
+      "word_n_prov": 10,
+      "benign_set": "miu",
+      "amended_by": "D-034"
+    }
+  },
+  "inputs": [
+    {
+      "path": "corpora/keysrc/buckley_homologies_1.pdf (held-out key, quarantine)",
+      "kind": "key",
+      "sha256": null
+    },
+    {
+      "path": "corpora/keysrc/buckley_homologies_2.pdf (held-out key, quarantine)",
+      "kind": "key",
+      "sha256": null
+    }
+  ],
+  "outputs": [
+    {
+      "path": "keys/buckley_key.json",
+      "sha256": "a1b5945d567e64fdf57e67db8c668a026f76f264b1b1a0a51332e6b12ec8093d",
+      "kind": "file"
+    },
+    {
+      "path": "review/kr4_buckley.csv",
+      "sha256": "a3af31b5ac7930e5c0d2c197ee7e9b140782f32d9f56897742e589d940c4764e",
+      "kind": "file"
+    }
+  ],
+  "seeds": {},
+  "model_provenance": [],
+  "notes": "KR4 homology key build (12 rows); recovery diff deferred to post-TD1b-approval."
+}

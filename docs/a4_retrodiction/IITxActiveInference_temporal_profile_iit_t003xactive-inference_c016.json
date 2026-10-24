@@ -1,0 +1,45 @@
+{
+  "fork_id": "IIT×ActiveInference:temporal_profile:iit_t003xactive-inference_c016",
+  "axis": "temporal_profile",
+  "pair": "IIT × Active Inference",
+  "side_resolution": {
+    "left": {
+      "theory": "IIT",
+      "value": "sustained_maintenance"
+    },
+    "right": {
+      "theory": "Active Inference",
+      "value": "prospective_counterfactual"
+    }
+  },
+  "supporting": [
+    {
+      "ref": "koch2016",
+      "cite": "Koch, Massimini, Boly & Tononi (2016). Neural correlates of consciousness: progress and problems. Nature Reviews Neuroscience 17(5):307–321.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27094080/",
+      "line": "Best anatomical candidates for content-specific correlates sit in a posterior temporo-parietal-occipital zone, not the fronto-parietal task network."
+    },
+    {
+      "ref": "boly2017",
+      "cite": "Boly, Massimini, Tsuchiya, Postle, Koch & Tononi (2017). Are the Neural Correlates of Consciousness in the Front or in the Back of the Cerebral Cortex? J Neurosci 37(40):9603–9613.",
+      "url": "https://www.jneurosci.org/content/37/40/9603",
+      "line": "Clinical and neuroimaging evidence marshalled for a posterior locus of the correlates of conscious content."
+    }
+  ],
+  "challenging": [
+    {
+      "ref": "kiebel2008",
+      "cite": "Kiebel, Daunizeau & Friston (2008). A Hierarchy of Time-Scales and the Brain. PLoS Computational Biology 4(11):e1000209.",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000209",
+      "line": "Higher cortical levels encode slower-changing states; a separation of timescales across the hierarchy."
+    },
+    {
+      "ref": "friston2009",
+      "cite": "Friston & Kiebel (2009). Predictive coding under the free-energy principle. Phil. Trans. R. Soc. B 364:1211–1221.",
+      "url": "https://www.fil.ion.ucl.ac.uk/~karl/Predictive%20coding%20under%20the%20free-energy%20principle.pdf",
+      "line": "Message-passing / precision-weighting formulation of cortical inference under the free-energy principle."
+    }
+  ],
+  "grade": "mixed",
+  "note": "Grade on the typed side-resolution; NOT on the held-out review."
+}

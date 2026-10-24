@@ -1,0 +1,141 @@
+{
+  "fork_id": "iitxgnwt:observable_commitment:iit_t001xgnwt_c022",
+  "axis": "observable_commitment",
+  "pair": "iitxgnwt",
+  "beyond_key": true,
+  "sides": {
+    "left": {
+      "theory": "IIT",
+      "value": "perturbational_complexity_index",
+      "polarity": "asserts",
+      "claim_ids": [
+        "iit_t001"
+      ],
+      "quotes": [
+        "IIT predicts that loss and recovery of consciousness is associated with breakdown and recovery of information integration capacity, measurable via the perturbational complexity index (PCI)…"
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "value grounded in cited passage"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "GNWT",
+      "value": "neural_correlates_of_conscious_access",
+      "polarity": "asserts",
+      "claim_ids": [
+        "gnwt_c022"
+      ],
+      "quotes": [
+        "Conscious access is observable as a distinct, measurable set of neural signatures (P3b, gamma amplification, long-distance phase synchrony, top-down causal flow), providing neural correlates that…"
+      ],
+      "provenance_check": {
+        "status": "FAIL",
+        "detail": "claim not grounded in cited passages"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [
+      {
+        "passage_id": "iit_4_0_0038",
+        "score": 2.667,
+        "excerpt": "for in full by the physical properties of the Φ-structure unfolded from a maximal substrate (a complex) in its current state, with no further or “ad hoc” ingredients. That is,…"
+      },
+      {
+        "passage_id": "iit_4_0_0229",
+        "score": 2.333,
+        "excerpt": "The physical correspondent of an experience is not the substrate as such but the Φ-structure specified by the substrate in its current state. Therefore, minor changes in the substrate state…"
+      },
+      {
+        "passage_id": "iit_3_0_0082",
+        "score": 1.833,
+        "excerpt": "– A has selective causes within the system (ciw0), but not the future states of the system – A has no selective effects on the system (ei~0, what A does…"
+      },
+      {
+        "passage_id": "iit_3_0_0083",
+        "score": 1.833,
+        "excerpt": "In this case, the state of element A constrains the future states of the system – A has selective effects on the system (eiw0), but not the past states of…"
+      },
+      {
+        "passage_id": "iit_3_0_0226",
+        "score": 1.833,
+        "excerpt": "Moreover, discrete, analytically tractable brain models based on neuroanatomical connectivity such as [68] could provide a suitable approximation of large-scale neural mechanisms yet permit the rigorous measurement of integrated information.…"
+      },
+      {
+        "passage_id": "iit_nrn_2016_0056",
+        "score": 1.833,
+        "excerpt": "Crucially, if the evidence thus obtained indicates that the PSC does not correspond to a maximum of intrinsic cause–effect power, IIT would be invalidated. A related prediction is with the…"
+      },
+      {
+        "passage_id": "iit_4_0_0101",
+        "score": 1.667,
+        "excerpt": "This is the case if and only if peð\u0016s j sÞ ¼ peð\u0016sÞ for every \u0016s [14] (and likewise, it can be shown that iicðT c; sÞ ¼ 0 if…"
+      },
+      {
+        "passage_id": "iit_4_0_0230",
+        "score": 1.333,
+        "excerpt": "Each experience corresponds to a Φ-structure, not a set of functions, processes, or computa- tions. Said otherwise, consciousness is about being, not doing [1, 29, 55]. This means that systems…"
+      },
+      {
+        "passage_id": "iit_4_0_0014",
+        "score": 1.167,
+        "excerpt": "Accordingly, all the specific phenomenal properties of any experience must have a good explanation in terms of the specific physical properties of the corresponding cause–effect structure, with no addi- tional…"
+      },
+      {
+        "passage_id": "iit_3_0_0081",
+        "score": 1.0,
+        "excerpt": "The constrained distribution of future states is A’s effect repertoire (right). Cause information (ci) is quantified by measuring the distance D between the cause repertoire and the unconstrained past repertoire…"
+      }
+    ],
+    "right": [
+      {
+        "passage_id": "gnwt_neuron_2020_0111",
+        "score": 1.5,
+        "excerpt": "Disorders of Consciousness following Brain Lesions—Pathologic states associated with unconsciousness or reduced conscious processing also reveal implications for the GNW theory. First, it has long been recognized that there can…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0086",
+        "score": 1.0,
+        "excerpt": "This measure has been shown to be operative for some conscious/nonconscious distinctions such as anesthesia (e.g., Lee et al., 2009b; Schrouff et al., 2011), but it is computationally complicated and,…"
+      }
+    ]
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "now",
+    "rationale": "shared observable(s) ['connectivity_metrics', 'ignition_signature', 'regional_decoding', 'temporal_generalization'] at equal scale (brain_network)",
+    "citation_rows": [
+      {
+        "tag": "Complexity",
+        "n": 51
+      },
+      {
+        "tag": "Variability",
+        "n": 9
+      },
+      {
+        "tag": "PHI Approximation",
+        "n": 7
+      },
+      {
+        "tag": "Criticality",
+        "n": 1
+      }
+    ],
+    "evidence_verdict": "CONTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed)"
+  },
+  "status": "clean",
+  "correction_note": null
+}

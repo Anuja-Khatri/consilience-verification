@@ -1,0 +1,179 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=black,citecolor=black]{hyperref}
+
+\title{A deterministic, auditable engine for cross-theory claim comparison:\\
+cross-field discovery with built-in verification\thanks{Numbers locked to registry snapshot
+\texttt{e9c877812c8c6897\ldots} (2026-10), instrument v2 / corpus v1. Every figure renders from that one
+snapshot; the locked registry and verification scripts accompany the public code release.}}
+
+\author{Anuja Khatri\\[2pt]\small Independent Researcher}
+\date{2026-10}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+I present a deterministic, typed engine that compares scientific claims across theories: each claim is
+reduced to typed fields (entity\_type, axis, polarity, value) and a fixed rule-based judge assigns a
+correspondence grade or a fork. The judge is reproducible, provable and auditable. I re-express it as a
+logic program (verdict equivalence \textbf{1.0}, $n = 213$ pairs), as a first-order theory under an SMT
+solver (congruence \textbf{1.0}, $n = 311$ verdicts), with machine-checked proof objects (coverage
+\textbf{0.9842}, $n = 316$) and \textbf{0} integrity violations ($n = 316$). On the discovery side the
+engine recovers the COGITATE adversarial-collaboration key at \textbf{2 of 3} predictions (revised;
+$n = 3$; not significant against a 1000-key permutation null, $p = 0.075$). The eLife synergistic-workspace
+key recovery is below chance: \textbf{0 exact / 6 partial of 14} validated rows, empirical $p = 0.981$
+($n = 1000$; random keys recover more). The method's limits are first-class results: both key recoveries
+are reported with their chance rates, single-pass extraction carries a measured noise floor, and the
+extraction front-end under-propagates negation.
+\end{abstract}
+
+\section{Introduction}
+Comparing scientific claims across competing theories is usually done by hand and by argument. This paper
+presents a deterministic engine that does it mechanically and auditably. Each claim is reduced to a small
+typed record (entity type, axis, polarity, value), and a fixed rule-based judge compares two claims from
+the typed fields alone, returning a correspondence grade or a fork. Because the judge is a function of
+typed fields, every comparison is reproducible, and the judge can be re-expressed as a logic program, as a
+first-order theory under an SMT solver \cite{z3}, and as machine-checked proof objects. This division of
+labour, in which a language model proposes typed candidates and a sound external program disposes, follows
+the LLM-Modulo pattern of pairing a generator with verifiers it cannot talk its way past
+\cite{kambhampati2024}.
+
+I exercise the engine on a frozen corpus of six theories of consciousness, with bridge extensions that link
+active inference \cite{buckley2017} to machine learning (control as probabilistic inference
+\cite{levine2018}; predictive coding as an approximation to backpropagation \cite{millidge2022}) and that
+span integrated information theory in its current formulation \cite{albantakis2023}; nothing in the method
+is specific to that domain. I report two kinds of result. On the discovery side, the engine re-adjudicates
+a founding cross-field correspondence record and attempts to recover two held-out, published answer keys,
+the COGITATE adversarial collaboration \cite{cogitate2025} and the eLife synergistic-workspace bridge
+\cite{luppi2024}, each scored against an explicit permutation chance rate. On the verification side, the
+judge's decisions are a transparent, checkable function of the typed fields, and a preregistered
+statement-level perturbation suite measures how the extraction front-end behaves under meaning-preserving
+and meaning-flipping edits. Throughout, I report the method's limits as first-class results rather than
+hiding them: discovery claims carry their chance rates, including an honest below-chance negative;
+single-pass extraction carries a measured noise floor; and the extraction front-end's under-propagation of
+negation is stated plainly. All figures render from a single numbers-locked registry snapshot.
+
+\section{Discovery}
+
+\subsection{Cross-field re-adjudication}
+Re-running a founding physics$\times$neuroscience$\times$contemplative correspondence corpus through the
+frozen instrument (v2) and the deterministic judge: of the pairs carrying a recorded prior tier ($n = 7$),
+the new grade agrees with the prior at \textbf{0.1429} (1/7, $n = 7$) and downgrades or withdraws at
+\textbf{0.8571} (6/7, $n = 7$). Most originally-asserted cross-field correspondences do not survive
+re-typing under a fixed codebook; I report this as the method's discipline, not a headline.
+
+\subsection{Unification index}
+Ranking persisted node correspondences by a preregistered score (forks-touched $+$ support-cone $+$
+axis-reach, weights 1/1/1): Kendall's $\tau$ \cite{kendall1938} rank stability across the weight simplex is
+\textbf{0.7165} ($n = 216$ correspondences), moderately weight-sensitive and reported honestly; the
+generative grade dominates and is flagged.
+
+\subsection{Held-out key recoveries, with chance rates}
+Against the held-out adversarial-collaboration key \cite{cogitate2025}, preregistered in advance
+\cite{cogitate_prereg}, the v2 instrument recovers \textbf{2 of 3} predictions (revised gated result
+\{2,0,1,9\}; $n = 3$). Outcome-informed disclosure (verbatim): ``iit\_c009 was initially rejected at the
+gate; after a sensitivity check showed it was the sole binding claim for P3, it was re-reviewed and
+approved on codebook-consistency grounds (matching approved canonical iit\_c025). Original gated result
+\{1,0,2,9\} and revised \{2,0,1,9\} are both reported; fully ungated sensitivity \{2,0,1,16\}.'' The
+remaining miss (P2, temporal\_profile) is attributed to the instrument: no IIT temporal\_profile claim was
+ever extracted (not a gate effect). Chance rate: 1000 random typed-row keys recover $\ge$ the real 2/3 with
+empirical permutation \textbf{$p = 0.075$} ($n = 1000$) beside a normal-approx $z = 2.2693$, from the same
+recovered-count null; the discrete, right-skewed null makes the $z$ overstate significance, so
+\textbf{$p = 0.075$} ($n = 1000$) governs: it does not reach $\alpha = 0.05$ and is suggestive only. The
+engine never ingested the key text (holdout clean).
+
+Of \textbf{14 validated bridge rows} \cite{luppi2024} the engine's IIT$\times$GNWT fork/correspondence set
+recovers \textbf{0 exact} and \textbf{6 partial} ($n = 14$), misses 8, with \textbf{0} rows unmappable to
+any engine axis ($n = 14$; the one vocabulary-gap row in the provisional 16-row build was among the 2
+dropped at the format gate as methods, so the validated denominator of 14 carries 0 unmappable). Chance
+rate (honest negative): the 6-partial recovery does not beat chance. 1000 random typed-row keys recover
+more (null mean 9.2), empirical \textbf{$p = 0.981$} ($n = 1000$), below the null. I report it as found: on
+the engine's IIT$\times$GNWT set the eLife bridge's partial recovery is at or below chance.
+
+\section{Verification}
+
+\subsection{Audit method}
+A rule-based criterion audit (provenance, quote-support, Newman screen, testability, scale): discovery
+survivorship \textbf{1 of 9} ($n = 9$) and sampled-match survivorship \textbf{2 of 30} ($n = 30$); strict,
+since most prior discoveries fail at least one criterion.
+
+\subsection{Instrument}
+Adopted decoding is \texttt{baseline-single-pass}. One stability estimator is used throughout: the sprint
+estimator \textbf{0.25} (95\% CI [0.1713, 0.3496], $n = 88$), a measured noise floor every downstream
+contrast is scored against. (The prior Task-5 estimator on the same 80 runs is 0.271, a coarser cluster
+unit, reported only for comparison.)
+
+\subsection{The verified judge}
+Verdict equivalence \textbf{1.0} ($n = 213$); SMT congruence \textbf{1.0} ($n = 311$), discharged by the Z3
+solver \cite{z3}; proof coverage \textbf{0.9842} ($n = 316$), with derivations machine-checked in the
+spirit of formalised-mathematics libraries \cite{mathlib}; \textbf{0} integrity violations ($n = 316$).
+
+\subsection{Statement-level contracts: the negation headline}
+An OSF-preregistered perturbation suite (DOI
+\href{https://doi.org/10.17605/OSF.IO/5N24M}{10.17605/OSF.IO/5N24M}) with a re-extraction noise-floor
+control. Polarity caveat: the claim store is near single-class on polarity (92 asserts / 3 denies), so the
+identity-control polarity stability \textbf{0.975} ($n = 40$) and the panel polarity agreement reported
+below largely reflect the extractor's default rather than demonstrated polarity reading, which is why the
+negation figure is the informative one. Explicit negation flips polarity only \textbf{0.1765} of the time
+($n = 34$ valid); double negation restores to asserts \textbf{0.0} ($n = 8$ valid, low-$n$, since the
+perturber mostly fails to negate twice); L2 verdict tracking \textbf{0.4189} ($n = 74$). The deterministic
+judge is correct given fields; the extraction front-end under-propagates negation. A single-reviewer
+hand-check agrees with the automated verifier at \textbf{0.893} ($n = 28$).
+
+\subsection{Obfuscation control}
+Obfuscating surface vocabulary leaves fork recovery essentially unchanged (gap \textbf{0.072}, $n = 14$),
+but the extractor re-identifies the theories and emits their coined terms (\textbf{12} de-obfuscation
+leaks, $n = 14$): surface obfuscation does not reduce fork recovery and does not blind the model to theory
+identity.
+
+\subsection{Reliability framing}
+A two-vendor panel (gpt-4.1 $\times$ gemini-3.1-pro-preview, full coverage) measures protocol
+reproducibility, not validity: cross-vendor entity $\kappa$ \cite{cohen1960} \textbf{0.525} ($n = 95$),
+axis $\kappa$ \textbf{0.503} ($n = 95$), polarity PABAK \cite{byrt1993} \textbf{0.811} ($n = 95$); the
+polarity PABAK carries the single-class caveat noted for the negation headline above. Standing
+self-consistency is the adopted stability \textbf{0.25} (sprint estimator, 95\% CI [0.1713, 0.3496],
+$n = 88$); the prior Task-5 estimator on the same runs is 0.271.
+
+\section{Limitations}
+These limitations import the pre-sprint evaluation's, which that report records and this paper supersedes
+under the lock.
+
+The engine's six theories are all theories of consciousness, so results may not transfer to other fields;
+cross-field reach rests on the re-adjudication record and the corpus extensions, not the core. The
+reference labels were produced by the builder: the judge-after-audit reference reflects one builder's
+choices, and a second, independent annotator is planned but not yet run, so human agreement, the ceiling
+against which model agreement is read, is not yet available. In production a smaller same-family model
+cross-checks the main extractor; the gpt-4.1 $\times$ gemini-3.1-pro-preview panel is an evaluation add-on,
+not part of the production pipeline, and it measures reproducibility rather than validity. The corpus is
+small (95 approved claims, six theories); the deeper arms, embedding alignment, unsupervised optimal
+transport via Gromov-Wasserstein couplings \cite{memoli2011}, and partial-information decomposition of the
+verdict \cite{williams_beer2010}, are pilot-scale feasibility studies in a planned second paper.
+
+Single-pass extraction carries a measured noise floor (stability \textbf{0.25}, $n = 88$); every
+invariance and tracking number is reported relative to the identity control, and negation tracking is
+itself a measured limitation. The store is near single-class on polarity (92 asserts / 3 denies), so
+polarity-stability figures reflect the extractor's default rather than demonstrated polarity reading.
+Holdout controls the prompt, not the training data: held-out keys never entered extraction or judging
+prompts (measured clean), but they may sit in a model's pretraining, and the obfuscation control is the
+measured response, which shows that identity is not blinded. Several review packets were judged at the
+statement level or from truncated excerpts, without full fork-side source text, so those arms are reported
+as ``no fork flagged by the scan'', not as validation of the forks. Decisions were model-drafted
+suggestions (Claude) reviewed and confirmed by the author. Finally, the open-weight panel leg is not run (no
+hosted-open-weight key), so the panel is two-vendor, stated here as a limitation.
+
+\section{Conclusion}
+The engine turns cross-theory claim comparison into a reproducible, auditable computation: a typed
+intermediate representation, a deterministic judge, and three independent re-expressions of that judge that
+agree exactly. Its discovery claims are modest by construction: most prior cross-field correspondences do
+not survive re-typing, one held-out key is recovered only suggestively, and the other is recovered below
+chance. I report them that way. The verification lane, not the discovery headline, is the contribution I
+stand behind: a claim-comparison verdict that is a checkable function of its inputs.
+
+\bibliographystyle{plain}
+\bibliography{refs}
+
+\end{document}

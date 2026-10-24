@@ -1,0 +1,149 @@
+{
+  "n": 17,
+  "n_survivors": 2,
+  "n_failures_selected": 15,
+  "stratification": {
+    "scale-mismatch": 3,
+    "relation-not-in-quote": 6,
+    "provenance": 19
+  },
+  "seed": 20261022,
+  "pairs": [
+    {
+      "match_id": "ed_match_18",
+      "a1_verdict": "PASS",
+      "a1_first_fail": null,
+      "old_grade": null,
+      "old_decidability": null,
+      "role": "survivor"
+    },
+    {
+      "match_id": "supp_match_02",
+      "a1_verdict": "PASS",
+      "a1_first_fail": null,
+      "old_grade": null,
+      "old_decidability": null,
+      "role": "survivor"
+    },
+    {
+      "match_id": "ed_match_17",
+      "a1_verdict": "FAIL",
+      "a1_first_fail": "provenance",
+      "old_grade": null,
+      "old_decidability": null,
+      "role": "failure"
+    },
+    {
+      "match_id": "match_14",
+      "a1_verdict": "FAIL",
+      "a1_first_fail": "provenance",
+      "old_grade": "generative",
+      "old_decidability": "conditional",
+      "role": "failure"
+    },
+    {
+      "match_id": "match_19",
+      "a1_verdict": "FAIL",
+      "a1_first_fail": "relation-not-in-quote",
+      "old_grade": "partial",
+      "old_decidability": "beyond",
+      "role": "failure"
+    },
+    {
+      "match_id": "supp_match_14",
+      "a1_verdict": "FAIL",
+      "a1_first_fail": "relation-not-in-quote",
+      "old_grade": null,
+      "old_decidability": null,
+      "role": "failure"
+    },
+    {
+      "match_id": "ed_match_01",
+      "a1_verdict": "FAIL",
+      "a1_first_fail": "scale-mismatch",
+      "old_grade": null,
+      "old_decidability": null,
+      "role": "failure"
+    },
+    {
+      "match_id": "ed_match_06",
+      "a1_verdict": "FAIL",
+      "a1_first_fail": "scale-mismatch",
+      "old_grade": null,
+      "old_decidability": null,
+      "role": "failure"
+    },
+    {
+      "match_id": "ed_match_05",
+      "a1_verdict": "FAIL",
+      "a1_first_fail": "provenance",
+      "old_grade": null,
+      "old_decidability": null,
+      "role": "failure"
+    },
+    {
+      "match_id": "supp_match_03",
+      "a1_verdict": "FAIL",
+      "a1_first_fail": "relation-not-in-quote",
+      "old_grade": null,
+      "old_decidability": null,
+      "role": "failure"
+    },
+    {
+      "match_id": "match_04",
+      "a1_verdict": "FAIL",
+      "a1_first_fail": "relation-not-in-quote",
+      "old_grade": "isomorphism",
+      "old_decidability": "decidable_now",
+      "role": "failure"
+    },
+    {
+      "match_id": "match_45",
+      "a1_verdict": "FAIL",
+      "a1_first_fail": "provenance",
+      "old_grade": "partial",
+      "old_decidability": "beyond",
+      "role": "failure"
+    },
+    {
+      "match_id": "match_08",
+      "a1_verdict": "FAIL",
+      "a1_first_fail": "provenance",
+      "old_grade": "generative",
+      "old_decidability": "decidable_now",
+      "role": "failure"
+    },
+    {
+      "match_id": "supp_match_22",
+      "a1_verdict": "FAIL",
+      "a1_first_fail": "provenance",
+      "old_grade": null,
+      "old_decidability": null,
+      "role": "failure"
+    },
+    {
+      "match_id": "match_54",
+      "a1_verdict": "FAIL",
+      "a1_first_fail": "provenance",
+      "old_grade": "thematic",
+      "old_decidability": "beyond",
+      "role": "failure"
+    },
+    {
+      "match_id": "supp_match_23",
+      "a1_verdict": "FAIL",
+      "a1_first_fail": "provenance",
+      "old_grade": null,
+      "old_decidability": null,
+      "role": "failure"
+    },
+    {
+      "match_id": "match_49",
+      "a1_verdict": "FAIL",
+      "a1_first_fail": "provenance",
+      "old_grade": "partial",
+      "old_decidability": "decidable_now",
+      "role": "failure"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+fork_id: IIT×ActiveInference:locus:iit_n007xactive-inference_c037
+axis: locus
+pair: IIT × Active Inference
+sides:
+  left:
+    theory: IIT
+    value: maximal_irreducible_complex
+    polarity: asserts
+  right:
+    theory: Active Inference
+    value: subcortical_basal_ganglia
+    polarity: asserts
+observable: Neural activity patterns corresponding to conscious report across brain
+  regions, specifically comparing maximal irreducible complexes (as defined by integrated
+  information measures) versus subcortical basal ganglia structures.
+outcome_space:
+- pattern: Conscious report is consistently associated with neural activity in regions
+    identified as maximal irreducible complexes, regardless of involvement of subcortical
+    basal ganglia.
+  favors: IIT
+- pattern: Conscious report is consistently associated with neural activity in subcortical
+    basal ganglia, regardless of whether these regions are maximal irreducible complexes.
+  favors: ActInf
+- pattern: Conscious report is associated with both maximal irreducible complexes
+    and subcortical basal ganglia, with neither being uniquely necessary or sufficient.
+  favors: both
+- pattern: Conscious report is not reliably associated with either maximal irreducible
+    complexes or subcortical basal ganglia activity.
+  favors: neither
+favors:
+  ? Conscious report is consistently associated with neural activity in regions identified
+    as maximal irreducible complexes, regardless of involvement of subcortical basal
+    ganglia.
+  : IIT
+  ? Conscious report is consistently associated with neural activity in subcortical
+    basal ganglia, regardless of whether these regions are maximal irreducible complexes.
+  : ActInf
+  ? Conscious report is associated with both maximal irreducible complexes and subcortical
+    basal ganglia, with neither being uniquely necessary or sufficient.
+  : both
+  ? Conscious report is not reliably associated with either maximal irreducible complexes
+    or subcortical basal ganglia activity.
+  : neither
+vacuous: false
+vacuity_rationale: The two values make empirically distinct claims about the neural
+  locus of consciousness, allowing for discriminating measurement patterns.

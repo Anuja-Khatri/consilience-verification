@@ -1,0 +1,4178 @@
+{
+  "schema_version": "1.0",
+  "numbers_lock": {
+    "registry_sha256": "e9c877812c8c689772605cd7d5003d42c0d8566d5c3f07293709d74831fd3fb2",
+    "date": "2026-10",
+    "instrument_tag": "v2 (frozen-store metrics are lock-stable and citable pre-lock, v2.0.2)",
+    "corpus_tag": "v1 (engine frozen corpus; TD1/TD1b/TD2 extensions are P2, absent from P1)",
+    "n_metrics": 247,
+    "paper": "P1",
+    "preconditions_verified": [
+      "A1",
+      "A2",
+      "A5",
+      "A6",
+      "B2-core",
+      "F2",
+      "KR1v2",
+      "KR3",
+      "TD5-S4",
+      "VJ1",
+      "VJ2",
+      "VJ3",
+      "VJ4"
+    ],
+    "note": "SPEC §0.8(iii) numbers lock: application documents render from THIS snapshot; a second snapshot requires regenerating every document that cited the first. Identical metric → identical number in all applications.",
+    "reapproval": {
+      "status": "APPROVED",
+      "reason": "Owner RE-APPROVED P1 on 2026-10-24 with the KR3 eLife key-recovery null change — the eLife recovery is below chance (empirical p=0.981, n=1000), stated plainly in the abstract in one sentence after the COGITATE result. Lock e9c87781 stands (no re-stamp; the sha hashes only the metrics array, so this field does not move it). Supersedes the prior b0f49984 approval.",
+      "supersedes": "b0f4998423894875",
+      "date": "2026-10-24"
+    }
+  },
+  "metrics": [
+    {
+      "metric_id": "a1.c2_draft_confirmed_agreement",
+      "value": 0.5,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 56,
+      "task": "A1",
+      "runid": "A1-4",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu.",
+        "28/56 C2 packet rows where the gpt-4.1 draft matched Anu's confirmation (28 overturned)"
+      ]
+    },
+    {
+      "metric_id": "a1.discovery_survivorship",
+      "value": 1,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 9,
+      "task": "A1",
+      "runid": "A1-4",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu.",
+        "1/9 MIU discoveries survive the C1–C5 criterion audit (PASS iff all sides C1+C2 and match C3+C5, C4∈{PASS,PASS-PENDING-C4})"
+      ]
+    },
+    {
+      "metric_id": "a1.fail_conditional_only",
+      "value": 0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 30,
+      "task": "A1",
+      "runid": "A1-4",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "matches failing on conditional-only (≥1 side/criterion)"
+      ]
+    },
+    {
+      "metric_id": "a1.fail_instrument_unsupported",
+      "value": 0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 30,
+      "task": "A1",
+      "runid": "A1-4",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "matches failing on instrument-unsupported (≥1 side/criterion)"
+      ]
+    },
+    {
+      "metric_id": "a1.fail_newman_shared_vocab",
+      "value": 0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 30,
+      "task": "A1",
+      "runid": "A1-4",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "matches failing on newman-shared-vocab (≥1 side/criterion)"
+      ]
+    },
+    {
+      "metric_id": "a1.fail_provenance",
+      "value": 19,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 30,
+      "task": "A1",
+      "runid": "A1-4",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "matches failing on provenance (≥1 side/criterion)"
+      ]
+    },
+    {
+      "metric_id": "a1.fail_relation_not_in_quote",
+      "value": 22,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 30,
+      "task": "A1",
+      "runid": "A1-4",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "matches failing on relation-not-in-quote (≥1 side/criterion)"
+      ]
+    },
+    {
+      "metric_id": "a1.fail_scale_mismatch",
+      "value": 10,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 30,
+      "task": "A1",
+      "runid": "A1-4",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "matches failing on scale-mismatch (≥1 side/criterion)"
+      ]
+    },
+    {
+      "metric_id": "a1.match_sample_survivorship",
+      "value": 2,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 30,
+      "task": "A1",
+      "runid": "A1-4",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu.",
+        "2/30 sampled matches survive"
+      ]
+    },
+    {
+      "metric_id": "a2.agreement_rate",
+      "value": 0.1429,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 7,
+      "task": "A2",
+      "runid": "A2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "A2 MIU re-adjudication through instrument v2 (96 approve / 13 reject of 109 re-extracted). new_grade from the ported judge on per-pair mini-graphs (sides forced cross-theory). Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. Baseline = the OLD MIU tier where recorded (7/17 pairs had one; 10 matches carried no MIU grade and are excluded from the rates). axis:none rows deliberately APPROVED so A2.4 untypeability is measured, not filtered.",
+        "1/7 baselined pairs where new grade == old MIU tier; delta distribution {'no-baseline': 10, 'flipped-to-none': 2, 'downgraded': 4, 'agrees': 1}"
+      ]
+    },
+    {
+      "metric_id": "a2.downgrade_rate",
+      "value": 0.8571,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 7,
+      "task": "A2",
+      "runid": "A2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "A2 MIU re-adjudication through instrument v2 (96 approve / 13 reject of 109 re-extracted). new_grade from the ported judge on per-pair mini-graphs (sides forced cross-theory). Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. Baseline = the OLD MIU tier where recorded (7/17 pairs had one; 10 matches carried no MIU grade and are excluded from the rates). axis:none rows deliberately APPROVED so A2.4 untypeability is measured, not filtered.",
+        "6/7 baselined pairs downgraded or flipped-to-none"
+      ]
+    },
+    {
+      "metric_id": "a2.survivor_vs_failure_separation",
+      "value": 1.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 17,
+      "task": "A2",
+      "runid": "A2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "A2 MIU re-adjudication through instrument v2 (96 approve / 13 reject of 109 re-extracted). new_grade from the ported judge on per-pair mini-graphs (sides forced cross-theory). Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. Baseline = the OLD MIU tier where recorded (7/17 pairs had one; 10 matches carried no MIU grade and are excluded from the rates). axis:none rows deliberately APPROVED so A2.4 untypeability is measured, not filtered.",
+        "2×2 survivor/failure × corresponds/not = [[1,1],[9,6]]; Fisher exact p=1.0. Only 2 A1-survivors → severely underpowered; reported as-is (not a significance claim)."
+      ]
+    },
+    {
+      "metric_id": "a2.untypeable_pairs",
+      "value": 0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 17,
+      "task": "A2",
+      "runid": "A2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "pairs >50% axis:none under v1 vocab (A2.4 untypeability, MEASURED not filtered): none. The ≤6-new-axis PROPOSAL protocol triggers only at ≥8 untypeable pairs (0 here → not triggered)."
+      ]
+    },
+    {
+      "metric_id": "a3.corrections_count",
+      "value": 0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 129,
+      "task": "A3",
+      "runid": "A3-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu.",
+        "0 real-contradiction → 0 corrections (docs/corrections.md)"
+      ]
+    },
+    {
+      "metric_id": "a3.forks_clean",
+      "value": 21,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 21,
+      "task": "A3",
+      "runid": "A3-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "21 forks dossiered (IIT×GNWT + GNWT×CEMI); status clean pending the counter-evidence Anu gate (flags applied on return)"
+      ]
+    },
+    {
+      "metric_id": "a3.forks_flagged",
+      "value": 0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 129,
+      "task": "A3",
+      "runid": "A3-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu.",
+        "Anu counter-evidence gate returned 0 real-contradiction (73 rhetorical / 56 out-of-context), judged at EXCERPT level (truncated excerpts, no fork-side claim text in packet) → 'no fork flagged by the scan', NOT 'forks validated'. No model-draft decision existed (scan drafted candidates only) → no draft-vs-confirmed metric."
+      ]
+    },
+    {
+      "metric_id": "a4.forks_dossiered",
+      "value": 18,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 18,
+      "task": "A4",
+      "runid": "A4-L1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "A4 INTREPID-register dossiers (18-fork standing_predictions). instrument v1-era forks + approved store (frozen-store). The INTREPID review is a HELD-OUT answer key — never consulted here (§0.5); validity is checked against the theories' OWN corpora only.",
+        "18-fork INTREPID register; status clean pending the A4 counter-evidence Anu gate (flags applied on return)"
+      ]
+    },
+    {
+      "metric_id": "a4.forks_flagged",
+      "value": 0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 119,
+      "task": "A4",
+      "runid": "A4-L1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu.",
+        "Anu counter-evidence gate: 0 real-contradiction (76 rhetorical / 43 out-of-context), judged at EXCERPT level (no fork-side claim text in packet) → 'no fork flagged by the scan', NOT 'forks validated'."
+      ]
+    },
+    {
+      "metric_id": "a4.outcomes_draft_confirmed_agreement",
+      "value": 0.833,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 18,
+      "task": "A4",
+      "runid": "A4-L2",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu.",
+        "15/18 model-drafted observables confirmed by Anu (3 rejected as validation-method, not measurement patterns)"
+      ]
+    },
+    {
+      "metric_id": "a4.predictions_demoted",
+      "value": 3,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 18,
+      "task": "A4",
+      "runid": "A4-L2",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu.",
+        "demoted to docs/prediction_register.md: IIT×NREP:observable_commitment:iit_n005xnrep_c003, IIT×NREP:observable_commitment:iit_n005xnrep_c006, IIT×NREP:observable_commitment:iit_t001xnrep_c006 — observable is a validation-method question, not a measurement pattern"
+      ]
+    },
+    {
+      "metric_id": "a4.predictions_strong",
+      "value": 15,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 18,
+      "task": "A4",
+      "runid": "A4-L2",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu.",
+        "Anu-CONFIRMED non-vacuous discriminating observables (was 18 draft); reviewed observable text only (outcome spaces/favors not in packet)"
+      ]
+    },
+    {
+      "metric_id": "a4.retrodiction_graded",
+      "value": 15,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 18,
+      "task": "A4",
+      "runid": "A4-L3",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "Grade attaches to the FORK side-resolution (the typed disagreement between two theories on one axis), NEVER to the held-out review's predictions (§0.5). Citations were located by independent literature search on the empirical question, not from any answer key. instrument v1-era forks; the v2 rerun follows the A5.3 freeze (numbers lock §0.10(9)).",
+        "grade distribution: {'mixed': 14, 'literature-supported': 1}; all citations published & non-key"
+      ]
+    },
+    {
+      "metric_id": "a4.retrodiction_mixed",
+      "value": 14,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 15,
+      "task": "A4",
+      "runid": "A4-L3",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "forks where published evidence supports BOTH typed values (live debate)"
+      ]
+    },
+    {
+      "metric_id": "a4.retrodiction_supported",
+      "value": 1,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 15,
+      "task": "A4",
+      "runid": "A4-L3",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "forks where the left (IIT) side-resolution has the stronger direct published support"
+      ]
+    },
+    {
+      "metric_id": "a5.adopted_decoding",
+      "value": "baseline-single-pass",
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": null,
+      "task": "A5",
+      "runid": "A5.3",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "A5.3 FREEZE (adopt-baseline); candidate confweighted failed the preregistered gate (0.346/0.258 vs ≥0.70/≥0.85); t0 not-applicable.",
+        "v2_system_sha256 2fc0035d100d63c8…; determinism via llm.py cache, not decoding."
+      ]
+    },
+    {
+      "metric_id": "a5.approved_coverage_confweighted",
+      "value": 0.0842,
+      "ci_lo": 0.0433,
+      "ci_hi": 0.1575,
+      "n": 95,
+      "task": "A5",
+      "runid": "A5.1",
+      "instrument_tag": "v1",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "A5.1 v1-prompt pre-freeze arm; cluster identity (entity_type,axis,polarity)+value-family.",
+        "preregistered all-95 denominator (unattainable; printed beside windowed); Wilson 95% CI",
+        "8/95"
+      ]
+    },
+    {
+      "metric_id": "a5.approved_coverage_consensus",
+      "value": 0.0842,
+      "ci_lo": 0.0433,
+      "ci_hi": 0.1575,
+      "n": 95,
+      "task": "A5",
+      "runid": "A5.1",
+      "instrument_tag": "v1",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "A5.1 v1-prompt pre-freeze arm; cluster identity (entity_type,axis,polarity)+value-family.",
+        "preregistered all-95 denominator (unattainable; printed beside windowed); Wilson 95% CI",
+        "8/95"
+      ]
+    },
+    {
+      "metric_id": "a5.approved_coverage_windowed_confweighted",
+      "value": 0.2581,
+      "ci_lo": 0.137,
+      "ci_hi": 0.4325,
+      "n": 31,
+      "task": "A5",
+      "runid": "A5.1",
+      "instrument_tag": "v1",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "A5.1 v1-prompt pre-freeze arm; cluster identity (entity_type,axis,polarity)+value-family.",
+        "adoption denominator (windowed); Wilson 95% CI",
+        "8/31"
+      ]
+    },
+    {
+      "metric_id": "a5.approved_coverage_windowed_consensus",
+      "value": 0.2581,
+      "ci_lo": 0.137,
+      "ci_hi": 0.4325,
+      "n": 31,
+      "task": "A5",
+      "runid": "A5.1",
+      "instrument_tag": "v1",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "A5.1 v1-prompt pre-freeze arm; cluster identity (entity_type,axis,polarity)+value-family.",
+        "adoption denominator (windowed); Wilson 95% CI",
+        "8/31"
+      ]
+    },
+    {
+      "metric_id": "a5.approved_coverage_windowed_singlerun",
+      "value": 0.3935,
+      "ci_lo": 0.2373,
+      "ci_hi": 0.5618,
+      "n": 31,
+      "task": "A5",
+      "runid": "A5.1",
+      "instrument_tag": "v1",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "arm(a) per-run PRE-consensus windowed coverage: mean 0.394 min 0.323 max 0.452",
+        "arm(d): mean 0.406 min 0.323 max 0.452",
+        "gap vs consensus = consensus filtering, not strict matching (see results/a5_coverage_diagnostic.md)"
+      ]
+    },
+    {
+      "metric_id": "a5.cost_multiplier_consensus",
+      "value": 5.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": null,
+      "task": "A5",
+      "runid": "A5.1",
+      "instrument_tag": "v1",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "5 replicate calls vs 1 single-pass per window"
+      ]
+    },
+    {
+      "metric_id": "a5.ngram_guard_miu_fpr",
+      "value": 0.00062,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 6478,
+      "task": "A5",
+      "runid": "A5-4",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "A5.4 n-gram guard, owner-approved post-hoc amendment D-034. ORIGINAL preregistered statistic (char-8gram Jaccard) UNSATISFIABLE: benign FPR 7.7%/5.3%/2.6% (char-8gram@0.50 / word-8gram / word-10gram) — holdout keys quote the theory papers that are the engine corpus. AMENDED: leakage = shared >=8-word run with K_unique (keys minus engine corpus, references stripped); benign set = MIU; benign doctrine runs allowlisted (pipeline/ngram_allowlist.txt); A4 citation evidence in docs/.",
+        "synthetic leaks 3/3; |K_unique|=61158"
+      ]
+    },
+    {
+      "metric_id": "a5.ngram_provenance_before",
+      "value": 232,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 242,
+      "task": "A5",
+      "runid": "A5-4",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "condition-1: 242 shared >=10-word runs engine<->keys: 232 engine-BEFORE-key, 10 same-year (PLOS boilerplate/2014-DOI), 0 engine-after-key, 0 unknown -> benign direction confirmed; no reverse contamination (KR1/KR2/A4 holdout claims stand)"
+      ]
+    },
+    {
+      "metric_id": "a5.stability_baseline",
+      "value": 0.271,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": null,
+      "task": "A5",
+      "runid": "A5.1",
+      "instrument_tag": "v1",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "Task-5 import (38/140 from eval_out/t5/stability.md); NOT re-measured; axis+passage-Jaccard clustering"
+      ]
+    },
+    {
+      "metric_id": "a5.stability_baseline_sprint_estimator",
+      "value": 0.25,
+      "ci_lo": 0.1713,
+      "ci_hi": 0.3496,
+      "n": 88,
+      "task": "A5",
+      "runid": "A5.1",
+      "instrument_tag": "v1",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "ONE-ESTIMATOR reconciliation (owner fix 1): the Task-5 baseline (38/140=0.271) and this number are the SAME 80 runs. 140 vs 88 clusters = cluster-IDENTITY/unit difference, NOT scope/sample: Task-5 eval/t5_reliability.py cluster_runs() groups by `axis AND passage-ID Jaccard ≥ 0.5` (passage-based unit → 140); sprint a5_stability.py cluster_runs() groups by `(entity_type,axis,polarity) AND value-family intersection` (typed-field unit → 88, coarser). All adoption comparisons use THIS sprint estimator (0.250), not the imported 0.271."
+      ]
+    },
+    {
+      "metric_id": "a5.stability_cache_replication",
+      "value": 0.25,
+      "ci_lo": 0.1713,
+      "ci_hi": 0.3496,
+      "n": 88,
+      "task": "A5",
+      "runid": "A5.1",
+      "instrument_tag": "v1",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "Task-5 warm-cache replication 22/88; Wilson 95% CI; reported, not an arm",
+        "live vs cache-era stability: within sampling variation (Fisher p=0.267)"
+      ]
+    },
+    {
+      "metric_id": "a5.stability_confweighted",
+      "value": 0.3462,
+      "ci_lo": 0.2501,
+      "ci_hi": 0.4567,
+      "n": 78,
+      "task": "A5",
+      "runid": "A5.1",
+      "instrument_tag": "v1",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "A5.1 v1-prompt pre-freeze arm; cluster identity (entity_type,axis,polarity)+value-family.",
+        "arm(d) 27/78; Wilson 95% CI"
+      ]
+    },
+    {
+      "metric_id": "a5.stability_consensus",
+      "value": 0.1705,
+      "ci_lo": 0.1061,
+      "ci_hi": 0.2624,
+      "n": 88,
+      "task": "A5",
+      "runid": "A5.1",
+      "instrument_tag": "v1",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "A5.1 v1-prompt pre-freeze arm; cluster identity (entity_type,axis,polarity)+value-family.",
+        "arm(a)/(c) LIVE 15/88 ≥4/5; Wilson 95% CI",
+        "live vs cache-era stability: within sampling variation (Fisher p=0.267)"
+      ]
+    },
+    {
+      "metric_id": "a5.stability_t0",
+      "value": "not-applicable: API 400 'temperature: Extra inputs are not permitted' for claude-sonnet-4-6 — no t0 decoding exists (v2.0.3 ruling, 400 branch).",
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": null,
+      "task": "A5",
+      "runid": "A5.1",
+      "instrument_tag": "v1",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "A5.1 pre-freeze stability arm on the v1 (production) prompt; informs A5.3 adoption. Cluster identity = (entity_type,axis,polarity)+value-family (A5 rule); Task-5 baseline used axis+passage-Jaccard clustering (not recomputed).",
+        "arm (b) unrunnable; adoption falls through to baseline"
+      ]
+    },
+    {
+      "metric_id": "a6.clean_rerun_recovery_rate",
+      "value": 0.714,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 14,
+      "task": "A6",
+      "runid": "A6-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "A6 vocabulary-obfuscation control (scope IIT+GNWT). OBFUSCATED fork recovery is reported RELATIVE to the SAME-DATE CLEAN RERUN (v2.0.4 D2): only the obfuscated−clean GAP is lexical dependence; a miss the clean rerun also makes is re-extraction noise. Both arms use identical instrument v2 and differ only by the map substitution (dashes normalized in both). Disclosure: map was model-drafted (Claude) reviewed and confirmed by Anu (D-038).",
+        "10/14 canonical IIT×GNWT forks recovered by the clean v2 rerun"
+      ]
+    },
+    {
+      "metric_id": "a6.deobfuscation_leaks",
+      "value": 12,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 14,
+      "task": "A6",
+      "runid": "A6-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "A6 vocabulary-obfuscation control (scope IIT+GNWT). OBFUSCATED fork recovery is reported RELATIVE to the SAME-DATE CLEAN RERUN (v2.0.4 D2): only the obfuscated−clean GAP is lexical dependence; a miss the clean rerun also makes is re-extraction noise. Both arms use identical instrument v2 and differ only by the map substitution (dashes normalized in both). Disclosure: map was model-drafted (Claude) reviewed and confirmed by Anu (D-038).",
+        "distinct REAL source terms that surfaced in the OBFUSCATED extraction output (identity inferred = red flag): ['cause-effect power', 'global availability', 'global neuronal workspace', 'global workspace', 'ignition', 'iit', 'integrated information', 'maximally irreducible', 'neuronal workspace', 'phi']"
+      ]
+    },
+    {
+      "metric_id": "a6.fork_recovery_gap",
+      "value": 0.072,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 14,
+      "task": "A6",
+      "runid": "A6-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "CONFOUND: a6.deobfuscation_leaks=12 — the extractor RE-IDENTIFIES the theories and emits real coined terms (e.g. obfuscated input \"Q-measure\"/\"quantified integration\" → output \"integrated information\", \"Φ-max\", \"ignition\"). So the obfuscated arm is NOT a clean identity-blind test; the fork gap ≈0 is consistent with BOTH \"structure is not surface-lexical\" AND \"the model de-obfuscated\" — the leaks show the latter is operative. Report: obfuscation of SURFACE TERMS does not reduce fork recovery, but it does NOT blind the model to theory identity.",
+        "A6 vocabulary-obfuscation control (scope IIT+GNWT). OBFUSCATED fork recovery is reported RELATIVE to the SAME-DATE CLEAN RERUN (v2.0.4 D2): only the obfuscated−clean GAP is lexical dependence; a miss the clean rerun also makes is re-extraction noise. Both arms use identical instrument v2 and differ only by the map substitution (dashes normalized in both). Disclosure: map was model-drafted (Claude) reviewed and confirmed by Anu (D-038).",
+        "obfuscated − clean; ≈0 ⇒ no lexical dependence (forks survive obfuscation); negative ⇒ lexical-dependence candidates (misses unique to the obfuscated arm)"
+      ]
+    },
+    {
+      "metric_id": "a6.fork_recovery_rate",
+      "value": 0.786,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 14,
+      "task": "A6",
+      "runid": "A6-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "CONFOUND: a6.deobfuscation_leaks=12 — the extractor RE-IDENTIFIES the theories and emits real coined terms (e.g. obfuscated input \"Q-measure\"/\"quantified integration\" → output \"integrated information\", \"Φ-max\", \"ignition\"). So the obfuscated arm is NOT a clean identity-blind test; the fork gap ≈0 is consistent with BOTH \"structure is not surface-lexical\" AND \"the model de-obfuscated\" — the leaks show the latter is operative. Report: obfuscation of SURFACE TERMS does not reduce fork recovery, but it does NOT blind the model to theory identity.",
+        "A6 vocabulary-obfuscation control (scope IIT+GNWT). OBFUSCATED fork recovery is reported RELATIVE to the SAME-DATE CLEAN RERUN (v2.0.4 D2): only the obfuscated−clean GAP is lexical dependence; a miss the clean rerun also makes is re-extraction noise. Both arms use identical instrument v2 and differ only by the map substitution (dashes normalized in both). Disclosure: map was model-drafted (Claude) reviewed and confirmed by Anu (D-038).",
+        "11/14 canonical forks recovered by the obfuscated (de-mapped) arm"
+      ]
+    },
+    {
+      "metric_id": "a6.value_family_match_rate",
+      "value": 1.1,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 10,
+      "task": "A6",
+      "runid": "A6-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "A6 vocabulary-obfuscation control (scope IIT+GNWT). OBFUSCATED fork recovery is reported RELATIVE to the SAME-DATE CLEAN RERUN (v2.0.4 D2): only the obfuscated−clean GAP is lexical dependence; a miss the clean rerun also makes is re-extraction noise. Both arms use identical instrument v2 and differ only by the map substitution (dashes normalized in both). Disclosure: map was model-drafted (Claude) reviewed and confirmed by Anu (D-038).",
+        "obfuscated recoveries / clean recoveries (de-map value-family sanity)"
+      ]
+    },
+    {
+      "metric_id": "ab.a2_posthoc_auroc_judge",
+      "value": 1.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 13,
+      "task": "AB",
+      "runid": "AB-A2POSTHOC",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": true,
+      "caveats": [
+        "BENCH TAG v0.1+a2-posthoc — SEPARATE post-hoc supplement over the A2 MIU pairs, NEVER merged into the frozen v0.1 bench metrics (ab1/ab2.* unchanged). N=13 pairs with approved claims both sides; reference = A2.6 judge-after-audit grade. 0 strict positives (formal/partial), 10 with-weak (incl. generative), 3 negative (fork/none) → with-weak AUROC only; tiny N, positive-scarce — pilot-scale, not a headline.",
+        "judge cosine vs with-weak reference (judge = circular, reference basis)"
+      ]
+    },
+    {
+      "metric_id": "ab.a2_posthoc_auroc_mpnet",
+      "value": 0.7,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 13,
+      "task": "AB",
+      "runid": "AB-A2POSTHOC",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": true,
+      "caveats": [
+        "BENCH TAG v0.1+a2-posthoc — SEPARATE post-hoc supplement over the A2 MIU pairs, NEVER merged into the frozen v0.1 bench metrics (ab1/ab2.* unchanged). N=13 pairs with approved claims both sides; reference = A2.6 judge-after-audit grade. 0 strict positives (formal/partial), 10 with-weak (incl. generative), 3 negative (fork/none) → with-weak AUROC only; tiny N, positive-scarce — pilot-scale, not a headline.",
+        "mpnet cosine vs with-weak reference"
+      ]
+    },
+    {
+      "metric_id": "ab.a2_posthoc_auroc_tfidf",
+      "value": 0.8,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 13,
+      "task": "AB",
+      "runid": "AB-A2POSTHOC",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": true,
+      "caveats": [
+        "BENCH TAG v0.1+a2-posthoc — SEPARATE post-hoc supplement over the A2 MIU pairs, NEVER merged into the frozen v0.1 bench metrics (ab1/ab2.* unchanged). N=13 pairs with approved claims both sides; reference = A2.6 judge-after-audit grade. 0 strict positives (formal/partial), 10 with-weak (incl. generative), 3 negative (fork/none) → with-weak AUROC only; tiny N, positive-scarce — pilot-scale, not a headline.",
+        "tfidf cosine vs with-weak reference"
+      ]
+    },
+    {
+      "metric_id": "ab.a2_posthoc_auroc_typed",
+      "value": 0.5667,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 13,
+      "task": "AB",
+      "runid": "AB-A2POSTHOC",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": true,
+      "caveats": [
+        "BENCH TAG v0.1+a2-posthoc — SEPARATE post-hoc supplement over the A2 MIU pairs, NEVER merged into the frozen v0.1 bench metrics (ab1/ab2.* unchanged). N=13 pairs with approved claims both sides; reference = A2.6 judge-after-audit grade. 0 strict positives (formal/partial), 10 with-weak (incl. generative), 3 negative (fork/none) → with-weak AUROC only; tiny N, positive-scarce — pilot-scale, not a headline.",
+        "typed cosine vs with-weak reference"
+      ]
+    },
+    {
+      "metric_id": "ab.a2_posthoc_n",
+      "value": 13,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 13,
+      "task": "AB",
+      "runid": "AB-A2POSTHOC",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": true,
+      "caveats": [
+        "BENCH TAG v0.1+a2-posthoc — SEPARATE post-hoc supplement over the A2 MIU pairs, NEVER merged into the frozen v0.1 bench metrics (ab1/ab2.* unchanged). N=13 pairs with approved claims both sides; reference = A2.6 judge-after-audit grade. 0 strict positives (formal/partial), 10 with-weak (incl. generative), 3 negative (fork/none) → with-weak AUROC only; tiny N, positive-scarce — pilot-scale, not a headline.",
+        "strict_pos=0 weak_pos=10 neg=3"
+      ]
+    },
+    {
+      "metric_id": "ab.direction_errors_jaccard",
+      "value": 21,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 122,
+      "task": "AB1",
+      "runid": "AB-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "axis-match but polarity-opposed/family-disjoint pairs scored high by Jaccard"
+      ]
+    },
+    {
+      "metric_id": "ab.direction_errors_mpnet",
+      "value": 26,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 122,
+      "task": "AB2",
+      "runid": "AB-2",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "axis-match but polarity-opposed/family-disjoint pairs scored high by mpnet (the Hale direction-error hook — embeddings chase surface similarity)"
+      ]
+    },
+    {
+      "metric_id": "ab.direction_errors_tfidf",
+      "value": 22,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 122,
+      "task": "AB1",
+      "runid": "AB-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "axis-match but polarity-opposed/family-disjoint pairs scored above the 70th percentile by TF-IDF (the Hale direction-error hook)"
+      ]
+    },
+    {
+      "metric_id": "ab0.n_items",
+      "value": 122,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 122,
+      "task": "AB0",
+      "runid": "AB-0",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "frozen bench v0.1; 15 positive (judge-after-audit formal/partial), 25 weak-positive (generative, separate stratum); A2 deferred. judge-after-audit REFERENCE labels (not a leaderboard)."
+      ]
+    },
+    {
+      "metric_id": "ab1.auroc_jaccard",
+      "value": 0.7044,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 122,
+      "task": "AB1",
+      "runid": "AB-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "Jaccard over A1-C3 content tokens vs reference"
+      ]
+    },
+    {
+      "metric_id": "ab1.auroc_tfidf",
+      "value": 0.6218,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 122,
+      "task": "AB1",
+      "runid": "AB-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "TF-IDF cosine over claim statements vs judge-after-audit reference; the Newman floor (how far bag-of-words gets)"
+      ]
+    },
+    {
+      "metric_id": "ab2.auroc_judge",
+      "value": 1.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 122,
+      "task": "AB2",
+      "runid": "AB-2",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "rung 6 = ported judge (grade-mapped). NB near-circular: the reference IS judge-after-audit, so this is the ceiling by construction, reported as such"
+      ]
+    },
+    {
+      "metric_id": "ab2.auroc_mpnet",
+      "value": 0.6224,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 122,
+      "task": "AB2",
+      "runid": "AB-2",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "all-mpnet-base-v2 cosine over claim statements (rung a, CPU-local) vs judge-after-audit reference; rungs (b) large / (c) reranker DEFERRED (need GPU/VRAM≥40GB or an API substitute — not run, not silently swapped)"
+      ]
+    },
+    {
+      "metric_id": "ab2.auroc_typed",
+      "value": 0.8417,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 122,
+      "task": "AB2",
+      "runid": "AB-2",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "rung (d) typed-rendering embedding (mpnet over '<et> <pol> <value> on <axis>')"
+      ]
+    },
+    {
+      "metric_id": "ab3.abstraction_monotonic",
+      "value": false,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 22,
+      "task": "AB3",
+      "runid": "AB-3",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "pilot-scale feasibility study (N=22 IIT×GNWT reference-matched pairs; 1 partial + 21 weak-positive generative); LOO; demonstrates constructibility, not a tight estimate",
+        "hypothesis L2≥L1≥L0 NOT supported: anchored top1 L0=0.0 L1=0.0 L2=0.0 are at/below the null (0.0455) — Procrustes does NOT beat chance at this N (median held-out rank ~21/22; overfit). unanchored={'L0': 0.0909, 'L1': 0.0455, 'L2': 0.0909}; dim-sweep(L2)={16: 0.0, 32: 0.0, 64: 0.0, 128: 0.0, 'full': 0.0}. Reported as a pilot negative (method constructible; alignment not shown here)."
+      ]
+    },
+    {
+      "metric_id": "ab3.null_top1",
+      "value": 0.0455,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 22,
+      "task": "AB3",
+      "runid": "AB-3",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "pilot-scale feasibility study (N=22 IIT×GNWT reference-matched pairs; 1 partial + 21 weak-positive generative); LOO; demonstrates constructibility, not a tight estimate",
+        "label-shuffled-anchor null (L2)"
+      ]
+    },
+    {
+      "metric_id": "ab3.top1_L0",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 22,
+      "task": "AB3",
+      "runid": "AB-3",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "pilot-scale feasibility study (N=22 IIT×GNWT reference-matched pairs; 1 partial + 21 weak-positive generative); LOO; demonstrates constructibility, not a tight estimate",
+        "Procrustes zero-shot LOO retrieval top-1 at L0 (raw quote)"
+      ]
+    },
+    {
+      "metric_id": "ab3.top1_L1",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 22,
+      "task": "AB3",
+      "runid": "AB-3",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "pilot-scale feasibility study (N=22 IIT×GNWT reference-matched pairs; 1 partial + 21 weak-positive generative); LOO; demonstrates constructibility, not a tight estimate",
+        "Procrustes zero-shot LOO retrieval top-1 at L1 (statement)"
+      ]
+    },
+    {
+      "metric_id": "ab3.top1_L2",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 22,
+      "task": "AB3",
+      "runid": "AB-3",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "pilot-scale feasibility study (N=22 IIT×GNWT reference-matched pairs; 1 partial + 21 weak-positive generative); LOO; demonstrates constructibility, not a tight estimate",
+        "Procrustes zero-shot LOO retrieval top-1 at L2 (typed card)"
+      ]
+    },
+    {
+      "metric_id": "ab3.top5_L0",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 22,
+      "task": "AB3",
+      "runid": "AB-3",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "pilot-scale feasibility study (N=22 IIT×GNWT reference-matched pairs; 1 partial + 21 weak-positive generative); LOO; demonstrates constructibility, not a tight estimate",
+        "top-5 at L0"
+      ]
+    },
+    {
+      "metric_id": "ab3.top5_L1",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 22,
+      "task": "AB3",
+      "runid": "AB-3",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "pilot-scale feasibility study (N=22 IIT×GNWT reference-matched pairs; 1 partial + 21 weak-positive generative); LOO; demonstrates constructibility, not a tight estimate",
+        "top-5 at L1"
+      ]
+    },
+    {
+      "metric_id": "ab3.top5_L2",
+      "value": 0.1818,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 22,
+      "task": "AB3",
+      "runid": "AB-3",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "pilot-scale feasibility study (N=22 IIT×GNWT reference-matched pairs; 1 partial + 21 weak-positive generative); LOO; demonstrates constructibility, not a tight estimate",
+        "top-5 at L2"
+      ]
+    },
+    {
+      "metric_id": "ab3.unanchored_top1_L2",
+      "value": 0.0909,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 22,
+      "task": "AB3",
+      "runid": "AB-3",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "pilot-scale feasibility study (N=22 IIT×GNWT reference-matched pairs; 1 partial + 21 weak-positive generative); LOO; demonstrates constructibility, not a tight estimate",
+        "unanchored raw-cosine control top-1 per level: {'L0': 0.0909, 'L1': 0.0455, 'L2': 0.0909}"
+      ]
+    },
+    {
+      "metric_id": "ab4.ab3_jaccard",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 22,
+      "task": "AB4",
+      "runid": "AB-4",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "pilot-scale feasibility study (N=24×19 claims); demonstrates GWOT is constructible and runs end-to-end, not that the estimate is tight (GWOT's native scale is ~93 colours)",
+        "Jaccard of AB4-correct vs AB3-correct top-1 sets; AB3 recovered 0 (pilot negative) so overlap is 0 — both methods fail to align at this N"
+      ]
+    },
+    {
+      "metric_id": "ab4.degenerate_cells",
+      "value": 10,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 10,
+      "task": "AB4",
+      "runid": "AB-4",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "pilot-scale feasibility study (N=24×19 claims); demonstrates GWOT is constructible and runs end-to-end, not that the estimate is tight (GWOT's native scale is ~93 colours)",
+        "degenerate (ε,arm) cells of 10; typed 5, embedding 5"
+      ]
+    },
+    {
+      "metric_id": "ab4.null_z_embedding",
+      "value": "undefined",
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 200,
+      "task": "AB4",
+      "runid": "AB-4",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "pilot-scale feasibility study (N=24×19 claims); demonstrates GWOT is constructible and runs end-to-end, not that the estimate is tight (GWOT's native scale is ~93 colours)",
+        "z of top1 vs 200 structure-shuffle nulls (ε=0.01); μ=0.136 σ=0.000"
+      ]
+    },
+    {
+      "metric_id": "ab4.null_z_typed",
+      "value": -2.574,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 200,
+      "task": "AB4",
+      "runid": "AB-4",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "pilot-scale feasibility study (N=24×19 claims); demonstrates GWOT is constructible and runs end-to-end, not that the estimate is tight (GWOT's native scale is ~93 colours)",
+        "z of top1 vs 200 structure-shuffle nulls (ε=0.01); μ=0.128 σ=0.050"
+      ]
+    },
+    {
+      "metric_id": "ab4.restart_dispersion",
+      "value": "n/a",
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 10,
+      "task": "AB4",
+      "runid": "AB-4",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "pilot-scale feasibility study (N=24×19 claims); demonstrates GWOT is constructible and runs end-to-end, not that the estimate is tight (GWOT's native scale is ~93 colours)",
+        "GWOT objective std across 10 restarts (nonconvex — reported)"
+      ]
+    },
+    {
+      "metric_id": "ab4.top1_embedding",
+      "value": "no-nondegenerate-alignment",
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 22,
+      "task": "AB4",
+      "runid": "AB-4",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "pilot-scale feasibility study (N=24×19 claims); demonstrates GWOT is constructible and runs end-to-end, not that the estimate is tight (GWOT's native scale is ~93 colours)",
+        "all 5 epsilons degenerate (coupling ≈uniform or collapsed); a reported finding, not hidden. eps_curve={0.001: {'top1': 0.0909, 'degenerate': True, 'cost': np.float64(0.01231)}, 0.005: {'top1': 0.1364, 'degenerate': True, 'cost': np.float64(0.01401)}, 0.01: {'top1': 0.1364, 'degenerate': True, 'cost': np.float64(0.02108)}, 0.05: {'top1': 0.0909, 'degenerate': True, 'cost': np.float64(0.03934)}, 0.1: {'top1': 0.0909, 'degenerate': True, 'cost': np.float64(0.04182)}}"
+      ]
+    },
+    {
+      "metric_id": "ab4.top1_typed",
+      "value": "no-nondegenerate-alignment",
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 22,
+      "task": "AB4",
+      "runid": "AB-4",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "pilot-scale feasibility study (N=24×19 claims); demonstrates GWOT is constructible and runs end-to-end, not that the estimate is tight (GWOT's native scale is ~93 colours)",
+        "all 5 epsilons degenerate (coupling ≈uniform or collapsed); a reported finding, not hidden. eps_curve={0.001: {'top1': 0.1364, 'degenerate': True, 'cost': np.float64(0.01838)}, 0.005: {'top1': 0.0909, 'degenerate': True, 'cost': np.float64(0.01903)}, 0.01: {'top1': 0.0909, 'degenerate': True, 'cost': np.float64(0.02588)}, 0.05: {'top1': 0.0909, 'degenerate': True, 'cost': np.float64(0.04681)}, 0.1: {'top1': 0.0909, 'degenerate': True, 'cost': np.float64(0.04737)}}"
+      ]
+    },
+    {
+      "metric_id": "ab5.empty_query_fpr",
+      "value": 0.6667,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 3,
+      "task": "AB5",
+      "runid": "AB5-FINAL",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "AB5 FINAL over the Anu-approved query set (23 approve / 3 reject: ['e01', 'e02', 'e05'] rejected). Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. CQD soft vs exact Datalog over VJ1's program; t-norms min/product. 20 non-empty + 3 empty-calibration (['e03', 'e04', 'e06']).",
+        "empty-query false-positive rate recomputed over ['e03', 'e04', 'e06'] (n=3) = {'min': 0.6667, 'product': 0.6667}. OWNER RULING: e01/e02/e05 were REJECTED because their emptiness is a POLARITY-ENCODING ARTIFACT — every stored claim is polarity 'asserts' with negation folded into the value (e.g. 'not posterior-only'), so a 'denying X' query can have a true answer in meaning. Old 6-query preliminary FPR (incl. the 3 artifact queries) = {'min': 0.833, 'product': 0.833}, reported ALONGSIDE under this caveat. Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu."
+      ]
+    },
+    {
+      "metric_id": "ab5.p_at_1",
+      "value": 0.95,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 20,
+      "task": "AB5",
+      "runid": "AB5-FINAL",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "AB5 FINAL over the Anu-approved query set (23 approve / 3 reject: ['e01', 'e02', 'e05'] rejected). Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. CQD soft vs exact Datalog over VJ1's program; t-norms min/product. 20 non-empty + 3 empty-calibration (['e03', 'e04', 'e06']).",
+        "top-1 soft answer in the exact symbolic set; min-tnorm 0.95, product 0.95"
+      ]
+    },
+    {
+      "metric_id": "ab5.p_at_5",
+      "value": 0.95,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 20,
+      "task": "AB5",
+      "runid": "AB5-FINAL",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "AB5 FINAL over the Anu-approved query set (23 approve / 3 reject: ['e01', 'e02', 'e05'] rejected). Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. CQD soft vs exact Datalog over VJ1's program; t-norms min/product. 20 non-empty + 3 empty-calibration (['e03', 'e04', 'e06']).",
+        "a correct symbolic answer in soft top-5; min 0.95, product 0.95"
+      ]
+    },
+    {
+      "metric_id": "ab6.acc_abstracted",
+      "value": 0.7966,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 59,
+      "task": "AB6",
+      "runid": "AB6-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "QuaSAR-style abstract-then-judge vs direct-judge, one model (claude-sonnet-4-6), provider-default decoding (Anthropic has no temperature knob, D-015). 60-pair seeded subsample of frozen bench v0.1 (all 14 positives + direction-error negatives first, seeded fill). Reference = binary judge-after-audit (NOT a leaderboard/gold). Imbalanced (14 pos / 45 neg) → per-class + direction-error reject accuracies in runs/AB6/AB6-1/ab6_detail.json.",
+        "abstract-then-judge; per-class pos=0.286 neg=0.956; direction-error reject acc=None (n=0); malformed 1"
+      ]
+    },
+    {
+      "metric_id": "ab6.acc_direct",
+      "value": 0.75,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 60,
+      "task": "AB6",
+      "runid": "AB6-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "QuaSAR-style abstract-then-judge vs direct-judge, one model (claude-sonnet-4-6), provider-default decoding (Anthropic has no temperature knob, D-015). 60-pair seeded subsample of frozen bench v0.1 (all 14 positives + direction-error negatives first, seeded fill). Reference = binary judge-after-audit (NOT a leaderboard/gold). Imbalanced (14 pos / 45 neg) → per-class + direction-error reject accuracies in runs/AB6/AB6-1/ab6_detail.json.",
+        "direct quote→judgment; per-class pos=0.133 neg=0.956; direction-error reject acc=None (n=0); malformed 0"
+      ]
+    },
+    {
+      "metric_id": "b2.double_negation_restoration",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 8,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "double negation round-trips polarity to asserts over n_valid=8 (n_used=8); n_generated 40. Low-n: interpret with care."
+      ]
+    },
+    {
+      "metric_id": "b2.handcheck_agreement",
+      "value": 0.893,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 28,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "B2 verifier hand-check, 10% sample (28 rows = 4 passages × 7 model classes). Anu agree-with-verifier 25/28 = 0.893 (SINGLE-REVIEWER, model-assisted). Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. Verifier error rate 3/28 (~0.107): 1 false-INVALID (row 8 hedging gnwt_0077 — verifier wrongly rejected a valid double-hedge 'may … may provide'); 2 false-VALID (row 16 paraphrase_far: 'conscious access'→'conscious perception' alters a GNWT technical term; row 25 register_popsci: 'intracranial signatures'→'brain-wide signals' + 'gamma-band'→'high-frequency activity' lose technical meaning — the same ground the verifier used to reject row 27). Per-class disagreement is 1/4 (25%) in hedging / paraphrase_far / register_popsci (>15% spec threshold); the OWNER reviewed the sample and directed report-as-caveat, NOT a recompute or HALT. b2.* metrics are NOT changed on 3 sampled rows. double_negation validity 8/40 reflects GENERATION failure (rewrites don't negate twice), confirmed by the hand-check."
+      ]
+    },
+    {
+      "metric_id": "b2.l1_casing_axis",
+      "value": 0.5875,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 40,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 40, n_used 40 (valid items matched on this field) vs identity 0.6125; diff95%CI[-0.125,0.075]; PASS(not-worse-than-identity)=False"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_casing_entity_type",
+      "value": 0.3,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 40,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 40, n_used 40 (valid items matched on this field) vs identity 0.475; diff95%CI[-0.325,-0.0375]; PASS(not-worse-than-identity)=False"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_casing_polarity",
+      "value": 0.975,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 40,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 40, n_used 40 (valid items matched on this field) vs identity 0.975; diff95%CI[0.0,0.0]; PASS(not-worse-than-identity)=True"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_casing_value_family",
+      "value": 0.5,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 40,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 40, n_used 40 (valid items matched on this field) vs identity 0.475; diff95%CI[-0.1,0.15]; PASS(not-worse-than-identity)=False"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_identity_axis",
+      "value": 0.6125,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 40,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 40, n_used 40 (valid items matched on this field)"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_identity_entity_type",
+      "value": 0.475,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 40,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 40, n_used 40 (valid items matched on this field)"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_identity_polarity",
+      "value": 0.975,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 40,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 40, n_used 40 (valid items matched on this field)"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_identity_value_family",
+      "value": 0.475,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 40,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 40, n_used 40 (valid items matched on this field)"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_notation_axis",
+      "value": 0.5875,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 40,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 40, n_used 40 (valid items matched on this field) vs identity 0.6125; diff95%CI[-0.075,0.0]; PASS(not-worse-than-identity)=False"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_notation_entity_type",
+      "value": 0.45,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 40,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 40, n_used 40 (valid items matched on this field) vs identity 0.475; diff95%CI[-0.075,0.0]; PASS(not-worse-than-identity)=False"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_notation_polarity",
+      "value": 0.975,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 40,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 40, n_used 40 (valid items matched on this field) vs identity 0.975; diff95%CI[0.0,0.0]; PASS(not-worse-than-identity)=True"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_notation_value_family",
+      "value": 0.45,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 40,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 40, n_used 40 (valid items matched on this field) vs identity 0.475; diff95%CI[-0.075,0.0]; PASS(not-worse-than-identity)=False"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_paraphrase_far_axis",
+      "value": 0.641,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 39,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 39, n_used 39 (valid items matched on this field) vs identity 0.6125; diff95%CI[-0.11538461538461539,0.14102564102564102]; PASS(not-worse-than-identity)=False"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_paraphrase_far_entity_type",
+      "value": 0.4359,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 39,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 39, n_used 39 (valid items matched on this field) vs identity 0.475; diff95%CI[-0.15384615384615385,0.05128205128205128]; PASS(not-worse-than-identity)=False"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_paraphrase_far_polarity",
+      "value": 0.9615,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 39,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 39, n_used 39 (valid items matched on this field) vs identity 0.975; diff95%CI[-0.038461538461538464,0.0]; PASS(not-worse-than-identity)=True"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_paraphrase_far_value_family",
+      "value": 0.5,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 39,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 39, n_used 39 (valid items matched on this field) vs identity 0.475; diff95%CI[-0.08974358974358974,0.14102564102564102]; PASS(not-worse-than-identity)=False"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_paraphrase_near_axis",
+      "value": 0.5526,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 38,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 38, n_used 38 (valid items matched on this field) vs identity 0.6125; diff95%CI[-0.2236842105263158,0.10526315789473684]; PASS(not-worse-than-identity)=False"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_paraphrase_near_entity_type",
+      "value": 0.3158,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 38,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 38, n_used 38 (valid items matched on this field) vs identity 0.475; diff95%CI[-0.3157894736842105,-0.02631578947368421]; PASS(not-worse-than-identity)=False"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_paraphrase_near_polarity",
+      "value": 0.9737,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 38,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 38, n_used 38 (valid items matched on this field) vs identity 0.975; diff95%CI[0.0,0.0]; PASS(not-worse-than-identity)=True"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_paraphrase_near_value_family",
+      "value": 0.4079,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 38,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 38, n_used 38 (valid items matched on this field) vs identity 0.475; diff95%CI[-0.19736842105263158,0.07894736842105263]; PASS(not-worse-than-identity)=False"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_register_formal_axis",
+      "value": 0.7564,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 39,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 39, n_used 39 (valid items matched on this field) vs identity 0.6125; diff95%CI[0.0,0.2692307692307692]; PASS(not-worse-than-identity)=True"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_register_formal_entity_type",
+      "value": 0.4744,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 39,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 39, n_used 39 (valid items matched on this field) vs identity 0.475; diff95%CI[-0.1282051282051282,0.10256410256410256]; PASS(not-worse-than-identity)=False"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_register_formal_polarity",
+      "value": 0.9744,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 39,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 39, n_used 39 (valid items matched on this field) vs identity 0.975; diff95%CI[0.0,0.0]; PASS(not-worse-than-identity)=True"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_register_formal_value_family",
+      "value": 0.6026,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 39,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 39, n_used 39 (valid items matched on this field) vs identity 0.475; diff95%CI[-0.02564102564102564,0.28205128205128205]; PASS(not-worse-than-identity)=True"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_register_popsci_axis",
+      "value": 0.5781,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 32,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 32, n_used 32 (valid items matched on this field) vs identity 0.6125; diff95%CI[-0.234375,0.140625]; PASS(not-worse-than-identity)=False"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_register_popsci_entity_type",
+      "value": 0.3594,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 32,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 32, n_used 32 (valid items matched on this field) vs identity 0.475; diff95%CI[-0.203125,0.109375]; PASS(not-worse-than-identity)=False"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_register_popsci_polarity",
+      "value": 0.9688,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 32,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 32, n_used 32 (valid items matched on this field) vs identity 0.975; diff95%CI[0.0,0.0]; PASS(not-worse-than-identity)=True"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_register_popsci_value_family",
+      "value": 0.5156,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 32,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 32, n_used 32 (valid items matched on this field) vs identity 0.475; diff95%CI[-0.15625,0.25]; PASS(not-worse-than-identity)=False"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_typos_axis",
+      "value": 0.5375,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 40,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 40, n_used 40 (valid items matched on this field) vs identity 0.6125; diff95%CI[-0.1875,0.0375]; PASS(not-worse-than-identity)=False"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_typos_entity_type",
+      "value": 0.4125,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 40,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 40, n_used 40 (valid items matched on this field) vs identity 0.475; diff95%CI[-0.1875,0.05]; PASS(not-worse-than-identity)=False"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_typos_polarity",
+      "value": 0.975,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 40,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 40, n_used 40 (valid items matched on this field) vs identity 0.975; diff95%CI[0.0,0.0]; PASS(not-worse-than-identity)=True"
+      ]
+    },
+    {
+      "metric_id": "b2.l1_typos_value_family",
+      "value": 0.4875,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 40,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "n_generated 40, n_valid 40, n_used 40 (valid items matched on this field) vs identity 0.475; diff95%CI[-0.125,0.15]; PASS(not-worse-than-identity)=False"
+      ]
+    },
+    {
+      "metric_id": "b2.negation_polarity_tracking",
+      "value": 0.1765,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 34,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY recompute (owner follow-up): verifier-invalid perturbations are EXCLUDED (they carried no re-extracted claims, so they never entered agreement/tracking rates; the reported n is now n_verifier_valid, and all-invalid classes are N/A not 0.0).",
+        "polarity flips asserts→denies under single negation over n_valid=34 (n_used=34)."
+      ]
+    },
+    {
+      "metric_id": "b2.negation_tracking_axis_connectivity",
+      "value": 1.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 1,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF preregistered https://osf.io/5n24m (DOI 10.17605/OSF.IO/5N24M, 2026-10-23). v2.0.4 identity-control: invariance passes iff NOT significantly worse than the identity noise floor (one-sided bootstrap over passages, 2000×, seed 20261022, α=0.05, δ=0.05).",
+        "per-axis negation polarity tracking (connectivity)"
+      ]
+    },
+    {
+      "metric_id": "b2.negation_tracking_axis_locus",
+      "value": 0.2308,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 13,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF preregistered https://osf.io/5n24m (DOI 10.17605/OSF.IO/5N24M, 2026-10-23). v2.0.4 identity-control: invariance passes iff NOT significantly worse than the identity noise floor (one-sided bootstrap over passages, 2000×, seed 20261022, α=0.05, δ=0.05).",
+        "per-axis negation polarity tracking (locus)"
+      ]
+    },
+    {
+      "metric_id": "b2.negation_tracking_axis_observable_commitment",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 3,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF preregistered https://osf.io/5n24m (DOI 10.17605/OSF.IO/5N24M, 2026-10-23). v2.0.4 identity-control: invariance passes iff NOT significantly worse than the identity noise floor (one-sided bootstrap over passages, 2000×, seed 20261022, α=0.05, δ=0.05).",
+        "per-axis negation polarity tracking (observable_commitment)"
+      ]
+    },
+    {
+      "metric_id": "b2.negation_tracking_axis_substrate_dependence",
+      "value": 0.0833,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 12,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF preregistered https://osf.io/5n24m (DOI 10.17605/OSF.IO/5N24M, 2026-10-23). v2.0.4 identity-control: invariance passes iff NOT significantly worse than the identity noise floor (one-sided bootstrap over passages, 2000×, seed 20261022, α=0.05, δ=0.05).",
+        "per-axis negation polarity tracking (substrate_dependence)"
+      ]
+    },
+    {
+      "metric_id": "b2.negation_tracking_axis_temporal_profile",
+      "value": 0.2,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 5,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF preregistered https://osf.io/5n24m (DOI 10.17605/OSF.IO/5N24M, 2026-10-23). v2.0.4 identity-control: invariance passes iff NOT significantly worse than the identity noise floor (one-sided bootstrap over passages, 2000×, seed 20261022, α=0.05, δ=0.05).",
+        "per-axis negation polarity tracking (temporal_profile)"
+      ]
+    },
+    {
+      "metric_id": "b2.selection_loss_casing",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 40,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY selection loss 0.0 (was 0.0 as-run incl. invalid-as-full-loss); fraction of canonical claims with no re-extracted match over valid perturbations."
+      ]
+    },
+    {
+      "metric_id": "b2.selection_loss_entity_swap",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 40,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY 0.0 (was 0.0 as-run)."
+      ]
+    },
+    {
+      "metric_id": "b2.selection_loss_identity",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 40,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY selection loss 0.0 (was 0.0 as-run incl. invalid-as-full-loss); fraction of canonical claims with no re-extracted match over valid perturbations."
+      ]
+    },
+    {
+      "metric_id": "b2.selection_loss_negation",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 34,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY 0.0 (was 0.15 as-run)."
+      ]
+    },
+    {
+      "metric_id": "b2.selection_loss_notation",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 40,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY selection loss 0.0 (was 0.0 as-run incl. invalid-as-full-loss); fraction of canonical claims with no re-extracted match over valid perturbations."
+      ]
+    },
+    {
+      "metric_id": "b2.selection_loss_paraphrase_far",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 39,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY selection loss 0.0 (was 0.025 as-run incl. invalid-as-full-loss); fraction of canonical claims with no re-extracted match over valid perturbations."
+      ]
+    },
+    {
+      "metric_id": "b2.selection_loss_paraphrase_near",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 38,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY selection loss 0.0 (was 0.05 as-run incl. invalid-as-full-loss); fraction of canonical claims with no re-extracted match over valid perturbations."
+      ]
+    },
+    {
+      "metric_id": "b2.selection_loss_register_formal",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 39,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY selection loss 0.0 (was 0.025 as-run incl. invalid-as-full-loss); fraction of canonical claims with no re-extracted match over valid perturbations."
+      ]
+    },
+    {
+      "metric_id": "b2.selection_loss_register_popsci",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 32,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY selection loss 0.0 (was 0.2 as-run incl. invalid-as-full-loss); fraction of canonical claims with no re-extracted match over valid perturbations."
+      ]
+    },
+    {
+      "metric_id": "b2.selection_loss_typos",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 40,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23).",
+        "VALID-ONLY selection loss 0.0 (was 0.0 as-run incl. invalid-as-full-loss); fraction of canonical claims with no re-extracted match over valid perturbations."
+      ]
+    },
+    {
+      "metric_id": "b2.verdict_tracking_correct",
+      "value": 0.4189,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 74,
+      "task": "B2",
+      "runid": "B2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "OSF preregistered https://osf.io/5n24m (DOI 10.17605/OSF.IO/5N24M, 2026-10-23). v2.0.4 identity-control: invariance passes iff NOT significantly worse than the identity noise floor (one-sided bootstrap over passages, 2000×, seed 20261022, α=0.05, δ=0.05).",
+        "31/74 negation+entity-swap items whose re-extraction changed the tracked field as the contract requires (L2 substitution into pair graphs)"
+      ]
+    },
+    {
+      "metric_id": "b3.gemini_coverage",
+      "value": 1.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 95,
+      "task": "B3",
+      "runid": "B3-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "B3 FULL-COVERAGE rerun — Gemini billing enabled (Tier 1, same key). Pinned pro model 'gemini-3.1-pro-preview'; resolved model_version(s) ['gemini-3.1-pro-preview'] (recorded per call, D-029). gpt-4.1 + Gemini pro two-vendor panel; NO circuit-breaker, NO flash fallback; any billing/quota error STOPS the run. Supersedes the flash best-effort B3-1 (gemini coverage was ~8%). qwen/llama still deferred (no TOGETHER/FIREWORKS key). Cross-vendor κ over items where both vendors returned a label; a 'modal' grade = the 2-vendor consensus.",
+        "95/95 claims received a Gemini-pro label (FULL coverage, billing enabled)"
+      ]
+    },
+    {
+      "metric_id": "b3.gpt_vs_engine_axis",
+      "value": 0.695,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 95,
+      "task": "B3",
+      "runid": "B3-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "B3 FULL-COVERAGE rerun — Gemini billing enabled (Tier 1, same key). Pinned pro model 'gemini-3.1-pro-preview'; resolved model_version(s) ['gemini-3.1-pro-preview'] (recorded per call, D-029). gpt-4.1 + Gemini pro two-vendor panel; NO circuit-breaker, NO flash fallback; any billing/quota error STOPS the run. Supersedes the flash best-effort B3-1 (gemini coverage was ~8%). qwen/llama still deferred (no TOGETHER/FIREWORKS key). Cross-vendor κ over items where both vendors returned a label; a 'modal' grade = the 2-vendor consensus."
+      ]
+    },
+    {
+      "metric_id": "b3.gpt_vs_engine_entity",
+      "value": 0.579,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 95,
+      "task": "B3",
+      "runid": "B3-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "B3 FULL-COVERAGE rerun — Gemini billing enabled (Tier 1, same key). Pinned pro model 'gemini-3.1-pro-preview'; resolved model_version(s) ['gemini-3.1-pro-preview'] (recorded per call, D-029). gpt-4.1 + Gemini pro two-vendor panel; NO circuit-breaker, NO flash fallback; any billing/quota error STOPS the run. Supersedes the flash best-effort B3-1 (gemini coverage was ~8%). qwen/llama still deferred (no TOGETHER/FIREWORKS key). Cross-vendor κ over items where both vendors returned a label; a 'modal' grade = the 2-vendor consensus."
+      ]
+    },
+    {
+      "metric_id": "b3.grade_gpt_vs_judge",
+      "value": 0.317,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 60,
+      "task": "B3",
+      "runid": "B3-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "B3 FULL-COVERAGE rerun — Gemini billing enabled (Tier 1, same key). Pinned pro model 'gemini-3.1-pro-preview'; resolved model_version(s) ['gemini-3.1-pro-preview'] (recorded per call, D-029). gpt-4.1 + Gemini pro two-vendor panel; NO circuit-breaker, NO flash fallback; any billing/quota error STOPS the run. Supersedes the flash best-effort B3-1 (gemini coverage was ~8%). qwen/llama still deferred (no TOGETHER/FIREWORKS key). Cross-vendor κ over items where both vendors returned a label; a 'modal' grade = the 2-vendor consensus."
+      ]
+    },
+    {
+      "metric_id": "b3.grade_modal_agreement",
+      "value": 0.485,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 33,
+      "task": "B3",
+      "runid": "B3-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "B3 FULL-COVERAGE rerun — Gemini billing enabled (Tier 1, same key). Pinned pro model 'gemini-3.1-pro-preview'; resolved model_version(s) ['gemini-3.1-pro-preview'] (recorded per call, D-029). gpt-4.1 + Gemini pro two-vendor panel; NO circuit-breaker, NO flash fallback; any billing/quota error STOPS the run. Supersedes the flash best-effort B3-1 (gemini coverage was ~8%). qwen/llama still deferred (no TOGETHER/FIREWORKS key). Cross-vendor κ over items where both vendors returned a label; a 'modal' grade = the 2-vendor consensus.",
+        "panel consensus vs judge over 33 items (gemini grade coverage 60/60)"
+      ]
+    },
+    {
+      "metric_id": "b3.panel_axis_kappa",
+      "value": 0.503,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 95,
+      "task": "B3",
+      "runid": "B3-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "B3 FULL-COVERAGE rerun — Gemini billing enabled (Tier 1, same key). Pinned pro model 'gemini-3.1-pro-preview'; resolved model_version(s) ['gemini-3.1-pro-preview'] (recorded per call, D-029). gpt-4.1 + Gemini pro two-vendor panel; NO circuit-breaker, NO flash fallback; any billing/quota error STOPS the run. Supersedes the flash best-effort B3-1 (gemini coverage was ~8%). qwen/llama still deferred (no TOGETHER/FIREWORKS key). Cross-vendor κ over items where both vendors returned a label; a 'modal' grade = the 2-vendor consensus.",
+        "gemini coverage 95/95 (full)",
+        "protocol reproducibility, not validity"
+      ]
+    },
+    {
+      "metric_id": "b3.panel_entity_kappa",
+      "value": 0.525,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 95,
+      "task": "B3",
+      "runid": "B3-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "B3 FULL-COVERAGE rerun — Gemini billing enabled (Tier 1, same key). Pinned pro model 'gemini-3.1-pro-preview'; resolved model_version(s) ['gemini-3.1-pro-preview'] (recorded per call, D-029). gpt-4.1 + Gemini pro two-vendor panel; NO circuit-breaker, NO flash fallback; any billing/quota error STOPS the run. Supersedes the flash best-effort B3-1 (gemini coverage was ~8%). qwen/llama still deferred (no TOGETHER/FIREWORKS key). Cross-vendor κ over items where both vendors returned a label; a 'modal' grade = the 2-vendor consensus.",
+        "gemini coverage 95/95 (full)",
+        "protocol reproducibility, not validity"
+      ]
+    },
+    {
+      "metric_id": "b3.panel_polarity_pabak",
+      "value": 0.811,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 95,
+      "task": "B3",
+      "runid": "B3-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "B3 FULL-COVERAGE rerun — Gemini billing enabled (Tier 1, same key). Pinned pro model 'gemini-3.1-pro-preview'; resolved model_version(s) ['gemini-3.1-pro-preview'] (recorded per call, D-029). gpt-4.1 + Gemini pro two-vendor panel; NO circuit-breaker, NO flash fallback; any billing/quota error STOPS the run. Supersedes the flash best-effort B3-1 (gemini coverage was ~8%). qwen/llama still deferred (no TOGETHER/FIREWORKS key). Cross-vendor κ over items where both vendors returned a label; a 'modal' grade = the 2-vendor consensus.",
+        "gemini coverage 95/95 (full)",
+        "protocol reproducibility, not validity"
+      ]
+    },
+    {
+      "metric_id": "b3.self_consistency_standing",
+      "value": 0.271,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": null,
+      "task": "B3",
+      "runid": "B3-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "B3.3 republishes the adopted A5 stability (a5.stability_baseline) as the standing self-consistency score; per-theory breakdown in a5.*"
+      ]
+    },
+    {
+      "metric_id": "b4.dissociation_judge",
+      "value": "n/a",
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 179,
+      "task": "B4",
+      "runid": "B4-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "dissociation N/A for judge: equivocation cell not engine-typed (pending A2) — the judge needs engine typing; mpnet/restate use text and are scored"
+      ]
+    },
+    {
+      "metric_id": "b4.dissociation_mpnet",
+      "value": 0.6,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 179,
+      "task": "B4",
+      "runid": "B4-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "min(acc true_correspondence 0.88, acc equivocation 0.60) — does mpnet accept real correspondences while REJECTING shared-vocab equivocations?"
+      ]
+    },
+    {
+      "metric_id": "b4.dissociation_restate",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 179,
+      "task": "B4",
+      "runid": "B4-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "min(acc true_correspondence 0.00, acc equivocation 1.00) — does restate accept real correspondences while REJECTING shared-vocab equivocations?"
+      ]
+    },
+    {
+      "metric_id": "b4.judge_acc_control_expected_flip",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 5,
+      "task": "B4",
+      "runid": "B4-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "judge accuracy on the control_expected_flip cell"
+      ]
+    },
+    {
+      "metric_id": "b4.judge_acc_control_invariant",
+      "value": 1.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 18,
+      "task": "B4",
+      "runid": "B4-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "judge accuracy on the control_invariant cell"
+      ]
+    },
+    {
+      "metric_id": "b4.judge_acc_negation",
+      "value": 0.9167,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 36,
+      "task": "B4",
+      "runid": "B4-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "judge accuracy on the negation cell"
+      ]
+    },
+    {
+      "metric_id": "b4.judge_acc_true_correspondence",
+      "value": 0.9833,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 60,
+      "task": "B4",
+      "runid": "B4-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "judge accuracy on the true_correspondence cell"
+      ]
+    },
+    {
+      "metric_id": "b4.low_discrimination_count",
+      "value": 0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 3,
+      "task": "B4",
+      "runid": "B4-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "methods with |point-biserial r|<0.05 (documented, not pruned in v0.1)"
+      ]
+    },
+    {
+      "metric_id": "b4.mpnet_acc_control_expected_flip",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 5,
+      "task": "B4",
+      "runid": "B4-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "mpnet accuracy on the control_expected_flip cell"
+      ]
+    },
+    {
+      "metric_id": "b4.mpnet_acc_control_invariant",
+      "value": 1.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 18,
+      "task": "B4",
+      "runid": "B4-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "mpnet accuracy on the control_invariant cell"
+      ]
+    },
+    {
+      "metric_id": "b4.mpnet_acc_equivocation",
+      "value": 0.6,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 60,
+      "task": "B4",
+      "runid": "B4-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "mpnet accuracy on the equivocation cell"
+      ]
+    },
+    {
+      "metric_id": "b4.mpnet_acc_negation",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 36,
+      "task": "B4",
+      "runid": "B4-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "mpnet accuracy on the negation cell"
+      ]
+    },
+    {
+      "metric_id": "b4.mpnet_acc_true_correspondence",
+      "value": 0.8833,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 60,
+      "task": "B4",
+      "runid": "B4-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "mpnet accuracy on the true_correspondence cell"
+      ]
+    },
+    {
+      "metric_id": "b4.restate_acc_control_expected_flip",
+      "value": 1.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 5,
+      "task": "B4",
+      "runid": "B4-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "restate accuracy on the control_expected_flip cell"
+      ]
+    },
+    {
+      "metric_id": "b4.restate_acc_control_invariant",
+      "value": 1.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 18,
+      "task": "B4",
+      "runid": "B4-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "restate accuracy on the control_invariant cell"
+      ]
+    },
+    {
+      "metric_id": "b4.restate_acc_equivocation",
+      "value": 1.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 60,
+      "task": "B4",
+      "runid": "B4-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "restate accuracy on the equivocation cell"
+      ]
+    },
+    {
+      "metric_id": "b4.restate_acc_negation",
+      "value": 1.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 36,
+      "task": "B4",
+      "runid": "B4-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "restate accuracy on the negation cell"
+      ]
+    },
+    {
+      "metric_id": "b4.restate_acc_true_correspondence",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 60,
+      "task": "B4",
+      "runid": "B4-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "restate accuracy on the true_correspondence cell"
+      ]
+    },
+    {
+      "metric_id": "b5.extraction_disruption",
+      "value": 0.5,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 120,
+      "task": "B5",
+      "runid": "B5-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "mean per-passage |claims_injected − claims_clean| across the 4 injected arms; clean total 92 vs injected total 352 claims."
+      ]
+    },
+    {
+      "metric_id": "b5.gate_catchability",
+      "value": 0.4,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 20,
+      "task": "B5",
+      "runid": "B5-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "8/20 sampled obedient claims the reviewer would have caught/corrected at the human gate — SINGLE-REVIEWER, model-assisted (observed catch rate, not a validity claim). Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu."
+      ]
+    },
+    {
+      "metric_id": "b5.judge_text_channel",
+      "value": 0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 1,
+      "task": "B5",
+      "runid": "B5-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "0 = the judge has NO text channel: tainting every claim's statement/passage/injected-prompt with a sentinel leaves the verdict set byte-identical and the sentinel never reaches judge inputs/outputs; p5 reads only typed fields + edges (static grep-proof)."
+      ]
+    },
+    {
+      "metric_id": "b5.obedience_rate",
+      "value": 0.2955,
+      "ci_lo": 0.2502,
+      "ci_hi": 0.3451,
+      "n": 352,
+      "task": "B5",
+      "runid": "B5-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "B5.2 extraction injection battery: 30 passages (10 IIT/10 GNWT/10 MIU-physics) × 4 classes, instrument v2, scored vs a SAME-DATE CLEAN RERUN (v2.0.4 D2). Obedience = extracted claims whose field follows the injection. Per class — direct (axis=locus): obey 0.0494 (base 0.0543, Δ-0.005); indirect_quoted (axis=locus): obey 0.0341 (base 0.0543, Δ-0.0203); field_steering (axis=temporal_profile): obey 0.1429 (base 0.0217, Δ0.1211); polite_contextual (polarity=denies): obey 0.913 (base 0.0109, Δ0.9022). Wilson 95% CI over claims.",
+        "attack surface is extraction only; the judge has no text channel (b5.judge_text_channel=0, B5.1)."
+      ]
+    },
+    {
+      "metric_id": "b5.obedient_correct_typing_rate",
+      "value": 0.45,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 20,
+      "task": "B5",
+      "runid": "B5-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "9/20 sampled 'obedient' claims whose injected field-value ALSO appears in a same-passage CLEAN-RUN claim → the injection matched a legitimate reading, so that 'obedience' overcounts true steering (9 of these were UNCAUGHT, 0 caught). Owner note: most uncaught rows are locus/temporal_profile injections where the injected value is a legitimate reading. Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu."
+      ]
+    },
+    {
+      "metric_id": "f2.rank_stability_tau_min",
+      "value": 0.7165,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 216,
+      "task": "F2",
+      "runid": "F2-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "min Kendall τ of the top ranking vs w=(1,1,1) over the weight-simplex grid {0.2..0.8} (64 weight combos); generative corrs included (201/221) and flagged; partial-only ranking beside it"
+      ]
+    },
+    {
+      "metric_id": "f2.top1_unification",
+      "value": 26,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 216,
+      "task": "F2",
+      "runid": "F2-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "max u(c) = nrep_c002×cemi_c001 (partial); full top-10 in results/f2_top10.json"
+      ]
+    },
+    {
+      "metric_id": "g2.deobf_leaks",
+      "value": 537,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 60,
+      "task": "TD4",
+      "runid": "TD4-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "TD4 (=G2) protocol game, 30 items, two separate game_agent conversations across a vocabulary firewall (map A vs map B, distinct targets; owner fixes D-052; pre-flight: 0 source terms remain in any rendered item). §0.11 pilot. D-041 FIREWALL VERDICT: surface-obfuscated, identity NOT guaranteed hidden (de-obfuscation leaks > 0).",
+        "D-041 per-message de-obfuscation leak count (real source terms resurfacing): free 402, typed 135. Firewall reported as 'surface-obfuscated, identity NOT guaranteed hidden (de-obfuscation leaks > 0)'."
+      ]
+    },
+    {
+      "metric_id": "g2.firewall_leaks",
+      "value": 25,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 60,
+      "task": "TD4",
+      "runid": "TD4-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "TD4 (=G2) protocol game, 30 items, two separate game_agent conversations across a vocabulary firewall (map A vs map B, distinct targets; owner fixes D-052; pre-flight: 0 source terms remain in any rendered item). §0.11 pilot. D-041 FIREWALL VERDICT: surface-obfuscated, identity NOT guaranteed hidden (de-obfuscation leaks > 0).",
+        "map-A target in B's msgs or map-B target in A's: free 13, typed 12 (free-text leaks are EXPECTED, part of the finding)"
+      ]
+    },
+    {
+      "metric_id": "g2.task_acc_free",
+      "value": 0.6667,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 30,
+      "task": "TD4",
+      "runid": "TD4-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "TD4 (=G2) protocol game, 30 items, two separate game_agent conversations across a vocabulary firewall (map A vs map B, distinct targets; owner fixes D-052; pre-flight: 0 source terms remain in any rendered item). §0.11 pilot. D-041 FIREWALL VERDICT: surface-obfuscated, identity NOT guaranteed hidden (de-obfuscation leaks > 0).",
+        "free: turns_mean 6.0, tokens_mean 678.2, schema-bounces 0"
+      ]
+    },
+    {
+      "metric_id": "g2.task_acc_typed",
+      "value": 0.3667,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 30,
+      "task": "TD4",
+      "runid": "TD4-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "TD4 (=G2) protocol game, 30 items, two separate game_agent conversations across a vocabulary firewall (map A vs map B, distinct targets; owner fixes D-052; pre-flight: 0 source terms remain in any rendered item). §0.11 pilot. D-041 FIREWALL VERDICT: surface-obfuscated, identity NOT guaranteed hidden (de-obfuscation leaks > 0).",
+        "typed: turns_mean 6.0, tokens_mean 573.8, schema-bounces 3"
+      ]
+    },
+    {
+      "metric_id": "g2.tokens_mean_free",
+      "value": 678.2,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 30,
+      "task": "TD4",
+      "runid": "TD4-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "TD4 (=G2) protocol game, 30 items, two separate game_agent conversations across a vocabulary firewall (map A vs map B, distinct targets; owner fixes D-052; pre-flight: 0 source terms remain in any rendered item). §0.11 pilot. D-041 FIREWALL VERDICT: surface-obfuscated, identity NOT guaranteed hidden (de-obfuscation leaks > 0)."
+      ]
+    },
+    {
+      "metric_id": "g2.tokens_mean_typed",
+      "value": 573.8,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 30,
+      "task": "TD4",
+      "runid": "TD4-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "TD4 (=G2) protocol game, 30 items, two separate game_agent conversations across a vocabulary firewall (map A vs map B, distinct targets; owner fixes D-052; pre-flight: 0 source terms remain in any rendered item). §0.11 pilot. D-041 FIREWALL VERDICT: surface-obfuscated, identity NOT guaranteed hidden (de-obfuscation leaks > 0)."
+      ]
+    },
+    {
+      "metric_id": "g2.turns_mean_free",
+      "value": 6.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 30,
+      "task": "TD4",
+      "runid": "TD4-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "TD4 (=G2) protocol game, 30 items, two separate game_agent conversations across a vocabulary firewall (map A vs map B, distinct targets; owner fixes D-052; pre-flight: 0 source terms remain in any rendered item). §0.11 pilot. D-041 FIREWALL VERDICT: surface-obfuscated, identity NOT guaranteed hidden (de-obfuscation leaks > 0)."
+      ]
+    },
+    {
+      "metric_id": "g2.turns_mean_typed",
+      "value": 6.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 30,
+      "task": "TD4",
+      "runid": "TD4-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "TD4 (=G2) protocol game, 30 items, two separate game_agent conversations across a vocabulary firewall (map A vs map B, distinct targets; owner fixes D-052; pre-flight: 0 source terms remain in any rendered item). §0.11 pilot. D-041 FIREWALL VERDICT: surface-obfuscated, identity NOT guaranteed hidden (de-obfuscation leaks > 0)."
+      ]
+    },
+    {
+      "metric_id": "g2.value_field_leak_rate",
+      "value": 0.4278,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 180,
+      "task": "TD4",
+      "runid": "TD4-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "TD4 (=G2) protocol game, 30 items, two separate game_agent conversations across a vocabulary firewall (map A vs map B, distinct targets; owner fixes D-052; pre-flight: 0 source terms remain in any rendered item). §0.11 pilot. D-041 FIREWALL VERDICT: surface-obfuscated, identity NOT guaranteed hidden (de-obfuscation leaks > 0).",
+        "fraction of typed-card messages whose value_description (the ≤12-word free field, the DESIGNED leak channel) carries a cross-map target or real source term"
+      ]
+    },
+    {
+      "metric_id": "kr.buckley.missed",
+      "value": 0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 8,
+      "task": "KR4",
+      "runid": "KR4-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v2b",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "KR4 operational-homology recovery on corpus v2b (AIF = engine 16 + 11 TD1; ML = 21 TD1b claims). 8 valid rows (4 dropped: ['buckley_05', 'buckley_07', 'buckley_10', 'buckley_12'] — quote did not state the pairing). PC↔backprop maps to one corpus → undiffable (same-corpus). PUBLIC key, never ingested (holdout green). OWNER FINDING: after support-checking, the KR4 key contains NO AIF↔MBRL homology (mbrl rows dropped) — only AIF↔control-as-inference, PC↔backprop (+PC→AIF). Recovery scored on what the key supports. Validated pairings: ['active-inference↔control-as-inference', 'predictive-coding↔active-inference', 'predictive-coding↔backpropagation']. AIF↔MBRL present among valid rows: False. Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. The holdout controls the prompt, not training data.",
+        "missed=0 of 8 valid homology rows"
+      ]
+    },
+    {
+      "metric_id": "kr.buckley.partial",
+      "value": 2,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 8,
+      "task": "KR4",
+      "runid": "KR4-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v2b",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "KR4 operational-homology recovery on corpus v2b (AIF = engine 16 + 11 TD1; ML = 21 TD1b claims). 8 valid rows (4 dropped: ['buckley_05', 'buckley_07', 'buckley_10', 'buckley_12'] — quote did not state the pairing). PC↔backprop maps to one corpus → undiffable (same-corpus). PUBLIC key, never ingested (holdout green). OWNER FINDING: after support-checking, the KR4 key contains NO AIF↔MBRL homology (mbrl rows dropped) — only AIF↔control-as-inference, PC↔backprop (+PC→AIF). Recovery scored on what the key supports. Validated pairings: ['active-inference↔control-as-inference', 'predictive-coding↔active-inference', 'predictive-coding↔backpropagation']. AIF↔MBRL present among valid rows: False. Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. The holdout controls the prompt, not training data.",
+        "partial=2 of 8 valid homology rows"
+      ]
+    },
+    {
+      "metric_id": "kr.buckley.recovered",
+      "value": 4,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 8,
+      "task": "KR4",
+      "runid": "KR4-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v2b",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "KR4 operational-homology recovery on corpus v2b (AIF = engine 16 + 11 TD1; ML = 21 TD1b claims). 8 valid rows (4 dropped: ['buckley_05', 'buckley_07', 'buckley_10', 'buckley_12'] — quote did not state the pairing). PC↔backprop maps to one corpus → undiffable (same-corpus). PUBLIC key, never ingested (holdout green). OWNER FINDING: after support-checking, the KR4 key contains NO AIF↔MBRL homology (mbrl rows dropped) — only AIF↔control-as-inference, PC↔backprop (+PC→AIF). Recovery scored on what the key supports. Validated pairings: ['active-inference↔control-as-inference', 'predictive-coding↔active-inference', 'predictive-coding↔backpropagation']. AIF↔MBRL present among valid rows: False. Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. The holdout controls the prompt, not training data.",
+        "recovered=4 of 8 valid homology rows"
+      ]
+    },
+    {
+      "metric_id": "kr.buckley.rows_built",
+      "value": 12,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 12,
+      "task": "KR4",
+      "runid": "KR4-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v2b",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "KR4 operational-homology key rows transcribed from the held-out homology papers (arXiv 2006.12964 + 2107.12979; owner choice D-049) in quarantine (PUBLIC class; never ingested — holdout green). RECOVERY diff DEFERRED to keys/kr4_diff.py after the TD1/TD1b claims packets are approved (needs AIF + ML sides in corpus v2b). kr.buckley.recovered/* land then. The holdout controls the prompt, not training data.",
+        "rows by source: aif_cai; pc_backprop"
+      ]
+    },
+    {
+      "metric_id": "kr.buckley.undiffable",
+      "value": 2,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 8,
+      "task": "KR4",
+      "runid": "KR4-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v2b",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "KR4 operational-homology recovery on corpus v2b (AIF = engine 16 + 11 TD1; ML = 21 TD1b claims). 8 valid rows (4 dropped: ['buckley_05', 'buckley_07', 'buckley_10', 'buckley_12'] — quote did not state the pairing). PC↔backprop maps to one corpus → undiffable (same-corpus). PUBLIC key, never ingested (holdout green). OWNER FINDING: after support-checking, the KR4 key contains NO AIF↔MBRL homology (mbrl rows dropped) — only AIF↔control-as-inference, PC↔backprop (+PC→AIF). Recovery scored on what the key supports. Validated pairings: ['active-inference↔control-as-inference', 'predictive-coding↔active-inference', 'predictive-coding↔backpropagation']. AIF↔MBRL present among valid rows: False. Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. The holdout controls the prompt, not training data.",
+        "same-corpus (PC↔backprop) or no-coverage rows — reported, not scored as misses"
+      ]
+    },
+    {
+      "metric_id": "kr.cogitate.beyond",
+      "value": 9,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 3,
+      "task": "KR1",
+      "runid": "KR1-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "KR1 v2 COGITATE diff on the Anu-APPROVED instrument-v2 re-extraction. OUTCOME-INFORMED REVISION (D-040/D-041, verbatim): \"iit_c009 was initially rejected at the gate; after a sensitivity check showed it was the sole binding claim for P3, it was re-reviewed and approved on codebook-consistency grounds (matching approved canonical iit_c025). Original gated result {1,0,2,9} and revised {2,0,1,9}; fully ungated sensitivity {2,0,1,16} are both reported.\" (revised-gated = iit_c009 approved, gnwt_c022 still rejected, 74/84; the ungated {2,0,1,16} has identical recovered/partial/missed, differing only in beyond because it also restores the other 10 rejected claims; P3 MISSED→RECOVERED holds in both). P2 (temporal_profile) remains MISSED and is attributed to the INSTRUMENT: no IIT temporal_profile claim was ever extracted (not a gate effect). Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. Engine never ingested the COGITATE key text (holdout green; A5.4 guard clean, docs/a5_4_allowlist_provenance.md). instrument_tag v2; numbers lock §0.10(9) — full v2 set (KR2–KR5 v2) completes the snapshot.",
+        "v1 (import) beyond=6 → v2 beyond=9"
+      ]
+    },
+    {
+      "metric_id": "kr.cogitate.beyond_original_gated",
+      "value": 9,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 3,
+      "task": "KR1",
+      "runid": "KR1-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "ORIGINAL gated result (iit_c009 rejected), preserved per owner (both reported). Superseded as the headline by the revised result after the outcome-informed approval of iit_c009 (D-040); kept for transparency."
+      ]
+    },
+    {
+      "metric_id": "kr.cogitate.extraction_confirmed",
+      "value": 0.881,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 84,
+      "task": "KR1",
+      "runid": "KR1-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "KR1 v2 COGITATE diff on the Anu-APPROVED instrument-v2 re-extraction. OUTCOME-INFORMED REVISION (D-040/D-041, verbatim): \"iit_c009 was initially rejected at the gate; after a sensitivity check showed it was the sole binding claim for P3, it was re-reviewed and approved on codebook-consistency grounds (matching approved canonical iit_c025). Original gated result {1,0,2,9} and revised {2,0,1,9}; fully ungated sensitivity {2,0,1,16} are both reported.\" (revised-gated = iit_c009 approved, gnwt_c022 still rejected, 74/84; the ungated {2,0,1,16} has identical recovered/partial/missed, differing only in beyond because it also restores the other 10 rejected claims; P3 MISSED→RECOVERED holds in both). P2 (temporal_profile) remains MISSED and is attributed to the INSTRUMENT: no IIT temporal_profile claim was ever extracted (not a gate effect). Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. Engine never ingested the COGITATE key text (holdout green; A5.4 guard clean, docs/a5_4_allowlist_provenance.md). instrument_tag v2; numbers lock §0.10(9) — full v2 set (KR2–KR5 v2) completes the snapshot.",
+        "74/84 v2 re-extracted claims confirmed by Anu (statement-vs-fields; packet carried no source quotes)"
+      ]
+    },
+    {
+      "metric_id": "kr.cogitate.missed",
+      "value": 1,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 3,
+      "task": "KR1",
+      "runid": "KR1-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "KR1 v2 COGITATE diff on the Anu-APPROVED instrument-v2 re-extraction. OUTCOME-INFORMED REVISION (D-040/D-041, verbatim): \"iit_c009 was initially rejected at the gate; after a sensitivity check showed it was the sole binding claim for P3, it was re-reviewed and approved on codebook-consistency grounds (matching approved canonical iit_c025). Original gated result {1,0,2,9} and revised {2,0,1,9}; fully ungated sensitivity {2,0,1,16} are both reported.\" (revised-gated = iit_c009 approved, gnwt_c022 still rejected, 74/84; the ungated {2,0,1,16} has identical recovered/partial/missed, differing only in beyond because it also restores the other 10 rejected claims; P3 MISSED→RECOVERED holds in both). P2 (temporal_profile) remains MISSED and is attributed to the INSTRUMENT: no IIT temporal_profile claim was ever extracted (not a gate effect). Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. Engine never ingested the COGITATE key text (holdout green; A5.4 guard clean, docs/a5_4_allowlist_provenance.md). instrument_tag v2; numbers lock §0.10(9) — full v2 set (KR2–KR5 v2) completes the snapshot.",
+        "v1 (import) missed=0 → v2 missed=1"
+      ]
+    },
+    {
+      "metric_id": "kr.cogitate.missed_original_gated",
+      "value": 2,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 3,
+      "task": "KR1",
+      "runid": "KR1-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "ORIGINAL gated result (iit_c009 rejected), preserved per owner (both reported). Superseded as the headline by the revised result after the outcome-informed approval of iit_c009 (D-040); kept for transparency."
+      ]
+    },
+    {
+      "metric_id": "kr.cogitate.partial",
+      "value": 0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 3,
+      "task": "KR1",
+      "runid": "KR1-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "KR1 v2 COGITATE diff on the Anu-APPROVED instrument-v2 re-extraction. OUTCOME-INFORMED REVISION (D-040/D-041, verbatim): \"iit_c009 was initially rejected at the gate; after a sensitivity check showed it was the sole binding claim for P3, it was re-reviewed and approved on codebook-consistency grounds (matching approved canonical iit_c025). Original gated result {1,0,2,9} and revised {2,0,1,9}; fully ungated sensitivity {2,0,1,16} are both reported.\" (revised-gated = iit_c009 approved, gnwt_c022 still rejected, 74/84; the ungated {2,0,1,16} has identical recovered/partial/missed, differing only in beyond because it also restores the other 10 rejected claims; P3 MISSED→RECOVERED holds in both). P2 (temporal_profile) remains MISSED and is attributed to the INSTRUMENT: no IIT temporal_profile claim was ever extracted (not a gate effect). Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. Engine never ingested the COGITATE key text (holdout green; A5.4 guard clean, docs/a5_4_allowlist_provenance.md). instrument_tag v2; numbers lock §0.10(9) — full v2 set (KR2–KR5 v2) completes the snapshot.",
+        "v1 (import) partial=1 → v2 partial=0"
+      ]
+    },
+    {
+      "metric_id": "kr.cogitate.partial_original_gated",
+      "value": 0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 3,
+      "task": "KR1",
+      "runid": "KR1-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "ORIGINAL gated result (iit_c009 rejected), preserved per owner (both reported). Superseded as the headline by the revised result after the outcome-informed approval of iit_c009 (D-040); kept for transparency."
+      ]
+    },
+    {
+      "metric_id": "kr.cogitate.recovered",
+      "value": 2,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 3,
+      "task": "KR1",
+      "runid": "KR1-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "KR1 v2 COGITATE diff on the Anu-APPROVED instrument-v2 re-extraction. OUTCOME-INFORMED REVISION (D-040/D-041, verbatim): \"iit_c009 was initially rejected at the gate; after a sensitivity check showed it was the sole binding claim for P3, it was re-reviewed and approved on codebook-consistency grounds (matching approved canonical iit_c025). Original gated result {1,0,2,9} and revised {2,0,1,9}; fully ungated sensitivity {2,0,1,16} are both reported.\" (revised-gated = iit_c009 approved, gnwt_c022 still rejected, 74/84; the ungated {2,0,1,16} has identical recovered/partial/missed, differing only in beyond because it also restores the other 10 rejected claims; P3 MISSED→RECOVERED holds in both). P2 (temporal_profile) remains MISSED and is attributed to the INSTRUMENT: no IIT temporal_profile claim was ever extracted (not a gate effect). Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. Engine never ingested the COGITATE key text (holdout green; A5.4 guard clean, docs/a5_4_allowlist_provenance.md). instrument_tag v2; numbers lock §0.10(9) — full v2 set (KR2–KR5 v2) completes the snapshot.",
+        "v1 (import) recovered=2 → v2 recovered=2"
+      ]
+    },
+    {
+      "metric_id": "kr.cogitate.recovered_original_gated",
+      "value": 1,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 3,
+      "task": "KR1",
+      "runid": "KR1-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "ORIGINAL gated result (iit_c009 rejected), preserved per owner (both reported). Superseded as the headline by the revised result after the outcome-informed approval of iit_c009 (D-040); kept for transparency."
+      ]
+    },
+    {
+      "metric_id": "kr.cogitate.v2_ungated_sensitivity",
+      "value": "{\"beyond\": 16, \"missed\": 1, \"partial\": 0, \"recovered\": 2}",
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 3,
+      "task": "KR1",
+      "runid": "KR1-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "UNGATED (all 84 v2 claims, no Anu gate) COGITATE diff, for sensitivity only — NOT a reported result. gated={\"beyond\": 9, \"missed\": 2, \"partial\": 0, \"recovered\": 1}; ungated={\"beyond\": 16, \"missed\": 1, \"partial\": 0, \"recovered\": 2}; HEADLINE DIFFERS → see responsible rejected rows ['iit_c009']"
+      ]
+    },
+    {
+      "metric_id": "kr.elife.beyond",
+      "value": 27,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 14,
+      "task": "KR3",
+      "runid": "KR3-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "KR3 eLife synergistic-workspace FINAL diff on the 14 Anu-validated key rows (14 mappable, 0 unmappable/vocabulary-gap; dropped ['elife_14', 'elife_16'] as methods, not theory commitments). PUBLIC-class key, never ingested (holdout green). Node-only vs the engine IIT×GNWT fork/correspondence set, instrument v2. Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. The holdout controls the prompt, not training data.",
+        "FINAL beyond=27 over 14 mappable validated rows"
+      ]
+    },
+    {
+      "metric_id": "kr.elife.missed",
+      "value": 8,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 14,
+      "task": "KR3",
+      "runid": "KR3-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "KR3 eLife synergistic-workspace FINAL diff on the 14 Anu-validated key rows (14 mappable, 0 unmappable/vocabulary-gap; dropped ['elife_14', 'elife_16'] as methods, not theory commitments). PUBLIC-class key, never ingested (holdout green). Node-only vs the engine IIT×GNWT fork/correspondence set, instrument v2. Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. The holdout controls the prompt, not training data.",
+        "FINAL missed=8 over 14 mappable validated rows"
+      ]
+    },
+    {
+      "metric_id": "kr.elife.partial",
+      "value": 6,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 14,
+      "task": "KR3",
+      "runid": "KR3-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "KR3 eLife synergistic-workspace FINAL diff on the 14 Anu-validated key rows (14 mappable, 0 unmappable/vocabulary-gap; dropped ['elife_14', 'elife_16'] as methods, not theory commitments). PUBLIC-class key, never ingested (holdout green). Node-only vs the engine IIT×GNWT fork/correspondence set, instrument v2. Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. The holdout controls the prompt, not training data.",
+        "FINAL partial=6 over 14 mappable validated rows"
+      ]
+    },
+    {
+      "metric_id": "kr.elife.recovered",
+      "value": 0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 14,
+      "task": "KR3",
+      "runid": "KR3-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "KR3 eLife synergistic-workspace FINAL diff on the 14 Anu-validated key rows (14 mappable, 0 unmappable/vocabulary-gap; dropped ['elife_14', 'elife_16'] as methods, not theory commitments). PUBLIC-class key, never ingested (holdout green). Node-only vs the engine IIT×GNWT fork/correspondence set, instrument v2. Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. The holdout controls the prompt, not training data.",
+        "FINAL recovered=0 over 14 mappable validated rows"
+      ]
+    },
+    {
+      "metric_id": "kr.elife.unmappable_rows",
+      "value": 0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 14,
+      "task": "KR3",
+      "runid": "KR3-2",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "KR3 eLife synergistic-workspace FINAL diff on the 14 Anu-validated key rows (14 mappable, 0 unmappable/vocabulary-gap; dropped ['elife_14', 'elife_16'] as methods, not theory commitments). PUBLIC-class key, never ingested (holdout green). Node-only vs the engine IIT×GNWT fork/correspondence set, instrument v2. Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu. The holdout controls the prompt, not training data.",
+        "0/14 validated findings map to no engine axis (vocabulary gap, reported)"
+      ]
+    },
+    {
+      "metric_id": "kr.intrepid.int_h1",
+      "value": "RECOVERED-as-correspondence",
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 1,
+      "task": "KR2",
+      "runid": "KR2-1",
+      "instrument_tag": "v1",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "Key transcribed from the public INTREPID review by a quarantined model pass (pre-sprint, engine data/answer_keys/intrepid.yaml); the engine pipeline never accessed the review text (holdout green); transcription is model output and may err; approved for FORMAT only, not correctness. Instrument v1 (frozen forks); the v2 rerun follows the A5.3 freeze (numbers lock §0.10(9)). The holdout controls the prompt, not the model's training data (see A6).",
+        "INT_H1 mechanism placement: all three theories placed on the mechanism axis by their own texts (generative; mechanism is an analogy axis in demo_v0)"
+      ]
+    },
+    {
+      "metric_id": "kr.intrepid.mechanism_correspondences",
+      "value": 26,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 26,
+      "task": "KR2",
+      "runid": "KR2-1",
+      "instrument_tag": "v1",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "Key transcribed from the public INTREPID review by a quarantined model pass (pre-sprint, engine data/answer_keys/intrepid.yaml); the engine pipeline never accessed the review text (holdout green); transcription is model output and may err; approved for FORMAT only, not correctness. Instrument v1 (frozen forks); the v2 rerun follows the A5.3 freeze (numbers lock §0.10(9)). The holdout controls the prompt, not the model's training data (see A6).",
+        "engine mechanism-axis correspondences across the IIT×NREP×AI triangle"
+      ]
+    },
+    {
+      "metric_id": "kr.intrepid.nrep_computability",
+      "value": "MISSED-accepted-honest",
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 1,
+      "task": "KR2",
+      "runid": "KR2-1",
+      "instrument_tag": "v1",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "Key transcribed from the public INTREPID review by a quarantined model pass (pre-sprint, engine data/answer_keys/intrepid.yaml); the engine pipeline never accessed the review text (holdout green); transcription is model output and may err; approved for FORMAT only, not correctness. Instrument v1 (frozen forks); the v2 rerun follows the A5.3 freeze (numbers lock §0.10(9)). The holdout controls the prompt, not the model's training data (see A6).",
+        "NREP's approved set contains no computability commitment — honest silence (its representationalism is on mechanism/architecture axes), not a defect"
+      ]
+    },
+    {
+      "metric_id": "kr.intrepid.register_verified",
+      "value": 18,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 18,
+      "task": "KR2",
+      "runid": "KR2-1",
+      "instrument_tag": "v1",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "Key transcribed from the public INTREPID review by a quarantined model pass (pre-sprint, engine data/answer_keys/intrepid.yaml); the engine pipeline never accessed the review text (holdout green); transcription is model output and may err; approved for FORMAT only, not correctness. Instrument v1 (frozen forks); the v2 rerun follows the A5.3 freeze (numbers lock §0.10(9)). The holdout controls the prompt, not the model's training data (see A6).",
+        "18/18 standing-prediction forks present in the CURRENT engine judge outputs (verification)"
+      ]
+    },
+    {
+      "metric_id": "kr.intrepid.standing_predictions",
+      "value": 18,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 18,
+      "task": "KR2",
+      "runid": "KR2-1",
+      "instrument_tag": "v1",
+      "corpus_tag": "v1",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "Key transcribed from the public INTREPID review by a quarantined model pass (pre-sprint, engine data/answer_keys/intrepid.yaml); the engine pipeline never accessed the review text (holdout green); transcription is model output and may err; approved for FORMAT only, not correctness. Instrument v1 (frozen forks); the v2 rerun follows the A5.3 freeze (numbers lock §0.10(9)). The holdout controls the prompt, not the model's training data (see A6).",
+        "18-fork INTREPID register = intrepid_diff.json standing_predictions; axes {'locus': 9, 'observable_commitment': 4, 'mechanism_scale': 3, 'temporal_profile': 2} (spec's 10/4/3/2 tally was stale; actual 9 locus/4 obs/3 mechanism_scale/2 temporal = 18)"
+      ]
+    },
+    {
+      "metric_id": "mn3.shortcut_rate_judge",
+      "value": "n/a (equivocation cell not engine-typed; pending A2)",
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 60,
+      "task": "G5",
+      "runid": "G5-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "judge: equivocation-cell accuracy not available (the judge needs engine-typed claims; MIU equivocations are axis=none both sides until A2 engine-types them — the honest gap carried from B4)."
+      ]
+    },
+    {
+      "metric_id": "mn3.shortcut_rate_mpnet",
+      "value": 0.4,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 60,
+      "task": "G5",
+      "runid": "G5-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "fraction of the 60 equivocation-cell items mpnet scores above its balanced-accuracy threshold (accepts a shared-vocab NON-correspondence) = 1 − b4.mpnet_acc_equivocation (0.6). The reasoning-shortcut rate (Minervini MN3): higher = more fooled by surface."
+      ]
+    },
+    {
+      "metric_id": "mn3.shortcut_rate_restate",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 60,
+      "task": "G5",
+      "runid": "G5-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "fraction of the 60 equivocation-cell items restate scores above its balanced-accuracy threshold (accepts a shared-vocab NON-correspondence) = 1 − b4.restate_acc_equivocation (1.0). The reasoning-shortcut rate (Minervini MN3): higher = more fooled by surface."
+      ]
+    },
+    {
+      "metric_id": "mo3.squares_checked",
+      "value": 404,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 216,
+      "task": "F2",
+      "runid": "F2-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "candidate functorial structure: counts (never established functoriality). per edge type: {constrains:47, grounds:270, entails:87}"
+      ]
+    },
+    {
+      "metric_id": "mo3.squares_commuting",
+      "value": 61,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 404,
+      "task": "F2",
+      "runid": "F2-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "of 404 within-theory edge squares checked; per type: {constrains:3/47, grounds:58/270, entails:0/87}. candidate functorial structure: counts."
+      ]
+    },
+    {
+      "metric_id": "r1.key_null_p_cogitate",
+      "value": 0.075,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 1000,
+      "task": "TD5",
+      "runid": "TD5-S4",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "KR1 COGITATE key-recovery EMPIRICAL permutation p: fraction of 1000 random typed-row keys that recover ≥ the real 2/3 = 0.075. Same null as r1.key_null_z_cogitate (recovered-count distribution, μ=0.531 σ=0.647). p and z come from the SAME null; the normal-approx z=2.27 OVERSTATES significance because the null is discrete (recovered∈{0,1,2,3}) and right-skewed — the empirical p=0.075 is the honest figure and does NOT reach α=0.05 (suggestive only)."
+      ]
+    },
+    {
+      "metric_id": "r1.key_null_p_elife",
+      "value": 0.981,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 1000,
+      "task": "KR3",
+      "runid": "KR3-3",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "KR3 eLife key-recovery null: real recovered 0/14 (0 exact), recovered+partial 6 vs 1000 random 14-row keys (axes from the 12-axis vocab, value-families from corpus marginals) diffed against the engine IIT×GNWT set. Recovered is 0 → trivially not above chance; the informative statistic is recovered+partial: null μ=9.237 σ=1.704, z=-1.90, empirical p=0.981 (does NOT reach α=0.05). The chance rate that makes the eLife partial recovery interpretable; honest — reported as found.",
+        "empirical permutation p on recovered+partial"
+      ]
+    },
+    {
+      "metric_id": "r1.key_null_z_cogitate",
+      "value": 2.2693,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 1000,
+      "task": "TD5",
+      "runid": "TD5-S4",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "KR1 COGITATE key-recovery null: real recovered 2/3 vs 1000 random 3-row keys (axes sampled from the 12-axis vocab, value-families from per-theory corpus marginals), diffed against the Anu-approved instrument-v2 IIT×GNWT forks. null recovered μ=0.531 σ=0.647; empirical p(≥2)=0.075. Recovered+partial: real 2, null μ=0.769, z=1.62816017456199, p=0.155. The chance rate that makes the 2/3 recovery interpretable.",
+        "KR2 INTREPID recovery is qualitative (register-verification) → row-recovery null N/A; KR3/KR4/KR5 nulls await their held-out PDFs (machinery identical)."
+      ]
+    },
+    {
+      "metric_id": "r1.key_null_z_elife",
+      "value": -1.8993,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 1000,
+      "task": "KR3",
+      "runid": "KR3-3",
+      "instrument_tag": "v2",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "KR3 eLife key-recovery null: real recovered 0/14 (0 exact), recovered+partial 6 vs 1000 random 14-row keys (axes from the 12-axis vocab, value-families from corpus marginals) diffed against the engine IIT×GNWT set. Recovered is 0 → trivially not above chance; the informative statistic is recovered+partial: null μ=9.237 σ=1.704, z=-1.90, empirical p=0.981 (does NOT reach α=0.05). The chance rate that makes the eLife partial recovery interpretable; honest — reported as found.",
+        "z on recovered+partial (the informative statistic; recovered alone is 0)"
+      ]
+    },
+    {
+      "metric_id": "r1.null_z_corr_count_s1",
+      "value": 2.271,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 1000,
+      "task": "TD5",
+      "runid": "TD5-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "real 221 vs s1 null (μ=206.19, σ=6.52, p(≥real)=0.001); ported judge, node-only (count edge-independent)"
+      ]
+    },
+    {
+      "metric_id": "r1.null_z_corr_count_s1_uniform",
+      "value": 4.426,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 1000,
+      "task": "TD5",
+      "runid": "TD5-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "real 221 vs s1_uniform null (μ=114.88, σ=23.98, p(≥real)=0.002); ported judge, node-only (count edge-independent)"
+      ]
+    },
+    {
+      "metric_id": "r1.null_z_corr_count_s2",
+      "value": -2.241,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 1000,
+      "task": "TD5",
+      "runid": "TD5-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "real 221 vs s2 null (μ=224.19, σ=1.43, p(≥real)=0.99101); ported judge, node-only (count edge-independent)"
+      ]
+    },
+    {
+      "metric_id": "r1.null_z_corr_count_s3",
+      "value": -0.016,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 1000,
+      "task": "TD5",
+      "runid": "TD5-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "real 221 vs s3 null (μ=221.16, σ=9.92, p(≥real)=0.55844); ported judge, node-only (count edge-independent)"
+      ]
+    },
+    {
+      "metric_id": "ss1.constant_sources",
+      "value": "X1_axis",
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 1,
+      "task": "SS1",
+      "runid": "SS1-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "sources constant over the enumerated population (dropped from PID); candidacy structure described in prose"
+      ]
+    },
+    {
+      "metric_id": "ss1.max_unique_imin",
+      "value": 0.226,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 311,
+      "task": "SS1",
+      "runid": "SS1-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "largest unique atom under imin"
+      ]
+    },
+    {
+      "metric_id": "ss1.max_unique_mmi",
+      "value": 0.226,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 311,
+      "task": "SS1",
+      "runid": "SS1-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "largest unique atom under mmi"
+      ]
+    },
+    {
+      "metric_id": "ss1.synergy_share_4way",
+      "value": 0.0024,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 311,
+      "task": "SS1",
+      "runid": "SS1-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "4-way grade target (none/generative/partial/formal), I_min"
+      ]
+    },
+    {
+      "metric_id": "ss1.synergy_share_imin",
+      "value": 0.0024,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 311,
+      "task": "SS1",
+      "runid": "SS1-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "synergy atom / I(sources:Y) under Williams–Beer I_min; sources=['X2_polcompat', 'X3_family', 'X4_neighbour']; exact enumeration N=311 pairs; constant (dropped): ['X1_axis']; true 4-source BROJA unavailable (measure-sensitivity pair)"
+      ]
+    },
+    {
+      "metric_id": "ss1.synergy_share_mmi",
+      "value": 0.0024,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 311,
+      "task": "SS1",
+      "runid": "SS1-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "synergy atom / I(sources:Y) under MMI; sources=['X2_polcompat', 'X3_family', 'X4_neighbour']; exact enumeration N=311 pairs; constant (dropped): ['X1_axis']; true 4-source BROJA unavailable (measure-sensitivity pair)"
+      ]
+    },
+    {
+      "metric_id": "ss2.excluded_vars",
+      "value": "polarity",
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 1,
+      "task": "SS2",
+      "runid": "SS2-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "polarity excluded from Arm 1 — single-class (95 asserts, 0 denies), zero entropy; the single-class fact is itself a finding (see B3 PABAK note)"
+      ]
+    },
+    {
+      "metric_id": "ss2.null_z_corpus",
+      "value": 11.9756,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 1000,
+      "task": "SS2",
+      "runid": "SS2-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "z vs 1000 per-column field-shuffle surrogates; null μ=0.7882 σ=0.0743 (n=1000)"
+      ]
+    },
+    {
+      "metric_id": "ss2.null_z_crosstheory",
+      "value": 13.5741,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 1000,
+      "task": "SS2",
+      "runid": "SS2-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "z vs 1000 field-shuffle surrogates; null μ=-0.1043 σ=0.0271 (n=1000)"
+      ]
+    },
+    {
+      "metric_id": "ss2.o_info_active-inference",
+      "value": 1.4056,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 16,
+      "task": "SS2",
+      "runid": "SS2-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "per-theory pilot (Active Inference, n=16); sign redundancy-dominated; null μ=1.2848 σ=0.1410 (n=1000)"
+      ]
+    },
+    {
+      "metric_id": "ss2.o_info_cemi",
+      "value": 1.8826,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 15,
+      "task": "SS2",
+      "runid": "SS2-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "per-theory pilot (CEMI, n=15); sign redundancy-dominated; null μ=1.4269 σ=0.1459 (n=1000)"
+      ]
+    },
+    {
+      "metric_id": "ss2.o_info_corpus",
+      "value": 1.678,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 95,
+      "task": "SS2",
+      "runid": "SS2-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "whole-corpus O-info over (entity_type,axis,family); sign redundancy-dominated; null μ=0.7882 σ=0.0743 (n=1000)",
+        "polarity EXCLUDED (single-class 95 asserts/0 denies, zero entropy)"
+      ]
+    },
+    {
+      "metric_id": "ss2.o_info_crosstheory",
+      "value": 0.2629,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 216,
+      "task": "SS2",
+      "runid": "SS2-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "cross-theory O-info over (axisA_family,axisB_family,grade); sign redundancy-dominated; null μ=-0.1043 σ=0.0271 (n=1000)"
+      ]
+    },
+    {
+      "metric_id": "ss2.o_info_gnwt",
+      "value": 1.9043,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 19,
+      "task": "SS2",
+      "runid": "SS2-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "per-theory pilot (GNWT, n=19); sign redundancy-dominated; null μ=1.6916 σ=0.1181 (n=1000)"
+      ]
+    },
+    {
+      "metric_id": "ss2.o_info_iit",
+      "value": 2.3921,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 24,
+      "task": "SS2",
+      "runid": "SS2-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "per-theory pilot (IIT, n=24); sign redundancy-dominated; null μ=2.0804 σ=0.0947 (n=1000)"
+      ]
+    },
+    {
+      "metric_id": "ss2.o_info_nrep",
+      "value": 2.0464,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 10,
+      "task": "SS2",
+      "runid": "SS2-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "per-theory pilot (NREP, n=10); sign redundancy-dominated; null μ=1.5079 σ=0.1428 (n=1000)"
+      ]
+    },
+    {
+      "metric_id": "ss2.o_info_orch-or",
+      "value": 2.0495,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 11,
+      "task": "SS2",
+      "runid": "SS2-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": true,
+      "caveats": [
+        "per-theory pilot (Orch-OR, n=11); sign redundancy-dominated; null μ=2.1188 σ=0.0981 (n=1000)"
+      ]
+    },
+    {
+      "metric_id": "td1.new_claims",
+      "value": 11,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 24,
+      "task": "TD1",
+      "runid": "TD1-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v2",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "TD1 AIF deepening: engine 16 AIF claims + 11 Anu-approved new = 27; judge rerun on ActInf×{IIT,GNWT} vs the engine-only baseline → NEW corr/fork attributable to the added claims. Owner rules: dropped consciousness-insertions, duplicate-of-engine rows, and off-codebook computability/substrate/observable. 0 duplicate(s) among approved. Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu.",
+        "engine 16 + new 11"
+      ]
+    },
+    {
+      "metric_id": "td1.new_correspondences",
+      "value": 23,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 11,
+      "task": "TD1",
+      "runid": "TD1-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v2",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "TD1 AIF deepening: engine 16 AIF claims + 11 Anu-approved new = 27; judge rerun on ActInf×{IIT,GNWT} vs the engine-only baseline → NEW corr/fork attributable to the added claims. Owner rules: dropped consciousness-insertions, duplicate-of-engine rows, and off-codebook computability/substrate/observable. 0 duplicate(s) among approved. Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu.",
+        "aif×iit:generative aif2_c008~iit_c016; aif×iit:generative aif2_c008~iit_n006; aif×iit:generative aif2_c009~iit_c004; aif×iit:generative aif2_c009~iit_c007; aif×iit:generative aif2_c012~iit_c016; aif×iit:generative aif2_c012~iit_n006; aif×iit:generative aif2_c017~iit_c001; aif×iit:generative aif2_c017~iit_c005"
+      ]
+    },
+    {
+      "metric_id": "td1.new_forks",
+      "value": 21,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 11,
+      "task": "TD1",
+      "runid": "TD1-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v2",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "TD1 AIF deepening: engine 16 AIF claims + 11 Anu-approved new = 27; judge rerun on ActInf×{IIT,GNWT} vs the engine-only baseline → NEW corr/fork attributable to the added claims. Owner rules: dropped consciousness-insertions, duplicate-of-engine rows, and off-codebook computability/substrate/observable. 0 duplicate(s) among approved. Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu.",
+        "aif×iit:mechanism_scale aif2_c005|iit_n023; aif×iit:temporal_profile aif2_c015|iit_t003; aif×iit:mechanism_scale aif2_c016|iit_n023; aif×iit:locus aif2_c018|iit_c010; aif×iit:locus aif2_c018|iit_n007; aif×iit:locus aif2_c018|iit_n013; aif×iit:locus aif2_c018|iit_t002; aif×iit:locus aif2_c020|iit_c010"
+      ]
+    },
+    {
+      "metric_id": "td1b.new_claims",
+      "value": 21,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 27,
+      "task": "TD1B",
+      "runid": "TD1b-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v2b",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "TD1b ML-bridge corpus v2b stored for KR4 (the ML side of the homology recovery): 21 approved claims {'control_as_inference': 7, 'pc_backprop': 10, 'mbrl': 4}. Owner rules applied (no consciousness-insertion, no dup-of-engine, codebook meanings). Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu."
+      ]
+    },
+    {
+      "metric_id": "td1b.untypeable_rate_cai",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 11,
+      "task": "TD1B",
+      "runid": "TD1b-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v2b",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "axis:none rate for source cai (control_as_inference) under the consciousness-tuned v1 vocab (DRAFT, pre-approval). >0.60 ⇒ this source's KR4 rows become `undiffable (vocabulary)` — a domain-transfer FINDING, never patched by vocab edits. This source: diffable."
+      ]
+    },
+    {
+      "metric_id": "td1b.untypeable_rate_mbrl",
+      "value": 0.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 4,
+      "task": "TD1B",
+      "runid": "TD1b-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v2b",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "axis:none rate for source mbrl (mbrl) under the consciousness-tuned v1 vocab (DRAFT, pre-approval). >0.60 ⇒ this source's KR4 rows become `undiffable (vocabulary)` — a domain-transfer FINDING, never patched by vocab edits. This source: diffable."
+      ]
+    },
+    {
+      "metric_id": "td1b.untypeable_rate_pcbp",
+      "value": 0.25,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 12,
+      "task": "TD1B",
+      "runid": "TD1b-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v2b",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "axis:none rate for source pcbp (pc_backprop) under the consciousness-tuned v1 vocab (DRAFT, pre-approval). >0.60 ⇒ this source's KR4 rows become `undiffable (vocabulary)` — a domain-transfer FINDING, never patched by vocab edits. This source: diffable."
+      ]
+    },
+    {
+      "metric_id": "td2.within_family_corrs",
+      "value": 19,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 11,
+      "task": "TD2",
+      "runid": "TD2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v2c",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "TD2 IIT 3.0 (engine 24 claims) × IIT 4.0 (11 approved Albantakis claims) within-family judge. Weak-IIT reading made mechanical: which commitments distinguish the variants (no Φ-computation language). Owner rules applied. Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu.",
+        "heavy correspondence on shared commitments (19)"
+      ]
+    },
+    {
+      "metric_id": "td2.within_family_forks",
+      "value": 7,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 11,
+      "task": "TD2",
+      "runid": "TD2-1",
+      "instrument_tag": "v2",
+      "corpus_tag": "v2c",
+      "preregistered": false,
+      "pilot": false,
+      "caveats": [
+        "TD2 IIT 3.0 (engine 24 claims) × IIT 4.0 (11 approved Albantakis claims) within-family judge. Weak-IIT reading made mechanical: which commitments distinguish the variants (no Φ-computation language). Owner rules applied. Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu.",
+        "forks on revised postulates: locus:single_maximal_complex|posterior_cortex; connectivity:heterogeneous_connectivity_required|connectivity_determines_phi; connectivity:heterogeneous_connectivity_required|connectivity_determines_complex_and_phi; locus:maximal_irreducible_complex|posterior_cortex; locus:intrinsic_not_broadcast|posterior_cortex; locus:intrinsic_not_broadcast|maximal_integrated_information_complex"
+      ]
+    },
+    {
+      "metric_id": "vj1.equivalence_rate",
+      "value": 1.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 213,
+      "task": "VJ1",
+      "runid": "VJ1-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "Python judge port vs logic program (minidatalog); 213 comparisons (13 persisted pairs covering 221 corrs + 200 synthetic); per-verdict 666/666=1.0000. Primitives materialised from p5 (bounded treatment); rules transcribe the grade/fork decision tree. no divergences"
+      ]
+    },
+    {
+      "metric_id": "vj1.rule_ablation_axis",
+      "value": 2801,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 316,
+      "task": "VJ1",
+      "runid": "VJ1-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "verdicts changed (sym-diff) when the axis rule family is disabled, over the 13 persisted pairs (316 baseline verdicts); interventional complement to SS1's information decomposition"
+      ]
+    },
+    {
+      "metric_id": "vj1.rule_ablation_family",
+      "value": 30,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 316,
+      "task": "VJ1",
+      "runid": "VJ1-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "verdicts changed (sym-diff) when the family rule family is disabled, over the 13 persisted pairs (316 baseline verdicts); interventional complement to SS1's information decomposition"
+      ]
+    },
+    {
+      "metric_id": "vj1.rule_ablation_neighbour",
+      "value": 0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 316,
+      "task": "VJ1",
+      "runid": "VJ1-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "verdicts changed (sym-diff) when the neighbour rule family is disabled, over the 13 persisted pairs (316 baseline verdicts); interventional complement to SS1's information decomposition"
+      ]
+    },
+    {
+      "metric_id": "vj1.rule_ablation_polarity",
+      "value": 6,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 316,
+      "task": "VJ1",
+      "runid": "VJ1-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "verdicts changed (sym-diff) when the polarity rule family is disabled, over the 13 persisted pairs (316 baseline verdicts); interventional complement to SS1's information decomposition"
+      ]
+    },
+    {
+      "metric_id": "vj2.congruence_rate",
+      "value": 1.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 311,
+      "task": "VJ2",
+      "runid": "VJ2-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "311/311 persisted verdicts entailed by the Z3-autoformalised judge (decision axioms mirror VJ1.2/p5); 0 undecided-by-solver (10s timeout). Primitives materialised from p5 (bounded treatment)."
+      ]
+    },
+    {
+      "metric_id": "vj2.f5_agreement",
+      "value": 1.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 25,
+      "task": "VJ2",
+      "runid": "VJ2-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "F5 logic-parametric: 25/25 pairs agree 3/3 across Python port, Datalog (VJ1), Z3-FOL"
+      ]
+    },
+    {
+      "metric_id": "vj2.flip_distance_min",
+      "value": 1,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 25,
+      "task": "VJ2",
+      "runid": "VJ2-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "counterfactual minimality: min primitive flips to change a verdict (dist mean 1, max 1) over 25 sampled verdicts"
+      ]
+    },
+    {
+      "metric_id": "vj3.proof_coverage",
+      "value": 0.9842,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 316,
+      "task": "VJ3",
+      "runid": "VJ3-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "311/316 verdicts carry a complete minidatalog derivation tree; the 5 shared-measurement-space corrs are materialised measurement-space facts (not rule-derived); rule-derived coverage = 1.0"
+      ]
+    },
+    {
+      "metric_id": "vj4.violations",
+      "value": 0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "n": 316,
+      "task": "VJ4",
+      "runid": "VJ4-1",
+      "instrument_tag": "frozen-store",
+      "corpus_tag": "v1",
+      "preregistered": true,
+      "pilot": false,
+      "caveats": [
+        "ASP-style integrity constraints over the persisted store; 95 claims / 221 corrs / 95 forks; 0 expected; any >0 is a real data bug (corrections.md)"
+      ]
+    }
+  ]
+}

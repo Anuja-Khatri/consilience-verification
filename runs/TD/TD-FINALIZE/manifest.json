@@ -1,0 +1,92 @@
+{
+  "task": "TD",
+  "runid": "TD-FINALIZE",
+  "instrument_tag": "v2",
+  "corpus_tag": "v2",
+  "engine_fingerprint": "09b90e8d4d07e1c1349c2054ffc7bbd6847e6e481a1f438d5998e8f5dcb27057",
+  "artifact_stamp": "2026-10",
+  "config_snapshot": {
+    "models": {
+      "extractor": "claude-sonnet-4-6",
+      "checker": "claude-haiku-4-5-20251001",
+      "perturber": "claude-sonnet-4-6",
+      "verifier": "gpt-4.1",
+      "panel": [
+        "gpt-4.1",
+        "gemini-pro-latest",
+        "qwen2.5-72b-instruct"
+      ],
+      "game_agent": "claude-sonnet-4-6",
+      "transcriber": "claude-sonnet-4-6"
+    },
+    "seeds": {
+      "global": 20261022,
+      "extraction_runs": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "gwot_restarts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "thresholds_ngram": {
+      "n_chars": 8,
+      "minhash_perm": 128,
+      "jaccard_flag": 0.5,
+      "mode": "word_unique",
+      "word_n_guard": 8,
+      "word_n_prov": 10,
+      "benign_set": "miu",
+      "amended_by": "D-034"
+    }
+  },
+  "inputs": [
+    {
+      "path": "/Users/anujakhatri3/consilience-verification/runs/TD1/TD1-1/claims.json",
+      "kind": "extraction",
+      "sha256": "6565d5ec9d8791c32d62bd81d1d0165982a66ec14cd3eaf3dd2aff96206ce294"
+    },
+    {
+      "path": "/Users/anujakhatri3/consilience-verification/runs/TD1B/TD1b-1/claims.json",
+      "kind": "extraction",
+      "sha256": "22ff3c89c7b6f6af61ad97c4375d2fe0efb977ba262aed825eb33106d4cdc047"
+    },
+    {
+      "path": "/Users/anujakhatri3/consilience-verification/runs/TD2/TD2-1/claims.json",
+      "kind": "extraction",
+      "sha256": "43330061621b7351b87e25e04b443cd9fd490dd57342291cbc55636216b5a931"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "runs/TD1/TD1-1/judge_rerun.json",
+      "sha256": "5a49e24f8a2f7ad33fd60c81e143c557aab7047a3f2a6e1217c4204b1b229ee8",
+      "kind": "file"
+    },
+    {
+      "path": "runs/TD2/TD2-1/judge_rerun.json",
+      "sha256": "9af9fb3acec951a1e5e8375d78fa4b32166b65d23f6ec0fd9c416242197ea86e",
+      "kind": "file"
+    },
+    {
+      "path": "corpora/td1b/claims.json",
+      "sha256": "554f2f1a6a1bc499717aa26a2ee4dfe60744a70c0c43cc8ffcc0434dbe771a65",
+      "kind": "file"
+    }
+  ],
+  "seeds": {},
+  "model_provenance": [],
+  "notes": "TD1/TD1b/TD2 post-approval judge reruns + ML corpus v2b store."
+}

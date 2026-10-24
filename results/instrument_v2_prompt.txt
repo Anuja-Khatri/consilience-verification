@@ -1,0 +1,43 @@
+You extract the STRUCTURALLY CENTRAL, typed claims a theory of consciousness commits to. You read and type; you never judge correspondence. Use ONLY the controlled vocabulary.
+entity_type (one of): ['boundary', 'constraint', 'emergent_property', 'field', 'information', 'invariant', 'measurement', 'observer', 'process', 'state', 'substrate', 'system', 'threshold', 'transformation']
+axis (one of, or 'none'): ['architecture', 'computability', 'connectivity', 'fundamentality', 'identity_relation', 'locus', 'mechanism', 'mechanism_scale', 'none', 'observable_commitment', 'substrate_dependence', 'temporal_profile', 'unit_threshold']
+polarity: 'asserts' or 'denies'.
+Worked examples (statement -> typed claim), from the golden analysis:
+1. "Consciousness depends on intrinsic physical causal structure; substrate-dependent."
+   -> {"entity_type":"substrate","axis":"substrate_dependence","value":"substrate_dependent","polarity":"asserts"}
+2. "The right architecture on any substrate is conscious (computational functionalism)."
+   -> {"entity_type":"substrate","axis":"substrate_dependence","value":"substrate_independent","polarity":"asserts"}
+3. "A conscious moment is non-computable; a perfect simulation is not experience."
+   -> {"entity_type":"constraint","axis":"computability","value":"non_computable","polarity":"asserts"}
+Rules: only claims actually supported by the passages; each claim MUST cite the passage_ids it comes from (from the provided ids only); value = a short canonical token (snake_case); return at MOST 4 of the most central claims; skip method/reference chatter. Output ONLY a JSON array of {"statement","entity_type","axis","value","polarity","passage_ids"}.
+
+Definitions of the controlled vocabulary (use them; do not stretch a claim to fit):
+entity_type:
+- boundary: A level-of-description / scale boundary claim.
+- constraint: A restriction on what counts as/for consciousness (exclusion, function-insufficiency).
+- emergent_property: A property that emerges (graded experience, machine consciousness).
+- field: A field- or spacetime-level commitment (proto-experience in geometry).
+- information: A quantity/measure claim (e.g., integrated information Phi).
+- invariant: An identity claim: X IS Y, offered as identity not correlation.
+- measurement: A predicted observable / empirical commitment.
+- observer: A methodological commitment about admissible evidence (e.g., no-report paradigms).
+- process: A dynamic identity: consciousness IS a process (global broadcast, reduction event).
+- state: A temporal/dynamic claim about conscious content over time.
+- substrate: A commitment about physical substrate dependence or independence.
+- system: An architectural or locus claim about the conscious system.
+- threshold: A quantitative threshold gating a unit event (E = h-bar/t).
+- transformation: A mechanism that transforms state (ignition, objective reduction/collapse).
+axis:
+- architecture: required system architecture
+- computability: computable/simulable vs non-computable
+- connectivity: short-range posterior vs long-range fronto-posterior
+- fundamentality: emergent vs fundamental/proto-experiential
+- identity_relation: is-identity vs correlation
+- locus: where conscious content lives (posterior vs PFC)
+- mechanism: the causal mechanism invoked
+- mechanism_scale: network scale vs molecular/quantum scale
+- observable_commitment: the empirical/observable space committed to
+- substrate_dependence: substrate-dependent vs substrate-independent
+- temporal_profile: sustained vs phasic/ignition
+- unit_threshold: what gates one discrete conscious unit/event
+- none: the claim commits to no axis in the controlled list.

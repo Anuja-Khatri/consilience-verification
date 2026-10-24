@@ -1,0 +1,33 @@
+{
+  "fork_id": "IIT×NREP:observable_commitment:iit_t001xnrep_c003",
+  "axis": "observable_commitment",
+  "pair": "IIT × NREP",
+  "side_resolution": {
+    "left": {
+      "theory": "IIT",
+      "value": "perturbational_complexity_index"
+    },
+    "right": {
+      "theory": "NREP",
+      "value": "indirect_observable"
+    }
+  },
+  "supporting": [
+    {
+      "ref": "casali2013",
+      "cite": "Casali et al. (2013). A Theoretically Based Index of Consciousness Independent of Sensory Processing and Behavior. Science Translational Medicine 5(198):198ra105.",
+      "url": "https://www.science.org/doi/abs/10.1126/scitranslmed.3006294",
+      "line": "A causal-perturbation (TMS–EEG) index operationally measures a signature of consciousness, validated across wake/sleep/anesthesia and brain-injured patients."
+    }
+  ],
+  "challenging": [
+    {
+      "ref": "odegaard2017",
+      "cite": "Odegaard, Knight & Lau (2017). Should a Few Null Findings Falsify Prefrontal Theories of Conscious Perception? J Neurosci 37(40):9593–9602.",
+      "url": "https://www.jneurosci.org/content/37/40/9593",
+      "line": "Argues prefrontal / distributed cortical activity is essential to conscious perception, against an exclusively posterior locus."
+    }
+  ],
+  "grade": "literature-supported",
+  "note": "Grade on the typed side-resolution; NOT on the held-out review."
+}

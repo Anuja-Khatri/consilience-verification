@@ -1,0 +1,8 @@
+{
+  "status": "STOPPED",
+  "model": "gemini-3.1-pro-preview",
+  "model_versions": [],
+  "gemini_tried": 1,
+  "gemini_got": 0,
+  "error": "gemini gemini-3.1-pro-preview returned no parse \u2014 model_version=None, FAILED=True, json_status=FAILED, finish=None. Per owner rule, treating any Gemini billing/quota/availability failure as STOP-and-report."
+}

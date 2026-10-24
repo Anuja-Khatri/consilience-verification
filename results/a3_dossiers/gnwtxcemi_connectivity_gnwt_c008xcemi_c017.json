@@ -1,0 +1,206 @@
+{
+  "fork_id": "gnwtxcemi:connectivity:gnwt_c008xcemi_c017",
+  "axis": "connectivity",
+  "pair": "gnwtxcemi",
+  "beyond_key": false,
+  "sides": {
+    "left": {
+      "theory": "GNWT",
+      "value": "global_workspace_connectivity_required",
+      "polarity": "asserts",
+      "claim_ids": [
+        "gnwt_c008"
+      ],
+      "quotes": [
+        "Without a functional global neuronal workspace, cortical representations cannot be broadcast and are not experienced; functional connectivity of GNW is a necessary condition for consciousness."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.50"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "CEMI",
+      "value": "recurrent_synchronous_neuronal_networks_required",
+      "polarity": "asserts",
+      "claim_ids": [
+        "cemi_c017"
+      ],
+      "quotes": [
+        "Global unified consciousness requires EM field information to be amplified and transmitted via recurrent networks of synchronously firing neurons; connectivity of these networks determines the…"
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.53"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [
+      {
+        "passage_id": "gnwt_neuron_2020_0055",
+        "score": 5.0,
+        "excerpt": "Interestingly, recent experimental evidence indicates that the reverberatory loops for persistent neuronal activity not only involve corticocortical interactions but also loop through subcortical regions with an important role for the…"
+      },
+      {
+        "passage_id": "gnwt_science_2017_0017",
+        "score": 5.0,
+        "excerpt": "2017). Al- though those networks do not mimic the biophysical prop- erties of actual brains, their design benefitted from several neurobiological insights, including non-linear input-output functions, layers with converging projections,…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2020_0138",
+        "score": 3.5,
+        "excerpt": "The RPT of consciousness (Lamme, 2006, 2010) also shares with the GNW the postulate that, given a hierarchically ordered neurocognitive architecture, feedforward processing is not sufficient for conscious processing, whereas…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0164",
+        "score": 3.0,
+        "excerpt": "Metacognition and self-representation have only recently begun to be studied behaviorally with paradigms simple enough to extend to nonhuman species (Kiani and Shadlen, 2009; Terrace and Son, 2009) and to…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0023",
+        "score": 2.667,
+        "excerpt": "Experimental Studies of the Brain Mechanisms of Conscious Access With this vocabulary at hand, we turn to empirical studies of conscious access. The simplest experiments consist in present- ing a…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2020_0135",
+        "score": 2.333,
+        "excerpt": "IIT is framed at an abstract mathematical level and does not easily capture specific cognitive neuroscience phenomena, such as masking, attentional blink, or psychological refractory period. IIT’s Φ cannot be…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2020_0348",
+        "score": 1.5,
+        "excerpt": "Gamma band activity and the P3 reflect post-perceptual processes, not visual awareness. Neuroimage 101, 337–350. [PubMed: 25063731] Poort J, Self MW, van Vugt B, Malkki H, and Roelfsema PR (2016).…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0143",
+        "score": 1.167,
+        "excerpt": "Also, it is difﬁcult to exclude a contri- bution of reduced top-down attention or enhanced distractibility in frontal patients or TMS subjects—although some studies have attempted to control for these…"
+      }
+    ],
+    "right": [
+      {
+        "passage_id": "cemi_2020_0066",
+        "score": 1.0,
+        "excerpt": "Yet neurons need not fire synchronously to distribute information globally and re-entrant circuits need not, necessarily, fire synchronously. Similarly, there seems to be no obvious reason why conscious neural processing…"
+      }
+    ]
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "now",
+    "rationale": "",
+    "citation_rows": [
+      {
+        "tag": "Global Synchronization",
+        "n": 81
+      },
+      {
+        "tag": "Alpha",
+        "n": 58
+      },
+      {
+        "tag": "Anterior Posterior Connectivity",
+        "n": 46
+      },
+      {
+        "tag": "Fronto Parietal connectivity",
+        "n": 45
+      },
+      {
+        "tag": "Gamma",
+        "n": 37
+      },
+      {
+        "tag": "Beta",
+        "n": 35
+      },
+      {
+        "tag": "Theta",
+        "n": 30
+      },
+      {
+        "tag": "Delta",
+        "n": 25
+      },
+      {
+        "tag": "Cortical Subcortical connectivity",
+        "n": 15
+      },
+      {
+        "tag": "Local Synchronization",
+        "n": 12
+      },
+      {
+        "tag": "Centrality",
+        "n": 11
+      },
+      {
+        "tag": "Small Worldness",
+        "n": 8
+      },
+      {
+        "tag": "CFC",
+        "n": 5
+      },
+      {
+        "tag": "inter lobe connectivity",
+        "n": 5
+      },
+      {
+        "tag": "Low frequencies <1Hz",
+        "n": 4
+      },
+      {
+        "tag": "Temporal Parietal Connectivity",
+        "n": 3
+      },
+      {
+        "tag": "Slow Waves Activity",
+        "n": 2
+      },
+      {
+        "tag": "Anatomical functional connectivity similarity",
+        "n": 1
+      },
+      {
+        "tag": "Associative Fibers",
+        "n": 1
+      },
+      {
+        "tag": "Commissural Fibers",
+        "n": 1
+      },
+      {
+        "tag": "Frequency Increase",
+        "n": 1
+      },
+      {
+        "tag": "Hierarchical Structure",
+        "n": 1
+      },
+      {
+        "tag": "Temporal Occipital connectivity",
+        "n": 1
+      },
+      {
+        "tag": "Uncinate Fasciculus",
+        "n": 1
+      }
+    ],
+    "evidence_verdict": "CONTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed)"
+  },
+  "status": "clean",
+  "correction_note": null
+}

@@ -1,0 +1,160 @@
+{
+  "fork_id": "iitxgnwt:locus:iit_c010xgnwt_c003",
+  "axis": "locus",
+  "pair": "iitxgnwt",
+  "beyond_key": false,
+  "sides": {
+    "left": {
+      "theory": "IIT",
+      "value": "single_maximal_complex",
+      "polarity": "asserts",
+      "claim_ids": [
+        "iit_c010"
+      ],
+      "quotes": [
+        "The exclusion postulate restricts the locus of consciousness to a single maximally irreducible system (complex), not any subset or superset."
+      ],
+      "provenance_check": {
+        "status": "FAIL",
+        "detail": "claim not grounded in cited passages"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "GNWT",
+      "value": "prefrontal_parietal_cortical_network",
+      "polarity": "asserts",
+      "claim_ids": [
+        "gnwt_c003"
+      ],
+      "quotes": [
+        "The locus of conscious processing is a large-scale prefrontal-parietal (and cingulate/temporal) cortical network, not posterior sensory cortices alone."
+      ],
+      "provenance_check": {
+        "status": "FAIL",
+        "detail": "claim not grounded in cited passages"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [],
+    "right": [
+      {
+        "passage_id": "gnwt_neuron_2011_0051",
+        "score": 2.333,
+        "excerpt": "This ﬁnding supports the hypothesis that subjective perception is associated with distributed cell assemblies whose neurons are denser in higher associative cortices than in primary and secondary visual cortices. Surprisingly,…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2020_0111",
+        "score": 1.5,
+        "excerpt": "Disorders of Consciousness following Brain Lesions—Pathologic states associated with unconsciousness or reduced conscious processing also reveal implications for the GNW theory. First, it has long been recognized that there can…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0028",
+        "score": 1.333,
+        "excerpt": "For instance, a subliminal number can enter into a single numerical operation, but not a series of two arbitrary operations (Sackur and Dehaene, 2009). Second, subliminal priming decreases with elapsed…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0086",
+        "score": 1.0,
+        "excerpt": "This measure has been shown to be operative for some conscious/nonconscious distinctions such as anesthesia (e.g., Lee et al., 2009b; Schrouff et al., 2011), but it is computationally complicated and,…"
+      }
+    ]
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "now",
+    "rationale": "shared observable(s) ['regional_decoding'] at equal scale (brain_network)",
+    "citation_rows": [
+      {
+        "tag": "Posterior",
+        "n": 165
+      },
+      {
+        "tag": "Parietal",
+        "n": 145
+      },
+      {
+        "tag": "Frontal",
+        "n": 144
+      },
+      {
+        "tag": "V1",
+        "n": 48
+      },
+      {
+        "tag": "Subcortical structures",
+        "n": 34
+      },
+      {
+        "tag": "DMN",
+        "n": 16
+      },
+      {
+        "tag": "A1",
+        "n": 10
+      },
+      {
+        "tag": "S1",
+        "n": 7
+      },
+      {
+        "tag": "Temporal",
+        "n": 7
+      },
+      {
+        "tag": "Ventral Stream",
+        "n": 7
+      },
+      {
+        "tag": "AAN",
+        "n": 4
+      },
+      {
+        "tag": "Cerebellum",
+        "n": 3
+      },
+      {
+        "tag": "Visual Network",
+        "n": 3
+      },
+      {
+        "tag": "Dorsal Stream",
+        "n": 2
+      },
+      {
+        "tag": "Sensorimotor",
+        "n": 2
+      },
+      {
+        "tag": "ARN",
+        "n": 1
+      },
+      {
+        "tag": "ART",
+        "n": 1
+      },
+      {
+        "tag": "Dorsal Attention Network",
+        "n": 1
+      },
+      {
+        "tag": "V4",
+        "n": 1
+      }
+    ],
+    "evidence_verdict": "CONTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed)"
+  },
+  "status": "clean",
+  "correction_note": null
+}

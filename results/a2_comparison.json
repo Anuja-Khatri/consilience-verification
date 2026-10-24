@@ -1,0 +1,406 @@
+{
+  "n_pairs": 17,
+  "approved_claims": 96,
+  "rejected_claims": 13,
+  "delta_distribution": {
+    "no-baseline": 10,
+    "flipped-to-none": 2,
+    "downgraded": 4,
+    "agrees": 1
+  },
+  "n_baselined": 7,
+  "agreement_rate": 0.1429,
+  "downgrade_rate": 0.8571,
+  "untypeable_pairs": [],
+  "survivor_vs_failure": {
+    "table_[[surv_corr,surv_not],[fail_corr,fail_not]]": [
+      [
+        1,
+        1
+      ],
+      [
+        9,
+        6
+      ]
+    ],
+    "fisher_p": 1.0
+  },
+  "vocab": [
+    {
+      "match_id": "ed_match_18",
+      "n_approved": 3,
+      "axis_none": 0,
+      "frac_none": 0.0,
+      "untypeable": false
+    },
+    {
+      "match_id": "supp_match_02",
+      "n_approved": 6,
+      "axis_none": 2,
+      "frac_none": 0.333,
+      "untypeable": false
+    },
+    {
+      "match_id": "ed_match_17",
+      "n_approved": 4,
+      "axis_none": 1,
+      "frac_none": 0.25,
+      "untypeable": false
+    },
+    {
+      "match_id": "match_14",
+      "n_approved": 4,
+      "axis_none": 0,
+      "frac_none": 0.0,
+      "untypeable": false
+    },
+    {
+      "match_id": "match_19",
+      "n_approved": 8,
+      "axis_none": 0,
+      "frac_none": 0.0,
+      "untypeable": false
+    },
+    {
+      "match_id": "supp_match_14",
+      "n_approved": 7,
+      "axis_none": 0,
+      "frac_none": 0.0,
+      "untypeable": false
+    },
+    {
+      "match_id": "ed_match_01",
+      "n_approved": 5,
+      "axis_none": 1,
+      "frac_none": 0.2,
+      "untypeable": false
+    },
+    {
+      "match_id": "ed_match_06",
+      "n_approved": 5,
+      "axis_none": 1,
+      "frac_none": 0.2,
+      "untypeable": false
+    },
+    {
+      "match_id": "ed_match_05",
+      "n_approved": 2,
+      "axis_none": 1,
+      "frac_none": 0.5,
+      "untypeable": false
+    },
+    {
+      "match_id": "supp_match_03",
+      "n_approved": 6,
+      "axis_none": 0,
+      "frac_none": 0.0,
+      "untypeable": false
+    },
+    {
+      "match_id": "match_04",
+      "n_approved": 5,
+      "axis_none": 1,
+      "frac_none": 0.2,
+      "untypeable": false
+    },
+    {
+      "match_id": "match_45",
+      "n_approved": 5,
+      "axis_none": 0,
+      "frac_none": 0.0,
+      "untypeable": false
+    },
+    {
+      "match_id": "match_08",
+      "n_approved": 7,
+      "axis_none": 2,
+      "frac_none": 0.286,
+      "untypeable": false
+    },
+    {
+      "match_id": "supp_match_22",
+      "n_approved": 7,
+      "axis_none": 1,
+      "frac_none": 0.143,
+      "untypeable": false
+    },
+    {
+      "match_id": "match_54",
+      "n_approved": 8,
+      "axis_none": 1,
+      "frac_none": 0.125,
+      "untypeable": false
+    },
+    {
+      "match_id": "supp_match_23",
+      "n_approved": 7,
+      "axis_none": 0,
+      "frac_none": 0.0,
+      "untypeable": false
+    },
+    {
+      "match_id": "match_49",
+      "n_approved": 7,
+      "axis_none": 0,
+      "frac_none": 0.0,
+      "untypeable": false
+    }
+  ],
+  "rows": [
+    {
+      "match_id": "ed_match_18",
+      "role": "survivor",
+      "a1_first_fail": null,
+      "old_grade": null,
+      "old_decidability": null,
+      "n_approved_a": 0,
+      "n_approved_b": 3,
+      "new_grade": "none",
+      "new_flags": "",
+      "new_decidability": "n/a (no shared axis)",
+      "frac_axis_none": 0.0,
+      "delta": "no-baseline",
+      "reason": "no MIU tier recorded for this match (old_grade=None); new grade=none"
+    },
+    {
+      "match_id": "supp_match_02",
+      "role": "survivor",
+      "a1_first_fail": null,
+      "old_grade": null,
+      "old_decidability": null,
+      "n_approved_a": 4,
+      "n_approved_b": 2,
+      "new_grade": "generative",
+      "new_flags": "",
+      "new_decidability": "not_current",
+      "frac_axis_none": 0.333,
+      "delta": "no-baseline",
+      "reason": "no MIU tier recorded for this match (old_grade=None); new grade=generative"
+    },
+    {
+      "match_id": "ed_match_17",
+      "role": "failure",
+      "a1_first_fail": "provenance",
+      "old_grade": null,
+      "old_decidability": null,
+      "n_approved_a": 0,
+      "n_approved_b": 4,
+      "new_grade": "none",
+      "new_flags": "",
+      "new_decidability": "n/a (no shared axis)",
+      "frac_axis_none": 0.25,
+      "delta": "no-baseline",
+      "reason": "no MIU tier recorded for this match (old_grade=None); new grade=none"
+    },
+    {
+      "match_id": "match_14",
+      "role": "failure",
+      "a1_first_fail": "provenance",
+      "old_grade": "generative",
+      "old_decidability": "conditional",
+      "n_approved_a": 4,
+      "n_approved_b": 0,
+      "new_grade": "none",
+      "new_flags": "",
+      "new_decidability": "n/a (no shared axis)",
+      "frac_axis_none": 0.0,
+      "delta": "flipped-to-none",
+      "reason": "had old tier generative; re-adjudicated sides no longer correspond under v2"
+    },
+    {
+      "match_id": "match_19",
+      "role": "failure",
+      "a1_first_fail": "relation-not-in-quote",
+      "old_grade": "partial",
+      "old_decidability": "beyond",
+      "n_approved_a": 4,
+      "n_approved_b": 4,
+      "new_grade": "generative",
+      "new_flags": "",
+      "new_decidability": "not_current",
+      "frac_axis_none": 0.0,
+      "delta": "downgraded",
+      "reason": "new generative (rank 1) < old partial (rank 2)"
+    },
+    {
+      "match_id": "supp_match_14",
+      "role": "failure",
+      "a1_first_fail": "relation-not-in-quote",
+      "old_grade": null,
+      "old_decidability": null,
+      "n_approved_a": 4,
+      "n_approved_b": 3,
+      "new_grade": "generative",
+      "new_flags": "fork@mechanism_scale",
+      "new_decidability": "not_current",
+      "frac_axis_none": 0.0,
+      "delta": "no-baseline",
+      "reason": "no MIU tier recorded for this match (old_grade=None); new grade=generative"
+    },
+    {
+      "match_id": "ed_match_01",
+      "role": "failure",
+      "a1_first_fail": "scale-mismatch",
+      "old_grade": null,
+      "old_decidability": null,
+      "n_approved_a": 3,
+      "n_approved_b": 2,
+      "new_grade": "generative",
+      "new_flags": "",
+      "new_decidability": "not_current",
+      "frac_axis_none": 0.2,
+      "delta": "no-baseline",
+      "reason": "no MIU tier recorded for this match (old_grade=None); new grade=generative"
+    },
+    {
+      "match_id": "ed_match_06",
+      "role": "failure",
+      "a1_first_fail": "scale-mismatch",
+      "old_grade": null,
+      "old_decidability": null,
+      "n_approved_a": 1,
+      "n_approved_b": 4,
+      "new_grade": "fork",
+      "new_flags": "fork@observable_commitment|smc",
+      "new_decidability": "not_current",
+      "frac_axis_none": 0.2,
+      "delta": "no-baseline",
+      "reason": "no MIU tier recorded for this match (old_grade=None); new grade=fork"
+    },
+    {
+      "match_id": "ed_match_05",
+      "role": "failure",
+      "a1_first_fail": "provenance",
+      "old_grade": null,
+      "old_decidability": null,
+      "n_approved_a": 0,
+      "n_approved_b": 2,
+      "new_grade": "none",
+      "new_flags": "",
+      "new_decidability": "n/a (no shared axis)",
+      "frac_axis_none": 0.5,
+      "delta": "no-baseline",
+      "reason": "no MIU tier recorded for this match (old_grade=None); new grade=none"
+    },
+    {
+      "match_id": "supp_match_03",
+      "role": "failure",
+      "a1_first_fail": "relation-not-in-quote",
+      "old_grade": null,
+      "old_decidability": null,
+      "n_approved_a": 3,
+      "n_approved_b": 3,
+      "new_grade": "generative",
+      "new_flags": "",
+      "new_decidability": "not_current",
+      "frac_axis_none": 0.0,
+      "delta": "no-baseline",
+      "reason": "no MIU tier recorded for this match (old_grade=None); new grade=generative"
+    },
+    {
+      "match_id": "match_04",
+      "role": "failure",
+      "a1_first_fail": "relation-not-in-quote",
+      "old_grade": "isomorphism",
+      "old_decidability": "decidable_now",
+      "n_approved_a": 2,
+      "n_approved_b": 3,
+      "new_grade": "generative",
+      "new_flags": "",
+      "new_decidability": "not_current",
+      "frac_axis_none": 0.2,
+      "delta": "downgraded",
+      "reason": "new generative (rank 1) < old isomorphism (rank 3)"
+    },
+    {
+      "match_id": "match_45",
+      "role": "failure",
+      "a1_first_fail": "provenance",
+      "old_grade": "partial",
+      "old_decidability": "beyond",
+      "n_approved_a": 4,
+      "n_approved_b": 1,
+      "new_grade": "generative",
+      "new_flags": "",
+      "new_decidability": "not_current",
+      "frac_axis_none": 0.0,
+      "delta": "downgraded",
+      "reason": "new generative (rank 1) < old partial (rank 2)"
+    },
+    {
+      "match_id": "match_08",
+      "role": "failure",
+      "a1_first_fail": "provenance",
+      "old_grade": "generative",
+      "old_decidability": "decidable_now",
+      "n_approved_a": 3,
+      "n_approved_b": 4,
+      "new_grade": "generative",
+      "new_flags": "fork@observable_commitment|smc",
+      "new_decidability": "not_current",
+      "frac_axis_none": 0.286,
+      "delta": "agrees",
+      "reason": "new generative == old generative (rank 1)"
+    },
+    {
+      "match_id": "supp_match_22",
+      "role": "failure",
+      "a1_first_fail": "provenance",
+      "old_grade": null,
+      "old_decidability": null,
+      "n_approved_a": 4,
+      "n_approved_b": 3,
+      "new_grade": "generative",
+      "new_flags": "",
+      "new_decidability": "not_current",
+      "frac_axis_none": 0.143,
+      "delta": "no-baseline",
+      "reason": "no MIU tier recorded for this match (old_grade=None); new grade=generative"
+    },
+    {
+      "match_id": "match_54",
+      "role": "failure",
+      "a1_first_fail": "provenance",
+      "old_grade": "thematic",
+      "old_decidability": "beyond",
+      "n_approved_a": 4,
+      "n_approved_b": 4,
+      "new_grade": "fork",
+      "new_flags": "fork@temporal_profile",
+      "new_decidability": "not_current",
+      "frac_axis_none": 0.125,
+      "delta": "downgraded",
+      "reason": "new fork (rank 0.5) < old thematic (rank 1)"
+    },
+    {
+      "match_id": "supp_match_23",
+      "role": "failure",
+      "a1_first_fail": "provenance",
+      "old_grade": null,
+      "old_decidability": null,
+      "n_approved_a": 3,
+      "n_approved_b": 4,
+      "new_grade": "generative",
+      "new_flags": "",
+      "new_decidability": "not_current",
+      "frac_axis_none": 0.0,
+      "delta": "no-baseline",
+      "reason": "no MIU tier recorded for this match (old_grade=None); new grade=generative"
+    },
+    {
+      "match_id": "match_49",
+      "role": "failure",
+      "a1_first_fail": "provenance",
+      "old_grade": "partial",
+      "old_decidability": "decidable_now",
+      "n_approved_a": 3,
+      "n_approved_b": 4,
+      "new_grade": "none",
+      "new_flags": "",
+      "new_decidability": "n/a (no shared axis)",
+      "frac_axis_none": 0.0,
+      "delta": "flipped-to-none",
+      "reason": "had old tier partial; re-adjudicated sides no longer correspond under v2"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "registry_sha256": "e9c877812c8c689772605cd7d5003d42c0d8566d5c3f07293709d74831fd3fb2",
+  "date": "2026-10",
+  "instrument_tag": "v2 (frozen-store metrics are lock-stable and citable pre-lock, v2.0.2)",
+  "corpus_tag": "v1 (engine frozen corpus; TD1/TD1b/TD2 extensions are P2, absent from P1)",
+  "n_metrics": 247,
+  "paper": "P1",
+  "preconditions_verified": [
+    "A1",
+    "A2",
+    "A5",
+    "A6",
+    "B2-core",
+    "F2",
+    "KR1v2",
+    "KR3",
+    "TD5-S4",
+    "VJ1",
+    "VJ2",
+    "VJ3",
+    "VJ4"
+  ],
+  "note": "SPEC §0.8(iii) numbers lock: application documents render from THIS snapshot; a second snapshot requires regenerating every document that cited the first. Identical metric → identical number in all applications.",
+  "reapproval": {
+    "status": "APPROVED",
+    "reason": "Owner RE-APPROVED P1 on 2026-10-24 with the KR3 eLife key-recovery null change — the eLife recovery is below chance (empirical p=0.981, n=1000), stated plainly in the abstract in one sentence after the COGITATE result. Lock e9c87781 stands (no re-stamp; the sha hashes only the metrics array, so this field does not move it). Supersedes the prior b0f49984 approval.",
+    "supersedes": "b0f4998423894875",
+    "date": "2026-10-24"
+  }
+}

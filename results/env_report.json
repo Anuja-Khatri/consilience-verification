@@ -1,0 +1,565 @@
+{
+  "spec": "v2.0.1 \u00a70.2 W0.1",
+  "artifact_stamp": "2026-10",
+  "venv": {
+    "python_version": "3.11.16",
+    "interpreter": "/Users/anujakhatri3/consilience-verification/.venv/bin/python",
+    "on_sprint_venv": true,
+    "requirements_lock_sha256": "86b9347a38df81431fba3919360eefa3957d4671e5f43c7944effce973fe22f2",
+    "env_file_present": true
+  },
+  "paths": {
+    "engine": "/Users/anujakhatri3/consilience-demo/demo",
+    "miu": "/Users/anujakhatri3/miu-demo",
+    "eval_prior": "/Users/anujakhatri3/consilience-demo/demo",
+    "sprint": "/Users/anujakhatri3/consilience-verification"
+  },
+  "rows": [
+    {
+      "group": "0. Interpreter / lock",
+      "check": "python version",
+      "status": "INFO",
+      "detail": "3.11.16"
+    },
+    {
+      "group": "0. Interpreter / lock",
+      "check": "interpreter",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/consilience-verification/.venv/bin/python"
+    },
+    {
+      "group": "0. Interpreter / lock",
+      "check": "sprint .venv",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/consilience-verification/.venv/bin/python"
+    },
+    {
+      "group": "0. Interpreter / lock",
+      "check": "requirements.lock",
+      "status": "PASS",
+      "detail": "requirements.lock sha256 86b9347a38df8143\u2026"
+    },
+    {
+      "group": "0. Interpreter / lock",
+      "check": ".env present",
+      "status": "PASS",
+      "detail": "yes (loaded; values never echoed)"
+    },
+    {
+      "group": "1. Engine paths",
+      "check": "pipeline/p1_ingest.py",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/consilience-demo/demo/pipeline/p1_ingest.py"
+    },
+    {
+      "group": "1. Engine paths",
+      "check": "pipeline/p2_extract.py",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/consilience-demo/demo/pipeline/p2_extract.py"
+    },
+    {
+      "group": "1. Engine paths",
+      "check": "pipeline/p5_judge.py",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/consilience-demo/demo/pipeline/p5_judge.py"
+    },
+    {
+      "group": "1. Engine paths",
+      "check": "pipeline/p6_decidability.py",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/consilience-demo/demo/pipeline/p6_decidability.py"
+    },
+    {
+      "group": "1. Engine paths",
+      "check": "pipeline/p6b_evidence.py",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/consilience-demo/demo/pipeline/p6b_evidence.py"
+    },
+    {
+      "group": "1. Engine paths",
+      "check": "pipeline/p7_answerkey_diff.py",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/consilience-demo/demo/pipeline/p7_answerkey_diff.py"
+    },
+    {
+      "group": "1. Engine paths",
+      "check": "pipeline/holdout_check.py",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/consilience-demo/demo/pipeline/holdout_check.py"
+    },
+    {
+      "group": "1. Engine paths",
+      "check": "vocab/axes.yaml",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/consilience-demo/demo/vocab/axes.yaml"
+    },
+    {
+      "group": "1. Engine paths",
+      "check": "vocab/entity_types.yaml",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/consilience-demo/demo/vocab/entity_types.yaml"
+    },
+    {
+      "group": "1. Engine paths",
+      "check": "data/manifest.json",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/consilience-demo/demo/data/manifest.json"
+    },
+    {
+      "group": "1. Engine paths",
+      "check": "results/*.json",
+      "status": "PASS",
+      "detail": "20 files: active-inferencexcemi_judge.json, evidence.json, gnwtxactive-inference_judge.json, gnwtxcemi_judge.json, gnwtxnrep_judge.json, iitxactive-inference_judge.json, iitxgnwt_decidability.json, iitxgnwt_judge.json, iitxgnwt_vs_cogitate.json, iitxnrep_judge.json, iitxorch-or_decidability.json, iitxorch-or_judge.json, intrepid_diff.json, matrix.json, nrepxactive-inference_judge.json, nrepxcemi_judge.json, orch-orxactive-inference_judge.json, orch-orxcemi_judge.json, orch-orxnrep_judge.json, run_manifest.json"
+    },
+    {
+      "group": "1. Engine paths",
+      "check": "per-theory graphs dir",
+      "status": "PASS",
+      "detail": "dirs: /Users/anujakhatri3/consilience-demo/demo/data/graphs | 6 files w/ grounds/entails: active-inference.json, cemi.json, gnwt.json, iit.json, nrep.json, orch-or.json"
+    },
+    {
+      "group": "2. MIU paths",
+      "check": "demo/demo_data.json",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/miu-demo/demo/demo_data.json"
+    },
+    {
+      "group": "2. MIU paths",
+      "check": "extraction/",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/miu-demo/extraction"
+    },
+    {
+      "group": "2. MIU paths",
+      "check": "extraction_text/",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/miu-demo/extraction_text"
+    },
+    {
+      "group": "2. MIU paths",
+      "check": "correspondences/correspondences.json",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/miu-demo/correspondences/correspondences.json"
+    },
+    {
+      "group": "2. MIU paths",
+      "check": "correspondences/rejections.json",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/miu-demo/correspondences/rejections.json"
+    },
+    {
+      "group": "2. MIU paths",
+      "check": "correspondences/supplementary/",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/miu-demo/correspondences/supplementary"
+    },
+    {
+      "group": "2. MIU paths",
+      "check": "correspondences/engine-discovered/",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/miu-demo/correspondences/engine-discovered"
+    },
+    {
+      "group": "2. MIU paths",
+      "check": "correspondences/_index/all_claims.json",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/miu-demo/correspondences/_index/all_claims.json"
+    },
+    {
+      "group": "3. Prior eval",
+      "check": "REPORT.md",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/consilience-demo/demo/eval_out/REPORT.md"
+    },
+    {
+      "group": "3. Prior eval",
+      "check": "EVAL_LOG.md",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/consilience-demo/demo/EVAL_LOG.md"
+    },
+    {
+      "group": "3. Prior eval",
+      "check": "eval/",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/consilience-demo/demo/eval"
+    },
+    {
+      "group": "3. Prior eval",
+      "check": "eval_out/",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/consilience-demo/demo/eval_out"
+    },
+    {
+      "group": "3. Prior eval",
+      "check": "eval_out/cache/",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/consilience-demo/demo/eval_out/cache"
+    },
+    {
+      "group": "3. Prior eval",
+      "check": "eval/stats.py",
+      "status": "PASS",
+      "detail": "/Users/anujakhatri3/consilience-demo/demo/eval/stats.py"
+    },
+    {
+      "group": "3. Prior eval",
+      "check": "eval_prior resolved at",
+      "status": "INFO",
+      "detail": "/Users/anujakhatri3/consilience-demo/demo"
+    },
+    {
+      "group": "4. Counts assert",
+      "check": "claims:IIT",
+      "status": "PASS",
+      "detail": "observed 24, expected 24"
+    },
+    {
+      "group": "4. Counts assert",
+      "check": "claims:GNWT",
+      "status": "PASS",
+      "detail": "observed 19, expected 19"
+    },
+    {
+      "group": "4. Counts assert",
+      "check": "claims:actinf",
+      "status": "PASS",
+      "detail": "observed 16, expected 16"
+    },
+    {
+      "group": "4. Counts assert",
+      "check": "claims:CEMI",
+      "status": "PASS",
+      "detail": "observed 15, expected 15"
+    },
+    {
+      "group": "4. Counts assert",
+      "check": "claims:orch-or",
+      "status": "PASS",
+      "detail": "observed 11, expected 11"
+    },
+    {
+      "group": "4. Counts assert",
+      "check": "claims:NREP",
+      "status": "PASS",
+      "detail": "observed 10, expected 10"
+    },
+    {
+      "group": "4. Counts assert",
+      "check": "claims:total",
+      "status": "PASS",
+      "detail": "observed 95, expected 95"
+    },
+    {
+      "group": "4. Counts assert",
+      "check": "correspondences:total",
+      "status": "PASS",
+      "detail": "observed 221, expected 221 | breakdown {'node/generative': 201, 'node/partial': 15, 'shared_measurement_space/partial': 5}"
+    },
+    {
+      "group": "4. Counts assert",
+      "check": "persisted pairs",
+      "status": "PASS",
+      "detail": "observed 13 (judge files w/ >=1 corr), expected 13"
+    },
+    {
+      "group": "5. API keys",
+      "check": "ANTHROPIC_API_KEY",
+      "status": "PASS",
+      "detail": "present"
+    },
+    {
+      "group": "5. API keys",
+      "check": "OPENAI_API_KEY",
+      "status": "PASS",
+      "detail": "present"
+    },
+    {
+      "group": "5. API keys",
+      "check": "GEMINI_API_KEY / GOOGLE_API_KEY",
+      "status": "PASS",
+      "detail": "present"
+    },
+    {
+      "group": "5. API keys",
+      "check": "TOGETHER/FIREWORKS key",
+      "status": "INFO",
+      "detail": "recorded: {'TOGETHER_API_KEY': False, 'FIREWORKS_API_KEY': False}"
+    },
+    {
+      "group": "6. Python deps",
+      "check": "import fitz (pymupdf)",
+      "status": "PASS",
+      "detail": "importable"
+    },
+    {
+      "group": "6. Python deps",
+      "check": "import pdfplumber (pdfplumber)",
+      "status": "PASS",
+      "detail": "importable"
+    },
+    {
+      "group": "6. Python deps",
+      "check": "import datasketch (datasketch)",
+      "status": "PASS",
+      "detail": "importable"
+    },
+    {
+      "group": "6. Python deps",
+      "check": "import sklearn (scikit-learn)",
+      "status": "PASS",
+      "detail": "importable"
+    },
+    {
+      "group": "6. Python deps",
+      "check": "import sentence_transformers (sentence-transformers)",
+      "status": "PASS",
+      "detail": "importable"
+    },
+    {
+      "group": "6. Python deps",
+      "check": "import numpy (numpy)",
+      "status": "PASS",
+      "detail": "importable"
+    },
+    {
+      "group": "6. Python deps",
+      "check": "import pandas (pandas)",
+      "status": "PASS",
+      "detail": "importable"
+    },
+    {
+      "group": "6. Python deps",
+      "check": "import scipy (scipy)",
+      "status": "PASS",
+      "detail": "importable"
+    },
+    {
+      "group": "6. Python deps",
+      "check": "import yaml (pyyaml)",
+      "status": "PASS",
+      "detail": "importable"
+    },
+    {
+      "group": "6. Python deps",
+      "check": "import jsonschema (jsonschema)",
+      "status": "PASS",
+      "detail": "importable"
+    },
+    {
+      "group": "6. Python deps",
+      "check": "import matplotlib (matplotlib)",
+      "status": "PASS",
+      "detail": "importable"
+    },
+    {
+      "group": "6. Python deps",
+      "check": "import networkx (networkx)",
+      "status": "PASS",
+      "detail": "importable"
+    },
+    {
+      "group": "6. Python deps",
+      "check": "import ot (pot)",
+      "status": "PASS",
+      "detail": "importable"
+    },
+    {
+      "group": "6. Python deps",
+      "check": "import dit (dit)",
+      "status": "PASS",
+      "detail": "importable"
+    },
+    {
+      "group": "6. Python deps",
+      "check": "import clingo (clingo)",
+      "status": "PASS",
+      "detail": "importable"
+    },
+    {
+      "group": "6. Python deps",
+      "check": "import z3 (z3-solver)",
+      "status": "PASS",
+      "detail": "importable"
+    },
+    {
+      "group": "6. Python deps",
+      "check": "import broja2pid (optional)",
+      "status": "WARN",
+      "detail": "absent (non-fatal; dit fallback)"
+    },
+    {
+      "group": "6. Python deps",
+      "check": "gpu",
+      "status": "INFO",
+      "detail": "gpu: True"
+    },
+    {
+      "group": "6. Python deps",
+      "check": "web",
+      "status": "INFO",
+      "detail": "web: True"
+    },
+    {
+      "group": "7. Engine fingerprint",
+      "check": "sha256 p2_extract.py",
+      "status": "PASS",
+      "detail": "c2755e46e766d4f4\u2026"
+    },
+    {
+      "group": "7. Engine fingerprint",
+      "check": "sha256 p5_judge.py",
+      "status": "PASS",
+      "detail": "5b5d84ae0c6a1318\u2026"
+    },
+    {
+      "group": "7. Engine fingerprint",
+      "check": "sha256 p6_decidability.py",
+      "status": "PASS",
+      "detail": "af07ab2658ffb4a7\u2026"
+    },
+    {
+      "group": "7. Engine fingerprint",
+      "check": "sha256 p6b_evidence.py",
+      "status": "PASS",
+      "detail": "59cb71969d077d5f\u2026"
+    },
+    {
+      "group": "7. Engine fingerprint",
+      "check": "sha256 p7_answerkey_diff.py",
+      "status": "PASS",
+      "detail": "eb3e0639333936f0\u2026"
+    },
+    {
+      "group": "7. Engine fingerprint",
+      "check": "sha256 holdout_check.py",
+      "status": "PASS",
+      "detail": "e7663f96c35bad22\u2026"
+    },
+    {
+      "group": "7. Engine fingerprint",
+      "check": "sha256 axes.yaml",
+      "status": "PASS",
+      "detail": "397dd0bd8efbe233\u2026"
+    },
+    {
+      "group": "7. Engine fingerprint",
+      "check": "sha256 entity_types.yaml",
+      "status": "PASS",
+      "detail": "6fbfa18510d58b30\u2026"
+    },
+    {
+      "group": "7. Engine fingerprint",
+      "check": "sha256 manifest.json",
+      "status": "PASS",
+      "detail": "ccc6db4ceb297d3a\u2026"
+    },
+    {
+      "group": "7. Engine fingerprint",
+      "check": "engine_fingerprint.json",
+      "status": "PASS",
+      "detail": "written; combined 09b90e8d4d07e1c1\u2026"
+    },
+    {
+      "group": "8. Production parity",
+      "check": "extractor parity",
+      "status": "PASS",
+      "detail": "config='claude-sonnet-4-6' vs production SONNET='claude-sonnet-4-6'"
+    },
+    {
+      "group": "8. Production parity",
+      "check": "checker parity",
+      "status": "PASS",
+      "detail": "config='claude-haiku-4-5-20251001' vs production HAIKU='claude-haiku-4-5-20251001'"
+    },
+    {
+      "group": "8. Production parity",
+      "check": "max_tokens (extract/haiku)",
+      "status": "INFO",
+      "detail": "extract=1500, haiku=200, CLAIMS_PER_WINDOW=4"
+    },
+    {
+      "group": "8. Production parity",
+      "check": "system-prompt construction sha256",
+      "status": "INFO",
+      "detail": "a6dc88a2714031e0\u2026"
+    }
+  ],
+  "counts": {
+    "claims": {
+      "IIT": 24,
+      "GNWT": 19,
+      "actinf": 16,
+      "CEMI": 15,
+      "orch-or": 11,
+      "NREP": 10
+    },
+    "claims_total": 95,
+    "correspondences_total": 221,
+    "corr_breakdown": {
+      "node/generative": 201,
+      "node/partial": 15,
+      "shared_measurement_space/partial": 5
+    },
+    "persisted_pairs": 13
+  },
+  "api_keys": {
+    "ANTHROPIC_API_KEY": true,
+    "OPENAI_API_KEY": true,
+    "GEMINI_or_GOOGLE_API_KEY": true,
+    "hosted_open_weight": {
+      "TOGETHER_API_KEY": false,
+      "FIREWORKS_API_KEY": false
+    }
+  },
+  "deps": {
+    "pymupdf": true,
+    "pdfplumber": true,
+    "datasketch": true,
+    "scikit-learn": true,
+    "sentence-transformers": true,
+    "numpy": true,
+    "pandas": true,
+    "scipy": true,
+    "pyyaml": true,
+    "jsonschema": true,
+    "matplotlib": true,
+    "networkx": true,
+    "pot": true,
+    "dit": true,
+    "clingo": true,
+    "z3-solver": true,
+    "broja2pid": false,
+    "gpu": true,
+    "web": true
+  },
+  "engine_fingerprint": {
+    "files": {
+      "p2_extract.py": "c2755e46e766d4f49ef97ca36a1597f171d178517b5468d8203985c5b3b47931",
+      "p5_judge.py": "5b5d84ae0c6a1318d91b7f317c1e50250678e08609574b5c1cc50afa6ebfb8c1",
+      "p6_decidability.py": "af07ab2658ffb4a751fc88b83db2117d724a1542f554eea0fe164251ad05e76f",
+      "p6b_evidence.py": "59cb71969d077d5fdf6164dd8020c0d1349ea1c20b89369b40595900ddd8aabc",
+      "p7_answerkey_diff.py": "eb3e0639333936f0d1d984dac0e237876cda79c5ba5bfacd66a3e2ee2235b56d",
+      "holdout_check.py": "e7663f96c35bad2244c05946af3c419a17e46435854e48b9d8f2d5d74c80a37b",
+      "axes.yaml": "397dd0bd8efbe233ac61bfedd972b73f2dc4c7a436ef905fc452284d9fbf3aaa",
+      "entity_types.yaml": "6fbfa18510d58b3018d50cdc24dcbc4373e5218d47f44c1b66d45af4460b6f25",
+      "manifest.json": "ccc6db4ceb297d3a96fe9cbce1900db5430350679f011abcdbe535af4abee565"
+    },
+    "combined_sha256": "09b90e8d4d07e1c1349c2054ffc7bbd6847e6e481a1f438d5998e8f5dcb27057",
+    "engine_root": "/Users/anujakhatri3/consilience-demo/demo",
+    "artifact_stamp": "2026-10"
+  },
+  "production_parity": {
+    "extractor_config": "claude-sonnet-4-6",
+    "extractor_production": "claude-sonnet-4-6",
+    "checker_config": "claude-haiku-4-5-20251001",
+    "checker_production": "claude-haiku-4-5-20251001",
+    "extract_max_tokens": 1500,
+    "haiku_max_tokens": 200,
+    "claims_per_window": 4,
+    "system_prompt_construction_sha256": "a6dc88a2714031e011ecc310b429b6e1120e9b23a524f78c57b1b1ffdba2f5f7",
+    "extractor_match": true,
+    "checker_match": true
+  },
+  "fatal": [],
+  "overall": "PASS"
+}

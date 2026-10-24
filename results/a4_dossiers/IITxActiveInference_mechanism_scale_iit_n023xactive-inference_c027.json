@@ -1,0 +1,74 @@
+{
+  "fork_id": "IIT×ActiveInference:mechanism_scale:iit_n023xactive-inference_c027",
+  "axis": "mechanism_scale",
+  "pair": "IIT × Active Inference",
+  "register": "INTREPID-18",
+  "sides": {
+    "left": {
+      "theory": "IIT",
+      "value": "mesoscale_spatiotemporal_grain",
+      "polarity": "asserts",
+      "claim_ids": [
+        "iit_n023"
+      ],
+      "quotes": [
+        "The PSC operates at a definite spatio-temporal grain (local cortical neuron groups over ~100 ms intervals); perturbations at the appropriate grain change experience, fixing the…"
+      ],
+      "provenance_check": {
+        "status": "FAIL",
+        "detail": "claim not grounded in cited passages"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "Active Inference",
+      "value": "message_passing_gradient_descent",
+      "polarity": "asserts",
+      "claim_ids": [
+        "active-inference_c027"
+      ],
+      "quotes": [
+        "Inference over hidden states proceeds via precision-weighted prediction errors, implemented as gradient descent on free energy with respect to posterior modes."
+      ],
+      "provenance_check": {
+        "status": "FAIL",
+        "detail": "claim not grounded in cited passages"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [
+      {
+        "passage_id": "iit_3_0_0171",
+        "score": 1.5,
+        "excerpt": "‘‘broadcast’’ the information they represent and ‘‘ignite’’ fronto-parietal networks [7,10]. This is because, in IIT, information is not in the message that is broadcasted by an element, but in the…"
+      },
+      {
+        "passage_id": "iit_3_0_0186",
+        "score": 1.5,
+        "excerpt": "Neural activity is not necessary to generate experience, nor does it need to be ‘‘broadcasted’’ globally. Although all the elements in the system are off (0), the system still forms…"
+      }
+    ],
+    "right": []
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "now",
+    "rationale": "",
+    "citation_rows": [],
+    "evidence_verdict": "UNTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed); INTREPID review held out (§0.5)"
+  },
+  "status": "clean",
+  "correction_note": null,
+  "caveat": "A4 INTREPID-register dossiers (18-fork standing_predictions). instrument v1-era forks + approved store (frozen-store). The INTREPID review is a HELD-OUT answer key — never consulted here (§0.5); validity is checked against the theories' OWN corpora only."
+}

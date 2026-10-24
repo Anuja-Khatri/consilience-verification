@@ -1,0 +1,647 @@
+{
+  "task": "A4-Leg3",
+  "runid": "A4-L3",
+  "instrument_tag": "frozen-store",
+  "web": true,
+  "n_forks": 15,
+  "grade_distribution": {
+    "mixed": 14,
+    "literature-supported": 1
+  },
+  "caveat": "Grade attaches to the FORK side-resolution (the typed disagreement between two theories on one axis), NEVER to the held-out review's predictions (§0.5). Citations were located by independent literature search on the empirical question, not from any answer key. instrument v1-era forks; the v2 rerun follows the A5.3 freeze (numbers lock §0.10(9)).",
+  "entries": [
+    {
+      "fork_id": "IIT×NREP:locus:iit_c010xnrep_c017",
+      "axis": "locus",
+      "pair": "IIT × NREP",
+      "side_resolution": {
+        "left": {
+          "theory": "IIT",
+          "value": "single_maximal_complex"
+        },
+        "right": {
+          "theory": "NREP",
+          "value": "distributed_multi_region"
+        }
+      },
+      "supporting": [
+        {
+          "ref": "koch2016",
+          "cite": "Koch, Massimini, Boly & Tononi (2016). Neural correlates of consciousness: progress and problems. Nature Reviews Neuroscience 17(5):307–321.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27094080/",
+          "line": "Best anatomical candidates for content-specific correlates sit in a posterior temporo-parietal-occipital zone, not the fronto-parietal task network."
+        },
+        {
+          "ref": "boly2017",
+          "cite": "Boly, Massimini, Tsuchiya, Postle, Koch & Tononi (2017). Are the Neural Correlates of Consciousness in the Front or in the Back of the Cerebral Cortex? J Neurosci 37(40):9603–9613.",
+          "url": "https://www.jneurosci.org/content/37/40/9603",
+          "line": "Clinical and neuroimaging evidence marshalled for a posterior locus of the correlates of conscious content."
+        }
+      ],
+      "challenging": [
+        {
+          "ref": "odegaard2017",
+          "cite": "Odegaard, Knight & Lau (2017). Should a Few Null Findings Falsify Prefrontal Theories of Conscious Perception? J Neurosci 37(40):9593–9602.",
+          "url": "https://www.jneurosci.org/content/37/40/9593",
+          "line": "Argues prefrontal / distributed cortical activity is essential to conscious perception, against an exclusively posterior locus."
+        },
+        {
+          "ref": "michel2020",
+          "cite": "Michel & Morales (2020). Minority reports: Consciousness and the prefrontal cortex. Mind & Language 35(4):493–513.",
+          "url": "https://philpapers.org/archive/MICMRC.pdf",
+          "line": "Reviews the case that prefrontal / distributed circuits contribute to conscious experience, not posterior cortex alone."
+        }
+      ],
+      "grade": "mixed",
+      "note": "Grade on the typed side-resolution; NOT on the held-out review."
+    },
+    {
+      "fork_id": "IIT×NREP:locus:iit_n007xnrep_c017",
+      "axis": "locus",
+      "pair": "IIT × NREP",
+      "side_resolution": {
+        "left": {
+          "theory": "IIT",
+          "value": "maximal_irreducible_complex"
+        },
+        "right": {
+          "theory": "NREP",
+          "value": "distributed_multi_region"
+        }
+      },
+      "supporting": [
+        {
+          "ref": "koch2016",
+          "cite": "Koch, Massimini, Boly & Tononi (2016). Neural correlates of consciousness: progress and problems. Nature Reviews Neuroscience 17(5):307–321.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27094080/",
+          "line": "Best anatomical candidates for content-specific correlates sit in a posterior temporo-parietal-occipital zone, not the fronto-parietal task network."
+        },
+        {
+          "ref": "boly2017",
+          "cite": "Boly, Massimini, Tsuchiya, Postle, Koch & Tononi (2017). Are the Neural Correlates of Consciousness in the Front or in the Back of the Cerebral Cortex? J Neurosci 37(40):9603–9613.",
+          "url": "https://www.jneurosci.org/content/37/40/9603",
+          "line": "Clinical and neuroimaging evidence marshalled for a posterior locus of the correlates of conscious content."
+        }
+      ],
+      "challenging": [
+        {
+          "ref": "odegaard2017",
+          "cite": "Odegaard, Knight & Lau (2017). Should a Few Null Findings Falsify Prefrontal Theories of Conscious Perception? J Neurosci 37(40):9593–9602.",
+          "url": "https://www.jneurosci.org/content/37/40/9593",
+          "line": "Argues prefrontal / distributed cortical activity is essential to conscious perception, against an exclusively posterior locus."
+        },
+        {
+          "ref": "michel2020",
+          "cite": "Michel & Morales (2020). Minority reports: Consciousness and the prefrontal cortex. Mind & Language 35(4):493–513.",
+          "url": "https://philpapers.org/archive/MICMRC.pdf",
+          "line": "Reviews the case that prefrontal / distributed circuits contribute to conscious experience, not posterior cortex alone."
+        }
+      ],
+      "grade": "mixed",
+      "note": "Grade on the typed side-resolution; NOT on the held-out review."
+    },
+    {
+      "fork_id": "IIT×NREP:locus:iit_n013xnrep_c017",
+      "axis": "locus",
+      "pair": "IIT × NREP",
+      "side_resolution": {
+        "left": {
+          "theory": "IIT",
+          "value": "intrinsic_not_broadcast"
+        },
+        "right": {
+          "theory": "NREP",
+          "value": "distributed_multi_region"
+        }
+      },
+      "supporting": [
+        {
+          "ref": "koch2016",
+          "cite": "Koch, Massimini, Boly & Tononi (2016). Neural correlates of consciousness: progress and problems. Nature Reviews Neuroscience 17(5):307–321.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27094080/",
+          "line": "Best anatomical candidates for content-specific correlates sit in a posterior temporo-parietal-occipital zone, not the fronto-parietal task network."
+        },
+        {
+          "ref": "boly2017",
+          "cite": "Boly, Massimini, Tsuchiya, Postle, Koch & Tononi (2017). Are the Neural Correlates of Consciousness in the Front or in the Back of the Cerebral Cortex? J Neurosci 37(40):9603–9613.",
+          "url": "https://www.jneurosci.org/content/37/40/9603",
+          "line": "Clinical and neuroimaging evidence marshalled for a posterior locus of the correlates of conscious content."
+        }
+      ],
+      "challenging": [
+        {
+          "ref": "odegaard2017",
+          "cite": "Odegaard, Knight & Lau (2017). Should a Few Null Findings Falsify Prefrontal Theories of Conscious Perception? J Neurosci 37(40):9593–9602.",
+          "url": "https://www.jneurosci.org/content/37/40/9593",
+          "line": "Argues prefrontal / distributed cortical activity is essential to conscious perception, against an exclusively posterior locus."
+        },
+        {
+          "ref": "michel2020",
+          "cite": "Michel & Morales (2020). Minority reports: Consciousness and the prefrontal cortex. Mind & Language 35(4):493–513.",
+          "url": "https://philpapers.org/archive/MICMRC.pdf",
+          "line": "Reviews the case that prefrontal / distributed circuits contribute to conscious experience, not posterior cortex alone."
+        }
+      ],
+      "grade": "mixed",
+      "note": "Grade on the typed side-resolution; NOT on the held-out review."
+    },
+    {
+      "fork_id": "IIT×NREP:observable_commitment:iit_t001xnrep_c003",
+      "axis": "observable_commitment",
+      "pair": "IIT × NREP",
+      "side_resolution": {
+        "left": {
+          "theory": "IIT",
+          "value": "perturbational_complexity_index"
+        },
+        "right": {
+          "theory": "NREP",
+          "value": "indirect_observable"
+        }
+      },
+      "supporting": [
+        {
+          "ref": "casali2013",
+          "cite": "Casali et al. (2013). A Theoretically Based Index of Consciousness Independent of Sensory Processing and Behavior. Science Translational Medicine 5(198):198ra105.",
+          "url": "https://www.science.org/doi/abs/10.1126/scitranslmed.3006294",
+          "line": "A causal-perturbation (TMS–EEG) index operationally measures a signature of consciousness, validated across wake/sleep/anesthesia and brain-injured patients."
+        }
+      ],
+      "challenging": [
+        {
+          "ref": "odegaard2017",
+          "cite": "Odegaard, Knight & Lau (2017). Should a Few Null Findings Falsify Prefrontal Theories of Conscious Perception? J Neurosci 37(40):9593–9602.",
+          "url": "https://www.jneurosci.org/content/37/40/9593",
+          "line": "Argues prefrontal / distributed cortical activity is essential to conscious perception, against an exclusively posterior locus."
+        }
+      ],
+      "grade": "literature-supported",
+      "note": "Grade on the typed side-resolution; NOT on the held-out review."
+    },
+    {
+      "fork_id": "IIT×NREP:locus:iit_t002xnrep_c017",
+      "axis": "locus",
+      "pair": "IIT × NREP",
+      "side_resolution": {
+        "left": {
+          "theory": "IIT",
+          "value": "posterior_hot_zone"
+        },
+        "right": {
+          "theory": "NREP",
+          "value": "distributed_multi_region"
+        }
+      },
+      "supporting": [
+        {
+          "ref": "koch2016",
+          "cite": "Koch, Massimini, Boly & Tononi (2016). Neural correlates of consciousness: progress and problems. Nature Reviews Neuroscience 17(5):307–321.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27094080/",
+          "line": "Best anatomical candidates for content-specific correlates sit in a posterior temporo-parietal-occipital zone, not the fronto-parietal task network."
+        },
+        {
+          "ref": "boly2017",
+          "cite": "Boly, Massimini, Tsuchiya, Postle, Koch & Tononi (2017). Are the Neural Correlates of Consciousness in the Front or in the Back of the Cerebral Cortex? J Neurosci 37(40):9603–9613.",
+          "url": "https://www.jneurosci.org/content/37/40/9603",
+          "line": "Clinical and neuroimaging evidence marshalled for a posterior locus of the correlates of conscious content."
+        }
+      ],
+      "challenging": [
+        {
+          "ref": "odegaard2017",
+          "cite": "Odegaard, Knight & Lau (2017). Should a Few Null Findings Falsify Prefrontal Theories of Conscious Perception? J Neurosci 37(40):9593–9602.",
+          "url": "https://www.jneurosci.org/content/37/40/9593",
+          "line": "Argues prefrontal / distributed cortical activity is essential to conscious perception, against an exclusively posterior locus."
+        },
+        {
+          "ref": "michel2020",
+          "cite": "Michel & Morales (2020). Minority reports: Consciousness and the prefrontal cortex. Mind & Language 35(4):493–513.",
+          "url": "https://philpapers.org/archive/MICMRC.pdf",
+          "line": "Reviews the case that prefrontal / distributed circuits contribute to conscious experience, not posterior cortex alone."
+        }
+      ],
+      "grade": "mixed",
+      "note": "Grade on the typed side-resolution; NOT on the held-out review."
+    },
+    {
+      "fork_id": "IIT×ActiveInference:locus:iit_c010xactive-inference_c037",
+      "axis": "locus",
+      "pair": "IIT × Active Inference",
+      "side_resolution": {
+        "left": {
+          "theory": "IIT",
+          "value": "single_maximal_complex"
+        },
+        "right": {
+          "theory": "Active Inference",
+          "value": "subcortical_basal_ganglia"
+        }
+      },
+      "supporting": [
+        {
+          "ref": "koch2016",
+          "cite": "Koch, Massimini, Boly & Tononi (2016). Neural correlates of consciousness: progress and problems. Nature Reviews Neuroscience 17(5):307–321.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27094080/",
+          "line": "Best anatomical candidates for content-specific correlates sit in a posterior temporo-parietal-occipital zone, not the fronto-parietal task network."
+        },
+        {
+          "ref": "boly2017",
+          "cite": "Boly, Massimini, Tsuchiya, Postle, Koch & Tononi (2017). Are the Neural Correlates of Consciousness in the Front or in the Back of the Cerebral Cortex? J Neurosci 37(40):9603–9613.",
+          "url": "https://www.jneurosci.org/content/37/40/9603",
+          "line": "Clinical and neuroimaging evidence marshalled for a posterior locus of the correlates of conscious content."
+        }
+      ],
+      "challenging": [
+        {
+          "ref": "merker2007",
+          "cite": "Merker (2007). Consciousness without a cerebral cortex: A challenge for neuroscience and medicine. Behavioral and Brain Sciences 30(1):63–81.",
+          "url": "https://www.researchgate.net/publication/6355200",
+          "line": "Argues an upper-brainstem / subcortical system can generate primary consciousness; cortex enriches but does not constitute it."
+        },
+        {
+          "ref": "subcortical2026",
+          "cite": "When does consciousness arise? A subcortical model of its origins (2026). Brain Structure and Function.",
+          "url": "https://link.springer.com/article/10.1007/s00429-026-03113-9",
+          "line": "Models subcortical (midbrain/basal) structures as the origin of basic conscious states."
+        }
+      ],
+      "grade": "mixed",
+      "note": "Grade on the typed side-resolution; NOT on the held-out review."
+    },
+    {
+      "fork_id": "IIT×ActiveInference:locus:iit_n007xactive-inference_c037",
+      "axis": "locus",
+      "pair": "IIT × Active Inference",
+      "side_resolution": {
+        "left": {
+          "theory": "IIT",
+          "value": "maximal_irreducible_complex"
+        },
+        "right": {
+          "theory": "Active Inference",
+          "value": "subcortical_basal_ganglia"
+        }
+      },
+      "supporting": [
+        {
+          "ref": "koch2016",
+          "cite": "Koch, Massimini, Boly & Tononi (2016). Neural correlates of consciousness: progress and problems. Nature Reviews Neuroscience 17(5):307–321.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27094080/",
+          "line": "Best anatomical candidates for content-specific correlates sit in a posterior temporo-parietal-occipital zone, not the fronto-parietal task network."
+        },
+        {
+          "ref": "boly2017",
+          "cite": "Boly, Massimini, Tsuchiya, Postle, Koch & Tononi (2017). Are the Neural Correlates of Consciousness in the Front or in the Back of the Cerebral Cortex? J Neurosci 37(40):9603–9613.",
+          "url": "https://www.jneurosci.org/content/37/40/9603",
+          "line": "Clinical and neuroimaging evidence marshalled for a posterior locus of the correlates of conscious content."
+        }
+      ],
+      "challenging": [
+        {
+          "ref": "merker2007",
+          "cite": "Merker (2007). Consciousness without a cerebral cortex: A challenge for neuroscience and medicine. Behavioral and Brain Sciences 30(1):63–81.",
+          "url": "https://www.researchgate.net/publication/6355200",
+          "line": "Argues an upper-brainstem / subcortical system can generate primary consciousness; cortex enriches but does not constitute it."
+        },
+        {
+          "ref": "subcortical2026",
+          "cite": "When does consciousness arise? A subcortical model of its origins (2026). Brain Structure and Function.",
+          "url": "https://link.springer.com/article/10.1007/s00429-026-03113-9",
+          "line": "Models subcortical (midbrain/basal) structures as the origin of basic conscious states."
+        }
+      ],
+      "grade": "mixed",
+      "note": "Grade on the typed side-resolution; NOT on the held-out review."
+    },
+    {
+      "fork_id": "IIT×ActiveInference:locus:iit_n013xactive-inference_c037",
+      "axis": "locus",
+      "pair": "IIT × Active Inference",
+      "side_resolution": {
+        "left": {
+          "theory": "IIT",
+          "value": "intrinsic_not_broadcast"
+        },
+        "right": {
+          "theory": "Active Inference",
+          "value": "subcortical_basal_ganglia"
+        }
+      },
+      "supporting": [
+        {
+          "ref": "koch2016",
+          "cite": "Koch, Massimini, Boly & Tononi (2016). Neural correlates of consciousness: progress and problems. Nature Reviews Neuroscience 17(5):307–321.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27094080/",
+          "line": "Best anatomical candidates for content-specific correlates sit in a posterior temporo-parietal-occipital zone, not the fronto-parietal task network."
+        },
+        {
+          "ref": "boly2017",
+          "cite": "Boly, Massimini, Tsuchiya, Postle, Koch & Tononi (2017). Are the Neural Correlates of Consciousness in the Front or in the Back of the Cerebral Cortex? J Neurosci 37(40):9603–9613.",
+          "url": "https://www.jneurosci.org/content/37/40/9603",
+          "line": "Clinical and neuroimaging evidence marshalled for a posterior locus of the correlates of conscious content."
+        }
+      ],
+      "challenging": [
+        {
+          "ref": "merker2007",
+          "cite": "Merker (2007). Consciousness without a cerebral cortex: A challenge for neuroscience and medicine. Behavioral and Brain Sciences 30(1):63–81.",
+          "url": "https://www.researchgate.net/publication/6355200",
+          "line": "Argues an upper-brainstem / subcortical system can generate primary consciousness; cortex enriches but does not constitute it."
+        },
+        {
+          "ref": "subcortical2026",
+          "cite": "When does consciousness arise? A subcortical model of its origins (2026). Brain Structure and Function.",
+          "url": "https://link.springer.com/article/10.1007/s00429-026-03113-9",
+          "line": "Models subcortical (midbrain/basal) structures as the origin of basic conscious states."
+        }
+      ],
+      "grade": "mixed",
+      "note": "Grade on the typed side-resolution; NOT on the held-out review."
+    },
+    {
+      "fork_id": "IIT×ActiveInference:mechanism_scale:iit_n023xactive-inference_c027",
+      "axis": "mechanism_scale",
+      "pair": "IIT × Active Inference",
+      "side_resolution": {
+        "left": {
+          "theory": "IIT",
+          "value": "mesoscale_spatiotemporal_grain"
+        },
+        "right": {
+          "theory": "Active Inference",
+          "value": "message_passing_gradient_descent"
+        }
+      },
+      "supporting": [
+        {
+          "ref": "hoel2016",
+          "cite": "Hoel, Albantakis, Marshall & Tononi (2016). Can the macro beat the micro? Integrated information across spatiotemporal scales. Neuroscience of Consciousness 2016(1):niw012.",
+          "url": "https://academic.oup.com/nc/article/2016/1/niw012/2757132",
+          "line": "The spatiotemporal grain that maximises intrinsic irreducibility can be a coarser (macro/meso) scale, not necessarily the finest micro scale."
+        }
+      ],
+      "challenging": [
+        {
+          "ref": "bastos2012",
+          "cite": "Bastos, Usrey, Adams, Mangun, Fries & Friston (2012). Canonical Microcircuits for Predictive Coding. Neuron 76(4):695–711.",
+          "url": "https://doi.org/10.1016/j.neuron.2012.10.038",
+          "line": "Assigns predictive-coding roles to specific cortical laminae — a microcircuit-scale mechanistic account."
+        },
+        {
+          "ref": "friston2009",
+          "cite": "Friston & Kiebel (2009). Predictive coding under the free-energy principle. Phil. Trans. R. Soc. B 364:1211–1221.",
+          "url": "https://www.fil.ion.ucl.ac.uk/~karl/Predictive%20coding%20under%20the%20free-energy%20principle.pdf",
+          "line": "Message-passing / precision-weighting formulation of cortical inference under the free-energy principle."
+        }
+      ],
+      "grade": "mixed",
+      "note": "Grade on the typed side-resolution; NOT on the held-out review."
+    },
+    {
+      "fork_id": "IIT×ActiveInference:mechanism_scale:iit_n023xactive-inference_c030",
+      "axis": "mechanism_scale",
+      "pair": "IIT × Active Inference",
+      "side_resolution": {
+        "left": {
+          "theory": "IIT",
+          "value": "mesoscale_spatiotemporal_grain"
+        },
+        "right": {
+          "theory": "Active Inference",
+          "value": "cortical_microcircuit"
+        }
+      },
+      "supporting": [
+        {
+          "ref": "hoel2016",
+          "cite": "Hoel, Albantakis, Marshall & Tononi (2016). Can the macro beat the micro? Integrated information across spatiotemporal scales. Neuroscience of Consciousness 2016(1):niw012.",
+          "url": "https://academic.oup.com/nc/article/2016/1/niw012/2757132",
+          "line": "The spatiotemporal grain that maximises intrinsic irreducibility can be a coarser (macro/meso) scale, not necessarily the finest micro scale."
+        }
+      ],
+      "challenging": [
+        {
+          "ref": "bastos2012",
+          "cite": "Bastos, Usrey, Adams, Mangun, Fries & Friston (2012). Canonical Microcircuits for Predictive Coding. Neuron 76(4):695–711.",
+          "url": "https://doi.org/10.1016/j.neuron.2012.10.038",
+          "line": "Assigns predictive-coding roles to specific cortical laminae — a microcircuit-scale mechanistic account."
+        }
+      ],
+      "grade": "mixed",
+      "note": "Grade on the typed side-resolution; NOT on the held-out review."
+    },
+    {
+      "fork_id": "IIT×ActiveInference:mechanism_scale:iit_n023xactive-inference_c038",
+      "axis": "mechanism_scale",
+      "pair": "IIT × Active Inference",
+      "side_resolution": {
+        "left": {
+          "theory": "IIT",
+          "value": "mesoscale_spatiotemporal_grain"
+        },
+        "right": {
+          "theory": "Active Inference",
+          "value": "neuromodulatory_precision_encoding"
+        }
+      },
+      "supporting": [
+        {
+          "ref": "hoel2016",
+          "cite": "Hoel, Albantakis, Marshall & Tononi (2016). Can the macro beat the micro? Integrated information across spatiotemporal scales. Neuroscience of Consciousness 2016(1):niw012.",
+          "url": "https://academic.oup.com/nc/article/2016/1/niw012/2757132",
+          "line": "The spatiotemporal grain that maximises intrinsic irreducibility can be a coarser (macro/meso) scale, not necessarily the finest micro scale."
+        }
+      ],
+      "challenging": [
+        {
+          "ref": "friston2009",
+          "cite": "Friston & Kiebel (2009). Predictive coding under the free-energy principle. Phil. Trans. R. Soc. B 364:1211–1221.",
+          "url": "https://www.fil.ion.ucl.ac.uk/~karl/Predictive%20coding%20under%20the%20free-energy%20principle.pdf",
+          "line": "Message-passing / precision-weighting formulation of cortical inference under the free-energy principle."
+        }
+      ],
+      "grade": "mixed",
+      "note": "Grade on the typed side-resolution; NOT on the held-out review."
+    },
+    {
+      "fork_id": "IIT×ActiveInference:locus:iit_t002xactive-inference_c037",
+      "axis": "locus",
+      "pair": "IIT × Active Inference",
+      "side_resolution": {
+        "left": {
+          "theory": "IIT",
+          "value": "posterior_hot_zone"
+        },
+        "right": {
+          "theory": "Active Inference",
+          "value": "subcortical_basal_ganglia"
+        }
+      },
+      "supporting": [
+        {
+          "ref": "koch2016",
+          "cite": "Koch, Massimini, Boly & Tononi (2016). Neural correlates of consciousness: progress and problems. Nature Reviews Neuroscience 17(5):307–321.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27094080/",
+          "line": "Best anatomical candidates for content-specific correlates sit in a posterior temporo-parietal-occipital zone, not the fronto-parietal task network."
+        },
+        {
+          "ref": "boly2017",
+          "cite": "Boly, Massimini, Tsuchiya, Postle, Koch & Tononi (2017). Are the Neural Correlates of Consciousness in the Front or in the Back of the Cerebral Cortex? J Neurosci 37(40):9603–9613.",
+          "url": "https://www.jneurosci.org/content/37/40/9603",
+          "line": "Clinical and neuroimaging evidence marshalled for a posterior locus of the correlates of conscious content."
+        }
+      ],
+      "challenging": [
+        {
+          "ref": "merker2007",
+          "cite": "Merker (2007). Consciousness without a cerebral cortex: A challenge for neuroscience and medicine. Behavioral and Brain Sciences 30(1):63–81.",
+          "url": "https://www.researchgate.net/publication/6355200",
+          "line": "Argues an upper-brainstem / subcortical system can generate primary consciousness; cortex enriches but does not constitute it."
+        },
+        {
+          "ref": "subcortical2026",
+          "cite": "When does consciousness arise? A subcortical model of its origins (2026). Brain Structure and Function.",
+          "url": "https://link.springer.com/article/10.1007/s00429-026-03113-9",
+          "line": "Models subcortical (midbrain/basal) structures as the origin of basic conscious states."
+        }
+      ],
+      "grade": "mixed",
+      "note": "Grade on the typed side-resolution; NOT on the held-out review."
+    },
+    {
+      "fork_id": "IIT×ActiveInference:temporal_profile:iit_t003xactive-inference_c016",
+      "axis": "temporal_profile",
+      "pair": "IIT × Active Inference",
+      "side_resolution": {
+        "left": {
+          "theory": "IIT",
+          "value": "sustained_maintenance"
+        },
+        "right": {
+          "theory": "Active Inference",
+          "value": "prospective_counterfactual"
+        }
+      },
+      "supporting": [
+        {
+          "ref": "koch2016",
+          "cite": "Koch, Massimini, Boly & Tononi (2016). Neural correlates of consciousness: progress and problems. Nature Reviews Neuroscience 17(5):307–321.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27094080/",
+          "line": "Best anatomical candidates for content-specific correlates sit in a posterior temporo-parietal-occipital zone, not the fronto-parietal task network."
+        },
+        {
+          "ref": "boly2017",
+          "cite": "Boly, Massimini, Tsuchiya, Postle, Koch & Tononi (2017). Are the Neural Correlates of Consciousness in the Front or in the Back of the Cerebral Cortex? J Neurosci 37(40):9603–9613.",
+          "url": "https://www.jneurosci.org/content/37/40/9603",
+          "line": "Clinical and neuroimaging evidence marshalled for a posterior locus of the correlates of conscious content."
+        }
+      ],
+      "challenging": [
+        {
+          "ref": "kiebel2008",
+          "cite": "Kiebel, Daunizeau & Friston (2008). A Hierarchy of Time-Scales and the Brain. PLoS Computational Biology 4(11):e1000209.",
+          "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000209",
+          "line": "Higher cortical levels encode slower-changing states; a separation of timescales across the hierarchy."
+        },
+        {
+          "ref": "friston2009",
+          "cite": "Friston & Kiebel (2009). Predictive coding under the free-energy principle. Phil. Trans. R. Soc. B 364:1211–1221.",
+          "url": "https://www.fil.ion.ucl.ac.uk/~karl/Predictive%20coding%20under%20the%20free-energy%20principle.pdf",
+          "line": "Message-passing / precision-weighting formulation of cortical inference under the free-energy principle."
+        }
+      ],
+      "grade": "mixed",
+      "note": "Grade on the typed side-resolution; NOT on the held-out review."
+    },
+    {
+      "fork_id": "IIT×ActiveInference:temporal_profile:iit_t003xactive-inference_c032",
+      "axis": "temporal_profile",
+      "pair": "IIT × Active Inference",
+      "side_resolution": {
+        "left": {
+          "theory": "IIT",
+          "value": "sustained_maintenance"
+        },
+        "right": {
+          "theory": "Active Inference",
+          "value": "slower_dynamics_at_higher_hierarchy"
+        }
+      },
+      "supporting": [
+        {
+          "ref": "koch2016",
+          "cite": "Koch, Massimini, Boly & Tononi (2016). Neural correlates of consciousness: progress and problems. Nature Reviews Neuroscience 17(5):307–321.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27094080/",
+          "line": "Best anatomical candidates for content-specific correlates sit in a posterior temporo-parietal-occipital zone, not the fronto-parietal task network."
+        },
+        {
+          "ref": "boly2017",
+          "cite": "Boly, Massimini, Tsuchiya, Postle, Koch & Tononi (2017). Are the Neural Correlates of Consciousness in the Front or in the Back of the Cerebral Cortex? J Neurosci 37(40):9603–9613.",
+          "url": "https://www.jneurosci.org/content/37/40/9603",
+          "line": "Clinical and neuroimaging evidence marshalled for a posterior locus of the correlates of conscious content."
+        }
+      ],
+      "challenging": [
+        {
+          "ref": "kiebel2008",
+          "cite": "Kiebel, Daunizeau & Friston (2008). A Hierarchy of Time-Scales and the Brain. PLoS Computational Biology 4(11):e1000209.",
+          "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000209",
+          "line": "Higher cortical levels encode slower-changing states; a separation of timescales across the hierarchy."
+        },
+        {
+          "ref": "raut2020",
+          "cite": "Raut, Snyder & Raichle (2020). Hierarchical dynamics as a macroscopic organizing principle of the human brain. PNAS 117(34):20890–20897.",
+          "url": "https://www.pnas.org/doi/10.1073/pnas.2003383117",
+          "line": "Timescales lengthen along the cortical hierarchy; slower dynamics in higher-order regions."
+        }
+      ],
+      "grade": "mixed",
+      "note": "Grade on the typed side-resolution; NOT on the held-out review."
+    },
+    {
+      "fork_id": "NREP×ActiveInference:locus:nrep_c017xactive-inference_c037",
+      "axis": "locus",
+      "pair": "NREP × Active Inference",
+      "side_resolution": {
+        "left": {
+          "theory": "NREP",
+          "value": "distributed_multi_region"
+        },
+        "right": {
+          "theory": "Active Inference",
+          "value": "subcortical_basal_ganglia"
+        }
+      },
+      "supporting": [
+        {
+          "ref": "odegaard2017",
+          "cite": "Odegaard, Knight & Lau (2017). Should a Few Null Findings Falsify Prefrontal Theories of Conscious Perception? J Neurosci 37(40):9593–9602.",
+          "url": "https://www.jneurosci.org/content/37/40/9593",
+          "line": "Argues prefrontal / distributed cortical activity is essential to conscious perception, against an exclusively posterior locus."
+        },
+        {
+          "ref": "michel2020",
+          "cite": "Michel & Morales (2020). Minority reports: Consciousness and the prefrontal cortex. Mind & Language 35(4):493–513.",
+          "url": "https://philpapers.org/archive/MICMRC.pdf",
+          "line": "Reviews the case that prefrontal / distributed circuits contribute to conscious experience, not posterior cortex alone."
+        }
+      ],
+      "challenging": [
+        {
+          "ref": "merker2007",
+          "cite": "Merker (2007). Consciousness without a cerebral cortex: A challenge for neuroscience and medicine. Behavioral and Brain Sciences 30(1):63–81.",
+          "url": "https://www.researchgate.net/publication/6355200",
+          "line": "Argues an upper-brainstem / subcortical system can generate primary consciousness; cortex enriches but does not constitute it."
+        },
+        {
+          "ref": "subcortical2026",
+          "cite": "When does consciousness arise? A subcortical model of its origins (2026). Brain Structure and Function.",
+          "url": "https://link.springer.com/article/10.1007/s00429-026-03113-9",
+          "line": "Models subcortical (midbrain/basal) structures as the origin of basic conscious states."
+        }
+      ],
+      "grade": "mixed",
+      "note": "Grade on the typed side-resolution; NOT on the held-out review."
+    }
+  ]
+}

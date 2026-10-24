@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Consilience sprint results registry (SPEC §0.8, amended v2.0.2)",
+  "type": "object",
+  "required": ["schema_version", "metrics"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {"type": "string"},
+    "numbers_lock": {"type": ["object", "null"]},
+    "metrics": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/metric"}
+    }
+  },
+  "$defs": {
+    "metric": {
+      "type": "object",
+      "required": ["metric_id", "value", "task", "runid", "instrument_tag",
+                   "corpus_tag", "preregistered", "pilot", "caveats"],
+      "additionalProperties": false,
+      "properties": {
+        "metric_id": {"type": "string", "minLength": 1},
+        "value": {"type": ["number", "string", "boolean"]},
+        "ci_lo": {"type": ["number", "null"]},
+        "ci_hi": {"type": ["number", "null"]},
+        "n": {"type": ["integer", "null"]},
+        "task": {"type": "string", "minLength": 1},
+        "runid": {"type": "string", "minLength": 1},
+        "instrument_tag": {"enum": ["v1", "v2", "frozen-store"]},
+        "corpus_tag": {"enum": ["v1", "v2", "v2b", "v2c"]},
+        "preregistered": {"type": "boolean"},
+        "pilot": {"type": "boolean"},
+        "caveats": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  }
+}

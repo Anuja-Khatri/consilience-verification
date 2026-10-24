@@ -1,0 +1,40 @@
+fork_id: IIT×ActiveInference:locus:iit_c010xactive-inference_c037
+axis: locus
+pair: IIT × Active Inference
+sides:
+  left:
+    theory: IIT
+    value: single_maximal_complex
+    polarity: asserts
+  right:
+    theory: Active Inference
+    value: subcortical_basal_ganglia
+    polarity: asserts
+observable: Neural activity patterns most tightly correlated with conscious report
+  across varying tasks and states
+outcome_space:
+- pattern: Conscious report correlates most strongly with activity in a single, maximally
+    integrated cortical complex (e.g., posterior cortex), regardless of subcortical
+    involvement.
+  favors: IIT
+- pattern: Conscious report correlates most strongly with activity in subcortical
+    basal ganglia structures, even when cortical complexes are active.
+  favors: ActInf
+- pattern: Conscious report correlates equally with both cortical complexes and subcortical
+    basal ganglia, or with neither specifically.
+  favors: neither
+favors:
+  ? Conscious report correlates most strongly with activity in a single, maximally
+    integrated cortical complex (e.g., posterior cortex), regardless of subcortical
+    involvement.
+  : IIT
+  ? Conscious report correlates most strongly with activity in subcortical basal ganglia
+    structures, even when cortical complexes are active.
+  : ActInf
+  ? Conscious report correlates equally with both cortical complexes and subcortical
+    basal ganglia, or with neither specifically.
+  : neither
+vacuous: false
+vacuity_rationale: The two values make empirically distinct claims about the neural
+  locus most closely associated with consciousness, allowing for discriminating measurement
+  patterns.

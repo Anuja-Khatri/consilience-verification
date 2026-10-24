@@ -1,0 +1,8 @@
+# lint_claims allowlist (SPEC §0.6): one allowed substring per line. A linter finding
+# on a line containing any of these substrings is suppressed. Keep entries NARROW —
+# they exempt legitimate mentions (quoted criticism, this project's own method prose),
+# never loosen the guard for application-facing claims.
+#
+# instrument_v2.md clarifies that the Haiku check is NOT independent (asserts the ban's
+# own point); the literal co-occurrence is legitimate project prose, not a violation.
+same-family cross-check, never "independent"

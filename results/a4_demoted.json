@@ -1,0 +1,8 @@
+{
+  "demoted": [
+    "IIT\u00d7NREP:observable_commitment:iit_n005xnrep_c003",
+    "IIT\u00d7NREP:observable_commitment:iit_n005xnrep_c006",
+    "IIT\u00d7NREP:observable_commitment:iit_t001xnrep_c006"
+  ],
+  "reason": "observable is a validation-method question, not a measurement pattern (Anu, A4 Leg-2 gate)"
+}

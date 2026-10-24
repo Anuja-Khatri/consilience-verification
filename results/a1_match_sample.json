@@ -1,0 +1,1813 @@
+{
+  "n": 30,
+  "matches": [
+    {
+      "match_id": "ed_match_01",
+      "src": "engine-discovered",
+      "discovery": "D1",
+      "claim_a": "ED24_C11",
+      "claim_b": "G6_C3",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "FAIL",
+            "distance": 2,
+            "scales": [
+              "molecular",
+              "neural"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not state that this result comes from simulations or that D(s) is the avalanche-size distribution.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "FAIL",
+            "distance": 2,
+            "scales": [
+              "molecular",
+              "neural"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not specify that the exponent is for avalanche-size, nor does it mention values for both electrode number and summed LFP amplitude. It only gives one exponent value (1.50 ± 0.008) without context.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "FAIL",
+        "distance": 2,
+        "scales": [
+          "molecular",
+          "neural"
+        ]
+      }
+    },
+    {
+      "match_id": "match_04",
+      "src": "correspondences",
+      "discovery": "D2",
+      "claim_a": "F9_C3",
+      "claim_b": "G6_C5",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "FAIL",
+            "distance": 3,
+            "scales": [
+              "cosmological",
+              "neural"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not mention sand, grains being fed, avalanches, spillover, self-tuning, or the system maintaining itself at the critical point. It only states that a pile grows until its slope becomes critical.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "FAIL",
+            "distance": 3,
+            "scales": [
+              "cosmological",
+              "neural"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not mention the power-law slope, the branching parameter, or that the mechanism is a critical branching process.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [
+          "criti"
+        ],
+        "n": 1
+      },
+      "C5": {
+        "status": "FAIL",
+        "distance": 3,
+        "scales": [
+          "cosmological",
+          "neural"
+        ]
+      }
+    },
+    {
+      "match_id": "match_13",
+      "src": "correspondences",
+      "discovery": "D3",
+      "claim_a": "E4_C16",
+      "claim_b": "F6_C2",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "metaphysical",
+              "quantum"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote only mentions that the five gross elements (Mahabhutas) come from the five subtle elements. It does not state the full order of evolution from primordial nature to intellect, ego, aggregate of sixteen, five subtle elements, and then five gross elements.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "metaphysical",
+              "quantum"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not mention symmetry of the law (Hamiltonian/Lagrangian/action), nor does it mention that the state is stable or that the lack of symmetry is with respect to a symmetry of the governing law.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "PASS",
+        "note": "metaphysical wildcard",
+        "scales": [
+          "metaphysical",
+          "quantum"
+        ]
+      }
+    },
+    {
+      "match_id": "ed_match_17",
+      "src": "engine-discovered",
+      "discovery": "D4",
+      "claim_a": "ED04_C5",
+      "claim_b": "E4_C16",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "cellular",
+              "metaphysical"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not state that patterning proceeds as an ordered cascade, nor does it mention activation of later genes after pair-rule gene expression.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "cellular",
+              "metaphysical"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote only mentions that the five gross elements (Mahabhutas) come from the five subtle elements. It does not state the full order of evolution from primordial nature to intellect, ego, aggregate of sixteen, five subtle elements, and then five gross elements.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "PASS",
+        "note": "metaphysical wildcard",
+        "scales": [
+          "cellular",
+          "metaphysical"
+        ]
+      }
+    },
+    {
+      "match_id": "match_11",
+      "src": "correspondences",
+      "discovery": "D5",
+      "claim_a": "F6_C4",
+      "claim_b": "G5_C10",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "FAIL",
+            "distance": 3,
+            "scales": [
+              "quantum",
+              "neural"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not state that the operator's expectation value is nonzero and distinct for each inequivalent symmetry-broken state, nor that it distinguishes broken from unbroken states; it only mentions the expectation value being zero in symmetric states.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "FAIL",
+            "distance": 3,
+            "scales": [
+              "quantum",
+              "neural"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "that PCI takes intermediate values at intermediate levels of sedation and in minimally conscious states; that the graded changes are specifically in the level of consciousness",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "FAIL",
+        "distance": 3,
+        "scales": [
+          "quantum",
+          "neural"
+        ]
+      }
+    },
+    {
+      "match_id": "ed_match_06",
+      "src": "engine-discovered",
+      "discovery": "D6",
+      "claim_a": "ED06_C6",
+      "claim_b": "G5_C5",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "FAIL",
+            "distance": 2,
+            "scales": [
+              "social",
+              "neural"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not mention autocorrelation; it only states that variance increases as the bifurcation is approached.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "FAIL",
+            "distance": 2,
+            "scales": [
+              "social",
+              "neural"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "anesthesia, patients emerging from coma",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "FAIL",
+        "distance": 2,
+        "scales": [
+          "social",
+          "neural"
+        ]
+      }
+    },
+    {
+      "match_id": "supp_match_03",
+      "src": "supplementary",
+      "discovery": "D7",
+      "claim_a": "VA_C1",
+      "claim_b": "B1_C12",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "FAIL",
+            "distance": 2,
+            "scales": [
+              "cellular",
+              "quantum"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not specify that the unity is autopoietic, nor does it explicitly state that the system produces itself through itself. It also does not clarify that the components produced are the same ones that generate and participate in the network, or that the network is of production processes.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "FAIL",
+            "distance": 2,
+            "scales": [
+              "cellular",
+              "quantum"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not state that self-interaction is interpreted as self-awareness or that the field responds dynamically to its own presence; it only mentions the non-Abelian property of self-interaction in unified, non-Abelian gauge fields.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "FAIL",
+        "distance": 2,
+        "scales": [
+          "cellular",
+          "quantum"
+        ]
+      }
+    },
+    {
+      "match_id": "ed_match_18",
+      "src": "engine-discovered",
+      "discovery": "D8",
+      "claim_a": "ED21_C1",
+      "claim_b": "A1_C1",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "distance": 1,
+            "scales": [
+              "social",
+              "cosmological"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not mention ecological drift, the sequential nature of the cascade, or that competition is strengthening.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "distance": 1,
+            "scales": [
+              "social",
+              "cosmological"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not state that heavier superpartners decay away, nor does it mention that the LSP survives as a relic or that this is in the context of supersymmetric models.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "PASS",
+        "distance": 1,
+        "scales": [
+          "social",
+          "cosmological"
+        ]
+      }
+    },
+    {
+      "match_id": "ed_match_05",
+      "src": "engine-discovered",
+      "discovery": "D9",
+      "claim_a": "ED17_C4",
+      "claim_b": "E4_C5",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "metaphysical",
+              "metaphysical"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not state that the least fixed point semantics is equivalent to a parse-tree-based semantics; it only says it can be viewed as based on parse trees, not that they are equivalent.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "metaphysical",
+              "metaphysical"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote says the effect exists in latent form in the cause, but does not state that it pre-exists as a real entity; 'latent form' could imply potentiality rather than real existence.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "PASS",
+        "note": "metaphysical wildcard",
+        "scales": [
+          "metaphysical",
+          "metaphysical"
+        ]
+      }
+    },
+    {
+      "match_id": "supp_match_14",
+      "src": "supplementary",
+      "discovery": null,
+      "claim_a": "FR_C4",
+      "claim_b": "F2_C1",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "distance": 1,
+            "scales": [
+              "molecular",
+              "quantum"
+            ]
+          },
+          "C2": {
+            "supported": true,
+            "missing": "",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "distance": 1,
+            "scales": [
+              "molecular",
+              "quantum"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not mention a critical temperature, does not specify that the phase transition is to a Bose-Einstein condensate, and does not state that the resulting state is a coherent cloud of atoms all occupying the same single quantum-mechanical state.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "PASS",
+        "distance": 1,
+        "scales": [
+          "molecular",
+          "quantum"
+        ]
+      }
+    },
+    {
+      "match_id": "supp_match_21",
+      "src": "supplementary",
+      "discovery": null,
+      "claim_a": "OW_C14",
+      "claim_b": "E3_C3",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "quantum",
+              "metaphysical"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not state that the entangled quantum state is irreducible, that it contains multiple parts, that a quantum microtubule state can bind features of experience, that it creates a unified conscious moment, or that it solves the binding/combination problem.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "quantum",
+              "metaphysical"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not mention a single consciousness illumining or underlying distinct mental states such as desire, doubt, belief, or fear; it only asserts that consciousness is a unity.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "PASS",
+        "note": "metaphysical wildcard",
+        "scales": [
+          "quantum",
+          "metaphysical"
+        ]
+      }
+    },
+    {
+      "match_id": "match_17",
+      "src": "correspondences",
+      "discovery": null,
+      "claim_a": "H2_C7",
+      "claim_b": "F6_C7",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "metaphysical",
+              "quantum"
+            ]
+          },
+          "C2": {
+            "supported": true,
+            "missing": "",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "metaphysical",
+              "quantum"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not mention low-energy collective excitations, a symmetry-broken ground state, or that the tower of states is formed by such excitations. It only states that the states in the tower are highly collective and non-local.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "PASS",
+        "note": "metaphysical wildcard",
+        "scales": [
+          "metaphysical",
+          "quantum"
+        ]
+      }
+    },
+    {
+      "match_id": "match_10",
+      "src": "correspondences",
+      "discovery": null,
+      "claim_a": "F9_C4",
+      "claim_b": "G6_C7",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "FAIL",
+            "distance": 3,
+            "scales": [
+              "cosmological",
+              "neural"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not state that all sizes appear; it only mentions power law behavior for sizes and lengths, not that the distribution covers all possible sizes.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "FAIL",
+            "distance": 3,
+            "scales": [
+              "cosmological",
+              "neural"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not specify that the scale invariance is over many orders of magnitude, nor does it mention the range from a few neurons to the whole network or explicitly refer to the cortical network.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "FAIL",
+        "distance": 3,
+        "scales": [
+          "cosmological",
+          "neural"
+        ]
+      }
+    },
+    {
+      "match_id": "match_48",
+      "src": "correspondences",
+      "discovery": null,
+      "claim_a": "E1_C5",
+      "claim_b": "F2_C3",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "metaphysical",
+              "quantum"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not state that deep sleep is the third of four states, nor that all experiences become unified and undifferentiated, nor that it is an undivided mass of consciousness.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "metaphysical",
+              "quantum"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not state that the wavefunction has a single common phase (long-range order) for the whole cloud, nor that the gradient of the phase is proportional to the superfluid velocity.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "PASS",
+        "note": "metaphysical wildcard",
+        "scales": [
+          "metaphysical",
+          "quantum"
+        ]
+      }
+    },
+    {
+      "match_id": "match_19",
+      "src": "correspondences",
+      "discovery": null,
+      "claim_a": "B1_C5",
+      "claim_b": "G4_C10",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "metaphysical",
+              "metaphysical"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not mention consciousness, the nervous system, or that consciousness is fundamental in nature.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "metaphysical",
+              "metaphysical"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "That consciousness is information integration; that it is a quantity of a physical system; that it is on par with mass, charge, or energy; that it is present to the extent the system integrates information; that this holds regardless of what the system is made of.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "PASS",
+        "note": "metaphysical wildcard",
+        "scales": [
+          "metaphysical",
+          "metaphysical"
+        ]
+      }
+    },
+    {
+      "match_id": "match_45",
+      "src": "correspondences",
+      "discovery": null,
+      "claim_a": "A6_C11",
+      "claim_b": "E3_C10",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "neural",
+              "metaphysical"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not mention the subtle body, superfluid behavior, liquid helium, or explanation of mind-body interaction.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "neural",
+              "metaphysical"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not state that the subtle body is the material cause of the mind and the ego, that it is insentient, that it moves through the three states, that it is born and dies, or that the Self is not subject to these. It only mentions 'material cause of the mind and egoism' without specifying what is the material cause or the other relational details.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "PASS",
+        "note": "metaphysical wildcard",
+        "scales": [
+          "neural",
+          "metaphysical"
+        ]
+      }
+    },
+    {
+      "match_id": "match_46",
+      "src": "correspondences",
+      "discovery": null,
+      "claim_a": "E1_C1",
+      "claim_b": "G1_C1",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "metaphysical",
+              "neural"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not state that 'Atman' is the ground reality, identical with the Absolute, nor does it specify what the four quarters are or that they are parts or states. It only says Atman has four quarters.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "metaphysical",
+              "neural"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not mention Focused Attention, Open Monitoring, or Automatic Self-Transcending meditations; it only refers to EEG bands and does not specify what is associated with them.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "PASS",
+        "note": "metaphysical wildcard",
+        "scales": [
+          "metaphysical",
+          "neural"
+        ]
+      }
+    },
+    {
+      "match_id": "match_08",
+      "src": "correspondences",
+      "discovery": null,
+      "claim_a": "A6_C6",
+      "claim_b": "F1a_C5",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "PASS",
+            "distance": 0,
+            "scales": [
+              "cosmological",
+              "cosmological"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote says electromagnetism 'likely' governs hidden sector particle behavior, not that it does so definitively as in the claim. Also, the quote does not specify 'observed small-scale clustering'.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "distance": 0,
+            "scales": [
+              "cosmological",
+              "cosmological"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not state that offsets are absent in field galaxies, nor does it specify that offsets are predicted if dark matter self-interactions generate an extra drag force. It only mentions prediction during infall to a cluster, if dark matter (something), but does not specify the mechanism or the absence in field galaxies.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [
+          "clust"
+        ],
+        "n": 1
+      },
+      "C5": {
+        "status": "PASS",
+        "distance": 0,
+        "scales": [
+          "cosmological",
+          "cosmological"
+        ]
+      }
+    },
+    {
+      "match_id": "supp_match_23",
+      "src": "supplementary",
+      "discovery": null,
+      "claim_a": "LV_C7",
+      "claim_b": "E8_C5",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "organism",
+              "metaphysical"
+            ]
+          },
+          "C2": {
+            "supported": true,
+            "missing": "",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "organism",
+              "metaphysical"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not state that each outer self/sheath is filled by the next inner self, nor that the layers are nested one within another. It only refers to 'the former' being filled by 'this', without specifying a general structure or the relationship among multiple layers.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "PASS",
+        "note": "metaphysical wildcard",
+        "scales": [
+          "organism",
+          "metaphysical"
+        ]
+      }
+    },
+    {
+      "match_id": "match_49",
+      "src": "correspondences",
+      "discovery": null,
+      "claim_a": "E2_C3",
+      "claim_b": "F8a_C1",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "metaphysical",
+              "cosmological"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not state that the world originates from Brahman or dissolves into Brahman; it only mentions subsistence in Brahman.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "metaphysical",
+              "cosmological"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "That this is a scenario for the cosmos/universe; that it is periodic; that it is an alternative to a single beginning.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "PASS",
+        "note": "metaphysical wildcard",
+        "scales": [
+          "metaphysical",
+          "cosmological"
+        ]
+      }
+    },
+    {
+      "match_id": "ed_match_13",
+      "src": "engine-discovered",
+      "discovery": null,
+      "claim_a": "ED20_C4",
+      "claim_b": "B2_C6",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "metaphysical",
+              "metaphysical"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not state that r_{q·2^n,SN} are saddle-node bifurcation points, that they form an ordered sequence indexed by n, that each is associated with an intermittency, or that this is a cascade. It only gives the formula r = r_{q·2^n,SN} - ε.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "metaphysical",
+              "metaphysical"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not specify that the self-interacting dynamics is of the unified field.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "PASS",
+        "note": "metaphysical wildcard",
+        "scales": [
+          "metaphysical",
+          "metaphysical"
+        ]
+      }
+    },
+    {
+      "match_id": "supp_match_22",
+      "src": "supplementary",
+      "discovery": null,
+      "claim_a": "LV_C3",
+      "claim_b": "A6_C6",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "FAIL",
+            "distance": 4,
+            "scales": [
+              "cellular",
+              "cosmological"
+            ]
+          },
+          "C2": {
+            "supported": true,
+            "missing": "",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "FAIL",
+            "distance": 4,
+            "scales": [
+              "cellular",
+              "cosmological"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote says electromagnetism 'likely' governs hidden sector particle behavior, not that it does so definitively as in the claim. Also, the quote does not specify 'observed small-scale clustering'.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [
+          "behav"
+        ],
+        "n": 1
+      },
+      "C5": {
+        "status": "FAIL",
+        "distance": 4,
+        "scales": [
+          "cellular",
+          "cosmological"
+        ]
+      }
+    },
+    {
+      "match_id": "match_54",
+      "src": "correspondences",
+      "discovery": null,
+      "claim_a": "C2_C9",
+      "claim_b": "F8a_C1",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "PASS",
+            "distance": 0,
+            "scales": [
+              "cosmological",
+              "cosmological"
+            ]
+          },
+          "C2": {
+            "supported": true,
+            "missing": "",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "distance": 0,
+            "scales": [
+              "cosmological",
+              "cosmological"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "That this is a scenario for the cosmos/universe; that it is periodic; that it is an alternative to a single beginning.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "PASS",
+        "distance": 0,
+        "scales": [
+          "cosmological",
+          "cosmological"
+        ]
+      }
+    },
+    {
+      "match_id": "match_14",
+      "src": "correspondences",
+      "discovery": null,
+      "claim_a": "G8_C4",
+      "claim_b": "F6_C4",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "FAIL",
+            "distance": 5,
+            "scales": [
+              "social",
+              "quantum"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not specify that the 'assemblies' are 'groups of participants' or that the effect is 'predicted'; it also does not explicitly mention 'participants' at all.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "FAIL",
+            "distance": 5,
+            "scales": [
+              "social",
+              "quantum"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not state that the operator's expectation value is nonzero and distinct for each inequivalent symmetry-broken state, nor that it distinguishes broken from unbroken states; it only mentions the expectation value being zero in symmetric states.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "FAIL",
+        "distance": 5,
+        "scales": [
+          "social",
+          "quantum"
+        ]
+      }
+    },
+    {
+      "match_id": "match_57",
+      "src": "correspondences",
+      "discovery": null,
+      "claim_a": "B1_C32",
+      "claim_b": "E7_C8",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "planck",
+              "metaphysical"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not mention pure consciousness, nor does it specify the unification of observer, observed, and process of observation, or relate bose fields, fermi fields, and gauge supersymmetry to these roles. It only refers to a supersymmetric unified field as 'three-in-one'.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "planck",
+              "metaphysical"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "hearer, perceiver, knower, sole witness, inner ruler, the Self",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "PASS",
+        "note": "metaphysical wildcard",
+        "scales": [
+          "planck",
+          "metaphysical"
+        ]
+      }
+    },
+    {
+      "match_id": "supp_match_02",
+      "src": "supplementary",
+      "discovery": null,
+      "claim_a": "LV_C9",
+      "claim_b": "G4_C7",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "distance": 1,
+            "scales": [
+              "organism",
+              "neural"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not specify that the information is stored in bioelectric networks; it only states that it is stored in a distributed form throughout the animal, without mentioning the mechanism or medium.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "PASS",
+            "distance": 1,
+            "scales": [
+              "organism",
+              "neural"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not mention the high-Φ complex, the formation of two smaller complexes, or the yielding of two separate conscious subjects. It only states that consciousness can be split if the thalamocortical system is split.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "PASS",
+        "distance": 1,
+        "scales": [
+          "organism",
+          "neural"
+        ]
+      }
+    },
+    {
+      "match_id": "ed_match_08",
+      "src": "engine-discovered",
+      "discovery": null,
+      "claim_a": "ED11_C7",
+      "claim_b": "A6_C7",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "FAIL",
+            "distance": 5,
+            "scales": [
+              "molecular",
+              "cosmological"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not mention the electric field, gravity, the lower region, or a comparison to an ideal neutral gas. It only states that the decay is much slower, without specifying the cause or context.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "FAIL",
+            "distance": 5,
+            "scales": [
+              "molecular",
+              "cosmological"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not specify the timescale of 4.5 billion years.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "FAIL",
+        "distance": 5,
+        "scales": [
+          "molecular",
+          "cosmological"
+        ]
+      }
+    },
+    {
+      "match_id": "match_23",
+      "src": "correspondences",
+      "discovery": null,
+      "claim_a": "C2_C18",
+      "claim_b": "E1_C12",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "neural",
+              "metaphysical"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not specify 'long-term meditators' or that this occurs specifically in them. It also does not explicitly state that this produces 'witnessing sleep' in the sense of a defined phenomenon, only that you could call it that. The quote also does not specify that this is a consistent or characteristic feature in a particular group.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "neural",
+              "metaphysical"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not state that the witness is 'The Self', nor that the witness is distinct from and unaffected by the three states.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [
+          "witne"
+        ],
+        "n": 1
+      },
+      "C5": {
+        "status": "PASS",
+        "note": "metaphysical wildcard",
+        "scales": [
+          "neural",
+          "metaphysical"
+        ]
+      }
+    },
+    {
+      "match_id": "match_18",
+      "src": "correspondences",
+      "discovery": null,
+      "claim_a": "H4_C6",
+      "claim_b": "E4_C4",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "quantum",
+              "metaphysical"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not mention quantum states or expectations, nor does it reference the Aristotelian sense of 'potentia' or contrast with actuality.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "PASS",
+            "note": "metaphysical wildcard",
+            "scales": [
+              "quantum",
+              "metaphysical"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not state that primordial unmanifest nature exists, nor that its existence is inferred as the cause of its evolutes such as the great principle (mahat) and the rest. It only mentions imperceptibility due to subtlety, not existence or causal inference.",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "PASS",
+        "note": "metaphysical wildcard",
+        "scales": [
+          "quantum",
+          "metaphysical"
+        ]
+      }
+    },
+    {
+      "match_id": "match_59",
+      "src": "correspondences",
+      "discovery": null,
+      "claim_a": "A6_C11",
+      "claim_b": "F3_C2",
+      "sides": {
+        "a": {
+          "C1": {
+            "status": "FAIL",
+            "provenance": "no pagetext for source_file"
+          },
+          "C5": {
+            "status": "FAIL",
+            "distance": 3,
+            "scales": [
+              "neural",
+              "quantum"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not mention the subtle body, superfluid behavior, liquid helium, or explanation of mind-body interaction.",
+            "json_status": "OK"
+          }
+        },
+        "b": {
+          "C1": {
+            "status": "PASS",
+            "provenance": "exact"
+          },
+          "C5": {
+            "status": "FAIL",
+            "distance": 3,
+            "scales": [
+              "neural",
+              "quantum"
+            ]
+          },
+          "C2": {
+            "supported": false,
+            "missing": "The quote does not mention magnet windings or causality; it only states that low bulk viscosity enables permeation to 'the heart' (unspecified location).",
+            "json_status": "OK"
+          }
+        }
+      },
+      "C3": {
+        "status": "PASS",
+        "shared_stems": [],
+        "n": 0
+      },
+      "C5": {
+        "status": "FAIL",
+        "distance": 3,
+        "scales": [
+          "neural",
+          "quantum"
+        ]
+      }
+    }
+  ]
+}

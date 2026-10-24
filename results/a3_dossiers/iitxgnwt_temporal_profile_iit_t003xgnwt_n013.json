@@ -1,0 +1,187 @@
+{
+  "fork_id": "iitxgnwt:temporal_profile:iit_t003xgnwt_n013",
+  "axis": "temporal_profile",
+  "pair": "iitxgnwt",
+  "beyond_key": false,
+  "sides": {
+    "left": {
+      "theory": "IIT",
+      "value": "sustained_maintenance",
+      "polarity": "asserts",
+      "claim_ids": [
+        "iit_t003"
+      ],
+      "quotes": [
+        "IIT predicts that the duration of a conscious instant is definite and sustained over tens to hundreds of milliseconds, not transient or phasic, as required…"
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.50"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "GNWT",
+      "value": "serial_all_or_none",
+      "polarity": "asserts",
+      "claim_ids": [
+        "gnwt_n013"
+      ],
+      "quotes": [
+        "Conscious processing is serial and all-or-none: at any moment only one interpretation reaches consciousness, and access to one item prevents or delays conscious access to…"
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.79"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [],
+    "right": []
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "now",
+    "rationale": "shared observable(s) ['ignition_signature', 'temporal_generalization'] at equal scale (brain_network)",
+    "citation_rows": [
+      {
+        "tag": "P300",
+        "n": 65
+      },
+      {
+        "tag": "VAN",
+        "n": 26
+      },
+      {
+        "tag": "Late Components",
+        "n": 16
+      },
+      {
+        "tag": "Early Components",
+        "n": 14
+      },
+      {
+        "tag": "N1",
+        "n": 9
+      },
+      {
+        "tag": "N170",
+        "n": 7
+      },
+      {
+        "tag": "N2",
+        "n": 6
+      },
+      {
+        "tag": "N2pc",
+        "n": 5
+      },
+      {
+        "tag": "P1",
+        "n": 5
+      },
+      {
+        "tag": "P2",
+        "n": 5
+      },
+      {
+        "tag": "Intermediate Components",
+        "n": 3
+      },
+      {
+        "tag": "MMN",
+        "n": 3
+      },
+      {
+        "tag": "Prestimulus Components",
+        "n": 3
+      },
+      {
+        "tag": "ERN",
+        "n": 2
+      },
+      {
+        "tag": "N140",
+        "n": 2
+      },
+      {
+        "tag": "SCP",
+        "n": 2
+      },
+      {
+        "tag": "CNV",
+        "n": 1
+      },
+      {
+        "tag": "EPN",
+        "n": 1
+      },
+      {
+        "tag": "Ignition Variability",
+        "n": 1
+      },
+      {
+        "tag": "Intrinsic Ignition",
+        "n": 1
+      },
+      {
+        "tag": "M100",
+        "n": 1
+      },
+      {
+        "tag": "M130",
+        "n": 1
+      },
+      {
+        "tag": "M170",
+        "n": 1
+      },
+      {
+        "tag": "M280",
+        "n": 1
+      },
+      {
+        "tag": "M320",
+        "n": 1
+      },
+      {
+        "tag": "M70",
+        "n": 1
+      },
+      {
+        "tag": "N150",
+        "n": 1
+      },
+      {
+        "tag": "N400",
+        "n": 1
+      },
+      {
+        "tag": "P50",
+        "n": 1
+      },
+      {
+        "tag": "Pe",
+        "n": 1
+      },
+      {
+        "tag": "SPCN",
+        "n": 1
+      }
+    ],
+    "evidence_verdict": "CONTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed)"
+  },
+  "status": "clean",
+  "correction_note": null
+}

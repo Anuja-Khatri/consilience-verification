@@ -1,0 +1,6 @@
+Probe set v0.1 — annotations and typed fields: Creative Commons Attribution 4.0 International (CC BY 4.0).
+https://creativecommons.org/licenses/by/4.0/
+You may share and adapt the annotations/typed fields with attribution. Source quotes within items remain
+under their original sources' terms (stated per item); the CC-BY-4.0 grant covers the ANNOTATIONS
+(typed entity_type/axis/polarity/value, cell labels, gold_basis) and the harness, NOT third-party quoted text.
+Cite: "Consilience diagnostic probe set v0.1 (StructProbe-CSci), judge-after-audit reference labels."

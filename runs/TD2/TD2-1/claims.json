@@ -1,0 +1,409 @@
+{
+  "task": "td2",
+  "corpus_tag": "v2c",
+  "instrument_tag": "v2",
+  "per_source": [
+    {
+      "doc_id": "iit4",
+      "theory": "iit4",
+      "n_passages": 379,
+      "n_candidates": 64,
+      "quality": 0.829,
+      "extractor": "pymupdf",
+      "n_claims": 19,
+      "axis_none": 1,
+      "untypeable_rate": 0.053,
+      "n_duplicate_of_engine": 5
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "iit4_c001",
+      "theory": "iit4",
+      "entity_type": "invariant",
+      "axis": "identity_relation",
+      "value": "experience_is_phi_structure",
+      "polarity": "asserts",
+      "statement": "An experience is identical to the cause–effect structure (Φ-structure) unfolded from a maximal substrate; every property of experience is accounted for by the physical properties of that structure with no additional ingredients.",
+      "passage_ids": [
+        "iit4_0009",
+        "iit4_0031",
+        "iit4_0044",
+        "iit4_0145",
+        "iit4_0203",
+        "iit4_0205",
+        "iit4_0245"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "iit4",
+      "_theory": "iit4",
+      "duplicate_of_engine": true
+    },
+    {
+      "claim_id": "iit4_c002",
+      "theory": "iit4",
+      "entity_type": "information",
+      "axis": "unit_threshold",
+      "value": "integrated_information_phi",
+      "polarity": "asserts",
+      "statement": "The quantity of consciousness corresponds to Φ (big Phi), the sum total of ϕ values of the distinctions and relations composing the Φ-structure; the five postulates are necessary and sufficient for consciousness.",
+      "passage_ids": [
+        "iit4_0001",
+        "iit4_0007",
+        "iit4_0010",
+        "iit4_0029",
+        "iit4_0042",
+        "iit4_0044",
+        "iit4_0245",
+        "iit4_0246"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "iit4",
+      "_theory": "iit4",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "iit4_c003",
+      "theory": "iit4",
+      "entity_type": "substrate",
+      "axis": "substrate_dependence",
+      "value": "substrate_dependent",
+      "polarity": "asserts",
+      "statement": "The substrate of consciousness must satisfy intrinsic cause–effect power, making it substrate-dependent on specific physical causal structure rather than substrate-independent functional organisation.",
+      "passage_ids": [
+        "iit4_0002",
+        "iit4_0003",
+        "iit4_0007",
+        "iit4_0009",
+        "iit4_0010",
+        "iit4_0025",
+        "iit4_0026",
+        "iit4_0035",
+        "iit4_0045",
+        "iit4_0103",
+        "iit4_0108",
+        "iit4_0147",
+        "iit4_0182",
+        "iit4_0198",
+        "iit4_0203",
+        "iit4_0205"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "iit4",
+      "_theory": "iit4",
+      "duplicate_of_engine": true
+    },
+    {
+      "claim_id": "iit4_c004",
+      "theory": "iit4",
+      "entity_type": "system",
+      "axis": "architecture",
+      "value": "phi_structure_composition_architecture",
+      "polarity": "asserts",
+      "statement": "The quality of experience is accounted for by the way the Φ-structure is composed, which depends on the architecture of the substrate; e.g., spatial experience maps onto Φ-structures specified by 2D grid architectures of posterior cortex.",
+      "passage_ids": [
+        "iit4_0028",
+        "iit4_0213"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "iit4",
+      "_theory": "iit4",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "iit4_c005",
+      "theory": "iit4",
+      "entity_type": "information",
+      "axis": "none",
+      "value": "integrated_information_phi",
+      "polarity": "asserts",
+      "statement": "Φ ('big phi'), the sum of integrated information of a complex's distinctions and relations, quantifies the amount of consciousness (structured information) of the Φ-structure.",
+      "passage_ids": [
+        "iit4_0144",
+        "iit4_0145",
+        "iit4_0151",
+        "iit4_0164",
+        "iit4_0166"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "iit4",
+      "_theory": "iit4",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "iit4_c006",
+      "theory": "iit4",
+      "entity_type": "constraint",
+      "axis": "architecture",
+      "value": "recurrent_cross_connected_architecture_required",
+      "polarity": "asserts",
+      "statement": "Directed cycles such as cortico-basal ganglia-thalamo-cortical loops do not contribute directly to experience despite their functional roles, because they lack the cross-connections needed for high structured information (Φ).",
+      "passage_ids": [
+        "iit4_0165"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "iit4",
+      "_theory": "iit4",
+      "duplicate_of_engine": true
+    },
+    {
+      "claim_id": "iit4_c007",
+      "theory": "iit4",
+      "entity_type": "constraint",
+      "axis": "substrate_dependence",
+      "value": "function_insufficient",
+      "polarity": "asserts",
+      "statement": "Each experience corresponds to a Φ-structure, not a set of functions—functional equivalence without identical causal structure is insufficient for consciousness.",
+      "passage_ids": [
+        "iit4_0205",
+        "iit4_0003"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "iit4",
+      "_theory": "iit4",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "iit4_c008",
+      "theory": "iit4",
+      "entity_type": "invariant",
+      "axis": "identity_relation",
+      "value": "experience_identical_to_phi_structure",
+      "polarity": "asserts",
+      "statement": "Conscious meaning is identical to a sub-structure within the current Φ-structure; every conscious meaning IS a Φ-structural component.",
+      "passage_ids": [
+        "iit4_0216"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "iit4",
+      "_theory": "iit4",
+      "duplicate_of_engine": true
+    },
+    {
+      "claim_id": "iit4_c009",
+      "theory": "iit4",
+      "entity_type": "system",
+      "axis": "locus",
+      "value": "posterior_cortex",
+      "polarity": "asserts",
+      "statement": "The posterior cortex, constituted of specialized lattice-organized units with high Φ, is the locus of human consciousness.",
+      "passage_ids": [
+        "iit4_0159",
+        "iit4_0168",
+        "iit4_0171"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "iit4",
+      "_theory": "iit4",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "iit4_c010",
+      "theory": "iit4",
+      "entity_type": "invariant",
+      "axis": "identity_relation",
+      "value": "consciousness_is_intrinsic_cause_effect_power",
+      "polarity": "asserts",
+      "statement": "Consciousness (experience) is identical to a system's intrinsic cause–effect power (Φ-structure); physical existence just is cause–effect power.",
+      "passage_ids": [
+        "iit4_0007",
+        "iit4_0008"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "iit4",
+      "_theory": "iit4",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "iit4_c011",
+      "theory": "iit4",
+      "entity_type": "observer",
+      "axis": "observable_commitment",
+      "value": "first_person_phenomenal_primacy",
+      "polarity": "asserts",
+      "statement": "IIT takes phenomenal experience (first-person existence) as its axiomatic starting point, not behavioral or functional correlates.",
+      "passage_ids": [
+        "iit4_0006",
+        "iit4_0007",
+        "iit4_0014"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "iit4",
+      "_theory": "iit4",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "iit4_c012",
+      "theory": "iit4",
+      "entity_type": "information",
+      "axis": "unit_threshold",
+      "value": "maximal_integrated_information_phi",
+      "polarity": "asserts",
+      "statement": "Integrated information (ϕ) over a system's minimum partition is the quantity that measures irreducibility and gates what counts as a substrate of consciousness; the maximal substrate (complex) is the set of units maximizing ϕ.",
+      "passage_ids": [
+        "iit4_0026",
+        "iit4_0041",
+        "iit4_0056"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "iit4",
+      "_theory": "iit4",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "iit4_c013",
+      "theory": "iit4",
+      "entity_type": "invariant",
+      "axis": "identity_relation",
+      "value": "is_identity",
+      "polarity": "asserts",
+      "statement": "The identity between experience and cause–effect structure is an explanatory identity, not a correspondence between two separate things: the intrinsic feeling IS the cause–effect power of the substrate.",
+      "passage_ids": [
+        "iit4_0032"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "iit4",
+      "_theory": "iit4",
+      "duplicate_of_engine": true
+    },
+    {
+      "claim_id": "iit4_c014",
+      "theory": "iit4",
+      "entity_type": "constraint",
+      "axis": "observable_commitment",
+      "value": "intrinsic_perspective_observer_independent",
+      "polarity": "asserts",
+      "statement": "Existence must be evaluated from the intrinsic perspective of the entity itself, making quality and quantity of consciousness observer-independent and non-arbitrary.",
+      "passage_ids": [
+        "iit4_0038",
+        "iit4_0040"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "iit4",
+      "_theory": "iit4",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "iit4_c015",
+      "theory": "iit4",
+      "entity_type": "system",
+      "axis": "locus",
+      "value": "maximal_integrated_information_complex",
+      "polarity": "asserts",
+      "statement": "The substrate of consciousness is the system with maximum integrated information (ϕ*s); overlapping substrates with lower ϕs are excluded from existence.",
+      "passage_ids": [
+        "iit4_0079",
+        "iit4_0097"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "iit4",
+      "_theory": "iit4",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "iit4_c016",
+      "theory": "iit4",
+      "entity_type": "information",
+      "axis": "unit_threshold",
+      "value": "phi_maximum",
+      "polarity": "asserts",
+      "statement": "Integrated information (ϕs) is the defining quantity gating whether a substrate is conscious; the complex is identified by its maximum ϕ*s.",
+      "passage_ids": [
+        "iit4_0078",
+        "iit4_0079",
+        "iit4_0097"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "iit4",
+      "_theory": "iit4",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "iit4_c017",
+      "theory": "iit4",
+      "entity_type": "system",
+      "axis": "connectivity",
+      "value": "connectivity_determines_phi",
+      "polarity": "asserts",
+      "statement": "The level of consciousness (Φ) is determined by the connectivity of interacting units; how units interact determines whether a substrate supports a high-Φ structure.",
+      "passage_ids": [
+        "iit4_0146"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "iit4",
+      "_theory": "iit4",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "iit4_c018",
+      "theory": "iit4",
+      "entity_type": "system",
+      "axis": "connectivity",
+      "value": "connectivity_determines_complex_and_phi",
+      "polarity": "asserts",
+      "statement": "Connectivity among units strongly determines which set of units can form a complex and how much structured information (Φ) that complex can specify.",
+      "passage_ids": [
+        "iit4_0151",
+        "iit4_0171"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "iit4",
+      "_theory": "iit4",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "iit4_c019",
+      "theory": "iit4",
+      "entity_type": "constraint",
+      "axis": "architecture",
+      "value": "modular_architecture_excludes_consciousness",
+      "polarity": "asserts",
+      "statement": "The cerebellum, despite its large neuron count, does not contribute to consciousness due to its highly modular (fault-lined) anatomical organization, which prevents high integrated information.",
+      "passage_ids": [
+        "iit4_0162"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "iit4",
+      "_theory": "iit4",
+      "duplicate_of_engine": false
+    }
+  ]
+}

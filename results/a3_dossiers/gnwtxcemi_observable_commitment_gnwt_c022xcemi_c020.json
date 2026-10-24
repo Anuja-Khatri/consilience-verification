@@ -1,0 +1,121 @@
+{
+  "fork_id": "gnwtxcemi:observable_commitment:gnwt_c022xcemi_c020",
+  "axis": "observable_commitment",
+  "pair": "gnwtxcemi",
+  "beyond_key": true,
+  "sides": {
+    "left": {
+      "theory": "GNWT",
+      "value": "neural_correlates_of_conscious_access",
+      "polarity": "asserts",
+      "claim_ids": [
+        "gnwt_c022"
+      ],
+      "quotes": [
+        "Conscious access is observable as a distinct, measurable set of neural signatures (P3b, gamma amplification, long-distance phase synchrony, top-down causal flow), providing neural correlates that…"
+      ],
+      "provenance_check": {
+        "status": "FAIL",
+        "detail": "claim not grounded in cited passages"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "CEMI",
+      "value": "em_field_measurable",
+      "polarity": "asserts",
+      "claim_ids": [
+        "cemi_c020"
+      ],
+      "quotes": [
+        "The cemi field is a physically measurable and experimentally testable structure; consciousness is rooted in an entirely physical substrate (matter-energy distinction, not matter-spirit)."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.75"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [
+      {
+        "passage_id": "gnwt_neuron_2020_0163",
+        "score": 1.667,
+        "excerpt": "A multisite, preregistered, adversarial collaboration testing the main predictions of the GNW versus IIT using fMRI, MEG, and intracranial recordings during passive viewing and active dual-tasking is currently underway (Reardon,…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2020_0122",
+        "score": 1.5,
+        "excerpt": "(Koukouli et al., 2016). Of note, reversal of anesthesia by pharmacological stimulation of the cortex does not restore electroencephalographic measures of functional connectivity (Pal et al., 2019), which may relate…"
+      },
+      {
+        "passage_id": "gnwt_science_2017_0115",
+        "score": 1.5,
+        "excerpt": "Remarkably, those patients can localize visual stimuli in their blind field, but they cannot report them (C1) nor can they effectively assess their likelihood of success (C2)—they believe that they…"
+      }
+    ],
+    "right": [
+      {
+        "passage_id": "cemi_2020_0001",
+        "score": 3.667,
+        "excerpt": "However, as Ralph Landauer insisted, ‘information is physical’ so integrated information must be physically integrated. I argue here that nearly all examples of so-called ‘integrated information’, including neuronal information processing…"
+      },
+      {
+        "passage_id": "cemi_2020_0021",
+        "score": 3.0,
+        "excerpt": "Note also that, once a signal has been transmitted from input to output via, for example, a current or voltage change, then the inputs are free to accept new data.…"
+      },
+      {
+        "passage_id": "cemi_2020_0023",
+        "score": 3.0,
+        "excerpt": "orientation of the image, etc., have reached a gate that finally commits the program to deliver an audio output of ‘this is Jennifer Aniston’, the input logic gates may have…"
+      },
+      {
+        "passage_id": "cemi_2020_0028",
+        "score": 1.833,
+        "excerpt": "This kind of temporal integration cannot correspond to ‘our capacity to integrate information across time, space, attributes and ideas’ (Treisman 1999). Figure 1. (a) Illustration of how the single bit…"
+      },
+      {
+        "passage_id": "cemi_2020_0025",
+        "score": 1.667,
+        "excerpt": "They, like logic gates, input sensory infor- mation, such as photographs, and process that information along chains of neuronal networks until they reach a group of neurons, or even a…"
+      }
+    ]
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "now",
+    "rationale": "",
+    "citation_rows": [
+      {
+        "tag": "Complexity",
+        "n": 51
+      },
+      {
+        "tag": "Variability",
+        "n": 9
+      },
+      {
+        "tag": "PHI Approximation",
+        "n": 7
+      },
+      {
+        "tag": "Criticality",
+        "n": 1
+      }
+    ],
+    "evidence_verdict": "CONTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed)"
+  },
+  "status": "clean",
+  "correction_note": null
+}

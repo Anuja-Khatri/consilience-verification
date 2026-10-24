@@ -1,0 +1,6 @@
+# TD2 — registry metrics
+
+| metric_id | value | 95% CI | n | instrument | corpus | prereg | pilot | caveats |
+|---|---|---|---|---|---|---|---|---|
+| `td2.within_family_corrs` | 19 |  | 11 | v2 | v2c | N | N | TD2 IIT 3.0 (engine 24 claims) × IIT 4.0 (11 approved Albantakis claims) within-family judge. Weak-IIT reading made mechanical: which commitments distinguish the variants (no Φ-computation language). Owner rules applied. Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu.; heavy correspondence on shared commitments (19) |
+| `td2.within_family_forks` | 7 |  | 11 | v2 | v2c | N | N | TD2 IIT 3.0 (engine 24 claims) × IIT 4.0 (11 approved Albantakis claims) within-family judge. Weak-IIT reading made mechanical: which commitments distinguish the variants (no Φ-computation language). Owner rules applied. Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu.; forks on revised postulates: locus:single_maximal_complex|posterior_cortex; connectivity:heterogeneous_connectivity_required|connectivity_determines_phi; connectivity:heterogeneous_connectivity_required|connectivity_determines_complex_and_phi; locus:maximal_irreducible_complex|posterior_cortex; locus:intrinsic_not_broadcast|posterior_cortex; locus:intrinsic_not_broadcast|maximal_integrated_information_complex |

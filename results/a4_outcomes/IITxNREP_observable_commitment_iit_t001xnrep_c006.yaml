@@ -1,0 +1,35 @@
+fork_id: IIT×NREP:observable_commitment:iit_t001xnrep_c006
+axis: observable_commitment
+pair: IIT × NREP
+sides:
+  left:
+    theory: IIT
+    value: perturbational_complexity_index
+    polarity: asserts
+  right:
+    theory: NREP
+    value: externally_observable_validation_required
+    polarity: asserts
+observable: Whether perturbational complexity index (PCI) alone suffices to indicate
+  consciousness in a system, or if additional externally observable behavioral validation
+  is required for a positive attribution.
+outcome_space:
+- pattern: A system with high PCI is consistently attributed consciousness regardless
+    of its externally observable behavior.
+  favors: IIT
+- pattern: A system with high PCI is only attributed consciousness when accompanied
+    by externally observable behavioral validation; otherwise, it is not.
+  favors: NREP
+- pattern: A system with high PCI is never attributed consciousness, regardless of
+    behavioral validation.
+  favors: neither
+favors:
+  A system with high PCI is consistently attributed consciousness regardless of its externally observable behavior.: IIT
+  ? A system with high PCI is only attributed consciousness when accompanied by externally
+    observable behavioral validation; otherwise, it is not.
+  : NREP
+  A system with high PCI is never attributed consciousness, regardless of behavioral validation.: neither
+vacuous: true
+vacuity_rationale: 'DEMOTED by Anu (A4 Leg-2 gate): observable is a validation-method
+  question, not a measurement pattern. Decisions were model-drafted suggestions (Claude)
+  reviewed and confirmed by Anu.'

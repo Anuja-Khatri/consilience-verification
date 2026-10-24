@@ -1,0 +1,505 @@
+{
+  "task": "td1",
+  "corpus_tag": "v2",
+  "instrument_tag": "v2",
+  "per_source": [
+    {
+      "doc_id": "aif2",
+      "theory": "Active Inference",
+      "n_passages": 279,
+      "n_candidates": 64,
+      "quality": 0.758,
+      "extractor": "pymupdf",
+      "n_claims": 24,
+      "axis_none": 0,
+      "untypeable_rate": 0.0,
+      "n_duplicate_of_engine": 8
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "aif2_c001",
+      "theory": "Active Inference",
+      "entity_type": "process",
+      "axis": "mechanism",
+      "value": "free_energy_minimization",
+      "polarity": "asserts",
+      "statement": "Consciousness (perception/action) arises through minimization of a variational free energy bound on surprisal, implemented as recognition dynamics in the brain.",
+      "passage_ids": [
+        "aif2_0049",
+        "aif2_0055",
+        "aif2_0086",
+        "aif2_0087",
+        "aif2_0101",
+        "aif2_0102",
+        "aif2_0179",
+        "aif2_0180",
+        "aif2_0183",
+        "aif2_0262",
+        "aif2_0277"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": true
+    },
+    {
+      "claim_id": "aif2_c002",
+      "theory": "Active Inference",
+      "entity_type": "system",
+      "axis": "architecture",
+      "value": "hierarchical_generative_model",
+      "polarity": "asserts",
+      "statement": "The conscious/cognitive system is architecturally realized as a multi-level cortical hierarchy where brain states at each level encode predictions about the level below.",
+      "passage_ids": [
+        "aif2_0143",
+        "aif2_0147",
+        "aif2_0148",
+        "aif2_0152",
+        "aif2_0163",
+        "aif2_0262",
+        "aif2_0270",
+        "aif2_0275"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": true
+    },
+    {
+      "claim_id": "aif2_c003",
+      "theory": "Active Inference",
+      "entity_type": "system",
+      "axis": "locus",
+      "value": "lowest_cortical_level",
+      "polarity": "asserts",
+      "statement": "Sensory data reside exclusively at the lowest cortical level, localizing the interface between world and conscious system at the sensory periphery of the hierarchy.",
+      "passage_ids": [
+        "aif2_0148",
+        "aif2_0080"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "aif2_c004",
+      "theory": "Active Inference",
+      "entity_type": "substrate",
+      "axis": "substrate_dependence",
+      "value": "substrate_dependent",
+      "polarity": "asserts",
+      "statement": "Recognition dynamics are substrate-dependent: brain states µ at each cortical layer are the physical bearers of prediction-error minimization, not an abstract computational instantiation.",
+      "passage_ids": [
+        "aif2_0018",
+        "aif2_0038",
+        "aif2_0147",
+        "aif2_0278"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "aif2_c005",
+      "theory": "Active Inference",
+      "entity_type": "process",
+      "axis": "mechanism_scale",
+      "value": "network_synaptic_scale",
+      "polarity": "asserts",
+      "statement": "The mechanism operates at the network/cortical scale via synaptic efficacy and gain updates driven by prediction error units within each cortical layer.",
+      "passage_ids": [
+        "aif2_0177",
+        "aif2_0277"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "aif2_c006",
+      "theory": "Active Inference",
+      "entity_type": "information",
+      "axis": "observable_commitment",
+      "value": "surprisal_minimization",
+      "polarity": "asserts",
+      "statement": "Surprise (self-information, –ln p(φ)) is the quantity being minimized; the brain encodes a generative model but cannot directly compute the sensory density p(φ), making surprisal reduction the fundamental observable commitment.",
+      "passage_ids": [
+        "aif2_0015",
+        "aif2_0270",
+        "aif2_0262"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "aif2_c007",
+      "theory": "Active Inference",
+      "entity_type": "process",
+      "axis": "mechanism",
+      "value": "free_energy_minimisation_via_approximate_bayesian_inference",
+      "polarity": "asserts",
+      "statement": "Consciousness (experience) arises from a process of minimising informational free energy, implementing approximate Bayesian inference over environmental causes of sensory data.",
+      "passage_ids": [
+        "aif2_0018",
+        "aif2_0024",
+        "aif2_0037"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": true
+    },
+    {
+      "claim_id": "aif2_c008",
+      "theory": "Active Inference",
+      "entity_type": "system",
+      "axis": "architecture",
+      "value": "functionally_bounded_brain_environment_interface",
+      "polarity": "asserts",
+      "statement": "The brain (as the conscious system) is distinguished from its environment not necessarily by a physical boundary but by a functional boundary at sensory and motor surfaces.",
+      "passage_ids": [
+        "aif2_0046"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "aif2_c009",
+      "theory": "Active Inference",
+      "entity_type": "transformation",
+      "axis": "mechanism",
+      "value": "predictive_coding_top_down_inference",
+      "polarity": "asserts",
+      "statement": "Predictive coding is the plausible neural mechanism by which the brain updates its environmental model, inverting the classical bottom-up view of perception.",
+      "passage_ids": [
+        "aif2_0032",
+        "aif2_0026"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "aif2_c010",
+      "theory": "Active Inference",
+      "entity_type": "process",
+      "axis": "mechanism",
+      "value": "free_energy_minimisation",
+      "polarity": "asserts",
+      "statement": "Consciousness (or experience) arises through minimisation of informational free energy (IFE), which bounds sensory surprisal — making surprise-minimisation the core mechanism.",
+      "passage_ids": [
+        "aif2_0053",
+        "aif2_0054",
+        "aif2_0059",
+        "aif2_0109",
+        "aif2_0118",
+        "aif2_0136",
+        "aif2_0139"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": true
+    },
+    {
+      "claim_id": "aif2_c011",
+      "theory": "Active Inference",
+      "entity_type": "system",
+      "axis": "locus",
+      "value": "brain_body_interface",
+      "polarity": "asserts",
+      "statement": "The conscious system is implemented in the brain coupled with the body, operating at the functional interface between brain and environment via sensory inputs.",
+      "passage_ids": [
+        "aif2_0047"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "aif2_c012",
+      "theory": "Active Inference",
+      "entity_type": "information",
+      "axis": "architecture",
+      "value": "generative_model_sufficient_statistics",
+      "polarity": "asserts",
+      "statement": "The brain's internal states are represented as sufficient statistics (mean µ, variance ζ) of a recognition density approximating the Bayesian posterior over environmental causes.",
+      "passage_ids": [
+        "aif2_0073",
+        "aif2_0082",
+        "aif2_0084"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "aif2_c013",
+      "theory": "Active Inference",
+      "entity_type": "constraint",
+      "axis": "computability",
+      "value": "computable_approximation",
+      "polarity": "asserts",
+      "statement": "Minimising IFE with respect to the recognition density provides a lower bound on surprisal, not direct computation of the true posterior — consciousness is substrate-independent in that it is defined functionally via inference.",
+      "passage_ids": [
+        "aif2_0052",
+        "aif2_0053",
+        "aif2_0059"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": true
+    },
+    {
+      "claim_id": "aif2_c014",
+      "theory": "Active Inference",
+      "entity_type": "system",
+      "axis": "architecture",
+      "value": "generalized_coordinate_hierarchy",
+      "polarity": "asserts",
+      "statement": "Brain states are represented in generalized coordinates encoding instantaneous trajectories, making the underlying state-space infinite-dimensional.",
+      "passage_ids": [
+        "aif2_0099",
+        "aif2_0098",
+        "aif2_0101"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": true
+    },
+    {
+      "claim_id": "aif2_c015",
+      "theory": "Active Inference",
+      "entity_type": "process",
+      "axis": "temporal_profile",
+      "value": "continuous_dynamic",
+      "polarity": "asserts",
+      "statement": "The generative model is dynamic (Langevin-type), supporting inference in dynamically changing environments rather than static mappings.",
+      "passage_ids": [
+        "aif2_0094",
+        "aif2_0097",
+        "aif2_0098"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "aif2_c016",
+      "theory": "Active Inference",
+      "entity_type": "constraint",
+      "axis": "mechanism_scale",
+      "value": "order_separated_coupling",
+      "polarity": "asserts",
+      "statement": "Sensory data at each dynamical order engages only with the corresponding dynamical order of brain states, implying a scale-separated multi-order mechanism.",
+      "passage_ids": [
+        "aif2_0101",
+        "aif2_0102"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "aif2_c017",
+      "theory": "Active Inference",
+      "entity_type": "invariant",
+      "axis": "identity_relation",
+      "value": "action_perception_unified_under_FEP",
+      "polarity": "asserts",
+      "statement": "Action and perception are unified under the same Free Energy Principle framework: action changes sensory data to fit predictions, while perception changes internal states to fit sensory data.",
+      "passage_ids": [
+        "aif2_0118",
+        "aif2_0120"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "aif2_c018",
+      "theory": "Active Inference",
+      "entity_type": "system",
+      "axis": "locus",
+      "value": "neuronal_brain_dynamics",
+      "polarity": "asserts",
+      "statement": "The conscious/cognitive system is implemented in neuronal dynamics of the brain, specifying a biologically plausible process theory with a substrate-dependent locus.",
+      "passage_ids": [
+        "aif2_0109"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "aif2_c019",
+      "theory": "Active Inference",
+      "entity_type": "information",
+      "axis": "mechanism_scale",
+      "value": "precision_weighted_prediction_error",
+      "polarity": "asserts",
+      "statement": "The agent's internal noise variance terms represent the agent's confidence in its own sensory input, functioning as precision-weighting over prediction errors.",
+      "passage_ids": [
+        "aif2_0129",
+        "aif2_0130"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "aif2_c020",
+      "theory": "Active Inference",
+      "entity_type": "state",
+      "axis": "locus",
+      "value": "hierarchical_cortical_layers",
+      "polarity": "asserts",
+      "statement": "Brain states are divided into hidden states and causal states across hierarchical cortical layers, with inter-layer transitions mediated solely by causal states.",
+      "passage_ids": [
+        "aif2_0152",
+        "aif2_0157",
+        "aif2_0158"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "aif2_c021",
+      "theory": "Active Inference",
+      "entity_type": "system",
+      "axis": "mechanism_scale",
+      "value": "multi_layer_multi_scale",
+      "polarity": "asserts",
+      "statement": "The generative model encodes both multi-layer cortical hierarchy and multi-scale dynamics within each layer via generalized coordinates, forming the full construct of the FEP.",
+      "passage_ids": [
+        "aif2_0163",
+        "aif2_0158",
+        "aif2_0159"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "aif2_c022",
+      "theory": "Active Inference",
+      "entity_type": "process",
+      "axis": "mechanism",
+      "value": "hierarchical_predictive_coding",
+      "polarity": "asserts",
+      "statement": "Neural dynamics are decomposed into hierarchical cortical layers where causal states and hidden states pass prediction-error signals between nearest-neighbor layers, implementing consciousness as a hierarchical message-passing process.",
+      "passage_ids": [
+        "aif2_0167",
+        "aif2_0168",
+        "aif2_0165"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": true
+    },
+    {
+      "claim_id": "aif2_c023",
+      "theory": "Active Inference",
+      "entity_type": "system",
+      "axis": "architecture",
+      "value": "hierarchical_cortical_layers",
+      "polarity": "asserts",
+      "statement": "The conscious system is architecturally structured as a multi-layer cortical hierarchy with distinct error-units and state-units within neuronal populations.",
+      "passage_ids": [
+        "aif2_0167",
+        "aif2_0168"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": true
+    },
+    {
+      "claim_id": "aif2_c024",
+      "theory": "Active Inference",
+      "entity_type": "state",
+      "axis": "temporal_profile",
+      "value": "multi_timescale",
+      "polarity": "asserts",
+      "statement": "Neural dynamics operate across three distinct timescales (τµ < τθ < τγ) governing sufficient statistics, synaptic efficacies, and precision gains respectively.",
+      "passage_ids": [
+        "aif2_0174",
+        "aif2_0176"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "aif2",
+      "_theory": "Active Inference",
+      "duplicate_of_engine": false
+    }
+  ]
+}

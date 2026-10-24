@@ -1,0 +1,25 @@
+{
+  "n_canonical_forks": 14,
+  "clean_recovered": 10,
+  "obfuscated_recovered": 11,
+  "clean_rate": 0.714,
+  "obfuscated_rate": 0.786,
+  "gap": 0.072,
+  "deobfuscation_leaks": [
+    "cause-effect power",
+    "global availability",
+    "global neuronal workspace",
+    "global workspace",
+    "ignition",
+    "iit",
+    "integrated information",
+    "maximally irreducible",
+    "neuronal workspace",
+    "phi",
+    "workspace",
+    "φ"
+  ],
+  "clean_forks": 50,
+  "obf_forks": 37,
+  "caveat": "A6 vocabulary-obfuscation control (scope IIT+GNWT). OBFUSCATED fork recovery is reported RELATIVE to the SAME-DATE CLEAN RERUN (v2.0.4 D2): only the obfuscated−clean GAP is lexical dependence; a miss the clean rerun also makes is re-extraction noise. Both arms use identical instrument v2 and differ only by the map substitution (dashes normalized in both). Disclosure: map was model-drafted (Claude) reviewed and confirmed by Anu (D-038)."
+}

@@ -1,0 +1,37 @@
+fork_id: IIT×NREP:observable_commitment:iit_n005xnrep_c006
+axis: observable_commitment
+pair: IIT × NREP
+sides:
+  left:
+    theory: IIT
+    value: empirically_measurable_via_causal_perturbation
+    polarity: asserts
+  right:
+    theory: NREP
+    value: externally_observable_validation_required
+    polarity: asserts
+observable: Whether consciousness attributions can be validated solely by causal perturbation
+  measurements of the system, or require additional externally observable behavioral
+  or report-based validation.
+outcome_space:
+- pattern: Causal perturbation measurements alone suffice to attribute consciousness,
+    with no need for external behavioral or report-based validation.
+  favors: IIT
+- pattern: Causal perturbation measurements are insufficient; external behavioral
+    or report-based validation is required to attribute consciousness.
+  favors: NREP
+- pattern: Neither causal perturbation nor external validation provide a clear basis
+    for consciousness attribution.
+  favors: neither
+favors:
+  ? Causal perturbation measurements alone suffice to attribute consciousness, with
+    no need for external behavioral or report-based validation.
+  : IIT
+  ? Causal perturbation measurements are insufficient; external behavioral or report-based
+    validation is required to attribute consciousness.
+  : NREP
+  Neither causal perturbation nor external validation provide a clear basis for consciousness attribution.: neither
+vacuous: true
+vacuity_rationale: 'DEMOTED by Anu (A4 Leg-2 gate): observable is a validation-method
+  question, not a measurement pattern. Decisions were model-drafted suggestions (Claude)
+  reviewed and confirmed by Anu.'

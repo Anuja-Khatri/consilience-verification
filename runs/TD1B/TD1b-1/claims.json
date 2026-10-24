@@ -1,0 +1,550 @@
+{
+  "task": "td1b",
+  "corpus_tag": "v2b",
+  "instrument_tag": "v2",
+  "per_source": [
+    {
+      "doc_id": "cai",
+      "theory": "control_as_inference",
+      "n_passages": 198,
+      "n_candidates": 20,
+      "quality": 0.813,
+      "extractor": "pymupdf",
+      "n_claims": 11,
+      "axis_none": 0,
+      "untypeable_rate": 0.0,
+      "n_duplicate_of_engine": 0
+    },
+    {
+      "doc_id": "pcbp",
+      "theory": "pc_backprop",
+      "n_passages": 209,
+      "n_candidates": 17,
+      "quality": 0.753,
+      "extractor": "pymupdf",
+      "n_claims": 12,
+      "axis_none": 3,
+      "untypeable_rate": 0.25,
+      "n_duplicate_of_engine": 0
+    },
+    {
+      "doc_id": "mbrl",
+      "theory": "mbrl",
+      "n_passages": 94,
+      "n_candidates": 4,
+      "quality": 0.914,
+      "extractor": "pymupdf",
+      "n_claims": 4,
+      "axis_none": 0,
+      "untypeable_rate": 0.0,
+      "n_duplicate_of_engine": 0
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "cai_c001",
+      "theory": "control_as_inference",
+      "entity_type": "invariant",
+      "axis": "identity_relation",
+      "value": "control_is_inference",
+      "polarity": "asserts",
+      "statement": "The optimal policy is derived by inferring the posterior action conditional p(at|st, θ) in a probabilistic graphical model, making control equivalent to probabilistic inference.",
+      "passage_ids": [
+        "cai_0016",
+        "cai_0018",
+        "cai_0055",
+        "cai_0061"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "cai",
+      "_theory": "control_as_inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "cai_c002",
+      "theory": "control_as_inference",
+      "entity_type": "process",
+      "axis": "mechanism",
+      "value": "maximum_entropy_optimization",
+      "polarity": "asserts",
+      "statement": "The objective maximizes expected reward plus a policy entropy term, implementing a maximum entropy formulation of optimal control.",
+      "passage_ids": [
+        "cai_0048",
+        "cai_0042"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "cai",
+      "_theory": "control_as_inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "cai_c003",
+      "theory": "control_as_inference",
+      "entity_type": "constraint",
+      "axis": "unit_threshold",
+      "value": "temperature_interpolation",
+      "polarity": "asserts",
+      "statement": "The temperature parameter α interpolates between entropy maximization and standard optimal control; as α→0 the solution approaches standard optimal control.",
+      "passage_ids": [
+        "cai_0041",
+        "cai_0042"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "cai",
+      "_theory": "control_as_inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "cai_c004",
+      "theory": "control_as_inference",
+      "entity_type": "constraint",
+      "axis": "substrate_dependence",
+      "value": "dynamics_matching_required",
+      "polarity": "asserts",
+      "statement": "Under stochastic dynamics, the posterior dynamics may diverge from true dynamics, causing risk-seeking behavior; fixing posterior dynamics to match true dynamics resolves this.",
+      "passage_ids": [
+        "cai_0046",
+        "cai_0048"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "cai",
+      "_theory": "control_as_inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "cai_c005",
+      "theory": "control_as_inference",
+      "entity_type": "substrate",
+      "axis": "substrate_dependence",
+      "value": "substrate_independent",
+      "polarity": "asserts",
+      "statement": "The optimal policy under the maximum-entropy / control-as-inference framework is substrate-independent of parameterization: it can be represented implicitly solely through Q(st,at) without separate policy parameters.",
+      "passage_ids": [
+        "cai_0074"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "cai",
+      "_theory": "control_as_inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "cai_c006",
+      "theory": "control_as_inference",
+      "entity_type": "invariant",
+      "axis": "mechanism",
+      "value": "policy_gradient_q_learning_equivalence",
+      "polarity": "asserts",
+      "statement": "Soft Q-learning and policy gradient methods are equivalent gradient updates within the maximum-entropy inference framework, unifying two otherwise distinct mechanisms.",
+      "passage_ids": [
+        "cai_0077",
+        "cai_0078",
+        "cai_0079"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "cai",
+      "_theory": "control_as_inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "cai_c007",
+      "theory": "control_as_inference",
+      "entity_type": "transformation",
+      "axis": "unit_threshold",
+      "value": "soft_to_hard_max_limit",
+      "polarity": "asserts",
+      "statement": "The soft-max over actions (log-sum-exp) replaces the hard-max of standard Q-learning, with the hard-max recovered only in the limit of large reward magnitude.",
+      "passage_ids": [
+        "cai_0075"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "cai",
+      "_theory": "control_as_inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "cai_c008",
+      "theory": "control_as_inference",
+      "entity_type": "invariant",
+      "axis": "identity_relation",
+      "value": "consciousness_is_probabilistic_inference",
+      "polarity": "asserts",
+      "statement": "Consciousness (control/agency) is identical to probabilistic inference in a graphical model over states, actions, and optimality variables.",
+      "passage_ids": [
+        "cai_0111",
+        "cai_0112"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "cai",
+      "_theory": "control_as_inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "cai_c009",
+      "theory": "control_as_inference",
+      "entity_type": "process",
+      "axis": "mechanism",
+      "value": "maximum_entropy_graphical_model_inference",
+      "polarity": "asserts",
+      "statement": "The mechanism underlying intentional behavior is maximum-entropy inference over a graphical model (sum-product message passing), not a discrete threshold event.",
+      "passage_ids": [
+        "cai_0105",
+        "cai_0111",
+        "cai_0112"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "cai",
+      "_theory": "control_as_inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "cai_c010",
+      "theory": "control_as_inference",
+      "entity_type": "emergent_property",
+      "axis": "architecture",
+      "value": "probabilistic_hierarchical_structure",
+      "polarity": "asserts",
+      "statement": "Hierarchical control/agency emerges from probabilistic latent-variable structure enabling multimodal policy distributions.",
+      "passage_ids": [
+        "cai_0110"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "cai",
+      "_theory": "control_as_inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "cai_c011",
+      "theory": "control_as_inference",
+      "entity_type": "constraint",
+      "axis": "computability",
+      "value": "computable",
+      "polarity": "asserts",
+      "statement": "Intent inference (the attribution of goal-directed agency) is computable via dynamic programming in the inner loop of iterative graphical-model learning.",
+      "passage_ids": [
+        "cai_0112"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "cai",
+      "_theory": "control_as_inference",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "pcbp_c001",
+      "theory": "pc_backprop",
+      "entity_type": "process",
+      "axis": "mechanism",
+      "value": "local_hebbian_update",
+      "polarity": "asserts",
+      "statement": "Predictive coding is a biologically-plausible process theory of cortical computation that relies solely on local and Hebbian updates.",
+      "passage_ids": [
+        "pcbp_0000",
+        "pcbp_0012"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "pcbp",
+      "_theory": "pc_backprop",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "pcbp_c002",
+      "theory": "pc_backprop",
+      "entity_type": "system",
+      "axis": "architecture",
+      "value": "hierarchical_predictive_coding",
+      "polarity": "asserts",
+      "statement": "The brain's core function is to minimize prediction errors between what is expected and what actually happens, implemented via hierarchical layers.",
+      "passage_ids": [
+        "pcbp_0012",
+        "pcbp_0013"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "pcbp",
+      "_theory": "pc_backprop",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "pcbp_c003",
+      "theory": "pc_backprop",
+      "entity_type": "process",
+      "axis": "computability",
+      "value": "computable_approximation_of_backprop",
+      "polarity": "asserts",
+      "statement": "Predictive coding approximates backpropagation along arbitrary computation graphs, enabling optimisation of any differentiable program.",
+      "passage_ids": [
+        "pcbp_0000",
+        "pcbp_0021"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "pcbp",
+      "_theory": "pc_backprop",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "pcbp_c004",
+      "theory": "pc_backprop",
+      "entity_type": "information",
+      "axis": "none",
+      "value": "variational_free_energy_minimization",
+      "polarity": "asserts",
+      "statement": "The variational free-energy (sum of prediction errors) serves as the objective functional minimized by the predictive coding network.",
+      "passage_ids": [
+        "pcbp_0018",
+        "pcbp_0197"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "pcbp",
+      "_theory": "pc_backprop",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "pcbp_c005",
+      "theory": "pc_backprop",
+      "entity_type": "invariant",
+      "axis": "identity_relation",
+      "value": "predictive_coding_approximates_backprop",
+      "polarity": "asserts",
+      "statement": "Predictive coding approximates backpropagation on feedforward computation graphs, including unrolled RNN graphs.",
+      "passage_ids": [
+        "pcbp_0175"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "pcbp",
+      "_theory": "pc_backprop",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "pcbp_c006",
+      "theory": "pc_backprop",
+      "entity_type": "emergent_property",
+      "axis": "architecture",
+      "value": "scalable_to_branching_graphs",
+      "polarity": "asserts",
+      "statement": "Predictive coding can scale to non-parameter-linear, branching computation graphs (RNNs, LSTMs), matching backprop performance.",
+      "passage_ids": [
+        "pcbp_0041",
+        "pcbp_0182"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "pcbp",
+      "_theory": "pc_backprop",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "pcbp_c007",
+      "theory": "pc_backprop",
+      "entity_type": "measurement",
+      "axis": "observable_commitment",
+      "value": "gradient_approximation_fidelity",
+      "polarity": "asserts",
+      "statement": "The predictive coding gradient remains close to the true numerical gradient throughout training.",
+      "passage_ids": [
+        "pcbp_0041"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "pcbp",
+      "_theory": "pc_backprop",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "pcbp_c008",
+      "theory": "pc_backprop",
+      "entity_type": "constraint",
+      "axis": "computability",
+      "value": "laplace_approximation_required",
+      "polarity": "asserts",
+      "statement": "The Laplace approximation (variational density tightly peaked around the mean) is required to derive the clean analytical equivalence between predictive coding updates and backprop.",
+      "passage_ids": [
+        "pcbp_0202"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "pcbp",
+      "_theory": "pc_backprop",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "pcbp_c009",
+      "theory": "pc_backprop",
+      "entity_type": "process",
+      "axis": "mechanism",
+      "value": "free_energy_gradient_descent_on_prediction_errors",
+      "polarity": "asserts",
+      "statement": "Each vertex's dynamics follow gradient descent on free-energy, expressed as a sum of local prediction errors.",
+      "passage_ids": [
+        "pcbp_0206"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "pcbp",
+      "_theory": "pc_backprop",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "pcbp_c010",
+      "theory": "pc_backprop",
+      "entity_type": "constraint",
+      "axis": "none",
+      "value": "uniform_precision_assumption",
+      "polarity": "asserts",
+      "statement": "All datapoints and vertices are assumed to have equal variance (precision set to identity), constraining the information metric used.",
+      "passage_ids": [
+        "pcbp_0206"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "pcbp",
+      "_theory": "pc_backprop",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "pcbp_c011",
+      "theory": "pc_backprop",
+      "entity_type": "information",
+      "axis": "none",
+      "value": "free_energy_as_sum_of_prediction_errors",
+      "polarity": "asserts",
+      "statement": "Free-energy is reducible to a sum of local prediction errors across vertices of the computational graph.",
+      "passage_ids": [
+        "pcbp_0206"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "pcbp",
+      "_theory": "pc_backprop",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "pcbp_c012",
+      "theory": "pc_backprop",
+      "entity_type": "system",
+      "axis": "architecture",
+      "value": "local_predictive_coding_graph",
+      "polarity": "asserts",
+      "statement": "The update rule at each vertex depends on local prediction error plus propagated errors from child nodes, instantiating a local computation architecture.",
+      "passage_ids": [
+        "pcbp_0206"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "pcbp",
+      "_theory": "pc_backprop",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "mbrl_c001",
+      "theory": "mbrl",
+      "entity_type": "process",
+      "axis": "mechanism",
+      "value": "forward_state_transition",
+      "polarity": "asserts",
+      "statement": "Dynamics models predict next state from current state and action via a forward model: (st, at) → st+1.",
+      "passage_ids": [
+        "mbrl_0008",
+        "mbrl_0011"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "mbrl",
+      "_theory": "mbrl",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "mbrl_c002",
+      "theory": "mbrl",
+      "entity_type": "transformation",
+      "axis": "mechanism_scale",
+      "value": "latent_space_abstraction",
+      "polarity": "asserts",
+      "statement": "State abstraction compresses state into a compact latent representation zt and models transitions in latent space.",
+      "passage_ids": [
+        "mbrl_0011",
+        "mbrl_0065",
+        "mbrl_0071"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "mbrl",
+      "_theory": "mbrl",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "mbrl_c003",
+      "theory": "mbrl",
+      "entity_type": "process",
+      "axis": "temporal_profile",
+      "value": "multi_step_rollout",
+      "polarity": "asserts",
+      "statement": "Multi-step prediction models the n-step effect of a sequence of actions: st, at...at+n−1 → st+n.",
+      "passage_ids": [
+        "mbrl_0011"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "mbrl",
+      "_theory": "mbrl",
+      "duplicate_of_engine": false
+    },
+    {
+      "claim_id": "mbrl_c004",
+      "theory": "mbrl",
+      "entity_type": "constraint",
+      "axis": "architecture",
+      "value": "physics_prior_constrained",
+      "polarity": "asserts",
+      "statement": "Grey-box models incorporate prior physics knowledge as structural constraints on the latent transition model while learning the observation encoding.",
+      "passage_ids": [
+        "mbrl_0071"
+      ],
+      "extractor_model": "claude-sonnet-4-6",
+      "agreement": false,
+      "status": "draft",
+      "_doc_id": "mbrl",
+      "_theory": "mbrl",
+      "duplicate_of_engine": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "required": [
+    "fork_id",
+    "axis",
+    "sides",
+    "counter_evidence",
+    "decidability",
+    "status"
+  ],
+  "properties": {
+    "status": {
+      "enum": [
+        "clean",
+        "flagged",
+        "corrected"
+      ]
+    }
+  }
+}

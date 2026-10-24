@@ -1,0 +1,170 @@
+{
+  "fork_id": "iitxgnwt:connectivity:iit_c025xgnwt_c008",
+  "axis": "connectivity",
+  "pair": "iitxgnwt",
+  "beyond_key": false,
+  "sides": {
+    "left": {
+      "theory": "IIT",
+      "value": "heterogeneous_connectivity_required",
+      "polarity": "asserts",
+      "claim_ids": [
+        "iit_c025"
+      ],
+      "quotes": [
+        "The richness and level of consciousness increase with the diversity and specialization of causal connections; homogeneous connectivity reduces consciousness."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.75"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "GNWT",
+      "value": "global_workspace_connectivity_required",
+      "polarity": "asserts",
+      "claim_ids": [
+        "gnwt_c008"
+      ],
+      "quotes": [
+        "Without a functional global neuronal workspace, cortical representations cannot be broadcast and are not experienced; functional connectivity of GNW is a necessary condition for consciousness."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.50"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [
+      {
+        "passage_id": "iit_4_0_0230",
+        "score": 2.0,
+        "excerpt": "Each experience corresponds to a Φ-structure, not a set of functions, processes, or computa- tions. Said otherwise, consciousness is about being, not doing [1, 29, 55]. This means that systems…"
+      },
+      {
+        "passage_id": "iit_nrn_2016_0067",
+        "score": 1.833,
+        "excerpt": "However, these off-periods are usually not global, but affect local subsets of brain areas at different times30. Hence it is possible that during slow wave sleep the PSC may become…"
+      }
+    ],
+    "right": []
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "now",
+    "rationale": "shared observable(s) ['connectivity_metrics'] at equal scale (brain_network)",
+    "citation_rows": [
+      {
+        "tag": "Global Synchronization",
+        "n": 81
+      },
+      {
+        "tag": "Alpha",
+        "n": 58
+      },
+      {
+        "tag": "Anterior Posterior Connectivity",
+        "n": 46
+      },
+      {
+        "tag": "Fronto Parietal connectivity",
+        "n": 45
+      },
+      {
+        "tag": "Gamma",
+        "n": 37
+      },
+      {
+        "tag": "Beta",
+        "n": 35
+      },
+      {
+        "tag": "Theta",
+        "n": 30
+      },
+      {
+        "tag": "Delta",
+        "n": 25
+      },
+      {
+        "tag": "Cortical Subcortical connectivity",
+        "n": 15
+      },
+      {
+        "tag": "Local Synchronization",
+        "n": 12
+      },
+      {
+        "tag": "Centrality",
+        "n": 11
+      },
+      {
+        "tag": "Small Worldness",
+        "n": 8
+      },
+      {
+        "tag": "CFC",
+        "n": 5
+      },
+      {
+        "tag": "inter lobe connectivity",
+        "n": 5
+      },
+      {
+        "tag": "Low frequencies <1Hz",
+        "n": 4
+      },
+      {
+        "tag": "Temporal Parietal Connectivity",
+        "n": 3
+      },
+      {
+        "tag": "Slow Waves Activity",
+        "n": 2
+      },
+      {
+        "tag": "Anatomical functional connectivity similarity",
+        "n": 1
+      },
+      {
+        "tag": "Associative Fibers",
+        "n": 1
+      },
+      {
+        "tag": "Commissural Fibers",
+        "n": 1
+      },
+      {
+        "tag": "Frequency Increase",
+        "n": 1
+      },
+      {
+        "tag": "Hierarchical Structure",
+        "n": 1
+      },
+      {
+        "tag": "Temporal Occipital connectivity",
+        "n": 1
+      },
+      {
+        "tag": "Uncinate Fasciculus",
+        "n": 1
+      }
+    ],
+    "evidence_verdict": "CONTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed)"
+  },
+  "status": "clean",
+  "correction_note": null
+}

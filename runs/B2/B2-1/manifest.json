@@ -1,0 +1,100 @@
+{
+  "task": "B2",
+  "runid": "B2-1",
+  "instrument_tag": "v2",
+  "corpus_tag": "v1",
+  "engine_fingerprint": "09b90e8d4d07e1c1349c2054ffc7bbd6847e6e481a1f438d5998e8f5dcb27057",
+  "artifact_stamp": "2026-10",
+  "config_snapshot": {
+    "models": {
+      "extractor": "claude-sonnet-4-6",
+      "checker": "claude-haiku-4-5-20251001",
+      "perturber": "claude-sonnet-4-6",
+      "verifier": "gpt-4.1",
+      "panel": [
+        "gpt-4.1",
+        "gemini-pro-latest",
+        "qwen2.5-72b-instruct"
+      ],
+      "game_agent": "claude-sonnet-4-6",
+      "transcriber": "claude-sonnet-4-6"
+    },
+    "seeds": {
+      "global": 20261022,
+      "extraction_runs": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "gwot_restarts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "thresholds_ngram": {
+      "n_chars": 8,
+      "minhash_perm": 128,
+      "jaccard_flag": 0.5,
+      "mode": "word_unique",
+      "word_n_guard": 8,
+      "word_n_prov": 10,
+      "benign_set": "miu",
+      "amended_by": "D-034"
+    }
+  },
+  "inputs": [
+    {
+      "path": "/Users/anujakhatri3/consilience-verification/results/b2_passages.json",
+      "kind": "read-only",
+      "sha256": "054b95b1ecc31d08bc016833d479a308dc62dab6bfdbe26a57e962506b55a966"
+    },
+    {
+      "path": "/Users/anujakhatri3/consilience-verification/results/instrument_v2_freeze.json",
+      "kind": "read-only",
+      "sha256": "36bd85ade82cf57908de5e626481e9700428ae718b815fafef9526d97f411938"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "runs/B2/B2-1/b2_run.json",
+      "sha256": "8bb85ff3c9275dbd8366ab45536a7720a020ce7475612ef72f36d22dc8797aca",
+      "kind": "file"
+    },
+    {
+      "path": "results/b2_passages.json",
+      "sha256": "054b95b1ecc31d08bc016833d479a308dc62dab6bfdbe26a57e962506b55a966",
+      "kind": "file"
+    },
+    {
+      "path": "review/b2_handcheck.csv",
+      "sha256": "a85caf994d301cac2e2f9c0f67dcc9863993a7298c224e6cdd35f1877191118c",
+      "kind": "file"
+    }
+  ],
+  "seeds": {
+    "global": 20261022,
+    "bootstrap": 20261022
+  },
+  "model_provenance": [
+    {
+      "role": "perturber",
+      "model": "claude-sonnet-4-6",
+      "provider_seed_honored": false
+    },
+    {
+      "role": "verifier",
+      "model": "gpt-4.1"
+    }
+  ],
+  "notes": "B2 perturbation suite; OSF https://osf.io/5n24m DOI 10.17605/OSF.IO/5N24M (2026-10-23); negation tracking 0.176; identity control + bootstrap."
+}

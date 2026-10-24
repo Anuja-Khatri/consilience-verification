@@ -1,0 +1,86 @@
+{
+  "task": "TD2",
+  "runid": "TD2-1",
+  "instrument_tag": "v2",
+  "corpus_tag": "v2c",
+  "engine_fingerprint": "09b90e8d4d07e1c1349c2054ffc7bbd6847e6e481a1f438d5998e8f5dcb27057",
+  "artifact_stamp": "2026-10",
+  "config_snapshot": {
+    "models": {
+      "extractor": "claude-sonnet-4-6",
+      "checker": "claude-haiku-4-5-20251001",
+      "perturber": "claude-sonnet-4-6",
+      "verifier": "gpt-4.1",
+      "panel": [
+        "gpt-4.1",
+        "gemini-pro-latest",
+        "qwen2.5-72b-instruct"
+      ],
+      "game_agent": "claude-sonnet-4-6",
+      "transcriber": "claude-sonnet-4-6"
+    },
+    "seeds": {
+      "global": 20261022,
+      "extraction_runs": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "gwot_restarts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "thresholds_ngram": {
+      "n_chars": 8,
+      "minhash_perm": 128,
+      "jaccard_flag": 0.5,
+      "mode": "word_unique",
+      "word_n_guard": 8,
+      "word_n_prov": 10,
+      "benign_set": "miu",
+      "amended_by": "D-034"
+    }
+  },
+  "inputs": [
+    {
+      "path": "/Users/anujakhatri3/consilience-verification/corpora/td2/albantakis_2023_iit4.pdf",
+      "kind": "extraction",
+      "sha256": "b6b48f6ca4b56a2f5886dc4d948cf79956830e7c94289097de163ee0d3103760"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "runs/TD2/TD2-1/claims.json",
+      "sha256": "43330061621b7351b87e25e04b443cd9fd490dd57342291cbc55636216b5a931",
+      "kind": "file"
+    },
+    {
+      "path": "review/td2_claims.csv",
+      "sha256": "394c85b34068b0feceeef7c632ccab2928bdd53f636f9172542230b6eae878f4",
+      "kind": "file"
+    }
+  ],
+  "seeds": {
+    "global": 20261022
+  },
+  "model_provenance": [
+    {
+      "role": "extractor",
+      "model": "claude-sonnet-4-6",
+      "instrument": "v2",
+      "provider_seed_honored": false
+    }
+  ],
+  "notes": "TD2 ingest(p1)+extract_lite(v2) to claims packet; judge rerun post-approval."
+}

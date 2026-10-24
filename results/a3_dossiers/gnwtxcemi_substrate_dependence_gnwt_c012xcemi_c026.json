@@ -1,0 +1,119 @@
+{
+  "fork_id": "gnwtxcemi:substrate_dependence:gnwt_c012xcemi_c026",
+  "axis": "substrate_dependence",
+  "pair": "gnwtxcemi",
+  "beyond_key": true,
+  "sides": {
+    "left": {
+      "theory": "GNWT",
+      "value": "neuroanatomically_grounded",
+      "polarity": "asserts",
+      "claim_ids": [
+        "gnwt_c012"
+      ],
+      "quotes": [
+        "The GNW is substrate-dependent in that it is grounded in specific neuroanatomical recurrent connectivity in the human brain, not any substrate."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.50"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "CEMI",
+      "value": "nonconscious_tier_substrate_independent",
+      "polarity": "asserts",
+      "claim_ids": [
+        "cemi_c026"
+      ],
+      "quotes": [
+        "Causal/temporal integrated information (as in logic gates and neurons) is substrate-independent and universal to computation, and thus cannot be the physical basis of consciousness."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.50"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [
+      {
+        "passage_id": "gnwt_neuron_2011_0036",
+        "score": 3.667,
+        "excerpt": "Bilateral auditory areas showed a nonconscious activation, which was ampliﬁed and spread to distributed inferior parietal, prefrontal, and cingulate areas (for similar results with tactile stimuli, see Boly et al.,…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2020_0050",
+        "score": 1.833,
+        "excerpt": "Finally, these pre-stimulus brain-state markers also predicted the probability of a false alarm (the bias to say “yes” in SDT). A high probability of false alarms was associated with a…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0027",
+        "score": 1.5,
+        "excerpt": "The above list suggests that entire chains of specialized processors can be subject to nonconscious inﬂuences. Never- theless, three potential limits to subliminal processing have been identiﬁed (Dehaene and Naccache,…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0126",
+        "score": 1.167,
+        "excerpt": "Thus, although GNW simulations adopted a highly simpliﬁed anatomical assumption of radically distinct distributions of NMDA and AMPA, which may have to be qualiﬁed in more real- istic models, the…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2020_0454",
+        "score": 1.167,
+        "excerpt": "Author Manuscript Author Manuscript Author Manuscript Author Manuscript Mashour et al. Page 44 Table 1. Comparison of Theories of Consciousness Theory A conscious process corresponds to… Neural mechanisms include… The…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0052",
+        "score": 1.0,
+        "excerpt": "One interpretation of this ﬁnding is that V1 neurons receive additional top-down synaptic signals during conscious perception compared to nonconscious perception, although these signals need not be translated into changes…"
+      }
+    ],
+    "right": [
+      {
+        "passage_id": "cemi_2020_0065",
+        "score": 4.0,
+        "excerpt": "From a neuronal perspective there appears to be no obvious reason why synchrony should make a difference to neural proc- essing: neurons deliver the same information and perform the same…"
+      },
+      {
+        "passage_id": "cemi_2020_0066",
+        "score": 3.333,
+        "excerpt": "Yet neurons need not fire synchronously to distribute information globally and re-entrant circuits need not, necessarily, fire synchronously. Similarly, there seems to be no obvious reason why conscious neural processing…"
+      },
+      {
+        "passage_id": "cemi_2020_0059",
+        "score": 3.0,
+        "excerpt": "firing neurons—in these same regions did correlate with per- ception. It seems that though neuron firing rate in the primary visual cortex does not see the stimulus, synchronicity of neuron…"
+      },
+      {
+        "passage_id": "cemi_2020_0032",
+        "score": 2.333,
+        "excerpt": "All that is required is a causal chain. Nevertheless, nerves are, of course, physical connected, but, in the example, those encoding Jennifer Anniston’s face are no more physically connected to…"
+      },
+      {
+        "passage_id": "cemi_2020_0080",
+        "score": 1.167,
+        "excerpt": "The cemi field theory also naturally accounts for the fact that the non-conscious mind appears to operate as a parallel processor that can perform several tasks simultaneously, such as whistling…"
+      }
+    ]
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "not_current",
+    "rationale": "",
+    "citation_rows": [],
+    "evidence_verdict": "UNTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed)"
+  },
+  "status": "clean",
+  "correction_note": null
+}

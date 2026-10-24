@@ -1,0 +1,122 @@
+{
+  "fork_id": "IIT×NREP:observable_commitment:iit_n005xnrep_c003",
+  "axis": "observable_commitment",
+  "pair": "IIT × NREP",
+  "register": "INTREPID-18",
+  "sides": {
+    "left": {
+      "theory": "IIT",
+      "value": "empirically_measurable_via_causal_perturbation",
+      "polarity": "asserts",
+      "claim_ids": [
+        "iit_n005"
+      ],
+      "quotes": [
+        "The physical substrate of consciousness has a definite spatial grain, timescale, and state-space determined by maxima of cause–effect power, identifiable empirically via perturbation and observation."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.61"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "NREP",
+      "value": "indirect_observable",
+      "polarity": "asserts",
+      "claim_ids": [
+        "nrep_c003"
+      ],
+      "quotes": [
+        "Consciousness is identified via externally observable, indirect indicators (behavioral, anatomical, physiological) derived from features of conscious experience; direct identification is not possible."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.53"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [
+      {
+        "passage_id": "iit_3_0_0082",
+        "score": 3.667,
+        "excerpt": "– A has selective causes within the system (ciw0), but not the future states of the system – A has no selective effects on the system (ei~0, what A does…"
+      },
+      {
+        "passage_id": "iit_4_0_0050",
+        "score": 3.0,
+        "excerpt": "This assumption is embedded in IIT’s postulate of intrinsicality and has several consequences. One is that, from the intrinsic perspective, the quality and quantity of existence must be observer-independent and…"
+      },
+      {
+        "passage_id": "iit_4_0_0232",
+        "score": 2.0,
+        "excerpt": "It is not feasible to perform all possible observations and manipula- tions to fully characterize a universal TPM, or to perform all calculations on the TPM that would be necessary…"
+      },
+      {
+        "passage_id": "iit_3_0_0083",
+        "score": 1.5,
+        "excerpt": "In this case, the state of element A constrains the future states of the system – A has selective effects on the system (eiw0), but not the past states of…"
+      },
+      {
+        "passage_id": "iit_4_0_0021",
+        "score": 1.5,
+        "excerpt": "The way IIT’s analysis of cause–effect power can be applied to actual causation, or “what caused what,” is presented in [10]. From phenomenal axioms to physical postulates Axioms of phenomenal…"
+      },
+      {
+        "passage_id": "iit_3_0_0188",
+        "score": 1.333,
+        "excerpt": "First, the need for reciprocal interactions within a complex is not merely an empirical observation, but it has theoretical validity because it is derived directly from the phenomenological axiom of…"
+      }
+    ],
+    "right": [
+      {
+        "passage_id": "nrep_2019_0122",
+        "score": 3.333,
+        "excerpt": "In other words, IIT measures do not quantify to what extent a neural (or artificial) system generates beliefs about, or representations of, something. The lack of intentionality in IIT adds…"
+      },
+      {
+        "passage_id": "nrep_2019_0462",
+        "score": 1.5,
+        "excerpt": "K. (2008). Post-decision wagering measures metacognitive content, not sensory consciousness. Conscious."
+      }
+    ]
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "now",
+    "rationale": "",
+    "citation_rows": [
+      {
+        "tag": "Complexity",
+        "n": 51
+      },
+      {
+        "tag": "Variability",
+        "n": 9
+      },
+      {
+        "tag": "PHI Approximation",
+        "n": 7
+      },
+      {
+        "tag": "Criticality",
+        "n": 1
+      }
+    ],
+    "evidence_verdict": "CONTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed); INTREPID review held out (§0.5)"
+  },
+  "status": "clean",
+  "correction_note": null,
+  "caveat": "A4 INTREPID-register dossiers (18-fork standing_predictions). instrument v1-era forks + approved store (frozen-store). The INTREPID review is a HELD-OUT answer key — never consulted here (§0.5); validity is checked against the theories' OWN corpora only."
+}

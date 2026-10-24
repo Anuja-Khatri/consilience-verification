@@ -1,0 +1,384 @@
+{
+  "n": 60,
+  "gemini_coverage": 0,
+  "distribution": {
+    "judge": {
+      "none": 41,
+      "partial": 7,
+      "generative": 12
+    },
+    "gpt-4.1": {
+      "partial": 28,
+      "none": 24,
+      "formal": 8
+    },
+    "gemini-flash-latest": {
+      "None": 60
+    }
+  },
+  "modal_agreement": "not-applicable",
+  "gpt_vs_judge": 0.317,
+  "rows": [
+    {
+      "item_id": "ab_0000",
+      "judge": "none",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0002",
+      "judge": "partial",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0003",
+      "judge": "none",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0005",
+      "judge": "partial",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0006",
+      "judge": "partial",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0011",
+      "judge": "none",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0012",
+      "judge": "none",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0014",
+      "judge": "generative",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0018",
+      "judge": "generative",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0020",
+      "judge": "generative",
+      "gpt-4.1": "formal",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0022",
+      "judge": "partial",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0023",
+      "judge": "generative",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0024",
+      "judge": "none",
+      "gpt-4.1": "formal",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0026",
+      "judge": "none",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0030",
+      "judge": "none",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0031",
+      "judge": "none",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0035",
+      "judge": "none",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0036",
+      "judge": "generative",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0037",
+      "judge": "none",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0038",
+      "judge": "none",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0041",
+      "judge": "generative",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0042",
+      "judge": "none",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0043",
+      "judge": "partial",
+      "gpt-4.1": "formal",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0046",
+      "judge": "none",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0047",
+      "judge": "partial",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0054",
+      "judge": "none",
+      "gpt-4.1": "formal",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0057",
+      "judge": "none",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0059",
+      "judge": "none",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0061",
+      "judge": "none",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0063",
+      "judge": "none",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0067",
+      "judge": "none",
+      "gpt-4.1": "formal",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0068",
+      "judge": "none",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0072",
+      "judge": "none",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0073",
+      "judge": "none",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0074",
+      "judge": "none",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0075",
+      "judge": "none",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0076",
+      "judge": "none",
+      "gpt-4.1": "formal",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0077",
+      "judge": "none",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0078",
+      "judge": "none",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0080",
+      "judge": "generative",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0082",
+      "judge": "generative",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0083",
+      "judge": "none",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0084",
+      "judge": "partial",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0087",
+      "judge": "none",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0088",
+      "judge": "none",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0090",
+      "judge": "none",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0093",
+      "judge": "generative",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0094",
+      "judge": "none",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0097",
+      "judge": "none",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0098",
+      "judge": "none",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0100",
+      "judge": "none",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0102",
+      "judge": "generative",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0103",
+      "judge": "generative",
+      "gpt-4.1": "formal",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0107",
+      "judge": "none",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0108",
+      "judge": "generative",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0110",
+      "judge": "none",
+      "gpt-4.1": "formal",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0112",
+      "judge": "none",
+      "gpt-4.1": "none",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0113",
+      "judge": "none",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0114",
+      "judge": "none",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    },
+    {
+      "item_id": "ab_0115",
+      "judge": "none",
+      "gpt-4.1": "partial",
+      "gemini-flash-latest": null
+    }
+  ],
+  "limitation": "PANEL: gpt-4.1 always; gemini-flash-latest best-effort (a smaller tier than the spec's ≥1.5-pro target — every pro/≥1.5-pro Gemini tier is 404/429 for this key, affects κ interpretation). Open-weight (qwen2.5-72b/llama-3.3-70b) deferred pending a TOGETHER/FIREWORKS key. Cross-vendor κ is over items where BOTH vendors returned a label; Gemini coverage is reported. A 'modal' grade = the 2-vendor consensus (ties = no consensus)."
+}

@@ -1,0 +1,106 @@
+{
+  "pairs": [
+    {
+      "match_id": "ed_match_18",
+      "n_claims": 4,
+      "axis_none": 1,
+      "axis_none_frac": 0.25
+    },
+    {
+      "match_id": "supp_match_02",
+      "n_claims": 6,
+      "axis_none": 2,
+      "axis_none_frac": 0.333
+    },
+    {
+      "match_id": "ed_match_17",
+      "n_claims": 4,
+      "axis_none": 1,
+      "axis_none_frac": 0.25
+    },
+    {
+      "match_id": "match_14",
+      "n_claims": 4,
+      "axis_none": 0,
+      "axis_none_frac": 0.0
+    },
+    {
+      "match_id": "match_19",
+      "n_claims": 8,
+      "axis_none": 0,
+      "axis_none_frac": 0.0
+    },
+    {
+      "match_id": "supp_match_14",
+      "n_claims": 8,
+      "axis_none": 0,
+      "axis_none_frac": 0.0
+    },
+    {
+      "match_id": "ed_match_01",
+      "n_claims": 5,
+      "axis_none": 1,
+      "axis_none_frac": 0.2
+    },
+    {
+      "match_id": "ed_match_06",
+      "n_claims": 6,
+      "axis_none": 1,
+      "axis_none_frac": 0.167
+    },
+    {
+      "match_id": "ed_match_05",
+      "n_claims": 4,
+      "axis_none": 1,
+      "axis_none_frac": 0.25
+    },
+    {
+      "match_id": "supp_match_03",
+      "n_claims": 8,
+      "axis_none": 0,
+      "axis_none_frac": 0.0
+    },
+    {
+      "match_id": "match_04",
+      "n_claims": 5,
+      "axis_none": 1,
+      "axis_none_frac": 0.2
+    },
+    {
+      "match_id": "match_45",
+      "n_claims": 8,
+      "axis_none": 0,
+      "axis_none_frac": 0.0
+    },
+    {
+      "match_id": "match_08",
+      "n_claims": 8,
+      "axis_none": 2,
+      "axis_none_frac": 0.25
+    },
+    {
+      "match_id": "supp_match_22",
+      "n_claims": 8,
+      "axis_none": 1,
+      "axis_none_frac": 0.125
+    },
+    {
+      "match_id": "match_54",
+      "n_claims": 8,
+      "axis_none": 1,
+      "axis_none_frac": 0.125
+    },
+    {
+      "match_id": "supp_match_23",
+      "n_claims": 7,
+      "axis_none": 0,
+      "axis_none_frac": 0.0
+    },
+    {
+      "match_id": "match_49",
+      "n_claims": 8,
+      "axis_none": 0,
+      "axis_none_frac": 0.0
+    }
+  ]
+}

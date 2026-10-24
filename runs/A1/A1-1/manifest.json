@@ -1,0 +1,77 @@
+{
+  "task": "A1",
+  "runid": "A1-1",
+  "instrument_tag": "frozen-store",
+  "corpus_tag": "v1",
+  "engine_fingerprint": "09b90e8d4d07e1c1349c2054ffc7bbd6847e6e481a1f438d5998e8f5dcb27057",
+  "artifact_stamp": "2026-10",
+  "config_snapshot": {
+    "models": {
+      "extractor": "claude-sonnet-4-6",
+      "checker": "claude-haiku-4-5-20251001",
+      "perturber": "claude-sonnet-4-6",
+      "verifier": "gpt-4.1",
+      "panel": [
+        "gpt-4.1",
+        "gemini-2.5-pro",
+        "qwen2.5-72b-instruct"
+      ],
+      "game_agent": "claude-sonnet-4-6",
+      "transcriber": "claude-sonnet-4-6"
+    },
+    "seeds": {
+      "global": 20261022,
+      "extraction_runs": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "gwot_restarts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "thresholds_ngram": {
+      "n_chars": 8,
+      "minhash_perm": 128,
+      "jaccard_flag": 0.5
+    }
+  },
+  "inputs": [
+    {
+      "path": "/Users/anujakhatri3/miu-demo/demo/demo_data.json",
+      "kind": "miu-data",
+      "sha256": "8c59a4e886e1c8c492f4057a99faced6ad07c8ea9f4506f5b672570bf5f57099"
+    },
+    {
+      "path": "/Users/anujakhatri3/miu-demo/correspondences/_index/all_claims.json",
+      "kind": "miu-data",
+      "sha256": "2326aa9b6282e9b8bc6e59b3ccec0176a962bed275c0f5a5bda8723abf0718be"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "results/a1_discovery_map.json",
+      "sha256": "a49ab42aa90718f6756d5e49a7f8607dd17b8c6ec0f4f82b4c618700bc32ae5e"
+    },
+    {
+      "path": "results/a1_match_sample.json",
+      "sha256": "3f57b20fe241972ddbe12ad769b555a3bba61087dd6f57f2ed153c58c4a0ac45"
+    }
+  ],
+  "seeds": {
+    "global": 20261022
+  },
+  "model_provenance": [],
+  "notes": "A1.1 discovery resolution + A1.2 30-match sample + A1.3 C1/C3/C5 mechanical + C2 gpt-4.1 drafts. MIU-data-only (no instrument); C2/C4 pending Anu → A1.4 verdicts provisional."
+}

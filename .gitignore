@@ -1,0 +1,14 @@
+# secrets & local env
+.env
+.env.*
+.venv/
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+# os
+.DS_Store
+
+# corpora input PDFs (inputs, hashed in manifests; never committed — incl. held-out keys)
+corpora/**/*.pdf
+corpora/*/*.pdf

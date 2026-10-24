@@ -1,0 +1,16 @@
+{
+  "artifact_stamp": "2026-10",
+  "combined_sha256": "09b90e8d4d07e1c1349c2054ffc7bbd6847e6e481a1f438d5998e8f5dcb27057",
+  "engine_root": "/Users/anujakhatri3/consilience-demo/demo",
+  "files": {
+    "axes.yaml": "397dd0bd8efbe233ac61bfedd972b73f2dc4c7a436ef905fc452284d9fbf3aaa",
+    "entity_types.yaml": "6fbfa18510d58b3018d50cdc24dcbc4373e5218d47f44c1b66d45af4460b6f25",
+    "holdout_check.py": "e7663f96c35bad2244c05946af3c419a17e46435854e48b9d8f2d5d74c80a37b",
+    "manifest.json": "ccc6db4ceb297d3a96fe9cbce1900db5430350679f011abcdbe535af4abee565",
+    "p2_extract.py": "c2755e46e766d4f49ef97ca36a1597f171d178517b5468d8203985c5b3b47931",
+    "p5_judge.py": "5b5d84ae0c6a1318d91b7f317c1e50250678e08609574b5c1cc50afa6ebfb8c1",
+    "p6_decidability.py": "af07ab2658ffb4a751fc88b83db2117d724a1542f554eea0fe164251ad05e76f",
+    "p6b_evidence.py": "59cb71969d077d5fdf6164dd8020c0d1349ea1c20b89369b40595900ddd8aabc",
+    "p7_answerkey_diff.py": "eb3e0639333936f0d1d984dac0e237876cda79c5ba5bfacd66a3e2ee2235b56d"
+  }
+}

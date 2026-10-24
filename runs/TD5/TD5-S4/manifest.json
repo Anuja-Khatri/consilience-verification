@@ -1,0 +1,80 @@
+{
+  "task": "TD5",
+  "runid": "TD5-S4",
+  "instrument_tag": "v2",
+  "corpus_tag": "v1",
+  "engine_fingerprint": "09b90e8d4d07e1c1349c2054ffc7bbd6847e6e481a1f438d5998e8f5dcb27057",
+  "artifact_stamp": "2026-10",
+  "config_snapshot": {
+    "models": {
+      "extractor": "claude-sonnet-4-6",
+      "checker": "claude-haiku-4-5-20251001",
+      "perturber": "claude-sonnet-4-6",
+      "verifier": "gpt-4.1",
+      "panel": [
+        "gpt-4.1",
+        "gemini-pro-latest",
+        "qwen2.5-72b-instruct"
+      ],
+      "game_agent": "claude-sonnet-4-6",
+      "transcriber": "claude-sonnet-4-6"
+    },
+    "seeds": {
+      "global": 20261022,
+      "extraction_runs": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "gwot_restarts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "thresholds_ngram": {
+      "n_chars": 8,
+      "minhash_perm": 128,
+      "jaccard_flag": 0.5,
+      "mode": "word_unique",
+      "word_n_guard": 8,
+      "word_n_prov": 10,
+      "benign_set": "miu",
+      "amended_by": "D-034"
+    }
+  },
+  "inputs": [
+    {
+      "path": "/Users/anujakhatri3/consilience-verification/runs/KR1/KR1-2/v2_claims.json",
+      "kind": "extraction",
+      "sha256": "33549a8e4117f8c80f9245c18b784aaf0b23d4fe495376ae94e7880221b87fff"
+    },
+    {
+      "path": "engine cogitate.yaml (held-out key, cited)",
+      "kind": "key",
+      "sha256": null
+    }
+  ],
+  "outputs": [
+    {
+      "path": "results/td5_s4_key_nulls.json",
+      "sha256": "26a003dd3de5b9cadf888532a46fe6b523365229e738bac69593bf49a1cb7daa",
+      "kind": "file"
+    }
+  ],
+  "seeds": {
+    "global": 20261022,
+    "offset": 400
+  },
+  "model_provenance": [],
+  "notes": "TD5 S4 KR1 key-recovery null: real 2/3, z=2.269, p=0.075 over 1000 random keys."
+}

@@ -1,0 +1,284 @@
+{
+  "task": "A4-Leg4",
+  "runid": "A4-L4",
+  "instrument_tag": "v1",
+  "corpus_tag": "v1",
+  "source_artifact": "~/consilience-demo/demo/results/intrepid_diff.json",
+  "register_size": 18,
+  "register_verified": 18,
+  "axes": {
+    "locus": 9,
+    "observable_commitment": 4,
+    "mechanism_scale": 3,
+    "temporal_profile": 2
+  },
+  "pairs": {
+    "IIT × NREP": 8,
+    "IIT × Active Inference": 9,
+    "NREP × Active Inference": 1
+  },
+  "answer_key_summary": {
+    "int_h1": "RECOVERED-as-correspondence",
+    "nrep_computability": "MISSED (accepted-honest)",
+    "mechanism_correspondences": 26,
+    "fault_line": {
+      "being": [
+        {
+          "theory": "IIT",
+          "claim": "c003",
+          "value": "computable",
+          "statement": "A feed-forward system functionally equivalent to a conscious complex is not conscious, because functional equivalence without intrinsic integrated information is insufficient for experience.",
+          "source": "IIT 3.0 (2014)",
+          "prov": {
+            "id": "iit_3_0_0018",
+            "locator": "p.2",
+            "text": "The key constructs of IIT are introduced first at the level of individual mechanisms, which can be taken to represent physical objects such as logic gates or neurons, then at the level of systems of mechanisms, such as computers or neural architectures. The Models section ends by presenting the central identity proposed by IIT, according to which the quality and quantity of an experience is completely specified by a maximally irreducible conceptual structure (MICS) and the associated value of integrated information WMax. The Results/Discussion section presents several new results that follow directly from IIT, including the condensation of systems of mechanisms into main complexes and minor complexes; examples of simple systems that are minimally conscious and of complicated systems that are not; an example of an unconscious feed-forward system that is functionally equivalent to a conscious complex; and finally, an example showing that concepts within a complex are self-referential and relate only indirectly to the external environ- ment."
+          }
+        },
+        {
+          "theory": "IIT",
+          "claim": "n002",
+          "value": "computable",
+          "statement": "Digital computers running von Neumann architectures are not conscious even if they simulate cognition; the architecture of the substrate determines consciousness.",
+          "source": "Tononi et al. (2016)",
+          "prov": {
+            "id": "iit_nrn_2016_0162",
+            "locator": "p.11",
+            "text": "Intriguingly, IIT allows for certain simple systems such as grid-like architectures, similar to topographically organized areas in the human posterior cortex, to be highly conscious even when not engaging in any intelligent behaviour. Conversely, digital computers running complex programs based on a von Neumann architecture would not be conscious, even though they may perform highly intelligent functions and simulate human cognition. IIT offers a principled, empirically testable and clinically useful account of how three pounds of organized, excitable matter support the central fact of our existence — subjective experience."
+          }
+        }
+      ],
+      "computation": [
+        {
+          "theory": "Active Inference",
+          "claim": "c002",
+          "value": "computable",
+          "statement": "Biological organisms are constrained to approximate (variational) rather than exact Bayesian inference due to limited computational and energetic resources.",
+          "source": "Parr, Pezzulo & Friston (2022)",
+          "prov": {
+            "id": "ai_c_book_0090",
+            "locator": "p.33",
+            "text": "The results of inference are not necessarily accurate in any objec- tive sense (i.e., the organism’s belief may not actually correspond to real­ity) for at least two impor­tant reasons. First, biological creatures operate on the basis of ­limited computational and energetic resources, which render exact Bayesian inference intractable.4 This requires approximations that preclude guarantees of exact Bayesian optimality. ­These approximations include the notion of a variational posterior—­based on something called a mean field approximation—­which is central to chapter 4. The second reason optimality may be thought of as subjective is that organisms operate on the basis of a subject’s generative model of how their observations are generated, which may or may not correspond to the real generative pro­cess that generates their observations."
+          }
+        }
+      ],
+      "forks": [
+        {
+          "left_theory": "IIT",
+          "right_theory": "Active Inference",
+          "left": "c003",
+          "right": "c002"
+        },
+        {
+          "left_theory": "IIT",
+          "right_theory": "Active Inference",
+          "left": "n002",
+          "right": "c002"
+        }
+      ],
+      "nrep_miss": "NREP's approved set contains no computability commitment — its representationalism is stated on the mechanism/architecture axes. Honest silence, not a defect."
+    }
+  },
+  "register": [
+    {
+      "pair": "IIT × NREP",
+      "axis": "locus",
+      "left_id": "iit_c010",
+      "right_id": "nrep_c017",
+      "present_in_current_forks": true,
+      "left_value": "single_maximal_complex",
+      "right_value": "distributed_multi_region",
+      "type_divergence": true,
+      "polarity_opposed": false
+    },
+    {
+      "pair": "IIT × NREP",
+      "axis": "observable_commitment",
+      "left_id": "iit_n005",
+      "right_id": "nrep_c003",
+      "present_in_current_forks": true,
+      "left_value": "empirically_measurable_via_causal_perturbation",
+      "right_value": "indirect_observable",
+      "type_divergence": false,
+      "polarity_opposed": false
+    },
+    {
+      "pair": "IIT × NREP",
+      "axis": "observable_commitment",
+      "left_id": "iit_n005",
+      "right_id": "nrep_c006",
+      "present_in_current_forks": true,
+      "left_value": "empirically_measurable_via_causal_perturbation",
+      "right_value": "externally_observable_validation_required",
+      "type_divergence": false,
+      "polarity_opposed": false
+    },
+    {
+      "pair": "IIT × NREP",
+      "axis": "locus",
+      "left_id": "iit_n007",
+      "right_id": "nrep_c017",
+      "present_in_current_forks": true,
+      "left_value": "maximal_irreducible_complex",
+      "right_value": "distributed_multi_region",
+      "type_divergence": true,
+      "polarity_opposed": false
+    },
+    {
+      "pair": "IIT × NREP",
+      "axis": "locus",
+      "left_id": "iit_n013",
+      "right_id": "nrep_c017",
+      "present_in_current_forks": true,
+      "left_value": "intrinsic_not_broadcast",
+      "right_value": "distributed_multi_region",
+      "type_divergence": true,
+      "polarity_opposed": false
+    },
+    {
+      "pair": "IIT × NREP",
+      "axis": "observable_commitment",
+      "left_id": "iit_t001",
+      "right_id": "nrep_c003",
+      "present_in_current_forks": true,
+      "left_value": "perturbational_complexity_index",
+      "right_value": "indirect_observable",
+      "type_divergence": false,
+      "polarity_opposed": false
+    },
+    {
+      "pair": "IIT × NREP",
+      "axis": "observable_commitment",
+      "left_id": "iit_t001",
+      "right_id": "nrep_c006",
+      "present_in_current_forks": true,
+      "left_value": "perturbational_complexity_index",
+      "right_value": "externally_observable_validation_required",
+      "type_divergence": false,
+      "polarity_opposed": false
+    },
+    {
+      "pair": "IIT × NREP",
+      "axis": "locus",
+      "left_id": "iit_t002",
+      "right_id": "nrep_c017",
+      "present_in_current_forks": true,
+      "left_value": "posterior_hot_zone",
+      "right_value": "distributed_multi_region",
+      "type_divergence": false,
+      "polarity_opposed": false
+    },
+    {
+      "pair": "IIT × Active Inference",
+      "axis": "locus",
+      "left_id": "iit_c010",
+      "right_id": "active-inference_c037",
+      "present_in_current_forks": true,
+      "left_value": "single_maximal_complex",
+      "right_value": "subcortical_basal_ganglia",
+      "type_divergence": true,
+      "polarity_opposed": false
+    },
+    {
+      "pair": "IIT × Active Inference",
+      "axis": "locus",
+      "left_id": "iit_n007",
+      "right_id": "active-inference_c037",
+      "present_in_current_forks": true,
+      "left_value": "maximal_irreducible_complex",
+      "right_value": "subcortical_basal_ganglia",
+      "type_divergence": true,
+      "polarity_opposed": false
+    },
+    {
+      "pair": "IIT × Active Inference",
+      "axis": "locus",
+      "left_id": "iit_n013",
+      "right_id": "active-inference_c037",
+      "present_in_current_forks": true,
+      "left_value": "intrinsic_not_broadcast",
+      "right_value": "subcortical_basal_ganglia",
+      "type_divergence": false,
+      "polarity_opposed": false
+    },
+    {
+      "pair": "IIT × Active Inference",
+      "axis": "mechanism_scale",
+      "left_id": "iit_n023",
+      "right_id": "active-inference_c027",
+      "present_in_current_forks": true,
+      "left_value": "mesoscale_spatiotemporal_grain",
+      "right_value": "message_passing_gradient_descent",
+      "type_divergence": false,
+      "polarity_opposed": false
+    },
+    {
+      "pair": "IIT × Active Inference",
+      "axis": "mechanism_scale",
+      "left_id": "iit_n023",
+      "right_id": "active-inference_c030",
+      "present_in_current_forks": true,
+      "left_value": "mesoscale_spatiotemporal_grain",
+      "right_value": "cortical_microcircuit",
+      "type_divergence": false,
+      "polarity_opposed": false
+    },
+    {
+      "pair": "IIT × Active Inference",
+      "axis": "mechanism_scale",
+      "left_id": "iit_n023",
+      "right_id": "active-inference_c038",
+      "present_in_current_forks": true,
+      "left_value": "mesoscale_spatiotemporal_grain",
+      "right_value": "neuromodulatory_precision_encoding",
+      "type_divergence": false,
+      "polarity_opposed": false
+    },
+    {
+      "pair": "IIT × Active Inference",
+      "axis": "locus",
+      "left_id": "iit_t002",
+      "right_id": "active-inference_c037",
+      "present_in_current_forks": true,
+      "left_value": "posterior_hot_zone",
+      "right_value": "subcortical_basal_ganglia",
+      "type_divergence": true,
+      "polarity_opposed": false
+    },
+    {
+      "pair": "IIT × Active Inference",
+      "axis": "temporal_profile",
+      "left_id": "iit_t003",
+      "right_id": "active-inference_c016",
+      "present_in_current_forks": true,
+      "left_value": "sustained_maintenance",
+      "right_value": "prospective_counterfactual",
+      "type_divergence": true,
+      "polarity_opposed": false
+    },
+    {
+      "pair": "IIT × Active Inference",
+      "axis": "temporal_profile",
+      "left_id": "iit_t003",
+      "right_id": "active-inference_c032",
+      "present_in_current_forks": true,
+      "left_value": "sustained_maintenance",
+      "right_value": "slower_dynamics_at_higher_hierarchy",
+      "type_divergence": false,
+      "polarity_opposed": false
+    },
+    {
+      "pair": "NREP × Active Inference",
+      "axis": "locus",
+      "left_id": "nrep_c017",
+      "right_id": "active-inference_c037",
+      "present_in_current_forks": true,
+      "left_value": "distributed_multi_region",
+      "right_value": "subcortical_basal_ganglia",
+      "type_divergence": true,
+      "polarity_opposed": false
+    }
+  ],
+  "v2_rerun_pending": true,
+  "caveat": "BLIND DIFF, instrument v1. Key transcribed from the public INTREPID review by a quarantined pre-sprint model pass (engine data/answer_keys/intrepid.yaml); the engine pipeline never accessed the review text (holdout green). Transcription is model output and may err — approved for FORMAT only, not correctness. The holdout controls the prompt, not the model's training data (see A6). The v2 rerun follows the A5.3 freeze (numbers lock §0.10(9)); these v1 numbers are provisional until then. Every table rendering this artifact MUST carry this caveat."
+}

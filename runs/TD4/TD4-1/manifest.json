@@ -1,0 +1,90 @@
+{
+  "task": "TD4",
+  "runid": "TD4-1",
+  "instrument_tag": "v2",
+  "corpus_tag": "v1",
+  "engine_fingerprint": "09b90e8d4d07e1c1349c2054ffc7bbd6847e6e481a1f438d5998e8f5dcb27057",
+  "artifact_stamp": "2026-10",
+  "config_snapshot": {
+    "models": {
+      "extractor": "claude-sonnet-4-6",
+      "checker": "claude-haiku-4-5-20251001",
+      "perturber": "claude-sonnet-4-6",
+      "verifier": "gpt-4.1",
+      "panel": [
+        "gpt-4.1",
+        "gemini-pro-latest",
+        "qwen2.5-72b-instruct"
+      ],
+      "game_agent": "claude-sonnet-4-6",
+      "transcriber": "claude-sonnet-4-6"
+    },
+    "seeds": {
+      "global": 20261022,
+      "extraction_runs": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "gwot_restarts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "thresholds_ngram": {
+      "n_chars": 8,
+      "minhash_perm": 128,
+      "jaccard_flag": 0.5,
+      "mode": "word_unique",
+      "word_n_guard": 8,
+      "word_n_prov": 10,
+      "benign_set": "miu",
+      "amended_by": "D-034"
+    }
+  },
+  "inputs": [
+    {
+      "path": "/Users/anujakhatri3/consilience-verification/results/td4_items.json",
+      "kind": "read-only",
+      "sha256": "12eb0d9602e9f7c71616f606ca8796d46dc772bcb44cb3ba0df848e3a4303ad9"
+    },
+    {
+      "path": "/Users/anujakhatri3/consilience-verification/corpora/obfuscation_map.yaml",
+      "kind": "read-only",
+      "sha256": "b3e2ead08d66bb9a1d0a95c0c31b13532b7b38f5ccc4dc41068dbf217e74ff58"
+    },
+    {
+      "path": "/Users/anujakhatri3/consilience-verification/corpora/obfuscation_map_b.yaml",
+      "kind": "read-only",
+      "sha256": "044f7a2e1c27f0e5553cb5fc45ded236b553efd068dee8c10b12e1ac9f11e025"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "runs/TD4/TD4-1/game.json",
+      "sha256": "7fa48218cfddbeee75f6510fb3c516b1fd1c9bb9f74b89b5d9e54cbe0eb52c89",
+      "kind": "file"
+    }
+  ],
+  "seeds": {
+    "global": 20261022
+  },
+  "model_provenance": [
+    {
+      "role": "game_agent",
+      "model": "claude-sonnet-4-6",
+      "provider_seed_honored": false
+    }
+  ],
+  "notes": "TD4 protocol game free vs typed; acc 0.6667/0.3667; firewall verdict: surface-obfuscated, identity NOT guaranteed hidden (de-obfuscation leaks > 0)"
+}

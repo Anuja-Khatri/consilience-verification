@@ -1,0 +1,1427 @@
+{
+  "iit": {
+    "c": [
+      {
+        "claim_id": "iit_c001",
+        "theory": "IIT",
+        "entity_type": "invariant",
+        "axis": "identity_relation",
+        "value": "is_identity",
+        "polarity": "asserts",
+        "statement": "An experience is identical to the cause–effect structure (Φ-structure) unfolded from a maximal substrate; this is a fundamental explanatory identity, not a correspondence between two separate things.",
+        "passage_ids": [
+          "iit_3_0_0034",
+          "iit_3_0_0035",
+          "iit_3_0_0133",
+          "iit_3_0_0135",
+          "iit_3_0_0139",
+          "iit_4_0_0013",
+          "iit_4_0_0036",
+          "iit_4_0_0038",
+          "iit_4_0_0170",
+          "iit_4_0_0227",
+          "iit_nrn_2016_0014"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_c002",
+        "theory": "IIT",
+        "entity_type": "information",
+        "axis": "unit_threshold",
+        "value": "integrated_information_phi",
+        "polarity": "asserts",
+        "statement": "The quality and quantity of an experience is completely specified by a maximally irreducible conceptual structure (MICS) and the associated value of integrated information Φ-max.",
+        "passage_ids": [
+          "iit_3_0_0018",
+          "iit_3_0_0035",
+          "iit_3_0_0084",
+          "iit_3_0_0085",
+          "iit_nrn_2016_0012"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_c003",
+        "theory": "IIT",
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "value": "substrate_dependent",
+        "polarity": "asserts",
+        "statement": "Consciousness requires intrinsic cause–effect power that is specific, integrated (unitary), definite (exclusive), and structured; substrate must satisfy all five essential phenomenal properties—making it substrate-dependent.",
+        "passage_ids": [
+          "iit_3_0_0000",
+          "iit_3_0_0001",
+          "iit_3_0_0022",
+          "iit_3_0_0139",
+          "iit_4_0_0013",
+          "iit_4_0_0034",
+          "iit_4_0_0036",
+          "iit_4_0_0046",
+          "iit_4_0_0049",
+          "iit_4_0_0054",
+          "iit_4_0_0170",
+          "iit_4_0_0222",
+          "iit_4_0_0227",
+          "iit_nrn_2016_0009",
+          "iit_nrn_2016_0010",
+          "iit_nrn_2016_0033",
+          "iit_nrn_2016_0037",
+          "iit_nrn_2016_0079",
+          "iit_nrn_2016_0098",
+          "iit_nrn_2016_0123",
+          "iit_nrn_2016_0162"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": true,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_c004",
+        "theory": "IIT",
+        "entity_type": "constraint",
+        "axis": "computability",
+        "value": "function_insufficient",
+        "polarity": "asserts",
+        "statement": "A feed-forward system can be functionally equivalent to a conscious complex yet be unconscious, denying that functional equivalence is sufficient for consciousness.",
+        "passage_ids": [
+          "iit_3_0_0018"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_c005",
+        "theory": "IIT",
+        "entity_type": "system",
+        "axis": "architecture",
+        "value": "phi_structure_determined_by_substrate_architecture",
+        "polarity": "asserts",
+        "statement": "The quality of experience is accounted for by the way the Φ-structure is composed, which depends on the architecture of the substrate specifying it.",
+        "passage_ids": [
+          "iit_4_0_0237",
+          "iit_4_0_0238"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_c006",
+        "theory": "IIT",
+        "entity_type": "constraint",
+        "axis": "mechanism",
+        "value": "global_broadcast_insufficient",
+        "polarity": "asserts",
+        "statement": "The cerebral cortex can support experience even when almost silent; consciousness does not require active neuronal broadcasting, only intact cause–effect repertoires.",
+        "passage_ids": [
+          "iit_nrn_2016_0122",
+          "iit_4_0_0202"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_c007",
+        "theory": "IIT",
+        "entity_type": "constraint",
+        "axis": "architecture",
+        "value": "feedforward_von_neumann_insufficient",
+        "polarity": "asserts",
+        "statement": "Digital computers with von Neumann architecture are not conscious even when performing complex intelligent functions, because architecture—not computation—determines consciousness.",
+        "passage_ids": [
+          "iit_nrn_2016_0162"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_c008",
+        "theory": "IIT",
+        "entity_type": "information",
+        "axis": "unit_threshold",
+        "value": "integrated_information_phi_maximum",
+        "polarity": "asserts",
+        "statement": "Integrated information (φ / Φ-structure) is the quantity that determines the presence and level of consciousness; a candidate system must specify a maximum of integrated information to qualify as a substrate.",
+        "passage_ids": [
+          "iit_4_0_0046",
+          "iit_4_0_0047"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_c009",
+        "theory": "IIT",
+        "entity_type": "constraint",
+        "axis": "connectivity",
+        "value": "no_global_broadcast_required",
+        "polarity": "asserts",
+        "statement": "Global broadcast of neural signals is not necessary for consciousness; conscious content is determined by the shape of the MICS specified by the complex, not by fronto-parietal ignition or global signal propagation.",
+        "passage_ids": [
+          "iit_3_0_0171",
+          "iit_3_0_0173"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_c010",
+        "theory": "IIT",
+        "entity_type": "invariant",
+        "axis": "identity_relation",
+        "value": "phi_structure_is_experience",
+        "polarity": "asserts",
+        "statement": "The quality of experience corresponds to the Φ-structure (set of distinctions and relations), while its quantity (Φ) equals the sum of integrated information values (φd/r) of those distinctions and relations.",
+        "passage_ids": [
+          "iit_4_0_0048",
+          "iit_4_0_0166"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_c011",
+        "theory": "IIT",
+        "entity_type": "system",
+        "axis": "locus",
+        "value": "posterior_cortex",
+        "polarity": "asserts",
+        "statement": "The posterior cerebral cortex, organized as a dense divergent-convergent hierarchical lattice of specialized units, is the locus of the substrate of human consciousness.",
+        "passage_ids": [
+          "iit_4_0_0194",
+          "iit_4_0_0182"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_c012",
+        "theory": "IIT",
+        "entity_type": "information",
+        "axis": "architecture",
+        "value": "high_phi_requires_specialized_dense_connectivity",
+        "polarity": "asserts",
+        "statement": "Integrated information Φ is a quantity measuring the structure integrated information of a complex; higher Φ requires specialized (low degeneracy), highly interconnected units, and directed cycles without cross-connections do not contribute directly to experience.",
+        "passage_ids": [
+          "iit_4_0_0182",
+          "iit_4_0_0191",
+          "iit_4_0_0194"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_c013",
+        "theory": "IIT",
+        "entity_type": "invariant",
+        "axis": "identity_relation",
+        "value": "experience_is_phi_structure",
+        "polarity": "asserts",
+        "statement": "An experience is identical to a conceptual structure (Φ-structure); every property of experience corresponds to a property of the Φ-structure and vice versa.",
+        "passage_ids": [
+          "iit_nrn_2016_0028",
+          "iit_4_0_0242"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": true,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_c014",
+        "theory": "IIT",
+        "entity_type": "constraint",
+        "axis": "substrate_dependence",
+        "value": "functional_equivalence_insufficient",
+        "polarity": "asserts",
+        "statement": "Consciousness depends on the intrinsic cause–effect power of system subsets, not on the system's interaction with its environment (functional equivalence is insufficient).",
+        "passage_ids": [
+          "iit_4_0_0207",
+          "iit_4_0_0223"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_c015",
+        "theory": "IIT",
+        "entity_type": "measurement",
+        "axis": "observable_commitment",
+        "value": "phi_structure_predicts_experience_quality",
+        "polarity": "asserts",
+        "statement": "Changes in connection strengths within the neural substrate of consciousness predict changes in experience even without changes in neural activity, and similarities in Φ-structures predict similarities in experience.",
+        "passage_ids": [
+          "iit_4_0_0239"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_c016",
+        "theory": "IIT",
+        "entity_type": "system",
+        "axis": "locus",
+        "value": "posterior_cortex_dominant",
+        "polarity": "asserts",
+        "statement": "The physical substrate of consciousness is localized to a complex of neuronal groups distributed over the posterior cortex and portions of the anterior cortex—not the cerebellum, basal ganglia, or peripheral pathways.",
+        "passage_ids": [
+          "iit_nrn_2016_0079",
+          "iit_nrn_2016_0098",
+          "iit_nrn_2016_0099"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_c017",
+        "theory": "IIT",
+        "entity_type": "information",
+        "axis": "unit_threshold",
+        "value": "phi_max",
+        "polarity": "asserts",
+        "statement": "Φmax (maximally irreducible integrated information) is the quantity that identifies and measures the physical substrate of consciousness; high Φmax is the threshold criterion for a system to constitute a conscious complex.",
+        "passage_ids": [
+          "iit_nrn_2016_0033",
+          "iit_nrn_2016_0036",
+          "iit_nrn_2016_0079"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_c018",
+        "theory": "IIT",
+        "entity_type": "constraint",
+        "axis": "architecture",
+        "value": "feedforward_insufficient",
+        "polarity": "asserts",
+        "statement": "The architecture of feedforward, largely independent processing (as in cerebellar micro-zones) cannot form a high-Φmax complex and therefore cannot constitute or be incorporated into the substrate of consciousness.",
+        "passage_ids": [
+          "iit_nrn_2016_0098",
+          "iit_nrn_2016_0099"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_c019",
+        "theory": "IIT",
+        "entity_type": "invariant",
+        "axis": "identity_relation",
+        "value": "experience_is_MICS",
+        "polarity": "asserts",
+        "statement": "The quality or content of consciousness is identical to the form of the conceptual structure (MICS) specified by the PSC; the quantity corresponds to integrated information Φ.",
+        "passage_ids": [
+          "iit_nrn_2016_0124",
+          "iit_3_0_0001"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": true,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_c020",
+        "theory": "IIT",
+        "entity_type": "information",
+        "axis": "none",
+        "value": "integrated_information_phi",
+        "polarity": "asserts",
+        "statement": "Integrated information Φ measures the quantity of consciousness as the irreducibility of the conceptual structure generated by a complex.",
+        "passage_ids": [
+          "iit_nrn_2016_0124",
+          "iit_3_0_0001",
+          "iit_3_0_0000"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_c021",
+        "theory": "IIT",
+        "entity_type": "boundary",
+        "axis": "unit_threshold",
+        "value": "maximal_irreducibility_boundary",
+        "polarity": "asserts",
+        "statement": "Experience has unique borders and a particular spatio-temporal grain (exclusion postulate): the conscious system is defined by a maximal boundary excluding all other overlapping sets of elements.",
+        "passage_ids": [
+          "iit_nrn_2016_0123",
+          "iit_3_0_0000",
+          "iit_3_0_0001"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      }
+    ],
+    "n": [
+      {
+        "claim_id": "iit_n001",
+        "theory": "IIT",
+        "entity_type": "invariant",
+        "axis": "identity_relation",
+        "value": "experience_is_conceptual_structure",
+        "polarity": "asserts",
+        "statement": "A particular experience is identical to a conceptual structure specified by a physical substrate; experience IS the conceptual structure, not merely correlated with it.",
+        "passage_ids": [
+          "iit_nrn_2016_0012",
+          "iit_nrn_2016_0014",
+          "iit_nrn_2016_0028",
+          "iit_nrn_2016_0120"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_n002",
+        "theory": "IIT",
+        "entity_type": "information",
+        "axis": "unit_threshold",
+        "value": "phi_max",
+        "polarity": "asserts",
+        "statement": "The physical substrate of consciousness must be a maximum of irreducible, intrinsic cause–effect power (Φmax); this quantity determines the quality and quantity of experience.",
+        "passage_ids": [
+          "iit_nrn_2016_0037",
+          "iit_nrn_2016_0010",
+          "iit_nrn_2016_0009"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_n003",
+        "theory": "IIT",
+        "entity_type": "constraint",
+        "axis": "architecture",
+        "value": "von_neumann_architecture_excluded",
+        "polarity": "asserts",
+        "statement": "Digital computers running von Neumann architectures would not be conscious even when simulating human cognition, because the architecture lacks sufficient integrated cause–effect power.",
+        "passage_ids": [
+          "iit_nrn_2016_0162"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_n004",
+        "theory": "IIT",
+        "entity_type": "system",
+        "axis": "locus",
+        "value": "posterior_cortex_dominant_complex",
+        "polarity": "asserts",
+        "statement": "The physical substrate of consciousness is a complex — the set of elements with maximal intrinsic cause–effect power (highest Φmax), assumed to be distributed over posterior cortex and portions of anterior cortex.",
+        "passage_ids": [
+          "iit_nrn_2016_0033",
+          "iit_nrn_2016_0079"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_n005",
+        "theory": "IIT",
+        "entity_type": "constraint",
+        "axis": "architecture",
+        "value": "integrated_information_required",
+        "polarity": "asserts",
+        "statement": "Consciousness requires integrated information (Φmax > 0 at a maximum); systems with feedforward, largely independent processing (e.g., cerebellar micro-zones) cannot form a high-Φmax complex and are excluded from the substrate of consciousness.",
+        "passage_ids": [
+          "iit_nrn_2016_0098",
+          "iit_nrn_2016_0033"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": true,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_n006",
+        "theory": "IIT",
+        "entity_type": "measurement",
+        "axis": "observable_commitment",
+        "value": "cause_effect_power_maximization_observable",
+        "polarity": "asserts",
+        "statement": "The physical substrate of consciousness and its boundaries can be empirically identified by measuring maxima of intrinsic cause–effect power at various spatial and temporal scales via perturbation and observation.",
+        "passage_ids": [
+          "iit_nrn_2016_0068",
+          "iit_nrn_2016_0079"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_n007",
+        "theory": "IIT",
+        "entity_type": "invariant",
+        "axis": "identity_relation",
+        "value": "experience_is_conceptual_structure_phi",
+        "polarity": "asserts",
+        "statement": "The quality/content of consciousness is identical to the form of the conceptual structure specified by the PSC; quantity corresponds to integrated information Φ.",
+        "passage_ids": [
+          "iit_nrn_2016_0124",
+          "iit_nrn_2016_0004"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": true,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_n008",
+        "theory": "IIT",
+        "entity_type": "information",
+        "axis": "unit_threshold",
+        "value": "maximal_integrated_information_phi",
+        "polarity": "asserts",
+        "statement": "The physical substrate of consciousness must have cause–effect power that is specific, irreducible, and maximally so (exclusion postulate); Φ gates conscious status.",
+        "passage_ids": [
+          "iit_nrn_2016_0123",
+          "iit_nrn_2016_0124"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_n009",
+        "theory": "IIT",
+        "entity_type": "system",
+        "axis": "architecture",
+        "value": "maximal_phi_complex_excludes_peripheral_and_cerebellar_circuits",
+        "polarity": "asserts",
+        "statement": "The conscious system (PSC/major complex) is an architecturally delimited set of elements with high integrated cause–effect power; peripheral pathways, basal ganglia loops, and cerebellum are excluded despite influencing cortical activity.",
+        "passage_ids": [
+          "iit_nrn_2016_0099",
+          "iit_nrn_2016_0015"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": true,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_n010",
+        "theory": "IIT",
+        "entity_type": "invariant",
+        "axis": "identity_relation",
+        "value": "is_identity",
+        "polarity": "asserts",
+        "statement": "The conceptual structure (set of concepts and their relations) is identical to the quality of experience — a strict identity, not merely a correlation.",
+        "passage_ids": [
+          "iit_nrn_2016_0019",
+          "iit_nrn_2016_0039",
+          "iit_nrn_2016_0093"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_n011",
+        "theory": "IIT",
+        "entity_type": "information",
+        "axis": "unit_threshold",
+        "value": "integrated_information_phi_max",
+        "polarity": "asserts",
+        "statement": "The quantity of consciousness corresponds to maximal irreducibility Φmax — an integrated-information measure gates how much a system exists for itself.",
+        "passage_ids": [
+          "iit_nrn_2016_0040",
+          "iit_nrn_2016_0025"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_n012",
+        "theory": "IIT",
+        "entity_type": "system",
+        "axis": "locus",
+        "value": "maximally_irreducible_cause_effect_complex",
+        "polarity": "asserts",
+        "statement": "The posterior system of consciousness (PSC) is the subset of elements with maximally irreducible cause–effect power on itself, making the locus intrinsically defined by Φmax.",
+        "passage_ids": [
+          "iit_nrn_2016_0055",
+          "iit_nrn_2016_0040"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": true,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_n013",
+        "theory": "IIT",
+        "entity_type": "constraint",
+        "axis": "architecture",
+        "value": "irreducible_integration_required",
+        "polarity": "asserts",
+        "statement": "Experience is necessarily integrated and irreducible to non-interdependent subsets; mere feed-forward or modular architectures without integration are excluded from consciousness.",
+        "passage_ids": [
+          "iit_nrn_2016_0023",
+          "iit_nrn_2016_0025"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_n014",
+        "theory": "IIT",
+        "entity_type": "information",
+        "axis": "observable_commitment",
+        "value": "integrated_information_phi_max",
+        "polarity": "asserts",
+        "statement": "Integrated information Φmax measures the intrinsic phenomenal capacity of the physical substrate of consciousness; Shannon information measures only extrinsic access/reporting capacity — these are distinct quantities.",
+        "passage_ids": [
+          "iit_nrn_2016_0092",
+          "iit_nrn_2016_0093",
+          "iit_nrn_2016_0094"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_n015",
+        "theory": "IIT",
+        "entity_type": "constraint",
+        "axis": "mechanism",
+        "value": "no_global_broadcast",
+        "polarity": "asserts",
+        "statement": "Conscious information is not transmitted or broadcast from one part of the brain to another; global broadcast is denied as the mechanism of consciousness.",
+        "passage_ids": [
+          "iit_nrn_2016_0096"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_n016",
+        "theory": "IIT",
+        "entity_type": "system",
+        "axis": "locus",
+        "value": "posterior_cortex",
+        "polarity": "asserts",
+        "statement": "The physical substrate of consciousness (PSC) is located in posterior cortex, with prefrontal mechanisms serving only extrinsic reporting channels, not conscious content itself.",
+        "passage_ids": [
+          "iit_nrn_2016_0060",
+          "iit_nrn_2016_0061",
+          "iit_nrn_2016_0094"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_n017",
+        "theory": "IIT",
+        "entity_type": "information",
+        "axis": "unit_threshold",
+        "value": "maximum_phi",
+        "polarity": "asserts",
+        "statement": "IIT predicts the spatio-temporal grain of the physical elements specifying consciousness is that which yields maximum integrated information (Phi), committing to a specific quantitative threshold/optimum gating conscious content.",
+        "passage_ids": [
+          "iit_nrn_2016_0110"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_n018",
+        "theory": "IIT",
+        "entity_type": "information",
+        "axis": "unit_threshold",
+        "value": "integrated_information_phi",
+        "polarity": "asserts",
+        "statement": "The quantity of consciousness is measured by integrated information Φ (the minimum distance between an intact and a partitioned cause–effect structure), a non-negative number reflecting intrinsic irreducibility of the entire conceptual structure.",
+        "passage_ids": [
+          "iit_nrn_2016_0020",
+          "iit_nrn_2016_0024"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_n019",
+        "theory": "IIT",
+        "entity_type": "constraint",
+        "axis": "architecture",
+        "value": "irreducible_bidirectional_integration",
+        "polarity": "asserts",
+        "statement": "The PSC must be unitary and irreducible: its cause–effect structure cannot be decomposed into non-interdependent subsystems, requiring bidirectional interactions throughout.",
+        "passage_ids": [
+          "iit_nrn_2016_0024",
+          "iit_nrn_2016_0007"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_n020",
+        "theory": "IIT",
+        "entity_type": "invariant",
+        "axis": "identity_relation",
+        "value": "experience_is_cause_effect_structure",
+        "polarity": "asserts",
+        "statement": "Different experiences correspond to different conceptual structures (specific cause–effect structures), making consciousness identical to the conceptual structure specified by the PSC.",
+        "passage_ids": [
+          "iit_nrn_2016_0013",
+          "iit_nrn_2016_0020",
+          "iit_nrn_2016_0022"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_n021",
+        "theory": "IIT",
+        "entity_type": "information",
+        "axis": "none",
+        "value": "integrated_information_phi",
+        "polarity": "asserts",
+        "statement": "Integrated information (Φ) is information specified by a system that is irreducible to that specified by its parts, calculated as the distance between the conceptual structure of the intact system and its minimum information partition.",
+        "passage_ids": [
+          "iit_nrn_2016_0035"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": true,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_n022",
+        "theory": "IIT",
+        "entity_type": "measurement",
+        "axis": "observable_commitment",
+        "value": "perturbation_changes_experience",
+        "polarity": "asserts",
+        "statement": "Any perturbation of the PSC at the appropriate spatio-temporal grain should produce a change in experience — a predicted observable commitment.",
+        "passage_ids": [
+          "iit_nrn_2016_0058"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      }
+    ],
+    "t": [
+      {
+        "claim_id": "iit_t001",
+        "theory": "IIT",
+        "entity_type": "system",
+        "axis": "locus",
+        "value": "posterior_hot_zone",
+        "polarity": "asserts",
+        "statement": "IIT predicts that the physical substrate of consciousness (PSC) corresponds to a complex of neural elements with maximum intrinsic cause–effect power, identifying the locus of consciousness with specific neural elements rather than diffuse or prefrontal systems.",
+        "passage_ids": [
+          "iit_nrn_2016_0001",
+          "iit_nrn_2016_0041",
+          "iit_nrn_2016_0060",
+          "iit_nrn_2016_0061",
+          "iit_nrn_2016_0066",
+          "iit_nrn_2016_0079",
+          "iit_nrn_2016_0098",
+          "iit_nrn_2016_0162"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "iit_t002",
+        "theory": "IIT",
+        "entity_type": "measurement",
+        "axis": "observable_commitment",
+        "value": "posterior_decoding",
+        "polarity": "asserts",
+        "statement": "IIT predicts that changes in the efficacy of connections among elements of the primary conscious complex should lead to changes in experience even without changes in activity, and that a brain area with intact connections contributes to experience even if inactive — an empirical commitment testable by measuring connectivity rather than spiking.",
+        "passage_ids": [
+          "iit_nrn_2016_0115",
+          "iit_nrn_2016_0116"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      }
+    ]
+  },
+  "gnwt": {
+    "c": [
+      {
+        "claim_id": "gnwt_c001",
+        "theory": "GNWT",
+        "entity_type": "transformation",
+        "axis": "mechanism",
+        "value": "global_ignition_long_distance_reentrant",
+        "polarity": "asserts",
+        "statement": "Conscious access corresponds to sudden ignition of a brain-scale network of high-level cortical areas linked by long-distance re-entrant loops.",
+        "passage_ids": [
+          "gnwt_neuron_2020_0454",
+          "gnwt_neuron_2020_0438",
+          "gnwt_neuron_2011_0000"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_c002",
+        "theory": "GNWT",
+        "entity_type": "measurement",
+        "axis": "observable_commitment",
+        "value": "late_global_ignition_300ms",
+        "polarity": "asserts",
+        "statement": "Conscious access is measurable by late (~300 ms) global ignition of distant areas and long-distance information sharing across the workspace network.",
+        "passage_ids": [
+          "gnwt_neuron_2020_0454",
+          "gnwt_neuron_2011_0049",
+          "gnwt_neuron_2011_0000"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_c003",
+        "theory": "GNWT",
+        "entity_type": "system",
+        "axis": "connectivity",
+        "value": "long_range_fronto_parietal",
+        "polarity": "asserts",
+        "statement": "The conscious system is a large-scale network including prefrontal, parieto-temporal, and cingulate cortices connected by long-range axons, not a posterior-only region.",
+        "passage_ids": [
+          "gnwt_neuron_2011_0001",
+          "gnwt_neuron_2011_0112",
+          "gnwt_neuron_2011_0119",
+          "gnwt_neuron_2011_0166",
+          "gnwt_neuron_2020_0016",
+          "gnwt_neuron_2020_0023",
+          "gnwt_neuron_2020_0102",
+          "gnwt_neuron_2020_0133",
+          "gnwt_neuron_2020_0454",
+          "gnwt_science_2017_0074"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_c004",
+        "theory": "GNWT",
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "value": "ignition_threshold",
+        "polarity": "asserts",
+        "statement": "Consciousness is disrupted when cortical hub function or reverberant connectivity is disrupted, particularly top-down amplification; a threshold for ignition gates the transition from subliminal to conscious processing.",
+        "passage_ids": [
+          "gnwt_neuron_2020_0438",
+          "gnwt_neuron_2020_0454"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_c005",
+        "theory": "GNWT",
+        "entity_type": "transformation",
+        "axis": "mechanism",
+        "value": "global_ignition_broadcast",
+        "polarity": "asserts",
+        "statement": "Conscious access is characterized by a late, sudden 'ignition'—an all-or-none global broadcast of information across a distributed fronto-parietal network, including prefrontal and posterior parietal cortices.",
+        "passage_ids": [
+          "gnwt_neuron_2020_0023",
+          "gnwt_science_2017_0039",
+          "gnwt_science_2017_0074"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_c006",
+        "theory": "GNWT",
+        "entity_type": "process",
+        "axis": "temporal_profile",
+        "value": "sustained_reverberant",
+        "polarity": "asserts",
+        "statement": "Reverberant recurrent activity in the global workspace network is the mechanism that sustains conscious information over time; without it, representations cannot be broadcast and are not experienced.",
+        "passage_ids": [
+          "gnwt_neuron_2020_0023",
+          "gnwt_neuron_2020_0102"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_c007",
+        "theory": "GNWT",
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "value": "ignition_threshold_prefrontal_reach",
+        "polarity": "asserts",
+        "statement": "Conscious access is all-or-none: a signal must be strong enough to ignite the global workspace; stimuli that fail to reach prefrontal cortex remain unconscious despite local sensory processing.",
+        "passage_ids": [
+          "gnwt_neuron_2020_0023",
+          "gnwt_science_2017_0039",
+          "gnwt_neuron_2020_0102"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_c008",
+        "theory": "GNWT",
+        "entity_type": "transformation",
+        "axis": "mechanism",
+        "value": "global_ignition",
+        "polarity": "asserts",
+        "statement": "Conscious access is marked by 'ignition' of a large-scale prefronto-parietal network involving long-distance cortico-cortical synchronization.",
+        "passage_ids": [
+          "gnwt_neuron_2011_0077",
+          "gnwt_neuron_2020_0000",
+          "gnwt_neuron_2020_0029"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_c009",
+        "theory": "GNWT",
+        "entity_type": "system",
+        "axis": "locus",
+        "value": "prefronto_parietal_workspace",
+        "polarity": "asserts",
+        "statement": "Conscious content lives in a large-scale prefronto-parietal global neuronal workspace, not confined to posterior sensory areas.",
+        "passage_ids": [
+          "gnwt_neuron_2011_0081",
+          "gnwt_neuron_2020_0000",
+          "gnwt_neuron_2011_0098"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_c010",
+        "theory": "GNWT",
+        "entity_type": "process",
+        "axis": "mechanism",
+        "value": "global_broadcast",
+        "polarity": "asserts",
+        "statement": "Information becomes conscious when it is broadly broadcasted and globally accessible to many local processors across the brain.",
+        "passage_ids": [
+          "gnwt_neuron_2011_0002",
+          "gnwt_neuron_2011_0018",
+          "gnwt_neuron_2011_0081",
+          "gnwt_neuron_2011_0090",
+          "gnwt_neuron_2011_0111",
+          "gnwt_neuron_2020_0009",
+          "gnwt_neuron_2020_0012",
+          "gnwt_neuron_2020_0026"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_c011",
+        "theory": "GNWT",
+        "entity_type": "state",
+        "axis": "temporal_profile",
+        "value": "phasic_ignition",
+        "polarity": "asserts",
+        "statement": "Conscious access is characterized by a late, all-or-none (non-linear) ignition pattern rather than a graded sustained signal.",
+        "passage_ids": [
+          "gnwt_neuron_2011_0077",
+          "gnwt_neuron_2011_0098",
+          "gnwt_neuron_2011_0166",
+          "gnwt_neuron_2020_0029"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_c012",
+        "theory": "GNWT",
+        "entity_type": "process",
+        "axis": "mechanism",
+        "value": "global_broadcast_ignition",
+        "polarity": "asserts",
+        "statement": "Conscious access occurs when a piece of information is selected, amplified, and broadcast via long-range axons of a core set of highly interconnected areas to all distributed cortical processors, making it globally available.",
+        "passage_ids": [
+          "gnwt_neuron_2020_0434",
+          "gnwt_neuron_2020_0066"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": true,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_c013",
+        "theory": "GNWT",
+        "entity_type": "system",
+        "axis": "architecture",
+        "value": "global_neuronal_workspace_network",
+        "polarity": "asserts",
+        "statement": "The conscious system requires a specific architecture: local specialized processors linked by a core set of highly interconnected areas with long-distance axons (fronto-parietal network).",
+        "passage_ids": [
+          "gnwt_neuron_2020_0434"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": true,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_c014",
+        "theory": "GNWT",
+        "entity_type": "system",
+        "axis": "connectivity",
+        "value": "long_range_fronto_posterior",
+        "polarity": "asserts",
+        "statement": "Conscious content is sustained via long-range fronto-parietal connectivity; disruption of top-down connectivity (e.g., NMDA blockade) abolishes conscious perception.",
+        "passage_ids": [
+          "gnwt_neuron_2011_0034",
+          "gnwt_neuron_2011_0047",
+          "gnwt_neuron_2020_0066",
+          "gnwt_neuron_2020_0096"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_c015",
+        "theory": "GNWT",
+        "entity_type": "transformation",
+        "axis": "temporal_profile",
+        "value": "phasic_ignition",
+        "polarity": "asserts",
+        "statement": "Conscious access is marked by a late ignition event distinguishable from early feedforward activity, reflecting a phasic broadcast rather than sustained local processing.",
+        "passage_ids": [
+          "gnwt_neuron_2011_0047",
+          "gnwt_neuron_2011_0054",
+          "gnwt_neuron_2011_0110",
+          "gnwt_neuron_2020_0031",
+          "gnwt_neuron_2020_0045",
+          "gnwt_neuron_2020_0156",
+          "gnwt_neuron_2020_0444",
+          "gnwt_science_2017_0060"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_c016",
+        "theory": "GNWT",
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "value": "duration_threshold_gates_conscious_access",
+        "polarity": "asserts",
+        "statement": "There is a perceptual threshold in presentation time above which neurons fire and conscious recognition occurs, and below which there is little or no neural activity and no recognition.",
+        "passage_ids": [
+          "gnwt_science_2017_0076"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_c017",
+        "theory": "GNWT",
+        "entity_type": "system",
+        "axis": "locus",
+        "value": "fronto_parietal",
+        "polarity": "asserts",
+        "statement": "Conscious content is reflected in late fronto-parietal activations, not early modality-specific cortical responses.",
+        "passage_ids": [
+          "gnwt_neuron_2011_0064",
+          "gnwt_neuron_2011_0072"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_c018",
+        "theory": "GNWT",
+        "entity_type": "constraint",
+        "axis": "connectivity",
+        "value": "long_range_recurrent_required",
+        "polarity": "asserts",
+        "statement": "Feedforward/bottom-up processing alone is not sufficient for conscious access; recurrent top-down feedback is required.",
+        "passage_ids": [
+          "gnwt_neuron_2011_0087"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_c019",
+        "theory": "GNWT",
+        "entity_type": "transformation",
+        "axis": "mechanism",
+        "value": "global_ignition_prefronto_parietal",
+        "polarity": "asserts",
+        "statement": "Conscious access is marked by sudden, all-or-none ignition of prefronto-parietal networks, constituting the mechanism of conscious access.",
+        "passage_ids": [
+          "gnwt_neuron_2011_0166"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_c020",
+        "theory": "GNWT",
+        "entity_type": "constraint",
+        "axis": "architecture",
+        "value": "long_distance_prefrontal_connectivity_required",
+        "polarity": "asserts",
+        "statement": "Damage to long-distance prefrontal white matter pathways impairs conscious perception while leaving subliminal processing intact, confirming long-distance connectivity as a necessary constraint on conscious access.",
+        "passage_ids": [
+          "gnwt_neuron_2011_0118",
+          "gnwt_neuron_2011_0167"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_c021",
+        "theory": "GNWT",
+        "entity_type": "system",
+        "axis": "architecture",
+        "value": "long_range_fronto_parietal_network",
+        "polarity": "asserts",
+        "statement": "The Global Neuronal Workspace is instantiated by a defined brain network of widely distributed neurons with long-range axons connecting frontal, parietal, and other cortical areas, forming the architectural locus of conscious content.",
+        "passage_ids": [
+          "gnwt_neuron_2020_0012",
+          "gnwt_neuron_2020_0018"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": true,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_c022",
+        "theory": "GNWT",
+        "entity_type": "constraint",
+        "axis": "connectivity",
+        "value": "long_range_fronto_posterior_required",
+        "polarity": "asserts",
+        "statement": "Global top-down signals related to working memory content depend on conscious processing; non-conscious modular signals persist but are not globally broadcast.",
+        "passage_ids": [
+          "gnwt_neuron_2020_0026",
+          "gnwt_neuron_2020_0045"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      }
+    ],
+    "n": [
+      {
+        "claim_id": "gnwt_n001",
+        "theory": "GNWT",
+        "entity_type": "transformation",
+        "axis": "mechanism",
+        "value": "all_or_none_ignition",
+        "polarity": "asserts",
+        "statement": "Conscious perception involves all-or-none 'ignition' — sudden, widespread firing of stimulus-specific neurons in prefrontal and high-level cortical areas — as the mechanistic signature of global availability.",
+        "passage_ids": [
+          "gnwt_science_2017_0060",
+          "gnwt_science_2017_0074",
+          "gnwt_science_2017_0039"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_n002",
+        "theory": "GNWT",
+        "entity_type": "system",
+        "axis": "connectivity",
+        "value": "long_range_fronto_parietal_network",
+        "polarity": "asserts",
+        "statement": "Conscious content is encoded in long-range, interconnected high-level cortical areas including lateral prefrontal cortex, anterior temporal cortex, and hippocampus — not confined to posterior sensory areas.",
+        "passage_ids": [
+          "gnwt_science_2017_0074",
+          "gnwt_science_2017_0060"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_n003",
+        "theory": "GNWT",
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "value": "substrate_dependent",
+        "polarity": "asserts",
+        "statement": "Consciousness (C1 global availability and C2 self-monitoring) arises specifically in the human brain, making it substrate-dependent on biological neural architecture.",
+        "passage_ids": [
+          "gnwt_science_2017_0012",
+          "gnwt_science_2017_0114"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_n004",
+        "theory": "GNWT",
+        "entity_type": "measurement",
+        "axis": "observable_commitment",
+        "value": "neural_ignition_brain_imaging",
+        "polarity": "asserts",
+        "statement": "Ignition and all-or-none neural firing during conscious perception are predicted observables measurable via brain-imaging and single-cell recordings.",
+        "passage_ids": [
+          "gnwt_science_2017_0039",
+          "gnwt_science_2017_0060",
+          "gnwt_science_2017_0076"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": true,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_n005",
+        "theory": "GNWT",
+        "entity_type": "process",
+        "axis": "mechanism",
+        "value": "global_broadcast",
+        "polarity": "asserts",
+        "statement": "Consciousness (C1) is the selection of information for global broadcasting, making it flexibly available across brain modules; consciousness IS this global broadcast process.",
+        "passage_ids": [
+          "gnwt_science_2017_0013",
+          "gnwt_science_2017_0045",
+          "gnwt_science_2017_0046",
+          "gnwt_science_2017_0050"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": true,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_n006",
+        "theory": "GNWT",
+        "entity_type": "system",
+        "axis": "architecture",
+        "value": "global_neuronal_workspace",
+        "polarity": "asserts",
+        "statement": "The conscious global workspace is a distributed, limited-capacity workspace in higher cortical areas that selects and holds one representation at a time for global sharing.",
+        "passage_ids": [
+          "gnwt_science_2017_0050",
+          "gnwt_science_2017_0063"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": true,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_n007",
+        "theory": "GNWT",
+        "entity_type": "state",
+        "axis": "temporal_profile",
+        "value": "sustained",
+        "polarity": "asserts",
+        "statement": "Conscious processing is characterised by stable, sustained representation in distributed higher cortical areas, contrasting with transient unconscious processing.",
+        "passage_ids": [
+          "gnwt_science_2017_0063"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": true,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_n008",
+        "theory": "GNWT",
+        "entity_type": "system",
+        "axis": "locus",
+        "value": "prefrontal_cingulate",
+        "polarity": "asserts",
+        "statement": "Self-monitoring (C2) is linked specifically to prefrontal and cingulate cortex circuits, distinct from the global workspace broadcast (C1).",
+        "passage_ids": [
+          "gnwt_science_2017_0078",
+          "gnwt_science_2017_0081"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_n009",
+        "theory": "GNWT",
+        "entity_type": "invariant",
+        "axis": "identity_relation",
+        "value": "consciousness_is_global_availability",
+        "polarity": "asserts",
+        "statement": "Conscious information is globally available across the brain, enabling recall, verbal report, and action—consciousness IS global availability (C1).",
+        "passage_ids": [
+          "gnwt_science_2017_0021",
+          "gnwt_science_2017_0022"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_n010",
+        "theory": "GNWT",
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "value": "all_or_none_ignition",
+        "polarity": "asserts",
+        "statement": "Conscious access involves all-or-none selection in a capacity-limited global workspace system.",
+        "passage_ids": [
+          "gnwt_science_2017_0003"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_n011",
+        "theory": "GNWT",
+        "entity_type": "system",
+        "axis": "connectivity",
+        "value": "long_range_fronto_posterior",
+        "polarity": "asserts",
+        "statement": "The global workspace requires long-range broadcasting architecture (prefrontal and distributed cortical regions) for conscious content.",
+        "passage_ids": [
+          "gnwt_science_2017_0003",
+          "gnwt_science_2017_0021"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_n012",
+        "theory": "GNWT",
+        "entity_type": "constraint",
+        "axis": "observable_commitment",
+        "value": "verbal_nonverbal_report",
+        "polarity": "asserts",
+        "statement": "Unconscious processing can be deep and extensive; consciousness is distinguished by global reportability, not mere processing depth.",
+        "passage_ids": [
+          "gnwt_science_2017_0021",
+          "gnwt_science_2017_0029"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_n013",
+        "theory": "GNWT",
+        "entity_type": "state",
+        "axis": "temporal_profile",
+        "value": "phasic_ignition",
+        "polarity": "asserts",
+        "statement": "Conscious perception operates serially and in an all-or-none manner—only one interpretation is conscious at a time—contrasting with parallel unconscious processing.",
+        "passage_ids": [
+          "gnwt_science_2017_0056"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_n014",
+        "theory": "GNWT",
+        "entity_type": "constraint",
+        "axis": "mechanism",
+        "value": "attention_insufficient_for_consciousness",
+        "polarity": "asserts",
+        "statement": "Attentional selection can operate nonconsciously; attention is necessary but not sufficient for conscious access, which requires a further distinct step.",
+        "passage_ids": [
+          "gnwt_science_2017_0052"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_n015",
+        "theory": "GNWT",
+        "entity_type": "system",
+        "axis": "architecture",
+        "value": "global_workspace_architecture",
+        "polarity": "asserts",
+        "statement": "C1 (global availability) is an elementary property present across humans, infants, and nonhuman animals, indicating it is a broadly shared architectural feature rather than a uniquely human capacity.",
+        "passage_ids": [
+          "gnwt_science_2017_0064",
+          "gnwt_science_2017_0045"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_n016",
+        "theory": "GNWT",
+        "entity_type": "constraint",
+        "axis": "architecture",
+        "value": "high_level_cognitive_architecture_required",
+        "polarity": "asserts",
+        "statement": "Consciousness requires high-level cognitive functions (C1 and C2); lower-level processing alone is insufficient.",
+        "passage_ids": [
+          "gnwt_science_2017_0112",
+          "gnwt_science_2017_0113"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      },
+      {
+        "claim_id": "gnwt_n017",
+        "theory": "GNWT",
+        "entity_type": "constraint",
+        "axis": "identity_relation",
+        "value": "functional_correlation_not_identity",
+        "polarity": "asserts",
+        "statement": "A purely functional definition of consciousness may leave aside the experiential component ('what it is like'), raising the question of whether the theory accounts for phenomenal experience.",
+        "passage_ids": [
+          "gnwt_science_2017_0113"
+        ],
+        "extractor_model": "claude-sonnet-4-6",
+        "agreement": false,
+        "status": "draft"
+      }
+    ],
+    "t": []
+  }
+}

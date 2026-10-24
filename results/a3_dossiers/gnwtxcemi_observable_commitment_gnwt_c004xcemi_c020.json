@@ -1,0 +1,101 @@
+{
+  "fork_id": "gnwtxcemi:observable_commitment:gnwt_c004xcemi_c020",
+  "axis": "observable_commitment",
+  "pair": "gnwtxcemi",
+  "beyond_key": true,
+  "sides": {
+    "left": {
+      "theory": "GNWT",
+      "value": "access_consciousness_primary",
+      "polarity": "asserts",
+      "claim_ids": [
+        "gnwt_c004"
+      ],
+      "quotes": [
+        "GNWT is focused on conscious access and information processing, and denies that the distinction between phenomenal and access consciousness is fundamental."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.62"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "CEMI",
+      "value": "em_field_measurable",
+      "polarity": "asserts",
+      "claim_ids": [
+        "cemi_c020"
+      ],
+      "quotes": [
+        "The cemi field is a physically measurable and experimentally testable structure; consciousness is rooted in an entirely physical substrate (matter-energy distinction, not matter-spirit)."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.75"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [
+      {
+        "passage_id": "gnwt_neuron_2020_0163",
+        "score": 1.667,
+        "excerpt": "A multisite, preregistered, adversarial collaboration testing the main predictions of the GNW versus IIT using fMRI, MEG, and intracranial recordings during passive viewing and active dual-tasking is currently underway (Reardon,…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2020_0122",
+        "score": 1.5,
+        "excerpt": "(Koukouli et al., 2016). Of note, reversal of anesthesia by pharmacological stimulation of the cortex does not restore electroencephalographic measures of functional connectivity (Pal et al., 2019), which may relate…"
+      },
+      {
+        "passage_id": "gnwt_science_2017_0115",
+        "score": 1.5,
+        "excerpt": "Remarkably, those patients can localize visual stimuli in their blind field, but they cannot report them (C1) nor can they effectively assess their likelihood of success (C2)—they believe that they…"
+      }
+    ],
+    "right": [
+      {
+        "passage_id": "cemi_2020_0059",
+        "score": 1.333,
+        "excerpt": "firing neurons—in these same regions did correlate with per- ception. It seems that though neuron firing rate in the primary visual cortex does not see the stimulus, synchronicity of neuron…"
+      }
+    ]
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "now",
+    "rationale": "",
+    "citation_rows": [
+      {
+        "tag": "Complexity",
+        "n": 51
+      },
+      {
+        "tag": "Variability",
+        "n": 9
+      },
+      {
+        "tag": "PHI Approximation",
+        "n": 7
+      },
+      {
+        "tag": "Criticality",
+        "n": 1
+      }
+    ],
+    "evidence_verdict": "CONTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed)"
+  },
+  "status": "clean",
+  "correction_note": null
+}

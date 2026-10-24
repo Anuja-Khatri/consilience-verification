@@ -1,0 +1,161 @@
+{
+  "fork_id": "gnwtxcemi:locus:gnwt_c003xcemi_c009",
+  "axis": "locus",
+  "pair": "gnwtxcemi",
+  "beyond_key": false,
+  "sides": {
+    "left": {
+      "theory": "GNWT",
+      "value": "prefrontal_parietal_cortical_network",
+      "polarity": "asserts",
+      "claim_ids": [
+        "gnwt_c003"
+      ],
+      "quotes": [
+        "The locus of conscious processing is a large-scale prefrontal-parietal (and cingulate/temporal) cortical network, not posterior sensory cortices alone."
+      ],
+      "provenance_check": {
+        "status": "FAIL",
+        "detail": "claim not grounded in cited passages"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "CEMI",
+      "value": "em_field",
+      "polarity": "asserts",
+      "claim_ids": [
+        "cemi_c009"
+      ],
+      "quotes": [
+        "Consciousness is the brain's endogenous EM field; the locus of consciousness is the integrated EM field rather than individual firing neurons."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "value grounded in cited passage"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [
+      {
+        "passage_id": "gnwt_neuron_2020_0163",
+        "score": 1.667,
+        "excerpt": "A multisite, preregistered, adversarial collaboration testing the main predictions of the GNW versus IIT using fMRI, MEG, and intracranial recordings during passive viewing and active dual-tasking is currently underway (Reardon,…"
+      },
+      {
+        "passage_id": "gnwt_science_2017_0115",
+        "score": 1.5,
+        "excerpt": "Remarkably, those patients can localize visual stimuli in their blind field, but they cannot report them (C1) nor can they effectively assess their likelihood of success (C2)—they believe that they…"
+      }
+    ],
+    "right": [
+      {
+        "passage_id": "cemi_2020_0111",
+        "score": 2.0,
+        "excerpt": "In contrast, being subject to an inverse cube law, EM ﬁeld perturbations are highly local so are incapable of transmitting across long distances unless reinforced by relays of synchronized neurons…"
+      },
+      {
+        "passage_id": "cemi_2020_0033",
+        "score": 1.333,
+        "excerpt": "Neural networks, on their own, cannot be responsible for physically integrating conscious information because, like inte- grated circuits, they integrate information only temporally, not physically. Integrating information in space, rather…"
+      }
+    ]
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "now",
+    "rationale": "",
+    "citation_rows": [
+      {
+        "tag": "Posterior",
+        "n": 165
+      },
+      {
+        "tag": "Parietal",
+        "n": 145
+      },
+      {
+        "tag": "Frontal",
+        "n": 144
+      },
+      {
+        "tag": "V1",
+        "n": 48
+      },
+      {
+        "tag": "Subcortical structures",
+        "n": 34
+      },
+      {
+        "tag": "DMN",
+        "n": 16
+      },
+      {
+        "tag": "A1",
+        "n": 10
+      },
+      {
+        "tag": "S1",
+        "n": 7
+      },
+      {
+        "tag": "Temporal",
+        "n": 7
+      },
+      {
+        "tag": "Ventral Stream",
+        "n": 7
+      },
+      {
+        "tag": "AAN",
+        "n": 4
+      },
+      {
+        "tag": "Cerebellum",
+        "n": 3
+      },
+      {
+        "tag": "Visual Network",
+        "n": 3
+      },
+      {
+        "tag": "Dorsal Stream",
+        "n": 2
+      },
+      {
+        "tag": "Sensorimotor",
+        "n": 2
+      },
+      {
+        "tag": "ARN",
+        "n": 1
+      },
+      {
+        "tag": "ART",
+        "n": 1
+      },
+      {
+        "tag": "Dorsal Attention Network",
+        "n": 1
+      },
+      {
+        "tag": "V4",
+        "n": 1
+      }
+    ],
+    "evidence_verdict": "CONTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed)"
+  },
+  "status": "clean",
+  "correction_note": null
+}

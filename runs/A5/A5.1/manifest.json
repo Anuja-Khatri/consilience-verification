@@ -1,0 +1,89 @@
+{
+  "task": "A5",
+  "runid": "A5.1",
+  "instrument_tag": "v1",
+  "corpus_tag": "v1",
+  "engine_fingerprint": "09b90e8d4d07e1c1349c2054ffc7bbd6847e6e481a1f438d5998e8f5dcb27057",
+  "artifact_stamp": "2026-10",
+  "config_snapshot": {
+    "models": {
+      "extractor": "claude-sonnet-4-6",
+      "checker": "claude-haiku-4-5-20251001",
+      "perturber": "claude-sonnet-4-6",
+      "verifier": "gpt-4.1",
+      "panel": [
+        "gpt-4.1",
+        "gemini-2.5-pro",
+        "qwen2.5-72b-instruct"
+      ],
+      "game_agent": "claude-sonnet-4-6",
+      "transcriber": "claude-sonnet-4-6"
+    },
+    "seeds": {
+      "global": 20261022,
+      "extraction_runs": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "gwot_restarts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "thresholds_ngram": {
+      "n_chars": 8,
+      "minhash_perm": 128,
+      "jaccard_flag": 0.5
+    }
+  },
+  "inputs": [
+    {
+      "path": "/Users/anujakhatri3/consilience-demo/demo/data/claims/iit_approved.jsonl",
+      "kind": "frozen-store",
+      "sha256": "bf3ec903d3bc3d02e6e5fc98b9c5161d8175dbe2ae685e043eba82c0180b673e"
+    },
+    {
+      "path": "/Users/anujakhatri3/consilience-demo/demo/data/claims/gnwt_approved.jsonl",
+      "kind": "frozen-store",
+      "sha256": "7231fbf20c03d19ac6c2dce3671c299fe475681bcb2204437537981cdbd09899"
+    },
+    {
+      "path": "sprint cache (arm a + d live)",
+      "kind": "extraction",
+      "sha256": null
+    },
+    {
+      "path": "eval_out/cache (Task-5 replication)",
+      "kind": "extraction",
+      "sha256": null
+    }
+  ],
+  "outputs": [
+    {
+      "path": "runs/A5/A5.1/runs.json",
+      "sha256": "fd3112c889a7cbd12717df6c9e11afc554dc96c1b7a8a4cbc8d07b19a4a2b6de"
+    }
+  ],
+  "seeds": {
+    "replicate_tags": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ]
+  },
+  "model_provenance": [],
+  "notes": "A5.1 stability arms (v2.0.3): arm(a) LIVE a11..a55, arm(c) consensus, arm(d) conf-weighted LIVE d11..d55. arm(b)/t0 NOT-APPLICABLE (API rejects temperature). cache-era (a) kept as Task-5 replication. v1 prompt."
+}

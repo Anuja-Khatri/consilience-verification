@@ -1,0 +1,74 @@
+{
+  "fork_id": "IIT×ActiveInference:mechanism_scale:iit_n023xactive-inference_c030",
+  "axis": "mechanism_scale",
+  "pair": "IIT × Active Inference",
+  "register": "INTREPID-18",
+  "sides": {
+    "left": {
+      "theory": "IIT",
+      "value": "mesoscale_spatiotemporal_grain",
+      "polarity": "asserts",
+      "claim_ids": [
+        "iit_n023"
+      ],
+      "quotes": [
+        "The PSC operates at a definite spatio-temporal grain (local cortical neuron groups over ~100 ms intervals); perturbations at the appropriate grain change experience, fixing the…"
+      ],
+      "provenance_check": {
+        "status": "FAIL",
+        "detail": "claim not grounded in cited passages"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "Active Inference",
+      "value": "cortical_microcircuit",
+      "polarity": "asserts",
+      "claim_ids": [
+        "active-inference_c030"
+      ],
+      "quotes": [
+        "The functional unit of cortical processing is a microcircuit comprising several neural populations, replicated across cortical regions and hierarchical levels."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "value grounded in cited passage"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [
+      {
+        "passage_id": "iit_nrn_2016_0070",
+        "score": 4.667,
+        "excerpt": "Macro-states are defined according to the rule that if ≥50% of the neurons in the group are in a given micro-state (such as low firing, high firing or bursting), then…"
+      },
+      {
+        "passage_id": "iit_4_0_0123",
+        "score": 1.5,
+        "excerpt": "The iterative approach is necessary for establishing that a substrate is maximally irreducible within, as this criterion requires consideration not only of micro units, but also of all finer grains…"
+      }
+    ],
+    "right": []
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "now",
+    "rationale": "",
+    "citation_rows": [],
+    "evidence_verdict": "UNTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed); INTREPID review held out (§0.5)"
+  },
+  "status": "clean",
+  "correction_note": null,
+  "caveat": "A4 INTREPID-register dossiers (18-fork standing_predictions). instrument v1-era forks + approved store (frozen-store). The INTREPID review is a HELD-OUT answer key — never consulted here (§0.5); validity is checked against the theories' OWN corpora only."
+}

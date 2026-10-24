@@ -1,0 +1,42 @@
+fork_id: IIT×ActiveInference:temporal_profile:iit_t003xactive-inference_c032
+axis: temporal_profile
+pair: IIT × Active Inference
+sides:
+  left:
+    theory: IIT
+    value: sustained_maintenance
+    polarity: asserts
+  right:
+    theory: Active Inference
+    value: slower_dynamics_at_higher_hierarchy
+    polarity: asserts
+observable: Temporal profile of neural activity during conscious perception, specifically
+  comparing the duration of sustained activation versus the timescale of activity
+  at different hierarchical levels.
+outcome_space:
+- pattern: Conscious perception is consistently associated with sustained neural activation
+    across relevant regions, regardless of hierarchical level.
+  favors: IIT
+- pattern: Conscious perception is associated with neural activity whose timescale
+    increases (i.e., becomes slower) at higher hierarchical levels, without necessarily
+    requiring sustained activation at any level.
+  favors: ActInf
+- pattern: Conscious perception is associated with both sustained activation and slower
+    dynamics at higher hierarchical levels.
+  favors: both
+- pattern: Conscious perception is associated with neither sustained activation nor
+    slower dynamics at higher hierarchical levels.
+  favors: neither
+favors:
+  ? Conscious perception is consistently associated with sustained neural activation
+    across relevant regions, regardless of hierarchical level.
+  : IIT
+  ? Conscious perception is associated with neural activity whose timescale increases
+    (i.e., becomes slower) at higher hierarchical levels, without necessarily requiring
+    sustained activation at any level.
+  : ActInf
+  Conscious perception is associated with both sustained activation and slower dynamics at higher hierarchical levels.: both
+  Conscious perception is associated with neither sustained activation nor slower dynamics at higher hierarchical levels.: neither
+vacuous: false
+vacuity_rationale: The two values make empirically distinguishable predictions about
+  the temporal profile of neural activity during conscious perception.

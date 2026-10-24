@@ -1,0 +1,171 @@
+{
+  "fork_id": "IIT×ActiveInference:locus:iit_t002xactive-inference_c037",
+  "axis": "locus",
+  "pair": "IIT × Active Inference",
+  "register": "INTREPID-18",
+  "sides": {
+    "left": {
+      "theory": "IIT",
+      "value": "posterior_hot_zone",
+      "polarity": "asserts",
+      "claim_ids": [
+        "iit_t002"
+      ],
+      "quotes": [
+        "IIT predicts that the neural substrate of consciousness (PSC/complex) corresponds to elements with maximum intrinsic cause–effect power, locating the content-specific NCC in the neural elements…"
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.50"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "Active Inference",
+      "value": "subcortical_basal_ganglia",
+      "polarity": "asserts",
+      "claim_ids": [
+        "active-inference_c037"
+      ],
+      "quotes": [
+        "Policy selection in Active Inference is implemented through basal ganglia circuitry (direct and indirect pathways), with dopaminergic signaling encoding precision over policies (expected free energy)."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.77"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [],
+    "right": [
+      {
+        "passage_id": "ai_c_book_0304",
+        "score": 5.0,
+        "excerpt": "The argument goes that if our aim is to perform approximate Bayesian inference, we need to find an approximate posterior that best matches the exact posterior. As such, we can…"
+      },
+      {
+        "passage_id": "ai_c_book_0301",
+        "score": 3.0,
+        "excerpt": "66 Chapter 4 importance sampling. The right-­hand side of this in­equality is known as the (negative) variational ­free energy:4 the smaller the ­free energy, the closer it is to the…"
+      },
+      {
+        "passage_id": "ai_c_book_0650",
+        "score": 2.333,
+        "excerpt": "The message in the opposite direction computes the posterior probability of the associated categorical outcome (o), which depends on pri- ors based on the policy-­dependent outcome (oπ ), beliefs about…"
+      },
+      {
+        "passage_id": "ai_c_book_0240",
+        "score": 1.667,
+        "excerpt": "However, perception cannot go further than that to reduce your surprise—­and the discrepancy between the high level of glucose that you expect a priori and the low level of glucose…"
+      },
+      {
+        "passage_id": "ai_c_book_0121",
+        "score": 1.167,
+        "excerpt": "To understand why this is the case, the next section moves from the restricted notion of discrepancy (or prediction error) to the more general notion of variational ­free energy—­which is…"
+      },
+      {
+        "passage_id": "ai_c_book_0296",
+        "score": 1.0,
+        "excerpt": "This is reproduced in equation 4.1: P x ( )P y|x ( ) = P x| y ( )P y( ) P y ( ) = P y,x ( )…"
+      }
+    ]
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "now",
+    "rationale": "",
+    "citation_rows": [
+      {
+        "tag": "Posterior",
+        "n": 165
+      },
+      {
+        "tag": "Parietal",
+        "n": 145
+      },
+      {
+        "tag": "Frontal",
+        "n": 144
+      },
+      {
+        "tag": "V1",
+        "n": 48
+      },
+      {
+        "tag": "Subcortical structures",
+        "n": 34
+      },
+      {
+        "tag": "DMN",
+        "n": 16
+      },
+      {
+        "tag": "A1",
+        "n": 10
+      },
+      {
+        "tag": "S1",
+        "n": 7
+      },
+      {
+        "tag": "Temporal",
+        "n": 7
+      },
+      {
+        "tag": "Ventral Stream",
+        "n": 7
+      },
+      {
+        "tag": "AAN",
+        "n": 4
+      },
+      {
+        "tag": "Cerebellum",
+        "n": 3
+      },
+      {
+        "tag": "Visual Network",
+        "n": 3
+      },
+      {
+        "tag": "Dorsal Stream",
+        "n": 2
+      },
+      {
+        "tag": "Sensorimotor",
+        "n": 2
+      },
+      {
+        "tag": "ARN",
+        "n": 1
+      },
+      {
+        "tag": "ART",
+        "n": 1
+      },
+      {
+        "tag": "Dorsal Attention Network",
+        "n": 1
+      },
+      {
+        "tag": "V4",
+        "n": 1
+      }
+    ],
+    "evidence_verdict": "CONTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed); INTREPID review held out (§0.5)"
+  },
+  "status": "clean",
+  "correction_note": null,
+  "caveat": "A4 INTREPID-register dossiers (18-fork standing_predictions). instrument v1-era forks + approved store (frozen-store). The INTREPID review is a HELD-OUT answer key — never consulted here (§0.5); validity is checked against the theories' OWN corpora only."
+}

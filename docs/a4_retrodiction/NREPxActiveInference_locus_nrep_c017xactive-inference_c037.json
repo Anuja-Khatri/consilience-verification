@@ -1,0 +1,45 @@
+{
+  "fork_id": "NREP×ActiveInference:locus:nrep_c017xactive-inference_c037",
+  "axis": "locus",
+  "pair": "NREP × Active Inference",
+  "side_resolution": {
+    "left": {
+      "theory": "NREP",
+      "value": "distributed_multi_region"
+    },
+    "right": {
+      "theory": "Active Inference",
+      "value": "subcortical_basal_ganglia"
+    }
+  },
+  "supporting": [
+    {
+      "ref": "odegaard2017",
+      "cite": "Odegaard, Knight & Lau (2017). Should a Few Null Findings Falsify Prefrontal Theories of Conscious Perception? J Neurosci 37(40):9593–9602.",
+      "url": "https://www.jneurosci.org/content/37/40/9593",
+      "line": "Argues prefrontal / distributed cortical activity is essential to conscious perception, against an exclusively posterior locus."
+    },
+    {
+      "ref": "michel2020",
+      "cite": "Michel & Morales (2020). Minority reports: Consciousness and the prefrontal cortex. Mind & Language 35(4):493–513.",
+      "url": "https://philpapers.org/archive/MICMRC.pdf",
+      "line": "Reviews the case that prefrontal / distributed circuits contribute to conscious experience, not posterior cortex alone."
+    }
+  ],
+  "challenging": [
+    {
+      "ref": "merker2007",
+      "cite": "Merker (2007). Consciousness without a cerebral cortex: A challenge for neuroscience and medicine. Behavioral and Brain Sciences 30(1):63–81.",
+      "url": "https://www.researchgate.net/publication/6355200",
+      "line": "Argues an upper-brainstem / subcortical system can generate primary consciousness; cortex enriches but does not constitute it."
+    },
+    {
+      "ref": "subcortical2026",
+      "cite": "When does consciousness arise? A subcortical model of its origins (2026). Brain Structure and Function.",
+      "url": "https://link.springer.com/article/10.1007/s00429-026-03113-9",
+      "line": "Models subcortical (midbrain/basal) structures as the origin of basic conscious states."
+    }
+  ],
+  "grade": "mixed",
+  "note": "Grade on the typed side-resolution; NOT on the held-out review."
+}

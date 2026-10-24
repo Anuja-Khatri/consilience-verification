@@ -1,0 +1,104 @@
+{
+  "fork_id": "gnwtxcemi:substrate_dependence:gnwt_n011xcemi_c001",
+  "axis": "substrate_dependence",
+  "pair": "gnwtxcemi",
+  "beyond_key": true,
+  "sides": {
+    "left": {
+      "theory": "GNWT",
+      "value": "substrate_independent",
+      "polarity": "asserts",
+      "claim_ids": [
+        "gnwt_n011"
+      ],
+      "quotes": [
+        "The global workspace is a substrate-independent computational architecture: machines with the right functional organization could instantiate conscious computation."
+      ],
+      "provenance_check": {
+        "status": "FAIL",
+        "detail": "claim not grounded in cited passages"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "CEMI",
+      "value": "substrate_dependent_em_field",
+      "polarity": "asserts",
+      "claim_ids": [
+        "cemi_c001"
+      ],
+      "quotes": [
+        "The brain's EM field, rather than its matter, is the only feasible physical substrate for conscious integrated information."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.50"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [
+      {
+        "passage_id": "gnwt_neuron_2020_0062",
+        "score": 5.5,
+        "excerpt": "Taken together, these findings suggest that the critical brain regions engaging in the recurrent interactions for conscious perception may be task and stimulus dependent: whereas recurrent, metastable activity in the…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0064",
+        "score": 1.833,
+        "excerpt": "A study by Hasson et al. (2007) further suggests that the content of what we consciously hear does not depend on early modality-speciﬁc responses in auditory cortex, but rather on…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2020_0061",
+        "score": 1.833,
+        "excerpt": "On trials in which the monkeys failed to perceive the figure-ground stimulus, they presumably saw the texture elements, which were of high contrast, and only failed to perceive that the…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0014",
+        "score": 1.667,
+        "excerpt": "First, it tends to overestimate conscious perception: there are many conditions in which subjects perform better than chance, yet still deny perceiving the stimulus. Second, performance can be at chance…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2020_0163",
+        "score": 1.667,
+        "excerpt": "A multisite, preregistered, adversarial collaboration testing the main predictions of the GNW versus IIT using fMRI, MEG, and intracranial recordings during passive viewing and active dual-tasking is currently underway (Reardon,…"
+      },
+      {
+        "passage_id": "gnwt_science_2017_0115",
+        "score": 1.5,
+        "excerpt": "Remarkably, those patients can localize visual stimuli in their blind field, but they cannot report them (C1) nor can they effectively assess their likelihood of success (C2)—they believe that they…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0104",
+        "score": 1.167,
+        "excerpt": "Due to these ﬂuctuations, across trials, the very same stimulus does or does not lead to global ignition, depending in part on the precise phase of the stimulus relative to…"
+      }
+    ],
+    "right": [
+      {
+        "passage_id": "cemi_2020_0128",
+        "score": 1.5,
+        "excerpt": "integrations of trillions of bits of physically encoded informa- tion instantaneously present at each point in the field. I previ- ously proposed that ‘Nearly all qualia—the sound of C minor,…"
+      }
+    ]
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "not_current",
+    "rationale": "",
+    "citation_rows": [],
+    "evidence_verdict": "UNTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed)"
+  },
+  "status": "clean",
+  "correction_note": null
+}

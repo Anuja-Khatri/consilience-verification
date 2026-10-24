@@ -1,0 +1,48 @@
+fork_id: IIT×ActiveInference:locus:iit_t002xactive-inference_c037
+axis: locus
+pair: IIT × Active Inference
+sides:
+  left:
+    theory: IIT
+    value: posterior_hot_zone
+    polarity: asserts
+  right:
+    theory: Active Inference
+    value: subcortical_basal_ganglia
+    polarity: asserts
+observable: Neural activity patterns most tightly correlated with conscious perceptual
+  reports across varying tasks and states
+outcome_space:
+- pattern: Conscious perceptual reports are most tightly and consistently correlated
+    with activity in the posterior cortical hot zone, with minimal or no unique correlation
+    in subcortical basal ganglia regions.
+  favors: IIT
+- pattern: Conscious perceptual reports are most tightly and consistently correlated
+    with activity in subcortical basal ganglia regions, with minimal or no unique
+    correlation in the posterior cortical hot zone.
+  favors: ActInf
+- pattern: Conscious perceptual reports are equally and independently correlated with
+    both posterior cortical hot zone and subcortical basal ganglia activity.
+  favors: both
+- pattern: Conscious perceptual reports are not uniquely or consistently correlated
+    with either posterior cortical hot zone or subcortical basal ganglia activity.
+  favors: neither
+favors:
+  ? Conscious perceptual reports are most tightly and consistently correlated with
+    activity in the posterior cortical hot zone, with minimal or no unique correlation
+    in subcortical basal ganglia regions.
+  : IIT
+  ? Conscious perceptual reports are most tightly and consistently correlated with
+    activity in subcortical basal ganglia regions, with minimal or no unique correlation
+    in the posterior cortical hot zone.
+  : ActInf
+  ? Conscious perceptual reports are equally and independently correlated with both
+    posterior cortical hot zone and subcortical basal ganglia activity.
+  : both
+  ? Conscious perceptual reports are not uniquely or consistently correlated with
+    either posterior cortical hot zone or subcortical basal ganglia activity.
+  : neither
+vacuous: false
+vacuity_rationale: The two loci make empirically distinguishable predictions about
+  the neural correlates of consciousness, allowing for discriminating measurement
+  patterns.

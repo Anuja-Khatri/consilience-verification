@@ -1,0 +1,104 @@
+{
+  "fork_id": "iitxgnwt:substrate_dependence:iit_c002xgnwt_n011",
+  "axis": "substrate_dependence",
+  "pair": "iitxgnwt",
+  "beyond_key": true,
+  "sides": {
+    "left": {
+      "theory": "IIT",
+      "value": "substrate_dependent",
+      "polarity": "asserts",
+      "claim_ids": [
+        "iit_c002"
+      ],
+      "quotes": [
+        "Consciousness requires intrinsic, integrated, irreducible cause–effect power within the substrate itself, independent of any external observer."
+      ],
+      "provenance_check": {
+        "status": "FAIL",
+        "detail": "claim not grounded in cited passages"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "GNWT",
+      "value": "substrate_independent",
+      "polarity": "asserts",
+      "claim_ids": [
+        "gnwt_n011"
+      ],
+      "quotes": [
+        "The global workspace is a substrate-independent computational architecture: machines with the right functional organization could instantiate conscious computation."
+      ],
+      "provenance_check": {
+        "status": "FAIL",
+        "detail": "claim not grounded in cited passages"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [
+      {
+        "passage_id": "iit_4_0_0050",
+        "score": 1.667,
+        "excerpt": "This assumption is embedded in IIT’s postulate of intrinsicality and has several consequences. One is that, from the intrinsic perspective, the quality and quantity of existence must be observer-independent and…"
+      },
+      {
+        "passage_id": "iit_nrn_2016_0023",
+        "score": 1.333,
+        "excerpt": "The axiom of integration states that experience is unitary, meaning that it is composed of a set of phenomenal distinctions, bound together in various ways, that is irreducible to non-interdependent…"
+      },
+      {
+        "passage_id": "iit_nrn_2016_0098",
+        "score": 1.333,
+        "excerpt": "In general, the coexistence of functional specialization and integration in the cerebral cortex is ideally suited to integrating information (Supplementary information S3 (figure)). Specifically, the grid-like horizontal connectivity among neurons…"
+      }
+    ],
+    "right": [
+      {
+        "passage_id": "gnwt_neuron_2020_0062",
+        "score": 3.667,
+        "excerpt": "Taken together, these findings suggest that the critical brain regions engaging in the recurrent interactions for conscious perception may be task and stimulus dependent: whereas recurrent, metastable activity in the…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0064",
+        "score": 1.833,
+        "excerpt": "A study by Hasson et al. (2007) further suggests that the content of what we consciously hear does not depend on early modality-speciﬁc responses in auditory cortex, but rather on…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2020_0061",
+        "score": 1.833,
+        "excerpt": "On trials in which the monkeys failed to perceive the figure-ground stimulus, they presumably saw the texture elements, which were of high contrast, and only failed to perceive that the…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0014",
+        "score": 1.667,
+        "excerpt": "First, it tends to overestimate conscious perception: there are many conditions in which subjects perform better than chance, yet still deny perceiving the stimulus. Second, performance can be at chance…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0104",
+        "score": 1.167,
+        "excerpt": "Due to these ﬂuctuations, across trials, the very same stimulus does or does not lead to global ignition, depending in part on the precise phase of the stimulus relative to…"
+      }
+    ]
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "not_current",
+    "rationale": "no shared observable at current technology",
+    "citation_rows": [],
+    "evidence_verdict": "UNTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed)"
+  },
+  "status": "clean",
+  "correction_note": null
+}

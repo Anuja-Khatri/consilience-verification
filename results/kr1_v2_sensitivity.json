@@ -1,0 +1,136 @@
+{
+  "gated_counts": {
+    "recovered": 1,
+    "partial": 0,
+    "missed": 2,
+    "beyond": 9
+  },
+  "ungated_counts": {
+    "recovered": 2,
+    "partial": 0,
+    "missed": 1,
+    "beyond": 16
+  },
+  "headline_differs": true,
+  "responsible_rejected_rows": [
+    "iit_c009"
+  ],
+  "per_prediction": [
+    {
+      "id": "P1",
+      "axis": "locus",
+      "gated": "RECOVERED",
+      "ungated": "RECOVERED",
+      "iit_claims": [
+        [
+          "iit_c011",
+          "approve"
+        ],
+        [
+          "iit_c016",
+          "approve"
+        ],
+        [
+          "iit_n004",
+          "approve"
+        ],
+        [
+          "iit_n012",
+          "approve"
+        ],
+        [
+          "iit_n016",
+          "approve"
+        ],
+        [
+          "iit_t001",
+          "approve"
+        ]
+      ],
+      "gnwt_claims": [
+        [
+          "gnwt_c009",
+          "approve"
+        ],
+        [
+          "gnwt_c017",
+          "approve"
+        ],
+        [
+          "gnwt_n008",
+          "approve"
+        ]
+      ],
+      "why": "recovered in BOTH gated and ungated (stable — approved claims fork + match)"
+    },
+    {
+      "id": "P2",
+      "axis": "temporal_profile",
+      "gated": "MISSED",
+      "ungated": "MISSED",
+      "iit_claims": [],
+      "gnwt_claims": [
+        [
+          "gnwt_c006",
+          "approve"
+        ],
+        [
+          "gnwt_c011",
+          "approve"
+        ],
+        [
+          "gnwt_c015",
+          "approve"
+        ],
+        [
+          "gnwt_n007",
+          "approve"
+        ],
+        [
+          "gnwt_n013",
+          "reject"
+        ]
+      ],
+      "why": "(a) never extracted — no IIT claim on this fork axis (a fork needs both sides); MISSED in both gated and ungated, so NOT gating-sensitive; note rejected on-axis ['gnwt_n013'] are on the OTHER side only"
+    },
+    {
+      "id": "P3",
+      "axis": "connectivity",
+      "gated": "MISSED",
+      "ungated": "RECOVERED",
+      "iit_claims": [
+        [
+          "iit_c009",
+          "reject"
+        ]
+      ],
+      "gnwt_claims": [
+        [
+          "gnwt_c003",
+          "approve"
+        ],
+        [
+          "gnwt_c014",
+          "approve"
+        ],
+        [
+          "gnwt_c018",
+          "approve"
+        ],
+        [
+          "gnwt_c022",
+          "reject"
+        ],
+        [
+          "gnwt_n002",
+          "approve"
+        ],
+        [
+          "gnwt_n011",
+          "approve"
+        ]
+      ],
+      "why": "(b) extracted but REJECTED at the gate — ungating flips MISSED→RECOVERED. BINDING rejection(s): ['iit_c009'] (the only approved-less side); also-rejected-but-redundant: ['gnwt_c022']"
+    }
+  ]
+}

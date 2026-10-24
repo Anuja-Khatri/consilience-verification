@@ -1,0 +1,40 @@
+fork_id: IIT×NREP:observable_commitment:iit_n005xnrep_c003
+axis: observable_commitment
+pair: IIT × NREP
+sides:
+  left:
+    theory: IIT
+    value: empirically_measurable_via_causal_perturbation
+    polarity: asserts
+  right:
+    theory: NREP
+    value: indirect_observable
+    polarity: asserts
+observable: Degree to which consciousness-relevant properties can be directly measured
+  through causal perturbation of the system versus only inferred indirectly from behavioral
+  or correlational data.
+outcome_space:
+- pattern: Direct causal perturbation of the system yields measurable changes in consciousness-relevant
+    properties that cannot be explained by indirect inference alone.
+  favors: IIT
+- pattern: Consciousness-relevant properties are only accessible via indirect inference
+    from behavioral or correlational data; causal perturbation does not yield direct
+    measurement.
+  favors: NREP
+- pattern: Both direct causal perturbation and indirect inference yield indistinguishable
+    access to consciousness-relevant properties.
+  favors: both
+favors:
+  ? Direct causal perturbation of the system yields measurable changes in consciousness-relevant
+    properties that cannot be explained by indirect inference alone.
+  : IIT
+  ? Consciousness-relevant properties are only accessible via indirect inference from
+    behavioral or correlational data; causal perturbation does not yield direct measurement.
+  : NREP
+  ? Both direct causal perturbation and indirect inference yield indistinguishable
+    access to consciousness-relevant properties.
+  : both
+vacuous: true
+vacuity_rationale: 'DEMOTED by Anu (A4 Leg-2 gate): observable is a validation-method
+  question, not a measurement pattern. Decisions were model-drafted suggestions (Claude)
+  reviewed and confirmed by Anu.'

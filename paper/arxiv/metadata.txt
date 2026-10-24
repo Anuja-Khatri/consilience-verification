@@ -1,0 +1,7 @@
+Title: A Deterministic, Auditable Engine for Cross-Theory Claim Comparison: Cross-Field Discovery with Built-In Verification
+Authors: Anuja Khatri
+Abstract: I present a deterministic, typed engine that compares scientific claims across theories: each claim is reduced to typed fields (entity_type, axis, polarity, value) and a fixed rule-based judge assigns a correspondence grade or a fork. The judge is reproducible, provable and auditable. I re-express it as a logic program (verdict equivalence 1.0, n = 213 pairs), as a first-order theory under an SMT solver (congruence 1.0, n = 311 verdicts), with machine-checked proof objects (coverage 0.9842, n = 316) and 0 integrity violations (n = 316). On the discovery side the engine recovers the COGITATE adversarial-collaboration key at 2 of 3 predictions (revised; n = 3; not significant against a 1000-key permutation null, p = 0.075). The eLife synergistic-workspace key recovery is below chance: 0 exact / 6 partial of 14 validated rows, empirical p = 0.981 (n = 1000; random keys recover more). The method's limits are first-class results: both key recoveries are reported with their chance rates, single-pass extraction carries a measured noise floor, and the extraction front-end under-propagates negation.
+Primary category: cs.AI
+Cross-list: cs.CL
+Comments: Preregistration: DOI 10.17605/OSF.IO/5N24M. 5 pages.
+License: arXiv.org perpetual, non-exclusive license to distribute this article (arXiv non-exclusive)

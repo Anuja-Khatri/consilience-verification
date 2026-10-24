@@ -1,0 +1,140 @@
+{
+  "fork_id": "IIT×ActiveInference:locus:iit_n013xactive-inference_c037",
+  "axis": "locus",
+  "pair": "IIT × Active Inference",
+  "register": "INTREPID-18",
+  "sides": {
+    "left": {
+      "theory": "IIT",
+      "value": "intrinsic_not_broadcast",
+      "polarity": "asserts",
+      "claim_ids": [
+        "iit_n013"
+      ],
+      "quotes": [
+        "Conscious information is not transmitted or broadcast from one brain region to another; the locus of consciousness is intrinsic to the PSC, not a relay…"
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.54"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "Active Inference",
+      "value": "subcortical_basal_ganglia",
+      "polarity": "asserts",
+      "claim_ids": [
+        "active-inference_c037"
+      ],
+      "quotes": [
+        "Policy selection in Active Inference is implemented through basal ganglia circuitry (direct and indirect pathways), with dopaminergic signaling encoding precision over policies (expected free energy)."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.77"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [],
+    "right": []
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "now",
+    "rationale": "",
+    "citation_rows": [
+      {
+        "tag": "Posterior",
+        "n": 165
+      },
+      {
+        "tag": "Parietal",
+        "n": 145
+      },
+      {
+        "tag": "Frontal",
+        "n": 144
+      },
+      {
+        "tag": "V1",
+        "n": 48
+      },
+      {
+        "tag": "Subcortical structures",
+        "n": 34
+      },
+      {
+        "tag": "DMN",
+        "n": 16
+      },
+      {
+        "tag": "A1",
+        "n": 10
+      },
+      {
+        "tag": "S1",
+        "n": 7
+      },
+      {
+        "tag": "Temporal",
+        "n": 7
+      },
+      {
+        "tag": "Ventral Stream",
+        "n": 7
+      },
+      {
+        "tag": "AAN",
+        "n": 4
+      },
+      {
+        "tag": "Cerebellum",
+        "n": 3
+      },
+      {
+        "tag": "Visual Network",
+        "n": 3
+      },
+      {
+        "tag": "Dorsal Stream",
+        "n": 2
+      },
+      {
+        "tag": "Sensorimotor",
+        "n": 2
+      },
+      {
+        "tag": "ARN",
+        "n": 1
+      },
+      {
+        "tag": "ART",
+        "n": 1
+      },
+      {
+        "tag": "Dorsal Attention Network",
+        "n": 1
+      },
+      {
+        "tag": "V4",
+        "n": 1
+      }
+    ],
+    "evidence_verdict": "CONTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed); INTREPID review held out (§0.5)"
+  },
+  "status": "clean",
+  "correction_note": null,
+  "caveat": "A4 INTREPID-register dossiers (18-fork standing_predictions). instrument v1-era forks + approved store (frozen-store). The INTREPID review is a HELD-OUT answer key — never consulted here (§0.5); validity is checked against the theories' OWN corpora only."
+}

@@ -1,0 +1,144 @@
+{
+  "budgets": {
+    "A2": 40,
+    "A5": 120,
+    "A6": 80,
+    "AB_bench": 50,
+    "B2": 170,
+    "B3": 90,
+    "B4": 10,
+    "B5": 30,
+    "KR_keys": 20,
+    "SS_spectro": 5,
+    "TD1_aif": 40,
+    "TD1b_ml": 15,
+    "TD2_variants": 30,
+    "TD4_game": 60,
+    "VJ_logic": 0,
+    "hard_total": 900,
+    "slack": 140
+  },
+  "hard_total_usd": 900.0,
+  "tasks": {
+    "A1": {
+      "calls": 55,
+      "in_tokens": 7064,
+      "out_tokens": 2511,
+      "usd": 0.034215999999999996
+    },
+    "A2": {
+      "calls": 34,
+      "in_tokens": 38942,
+      "out_tokens": 11816,
+      "usd": 0.294066
+    },
+    "A3": {
+      "calls": 33,
+      "in_tokens": 4341,
+      "out_tokens": 330,
+      "usd": 0.011322000000000002
+    },
+    "A4": {
+      "calls": 18,
+      "in_tokens": 6677,
+      "out_tokens": 4285,
+      "usd": 0.047633999999999996
+    },
+    "A5": {
+      "calls": 242,
+      "in_tokens": 421255,
+      "out_tokens": 131527,
+      "usd": 3.236669999999999
+    },
+    "AB_bench": {
+      "calls": 120,
+      "in_tokens": 21926,
+      "out_tokens": 6703,
+      "usd": 0.16632299999999992
+    },
+    "B2": {
+      "calls": 903,
+      "in_tokens": 504173,
+      "out_tokens": 162127,
+      "usd": 3.7782490000000037
+    },
+    "B3": {
+      "calls": 338,
+      "in_tokens": 292839,
+      "out_tokens": 5967,
+      "usd": 0.61766
+    },
+    "B3-dbg": {
+      "calls": 1,
+      "in_tokens": 0,
+      "out_tokens": 0,
+      "usd": 0.0
+    },
+    "B3-precond": {
+      "calls": 1,
+      "in_tokens": 18,
+      "out_tokens": 1,
+      "usd": 4.4e-05
+    },
+    "B3-smoke": {
+      "calls": 2,
+      "in_tokens": 607,
+      "out_tokens": 18,
+      "usd": 0.001358
+    },
+    "B5": {
+      "calls": 150,
+      "in_tokens": 166150,
+      "out_tokens": 49295,
+      "usd": 1.2378750000000005
+    },
+    "KR1": {
+      "calls": 343,
+      "in_tokens": 372658,
+      "out_tokens": 57689,
+      "usd": 1.5153509999999997
+    },
+    "KR_keys": {
+      "calls": 3,
+      "in_tokens": 20620,
+      "out_tokens": 2523,
+      "usd": 0.061424
+    },
+    "TD1_aif": {
+      "calls": 8,
+      "in_tokens": 21956,
+      "out_tokens": 3740,
+      "usd": 0.121968
+    },
+    "TD1b_ml": {
+      "calls": 7,
+      "in_tokens": 13342,
+      "out_tokens": 2968,
+      "usd": 0.084546
+    },
+    "TD2_variants": {
+      "calls": 8,
+      "in_tokens": 17207,
+      "out_tokens": 3735,
+      "usd": 0.107646
+    },
+    "TD4_game": {
+      "calls": 420,
+      "in_tokens": 235841,
+      "out_tokens": 38100,
+      "usd": 1.2790230000000011
+    }
+  },
+  "total_in_tokens": 2145616,
+  "total_out_tokens": 483335,
+  "total_usd": 12.595375,
+  "backfills": [
+    {
+      "id": "gemini-3.1-pro-preview-B3-2",
+      "usd": 0.3223,
+      "basis": "156 calls, recorded input 141661 + output(candidates) 3250 tokens @ $2/$12 per M (ai.google.dev/gemini-api/docs/pricing, 2026-10-23)",
+      "gap": "thoughts_token_count NOT captured at run time (billed at output rate) -> this backfill EXCLUDES thinking tokens (lower bound); adapter now folds thoughts into output",
+      "date": "2026-10-23"
+    }
+  ]
+}

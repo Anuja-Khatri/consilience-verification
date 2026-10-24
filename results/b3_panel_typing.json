@@ -1,0 +1,1379 @@
+{
+  "n": 95,
+  "vendors": [
+    "gpt-4.1",
+    "gemini-flash-latest"
+  ],
+  "gemini_coverage": 8,
+  "panel2": true,
+  "metrics": {
+    "panel_entity_kappa": 0.619,
+    "panel_axis_kappa": 0.784,
+    "panel_polarity_pabak": 1.0
+  },
+  "rows": [
+    {
+      "claim_id": "active-inference_c001",
+      "engine": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "information",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      }
+    },
+    {
+      "claim_id": "active-inference_c002",
+      "engine": {
+        "entity_type": "constraint",
+        "axis": "computability",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "constraint",
+        "axis": "computability",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": {
+        "entity_type": "constraint",
+        "axis": "computability",
+        "polarity": "asserts"
+      }
+    },
+    {
+      "claim_id": "active-inference_c003",
+      "engine": {
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": {
+        "entity_type": "system",
+        "axis": "architecture",
+        "polarity": "asserts"
+      }
+    },
+    {
+      "claim_id": "active-inference_c006",
+      "engine": {
+        "entity_type": "process",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      }
+    },
+    {
+      "claim_id": "active-inference_c009",
+      "engine": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      }
+    },
+    {
+      "claim_id": "active-inference_c011",
+      "engine": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      }
+    },
+    {
+      "claim_id": "active-inference_c013",
+      "engine": {
+        "entity_type": "invariant",
+        "axis": "identity_relation",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "invariant",
+        "axis": "identity_relation",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": {
+        "entity_type": "invariant",
+        "axis": "identity_relation",
+        "polarity": "asserts"
+      }
+    },
+    {
+      "claim_id": "active-inference_c016",
+      "engine": {
+        "entity_type": "process",
+        "axis": "temporal_profile",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      }
+    },
+    {
+      "claim_id": "active-inference_c026",
+      "engine": {
+        "entity_type": "system",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "architecture",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "active-inference_c027",
+      "engine": {
+        "entity_type": "process",
+        "axis": "mechanism_scale",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "active-inference_c029",
+      "engine": {
+        "entity_type": "substrate",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "system",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "active-inference_c030",
+      "engine": {
+        "entity_type": "system",
+        "axis": "mechanism_scale",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "system",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "active-inference_c032",
+      "engine": {
+        "entity_type": "invariant",
+        "axis": "temporal_profile",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "state",
+        "axis": "temporal_profile",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "active-inference_c035",
+      "engine": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "active-inference_c037",
+      "engine": {
+        "entity_type": "process",
+        "axis": "locus",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "mechanism",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "active-inference_c038",
+      "engine": {
+        "entity_type": "measurement",
+        "axis": "mechanism_scale",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "constraint",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "cemi_c001",
+      "engine": {
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "cemi_c002",
+      "engine": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "field",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "cemi_c003",
+      "engine": {
+        "entity_type": "emergent_property",
+        "axis": "unit_threshold",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "emergent_property",
+        "axis": "substrate_dependence",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "cemi_c006",
+      "engine": {
+        "entity_type": "process",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "cemi_c009",
+      "engine": {
+        "entity_type": "field",
+        "axis": "locus",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "field",
+        "axis": "locus",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "cemi_c010",
+      "engine": {
+        "entity_type": "constraint",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "constraint",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "cemi_c011",
+      "engine": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "cemi_c014",
+      "engine": {
+        "entity_type": "invariant",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "field",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "cemi_c015",
+      "engine": {
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "cemi_c017",
+      "engine": {
+        "entity_type": "process",
+        "axis": "connectivity",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "system",
+        "axis": "connectivity",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "cemi_c020",
+      "engine": {
+        "entity_type": "field",
+        "axis": "observable_commitment",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "cemi_c021",
+      "engine": {
+        "entity_type": "constraint",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "constraint",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "cemi_c023",
+      "engine": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "cemi_c025",
+      "engine": {
+        "entity_type": "constraint",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "information",
+        "axis": "identity_relation",
+        "polarity": "denies"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "cemi_c026",
+      "engine": {
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "constraint",
+        "axis": "substrate_dependence",
+        "polarity": "denies"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "gnwt_c001",
+      "engine": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "gnwt_c002",
+      "engine": {
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "gnwt_c003",
+      "engine": {
+        "entity_type": "substrate",
+        "axis": "locus",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "system",
+        "axis": "locus",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "gnwt_c004",
+      "engine": {
+        "entity_type": "information",
+        "axis": "observable_commitment",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "boundary",
+        "axis": "fundamentality",
+        "polarity": "denies"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "gnwt_c008",
+      "engine": {
+        "entity_type": "constraint",
+        "axis": "connectivity",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "constraint",
+        "axis": "connectivity",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "gnwt_c012",
+      "engine": {
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "gnwt_c013",
+      "engine": {
+        "entity_type": "system",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "system",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "gnwt_c015",
+      "engine": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "gnwt_c017",
+      "engine": {
+        "entity_type": "constraint",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "constraint",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "gnwt_c018",
+      "engine": {
+        "entity_type": "threshold",
+        "axis": "temporal_profile",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "measurement",
+        "axis": "temporal_profile",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "gnwt_c020",
+      "engine": {
+        "entity_type": "substrate",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "system",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "gnwt_c022",
+      "engine": {
+        "entity_type": "measurement",
+        "axis": "observable_commitment",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "measurement",
+        "axis": "observable_commitment",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "gnwt_c025",
+      "engine": {
+        "entity_type": "emergent_property",
+        "axis": "temporal_profile",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "state",
+        "axis": "temporal_profile",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "gnwt_n004",
+      "engine": {
+        "entity_type": "system",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "gnwt_n007",
+      "engine": {
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "gnwt_n008",
+      "engine": {
+        "entity_type": "process",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "gnwt_n010",
+      "engine": {
+        "entity_type": "invariant",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "constraint",
+        "axis": "identity_relation",
+        "polarity": "denies"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "gnwt_n011",
+      "engine": {
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "polarity": "denies"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "gnwt_n013",
+      "engine": {
+        "entity_type": "constraint",
+        "axis": "temporal_profile",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "state",
+        "axis": "temporal_profile",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_c001",
+      "engine": {
+        "entity_type": "invariant",
+        "axis": "identity_relation",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "invariant",
+        "axis": "identity_relation",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_c002",
+      "engine": {
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_c003",
+      "engine": {
+        "entity_type": "constraint",
+        "axis": "computability",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "constraint",
+        "axis": "information",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_c004",
+      "engine": {
+        "entity_type": "state",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "information",
+        "axis": "identity_relation",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_c005",
+      "engine": {
+        "entity_type": "invariant",
+        "axis": "identity_relation",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "invariant",
+        "axis": "identity_relation",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_c006",
+      "engine": {
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "invariant",
+        "axis": "identity_relation",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_c007",
+      "engine": {
+        "entity_type": "constraint",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "constraint",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_c010",
+      "engine": {
+        "entity_type": "constraint",
+        "axis": "locus",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "constraint",
+        "axis": "locus",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_c012",
+      "engine": {
+        "entity_type": "emergent_property",
+        "axis": "identity_relation",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "invariant",
+        "axis": "identity_relation",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_c013",
+      "engine": {
+        "entity_type": "observer",
+        "axis": "fundamentality",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "observer",
+        "axis": "none",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_c016",
+      "engine": {
+        "entity_type": "invariant",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "constraint",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_c023",
+      "engine": {
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_c025",
+      "engine": {
+        "entity_type": "constraint",
+        "axis": "connectivity",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "constraint",
+        "axis": "connectivity",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_n002",
+      "engine": {
+        "entity_type": "substrate",
+        "axis": "computability",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "substrate",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_n005",
+      "engine": {
+        "entity_type": "measurement",
+        "axis": "observable_commitment",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_n006",
+      "engine": {
+        "entity_type": "constraint",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "constraint",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_n007",
+      "engine": {
+        "entity_type": "boundary",
+        "axis": "locus",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "boundary",
+        "axis": "architecture",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_n013",
+      "engine": {
+        "entity_type": "process",
+        "axis": "locus",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "locus",
+        "axis": "locus",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_n015",
+      "engine": {
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_n022",
+      "engine": {
+        "entity_type": "information",
+        "axis": "fundamentality",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "information",
+        "axis": "identity_relation",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_n023",
+      "engine": {
+        "entity_type": "process",
+        "axis": "mechanism_scale",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "process",
+        "axis": "mechanism_scale",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_t001",
+      "engine": {
+        "entity_type": "measurement",
+        "axis": "observable_commitment",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "measurement",
+        "axis": "observable_commitment",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_t002",
+      "engine": {
+        "entity_type": "substrate",
+        "axis": "locus",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "system",
+        "axis": "locus",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "iit_t003",
+      "engine": {
+        "entity_type": "state",
+        "axis": "temporal_profile",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "state",
+        "axis": "temporal_profile",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "nrep_c001",
+      "engine": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "constraint",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "nrep_c002",
+      "engine": {
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "nrep_c003",
+      "engine": {
+        "entity_type": "measurement",
+        "axis": "observable_commitment",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "observer",
+        "axis": "observable_commitment",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "nrep_c006",
+      "engine": {
+        "entity_type": "constraint",
+        "axis": "observable_commitment",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "observer",
+        "axis": "observable_commitment",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "nrep_c009",
+      "engine": {
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "polarity": "denies"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "nrep_c011",
+      "engine": {
+        "entity_type": "system",
+        "axis": "substrate_dependence",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "emergent_property",
+        "axis": "none",
+        "polarity": "denies"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "nrep_c012",
+      "engine": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "nrep_c013",
+      "engine": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "constraint",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "nrep_c016",
+      "engine": {
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "constraint",
+        "axis": "observable_commitment",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "nrep_c017",
+      "engine": {
+        "entity_type": "system",
+        "axis": "locus",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "system",
+        "axis": "locus",
+        "polarity": "denies"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "orch-or_c001",
+      "engine": {
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "orch-or_c002",
+      "engine": {
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "substrate",
+        "axis": "substrate_dependence",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "orch-or_c003",
+      "engine": {
+        "entity_type": "constraint",
+        "axis": "computability",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "process",
+        "axis": "computability",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "orch-or_c004",
+      "engine": {
+        "entity_type": "field",
+        "axis": "fundamentality",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "field",
+        "axis": "fundamentality",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "orch-or_c006",
+      "engine": {
+        "entity_type": "process",
+        "axis": "fundamentality",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "orch-or_c009",
+      "engine": {
+        "entity_type": "substrate",
+        "axis": "locus",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "mechanism",
+        "axis": "mechanism_scale",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "orch-or_c010",
+      "engine": {
+        "entity_type": "process",
+        "axis": "temporal_profile",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "state",
+        "axis": "temporal_profile",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "orch-or_c012",
+      "engine": {
+        "entity_type": "observer",
+        "axis": "locus",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "orch-or_c015",
+      "engine": {
+        "entity_type": "process",
+        "axis": "mechanism",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "threshold",
+        "axis": "unit_threshold",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "orch-or_c016",
+      "engine": {
+        "entity_type": "emergent_property",
+        "axis": "fundamentality",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "field",
+        "axis": "fundamentality",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    },
+    {
+      "claim_id": "orch-or_c017",
+      "engine": {
+        "entity_type": "invariant",
+        "axis": "temporal_profile",
+        "polarity": "asserts"
+      },
+      "gpt-4.1": {
+        "entity_type": "state",
+        "axis": "temporal_profile",
+        "polarity": "asserts"
+      },
+      "gemini-flash-latest": null
+    }
+  ],
+  "limitation": "PANEL: gpt-4.1 always; gemini-flash-latest best-effort (a smaller tier than the spec's ≥1.5-pro target — every pro/≥1.5-pro Gemini tier is 404/429 for this key, affects κ interpretation). Open-weight (qwen2.5-72b/llama-3.3-70b) deferred pending a TOGETHER/FIREWORKS key. Cross-vendor κ is over items where BOTH vendors returned a label; Gemini coverage is reported. A 'modal' grade = the 2-vendor consensus (ties = no consensus)."
+}

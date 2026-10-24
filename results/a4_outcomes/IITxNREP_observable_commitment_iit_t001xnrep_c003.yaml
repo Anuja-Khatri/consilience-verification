@@ -1,0 +1,39 @@
+fork_id: IIT×NREP:observable_commitment:iit_t001xnrep_c003
+axis: observable_commitment
+pair: IIT × NREP
+sides:
+  left:
+    theory: IIT
+    value: perturbational_complexity_index
+    polarity: asserts
+  right:
+    theory: NREP
+    value: indirect_observable
+    polarity: asserts
+observable: Direct measurement of perturbational complexity index (PCI) in conscious
+  and unconscious states, compared to indirect neural markers of consciousness
+outcome_space:
+- pattern: PCI reliably distinguishes conscious from unconscious states, while indirect
+    neural markers do not show a consistent pattern.
+  favors: IIT
+- pattern: Indirect neural markers reliably distinguish conscious from unconscious
+    states, while PCI does not show a consistent pattern.
+  favors: NREP
+- pattern: Both PCI and indirect neural markers reliably distinguish conscious from
+    unconscious states.
+  favors: both
+- pattern: Neither PCI nor indirect neural markers reliably distinguish conscious
+    from unconscious states.
+  favors: neither
+favors:
+  ? PCI reliably distinguishes conscious from unconscious states, while indirect neural
+    markers do not show a consistent pattern.
+  : IIT
+  ? Indirect neural markers reliably distinguish conscious from unconscious states,
+    while PCI does not show a consistent pattern.
+  : NREP
+  Both PCI and indirect neural markers reliably distinguish conscious from unconscious states.: both
+  Neither PCI nor indirect neural markers reliably distinguish conscious from unconscious states.: neither
+vacuous: false
+vacuity_rationale: Both theories make empirically distinguishable commitments about
+  the observability of consciousness via PCI or indirect neural markers.

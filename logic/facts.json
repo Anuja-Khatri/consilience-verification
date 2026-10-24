@@ -1,0 +1,12 @@
+{
+  "n_claims": 95,
+  "n_values": 89,
+  "edge_counts": {
+    "grounds": 84,
+    "entails": 21,
+    "constrains": 15,
+    "predicts_observable": 32
+  },
+  "family_table_sha256": "0ddd495fcc3a0a9c8267095de8d2706bd0070165fcf6e798a6331260a319f32d",
+  "n_facts": 938
+}

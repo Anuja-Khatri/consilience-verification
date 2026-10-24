@@ -1,0 +1,43 @@
+fork_id: IIT×ActiveInference:mechanism_scale:iit_n023xactive-inference_c038
+axis: mechanism_scale
+pair: IIT × Active Inference
+sides:
+  left:
+    theory: IIT
+    value: mesoscale_spatiotemporal_grain
+    polarity: asserts
+  right:
+    theory: Active Inference
+    value: neuromodulatory_precision_encoding
+    polarity: asserts
+observable: Correlation between conscious report and (a) mesoscale spatiotemporal
+  neural integration versus (b) neuromodulatory precision encoding signals
+outcome_space:
+- pattern: Conscious report is reliably predicted by mesoscale spatiotemporal integration
+    patterns, but not by neuromodulatory precision encoding signals.
+  favors: IIT
+- pattern: Conscious report is reliably predicted by neuromodulatory precision encoding
+    signals, but not by mesoscale spatiotemporal integration patterns.
+  favors: ActInf
+- pattern: Conscious report is reliably predicted by both mesoscale spatiotemporal
+    integration and neuromodulatory precision encoding signals.
+  favors: both
+- pattern: Conscious report is not reliably predicted by either mesoscale spatiotemporal
+    integration or neuromodulatory precision encoding signals.
+  favors: neither
+favors:
+  ? Conscious report is reliably predicted by mesoscale spatiotemporal integration
+    patterns, but not by neuromodulatory precision encoding signals.
+  : IIT
+  ? Conscious report is reliably predicted by neuromodulatory precision encoding signals,
+    but not by mesoscale spatiotemporal integration patterns.
+  : ActInf
+  ? Conscious report is reliably predicted by both mesoscale spatiotemporal integration
+    and neuromodulatory precision encoding signals.
+  : both
+  ? Conscious report is not reliably predicted by either mesoscale spatiotemporal
+    integration or neuromodulatory precision encoding signals.
+  : neither
+vacuous: false
+vacuity_rationale: Both theories make empirically distinguishable claims about the
+  neural correlates of consciousness at different scales and mechanisms.

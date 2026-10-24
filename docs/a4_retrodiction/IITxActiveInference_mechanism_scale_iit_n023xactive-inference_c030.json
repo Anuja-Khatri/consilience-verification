@@ -1,0 +1,33 @@
+{
+  "fork_id": "IIT×ActiveInference:mechanism_scale:iit_n023xactive-inference_c030",
+  "axis": "mechanism_scale",
+  "pair": "IIT × Active Inference",
+  "side_resolution": {
+    "left": {
+      "theory": "IIT",
+      "value": "mesoscale_spatiotemporal_grain"
+    },
+    "right": {
+      "theory": "Active Inference",
+      "value": "cortical_microcircuit"
+    }
+  },
+  "supporting": [
+    {
+      "ref": "hoel2016",
+      "cite": "Hoel, Albantakis, Marshall & Tononi (2016). Can the macro beat the micro? Integrated information across spatiotemporal scales. Neuroscience of Consciousness 2016(1):niw012.",
+      "url": "https://academic.oup.com/nc/article/2016/1/niw012/2757132",
+      "line": "The spatiotemporal grain that maximises intrinsic irreducibility can be a coarser (macro/meso) scale, not necessarily the finest micro scale."
+    }
+  ],
+  "challenging": [
+    {
+      "ref": "bastos2012",
+      "cite": "Bastos, Usrey, Adams, Mangun, Fries & Friston (2012). Canonical Microcircuits for Predictive Coding. Neuron 76(4):695–711.",
+      "url": "https://doi.org/10.1016/j.neuron.2012.10.038",
+      "line": "Assigns predictive-coding roles to specific cortical laminae — a microcircuit-scale mechanistic account."
+    }
+  ],
+  "grade": "mixed",
+  "note": "Grade on the typed side-resolution; NOT on the held-out review."
+}

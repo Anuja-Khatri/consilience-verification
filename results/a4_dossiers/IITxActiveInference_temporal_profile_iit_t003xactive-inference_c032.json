@@ -1,0 +1,219 @@
+{
+  "fork_id": "IIT×ActiveInference:temporal_profile:iit_t003xactive-inference_c032",
+  "axis": "temporal_profile",
+  "pair": "IIT × Active Inference",
+  "register": "INTREPID-18",
+  "sides": {
+    "left": {
+      "theory": "IIT",
+      "value": "sustained_maintenance",
+      "polarity": "asserts",
+      "claim_ids": [
+        "iit_t003"
+      ],
+      "quotes": [
+        "IIT predicts that the duration of a conscious instant is definite and sustained over tens to hundreds of milliseconds, not transient or phasic, as required…"
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.50"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "Active Inference",
+      "value": "slower_dynamics_at_higher_hierarchy",
+      "polarity": "asserts",
+      "claim_ids": [
+        "active-inference_c032"
+      ],
+      "quotes": [
+        "As one ascends cortical hierarchies, neural representations encode progressively slower temporal dynamics, linking connectivity structure to temporal profile of processing."
+      ],
+      "provenance_check": {
+        "status": "FAIL",
+        "detail": "claim not grounded in cited passages"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [
+      {
+        "passage_id": "iit_3_0_0103",
+        "score": 2.667,
+        "excerpt": "Finally note that the exclusion postulate is applied to the possible cause-effect repertoires of a single mechanism (elementary or higher order). Exclusion does not apply across mechanisms within a set…"
+      },
+      {
+        "passage_id": "iit_3_0_0205",
+        "score": 2.0,
+        "excerpt": "In the segment/dot system, the concepts of mech- anisms in the ‘‘off’’ state (0) tend to have lower QMax values, because the mechanisms tend to be more selective in their…"
+      },
+      {
+        "passage_id": "iit_3_0_0162",
+        "score": 1.833,
+        "excerpt": "Moreover, there are no higher order concepts, since combining elements yields nothing above the elementary mechanisms. In qualia space, the 5 identical concepts are concentrated on a single point (Figure…"
+      },
+      {
+        "passage_id": "iit_4_0_0175",
+        "score": 1.5,
+        "excerpt": "Relation faces of sec- ond- and third-degree relations are depicted as edges or triangular surfaces between the causes and effects of the related distinctions. While edges always bind pairs of…"
+      },
+      {
+        "passage_id": "iit_3_0_0088",
+        "score": 1.333,
+        "excerpt": "Suppose that A is a non-parity gate (A turns on when the inputs are even) and B is a majority gate (B turns on when the majority of its inputs…"
+      },
+      {
+        "passage_id": "iit_4_0_0230",
+        "score": 1.333,
+        "excerpt": "Each experience corresponds to a Φ-structure, not a set of functions, processes, or computa- tions. Said otherwise, consciousness is about being, not doing [1, 29, 55]. This means that systems…"
+      }
+    ],
+    "right": []
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "now",
+    "rationale": "",
+    "citation_rows": [
+      {
+        "tag": "P300",
+        "n": 65
+      },
+      {
+        "tag": "VAN",
+        "n": 26
+      },
+      {
+        "tag": "Late Components",
+        "n": 16
+      },
+      {
+        "tag": "Early Components",
+        "n": 14
+      },
+      {
+        "tag": "N1",
+        "n": 9
+      },
+      {
+        "tag": "N170",
+        "n": 7
+      },
+      {
+        "tag": "N2",
+        "n": 6
+      },
+      {
+        "tag": "N2pc",
+        "n": 5
+      },
+      {
+        "tag": "P1",
+        "n": 5
+      },
+      {
+        "tag": "P2",
+        "n": 5
+      },
+      {
+        "tag": "Intermediate Components",
+        "n": 3
+      },
+      {
+        "tag": "MMN",
+        "n": 3
+      },
+      {
+        "tag": "Prestimulus Components",
+        "n": 3
+      },
+      {
+        "tag": "ERN",
+        "n": 2
+      },
+      {
+        "tag": "N140",
+        "n": 2
+      },
+      {
+        "tag": "SCP",
+        "n": 2
+      },
+      {
+        "tag": "CNV",
+        "n": 1
+      },
+      {
+        "tag": "EPN",
+        "n": 1
+      },
+      {
+        "tag": "Ignition Variability",
+        "n": 1
+      },
+      {
+        "tag": "Intrinsic Ignition",
+        "n": 1
+      },
+      {
+        "tag": "M100",
+        "n": 1
+      },
+      {
+        "tag": "M130",
+        "n": 1
+      },
+      {
+        "tag": "M170",
+        "n": 1
+      },
+      {
+        "tag": "M280",
+        "n": 1
+      },
+      {
+        "tag": "M320",
+        "n": 1
+      },
+      {
+        "tag": "M70",
+        "n": 1
+      },
+      {
+        "tag": "N150",
+        "n": 1
+      },
+      {
+        "tag": "N400",
+        "n": 1
+      },
+      {
+        "tag": "P50",
+        "n": 1
+      },
+      {
+        "tag": "Pe",
+        "n": 1
+      },
+      {
+        "tag": "SPCN",
+        "n": 1
+      }
+    ],
+    "evidence_verdict": "CONTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed); INTREPID review held out (§0.5)"
+  },
+  "status": "clean",
+  "correction_note": null,
+  "caveat": "A4 INTREPID-register dossiers (18-fork standing_predictions). instrument v1-era forks + approved store (frozen-store). The INTREPID review is a HELD-OUT answer key — never consulted here (§0.5); validity is checked against the theories' OWN corpora only."
+}

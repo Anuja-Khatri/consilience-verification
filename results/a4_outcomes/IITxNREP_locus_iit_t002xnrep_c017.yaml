@@ -1,0 +1,42 @@
+fork_id: IIT×NREP:locus:iit_t002xnrep_c017
+axis: locus
+pair: IIT × NREP
+sides:
+  left:
+    theory: IIT
+    value: posterior_hot_zone
+    polarity: asserts
+  right:
+    theory: NREP
+    value: distributed_multi_region
+    polarity: asserts
+observable: Spatial distribution of neural activity patterns that correlate with conscious
+  perception across the cortex
+outcome_space:
+- pattern: Conscious perception is consistently associated with neural activity localized
+    primarily in the posterior hot zone, with minimal involvement of other regions.
+  favors: IIT
+- pattern: Conscious perception is consistently associated with distributed neural
+    activity spanning multiple, non-contiguous cortical regions beyond the posterior
+    hot zone.
+  favors: NREP
+- pattern: Conscious perception is associated with both localized posterior hot zone
+    activity and distributed multi-region activity, with neither pattern predominating.
+  favors: both
+- pattern: No consistent spatial pattern of neural activity correlates with conscious
+    perception.
+  favors: neither
+favors:
+  ? Conscious perception is consistently associated with neural activity localized
+    primarily in the posterior hot zone, with minimal involvement of other regions.
+  : IIT
+  ? Conscious perception is consistently associated with distributed neural activity
+    spanning multiple, non-contiguous cortical regions beyond the posterior hot zone.
+  : NREP
+  ? Conscious perception is associated with both localized posterior hot zone activity
+    and distributed multi-region activity, with neither pattern predominating.
+  : both
+  No consistent spatial pattern of neural activity correlates with conscious perception.: neither
+vacuous: false
+vacuity_rationale: The two values make empirically distinguishable claims about the
+  spatial locus of neural correlates of consciousness.

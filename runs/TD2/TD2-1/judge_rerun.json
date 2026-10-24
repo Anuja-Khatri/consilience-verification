@@ -1,0 +1,107 @@
+{
+  "within_family_corrs": 19,
+  "within_family_forks": 7,
+  "corr_sample": [
+    {
+      "grade": "generative",
+      "iit3": "iit_c001",
+      "iit4": "iit4_c010"
+    },
+    {
+      "grade": "generative",
+      "iit3": "iit_c005",
+      "iit4": "iit4_c010"
+    },
+    {
+      "grade": "generative",
+      "iit3": "iit_c006",
+      "iit4": "iit4_c002"
+    },
+    {
+      "grade": "generative",
+      "iit3": "iit_c006",
+      "iit4": "iit4_c012"
+    },
+    {
+      "grade": "generative",
+      "iit3": "iit_c006",
+      "iit4": "iit4_c016"
+    },
+    {
+      "grade": "generative",
+      "iit3": "iit_c010",
+      "iit4": "iit4_c015"
+    },
+    {
+      "grade": "generative",
+      "iit3": "iit_c012",
+      "iit4": "iit4_c010"
+    },
+    {
+      "grade": "generative",
+      "iit3": "iit_c016",
+      "iit4": "iit4_c004"
+    },
+    {
+      "grade": "generative",
+      "iit3": "iit_c016",
+      "iit4": "iit4_c019"
+    },
+    {
+      "grade": "generative",
+      "iit3": "iit_c023",
+      "iit4": "iit4_c002"
+    }
+  ],
+  "fork_table": [
+    {
+      "axis": "locus",
+      "iit3": "iit_c010",
+      "iit4": "iit4_c009",
+      "iit3_value": "single_maximal_complex",
+      "iit4_value": "posterior_cortex"
+    },
+    {
+      "axis": "connectivity",
+      "iit3": "iit_c025",
+      "iit4": "iit4_c017",
+      "iit3_value": "heterogeneous_connectivity_required",
+      "iit4_value": "connectivity_determines_phi"
+    },
+    {
+      "axis": "connectivity",
+      "iit3": "iit_c025",
+      "iit4": "iit4_c018",
+      "iit3_value": "heterogeneous_connectivity_required",
+      "iit4_value": "connectivity_determines_complex_and_phi"
+    },
+    {
+      "axis": "locus",
+      "iit3": "iit_n007",
+      "iit4": "iit4_c009",
+      "iit3_value": "maximal_irreducible_complex",
+      "iit4_value": "posterior_cortex"
+    },
+    {
+      "axis": "locus",
+      "iit3": "iit_n013",
+      "iit4": "iit4_c009",
+      "iit3_value": "intrinsic_not_broadcast",
+      "iit4_value": "posterior_cortex"
+    },
+    {
+      "axis": "locus",
+      "iit3": "iit_n013",
+      "iit4": "iit4_c015",
+      "iit3_value": "intrinsic_not_broadcast",
+      "iit4_value": "maximal_integrated_information_complex"
+    },
+    {
+      "axis": "locus",
+      "iit3": "iit_t002",
+      "iit4": "iit4_c015",
+      "iit3_value": "posterior_hot_zone",
+      "iit4_value": "maximal_integrated_information_complex"
+    }
+  ]
+}

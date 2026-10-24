@@ -1,0 +1,66 @@
+{
+  "task": "KR1",
+  "runid": "KR1-1",
+  "instrument_tag": "v1",
+  "corpus_tag": "v1",
+  "engine_fingerprint": "09b90e8d4d07e1c1349c2054ffc7bbd6847e6e481a1f438d5998e8f5dcb27057",
+  "artifact_stamp": "2026-10",
+  "config_snapshot": {
+    "models": {
+      "extractor": "claude-sonnet-4-6",
+      "checker": "claude-haiku-4-5-20251001",
+      "perturber": "claude-sonnet-4-6",
+      "verifier": "gpt-4.1",
+      "panel": [
+        "gpt-4.1",
+        "gemini-2.5-pro",
+        "qwen2.5-72b-instruct"
+      ],
+      "game_agent": "claude-sonnet-4-6",
+      "transcriber": "claude-sonnet-4-6"
+    },
+    "seeds": {
+      "global": 20261022,
+      "extraction_runs": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "gwot_restarts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "thresholds_ngram": {
+      "n_chars": 8,
+      "minhash_perm": 128,
+      "jaccard_flag": 0.5
+    }
+  },
+  "inputs": [
+    {
+      "path": "/Users/anujakhatri3/consilience-demo/demo/results/iitxgnwt_vs_cogitate.json",
+      "kind": "frozen-store-import",
+      "sha256": "51f416fd7c7465c519aadf32231b2889cc303343b6cfae78f9a29106d887e369"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "results/registry.json",
+      "sha256": "d8c97f4f0a24e0887629cdec35b56a3b8f3a3b25a11e0a27d08cde11492ab4ca"
+    }
+  ],
+  "seeds": {},
+  "model_provenance": [],
+  "notes": "KR1 import of pre-sprint COGITATE diff; no extraction, no API."
+}

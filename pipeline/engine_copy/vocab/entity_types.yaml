@@ -1,0 +1,19 @@
+# demo_v0 entity-type vocabulary.
+# DEMO-SCOPED instrument — NOT ontology v1, NOT Branch A canon. Never copied into main Phase 0 files.
+# Seeded from the Type columns of golden-structural-analysis.md sections 1-6.
+version: demo_v0
+types:
+  invariant: "An identity claim: X IS Y, offered as identity not correlation."
+  information: "A quantity/measure claim (e.g., integrated information Phi)."
+  substrate: "A commitment about physical substrate dependence or independence."
+  constraint: "A restriction on what counts as/for consciousness (exclusion, function-insufficiency)."
+  system: "An architectural or locus claim about the conscious system."
+  state: "A temporal/dynamic claim about conscious content over time."
+  measurement: "A predicted observable / empirical commitment."
+  emergent_property: "A property that emerges (graded experience, machine consciousness)."
+  process: "A dynamic identity: consciousness IS a process (global broadcast, reduction event)."
+  transformation: "A mechanism that transforms state (ignition, objective reduction/collapse)."
+  field: "A field- or spacetime-level commitment (proto-experience in geometry)."
+  threshold: "A quantitative threshold gating a unit event (E = h-bar/t)."
+  boundary: "A level-of-description / scale boundary claim."
+  observer: "A methodological commitment about admissible evidence (e.g., no-report paradigms)."

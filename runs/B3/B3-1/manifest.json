@@ -1,0 +1,82 @@
+{
+  "task": "B3",
+  "runid": "B3-1",
+  "instrument_tag": "v2",
+  "corpus_tag": "v1",
+  "engine_fingerprint": "09b90e8d4d07e1c1349c2054ffc7bbd6847e6e481a1f438d5998e8f5dcb27057",
+  "artifact_stamp": "2026-10",
+  "config_snapshot": {
+    "models": {
+      "extractor": "claude-sonnet-4-6",
+      "checker": "claude-haiku-4-5-20251001",
+      "perturber": "claude-sonnet-4-6",
+      "verifier": "gpt-4.1",
+      "panel": [
+        "gpt-4.1",
+        "gemini-pro-latest",
+        "qwen2.5-72b-instruct"
+      ],
+      "game_agent": "claude-sonnet-4-6",
+      "transcriber": "claude-sonnet-4-6"
+    },
+    "seeds": {
+      "global": 20261022,
+      "extraction_runs": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "gwot_restarts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "thresholds_ngram": {
+      "n_chars": 8,
+      "minhash_perm": 128,
+      "jaccard_flag": 0.5
+    }
+  },
+  "inputs": [
+    {
+      "path": "/Users/anujakhatri3/consilience-verification/bench/items.json",
+      "kind": "bench",
+      "sha256": "64506bd4cab60db61c72758648f4609d991e645ac807a3815cdf3e4af5423b68"
+    },
+    {
+      "path": "engine approved claims + passages (read-only)",
+      "kind": "corpus",
+      "sha256": null
+    }
+  ],
+  "outputs": [
+    {
+      "path": "results/b3_panel_typing.json",
+      "sha256": "b46d16e5c6ebb6a2c79f671e1f1a3fafb4598fb2bd702af04abe574b4fcd7c9d",
+      "kind": "file"
+    },
+    {
+      "path": "results/b3_grade_distribution.json",
+      "sha256": "f421255ce68f56888d2dc9902d9d148021500697481600fe8de65a886d1b00ba",
+      "kind": "file"
+    },
+    {
+      "path": "results/b3_grade_distribution.png",
+      "sha256": "f776b53497112dba9421eca2940b47a5d2433a5d8322f6f456048d46c0987355",
+      "kind": "file"
+    }
+  ],
+  "seeds": {},
+  "model_provenance": [],
+  "notes": "B3 panel; gpt-4.1 + gemini-flash best-effort [gemini-2.5-pro (spec); all pro/≥1.5-pro tiers 404/429 → gemini-flash-latest fallback]; gemini coverage typing 8/95, grades 0/60; model_versions=['gemini-3.8-flash']; open-weight deferred"
+}

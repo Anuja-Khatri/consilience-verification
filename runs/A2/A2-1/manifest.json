@@ -1,0 +1,101 @@
+{
+  "task": "A2",
+  "runid": "A2-1",
+  "instrument_tag": "v2",
+  "corpus_tag": "v1",
+  "engine_fingerprint": "09b90e8d4d07e1c1349c2054ffc7bbd6847e6e481a1f438d5998e8f5dcb27057",
+  "artifact_stamp": "2026-10",
+  "config_snapshot": {
+    "models": {
+      "extractor": "claude-sonnet-4-6",
+      "checker": "claude-haiku-4-5-20251001",
+      "perturber": "claude-sonnet-4-6",
+      "verifier": "gpt-4.1",
+      "panel": [
+        "gpt-4.1",
+        "gemini-pro-latest",
+        "qwen2.5-72b-instruct"
+      ],
+      "game_agent": "claude-sonnet-4-6",
+      "transcriber": "claude-sonnet-4-6"
+    },
+    "seeds": {
+      "global": 20261022,
+      "extraction_runs": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "gwot_restarts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "thresholds_ngram": {
+      "n_chars": 8,
+      "minhash_perm": 128,
+      "jaccard_flag": 0.5,
+      "mode": "word_unique",
+      "word_n_guard": 8,
+      "word_n_prov": 10,
+      "benign_set": "miu",
+      "amended_by": "D-034"
+    }
+  },
+  "inputs": [
+    {
+      "path": "/Users/anujakhatri3/consilience-verification/results/a2_pairs.json",
+      "kind": "read-only",
+      "sha256": "3c8f1aeaf8b79b8dc485302cac31cb7655fe4e38197ce241468ac18a33e2a1c5"
+    },
+    {
+      "path": "/Users/anujakhatri3/consilience-verification/results/a2_passages.json",
+      "kind": "read-only",
+      "sha256": "6ef2324218b3a504f344b66dd494a7eb7f3467cc9496e6bb4bfb39b9d2cca5ed"
+    },
+    {
+      "path": "/Users/anujakhatri3/consilience-verification/results/instrument_v2_freeze.json",
+      "kind": "read-only",
+      "sha256": "36bd85ade82cf57908de5e626481e9700428ae718b815fafef9526d97f411938"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "runs/A2/A2-1/v2_claims.json",
+      "sha256": "7bc1afef4175b1553bbd3fd8ee277a2a260efdf9fa7a107b8dd8e75d8bd7a532",
+      "kind": "file"
+    },
+    {
+      "path": "results/a2_passages.json",
+      "sha256": "6ef2324218b3a504f344b66dd494a7eb7f3467cc9496e6bb4bfb39b9d2cca5ed",
+      "kind": "file"
+    },
+    {
+      "path": "review/a2_claims.csv",
+      "sha256": "b1288ef6771db7ddd9ea5f4843b3cc652a1a835c7c445d11628905de0d17bb33",
+      "kind": "file"
+    }
+  ],
+  "seeds": {
+    "global": 20261022
+  },
+  "model_provenance": [
+    {
+      "role": "extractor",
+      "model": "claude-sonnet-4-6",
+      "instrument": "v2",
+      "provider_seed_honored": false
+    }
+  ],
+  "notes": "A2.1 slice + A2.2 extract_lite (p2 replica, v2) + A2.3 oracle gate; A2.4-6 post-packet."
+}

@@ -1,0 +1,41 @@
+fork_id: IIT×ActiveInference:temporal_profile:iit_t003xactive-inference_c016
+axis: temporal_profile
+pair: IIT × Active Inference
+sides:
+  left:
+    theory: IIT
+    value: sustained_maintenance
+    polarity: asserts
+  right:
+    theory: Active Inference
+    value: prospective_counterfactual
+    polarity: asserts
+observable: 'Temporal dynamics of neural activity during conscious perception: whether
+  conscious content is maintained via sustained activation or via transient, prospective,
+  counterfactual representations.'
+outcome_space:
+- pattern: Conscious content is associated with sustained, stable neural activation
+    over time, with little evidence of transient or anticipatory activity.
+  favors: IIT
+- pattern: Conscious content is associated with transient neural activity patterns
+    that encode prospective or counterfactual possibilities, rather than sustained
+    maintenance.
+  favors: ActInf
+- pattern: Both sustained and prospective/counterfactual neural activity patterns
+    are observed in association with conscious content.
+  favors: both
+- pattern: Neither sustained nor prospective/counterfactual neural activity patterns
+    are reliably associated with conscious content.
+  favors: neither
+favors:
+  ? Conscious content is associated with sustained, stable neural activation over
+    time, with little evidence of transient or anticipatory activity.
+  : IIT
+  ? Conscious content is associated with transient neural activity patterns that encode
+    prospective or counterfactual possibilities, rather than sustained maintenance.
+  : ActInf
+  Both sustained and prospective/counterfactual neural activity patterns are observed in association with conscious content.: both
+  Neither sustained nor prospective/counterfactual neural activity patterns are reliably associated with conscious content.: neither
+vacuous: false
+vacuity_rationale: The two values make empirically distinguishable predictions about
+  the temporal profile of neural activity underlying conscious content.

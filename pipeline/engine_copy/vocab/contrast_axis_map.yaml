@@ -1,0 +1,94 @@
+version: demo_v0
+source: ConTraSt (Yaron, Melloni, Pitts & Mudrik 2022) — snapshot taken via the ConTraSt API, 2026-08-13 (contrastdb.tau.ac.il)
+citation: Yaron, Melloni, Pitts & Mudrik (2022), Nature Human Behaviour 6(4), 593-604
+class_rule: bare modality/method tags (fMRI/EEG/MEG/...) are OMITTED, never observable_commitment
+finding_tag_to_axis:
+  A1: locus
+  AAN: locus
+  ARN: locus
+  ART: locus
+  Alpha: connectivity
+  Anatomical functional connectivity similarity: connectivity
+  Anterior Posterior Connectivity: connectivity
+  Associative Fibers: connectivity
+  Beta: connectivity
+  CFC: connectivity
+  CNV: temporal_profile
+  Centrality: connectivity
+  Cerebellum: locus
+  Commissural Fibers: connectivity
+  Complexity: observable_commitment
+  Cortical Subcortical connectivity: connectivity
+  Criticality: observable_commitment
+  DMN: locus
+  Delta: connectivity
+  Dorsal Attention Network: locus
+  Dorsal Stream: locus
+  EPN: temporal_profile
+  ERN: temporal_profile
+  Early Components: temporal_profile
+  Frequency Increase: connectivity
+  Frontal: locus
+  Fronto Parietal connectivity: connectivity
+  Gamma: connectivity
+  Global Synchronization: connectivity
+  Hierarchical Structure: connectivity
+  Ignition Variability: temporal_profile
+  Intermediate Components: temporal_profile
+  Intrinsic Ignition: temporal_profile
+  Late Components: temporal_profile
+  Local Synchronization: connectivity
+  Low frequencies <1Hz: connectivity
+  M100: temporal_profile
+  M130: temporal_profile
+  M170: temporal_profile
+  M280: temporal_profile
+  M320: temporal_profile
+  M70: temporal_profile
+  MMN: temporal_profile
+  N1: temporal_profile
+  N140: temporal_profile
+  N150: temporal_profile
+  N170: temporal_profile
+  N2: temporal_profile
+  N2pc: temporal_profile
+  N400: temporal_profile
+  P1: temporal_profile
+  P2: temporal_profile
+  P300: temporal_profile
+  P50: temporal_profile
+  PHI Approximation: observable_commitment
+  Parietal: locus
+  Pe: temporal_profile
+  Posterior: locus
+  Prestimulus Components: temporal_profile
+  S1: locus
+  SCP: temporal_profile
+  SPCN: temporal_profile
+  Sensorimotor: locus
+  Slow Waves Activity: connectivity
+  Small Worldness: connectivity
+  Subcortical structures: locus
+  Temporal: locus
+  Temporal Occipital connectivity: connectivity
+  Temporal Parietal Connectivity: connectivity
+  Theta: connectivity
+  Uncinate Fasciculus: connectivity
+  V1: locus
+  V4: locus
+  VAN: temporal_profile
+  Variability: observable_commitment
+  Ventral Stream: locus
+  Visual Network: locus
+  inter lobe connectivity: connectivity
+omitted:
+- Acetylcholine
+- Border Difference
+- Cardiac parasympathetic modulation
+- Cardiac sympathetic modulation
+- Figure Ground Difference
+- GABA
+- Heart rate complexity
+- Heartbeat Evoked Potential (HEP)
+- Plasticity
+- Recurrent Processing

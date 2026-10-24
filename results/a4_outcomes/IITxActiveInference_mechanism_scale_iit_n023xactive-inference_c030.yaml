@@ -1,0 +1,44 @@
+fork_id: IIT×ActiveInference:mechanism_scale:iit_n023xactive-inference_c030
+axis: mechanism_scale
+pair: IIT × Active Inference
+sides:
+  left:
+    theory: IIT
+    value: mesoscale_spatiotemporal_grain
+    polarity: asserts
+  right:
+    theory: Active Inference
+    value: cortical_microcircuit
+    polarity: asserts
+observable: The minimal spatial and temporal scale at which perturbations or disruptions
+  to neural activity selectively abolish conscious experience while preserving unconscious
+  processing.
+outcome_space:
+- pattern: Selective disruption of consciousness occurs only when perturbations target
+    mesoscale spatiotemporal patterns (e.g., assemblies spanning multiple columns
+    or regions over tens to hundreds of milliseconds), but not when targeting finer
+    microcircuit elements.
+  favors: IIT
+- pattern: Selective disruption of consciousness occurs only when perturbations target
+    cortical microcircuit elements (e.g., single columns, microcolumns, or local microcircuit
+    motifs at millisecond timescales), but not at broader mesoscale patterns.
+  favors: ActInf
+- pattern: Both mesoscale and microcircuit perturbations independently disrupt consciousness,
+    or neither scale shows selective effects.
+  favors: neither
+favors:
+  ? Selective disruption of consciousness occurs only when perturbations target mesoscale
+    spatiotemporal patterns (e.g., assemblies spanning multiple columns or regions
+    over tens to hundreds of milliseconds), but not when targeting finer microcircuit
+    elements.
+  : IIT
+  ? Selective disruption of consciousness occurs only when perturbations target cortical
+    microcircuit elements (e.g., single columns, microcolumns, or local microcircuit
+    motifs at millisecond timescales), but not at broader mesoscale patterns.
+  : ActInf
+  ? Both mesoscale and microcircuit perturbations independently disrupt consciousness,
+    or neither scale shows selective effects.
+  : neither
+vacuous: false
+vacuity_rationale: The two theories make empirically distinguishable claims about
+  the relevant scale for consciousness, allowing for discriminating measurement patterns.

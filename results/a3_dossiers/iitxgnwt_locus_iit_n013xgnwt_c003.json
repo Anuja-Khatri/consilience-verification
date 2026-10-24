@@ -1,0 +1,160 @@
+{
+  "fork_id": "iitxgnwt:locus:iit_n013xgnwt_c003",
+  "axis": "locus",
+  "pair": "iitxgnwt",
+  "beyond_key": false,
+  "sides": {
+    "left": {
+      "theory": "IIT",
+      "value": "intrinsic_not_broadcast",
+      "polarity": "asserts",
+      "claim_ids": [
+        "iit_n013"
+      ],
+      "quotes": [
+        "Conscious information is not transmitted or broadcast from one brain region to another; the locus of consciousness is intrinsic to the PSC, not a relay…"
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.54"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "GNWT",
+      "value": "prefrontal_parietal_cortical_network",
+      "polarity": "asserts",
+      "claim_ids": [
+        "gnwt_c003"
+      ],
+      "quotes": [
+        "The locus of conscious processing is a large-scale prefrontal-parietal (and cingulate/temporal) cortical network, not posterior sensory cortices alone."
+      ],
+      "provenance_check": {
+        "status": "FAIL",
+        "detail": "claim not grounded in cited passages"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [],
+    "right": [
+      {
+        "passage_id": "gnwt_neuron_2020_0102",
+        "score": 1.667,
+        "excerpt": "Importantly, these functional disconnections occurred after loss of overt behavioral responsiveness but during a period of preserved evoked potentials suggestive of maintained primary sensory processing. These findings are consistent with…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0086",
+        "score": 1.5,
+        "excerpt": "This measure has been shown to be operative for some conscious/nonconscious distinctions such as anesthesia (e.g., Lee et al., 2009b; Schrouff et al., 2011), but it is computationally complicated and,…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0136",
+        "score": 1.167,
+        "excerpt": "preSMA and the junction of the bilateral anterior insula with the inferior frontal gyrus. Only conscious no-go signals triggered a broad and more anterior activation expanding into anterior cingulate, inferior,…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2020_0015",
+        "score": 1.0,
+        "excerpt": "It is important to note that the GNW is not a localizationist theory of conscious access, nor is conscious access posited to exist solely in a given node of the…"
+      }
+    ]
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "now",
+    "rationale": "shared observable(s) ['regional_decoding'] at equal scale (brain_network)",
+    "citation_rows": [
+      {
+        "tag": "Posterior",
+        "n": 165
+      },
+      {
+        "tag": "Parietal",
+        "n": 145
+      },
+      {
+        "tag": "Frontal",
+        "n": 144
+      },
+      {
+        "tag": "V1",
+        "n": 48
+      },
+      {
+        "tag": "Subcortical structures",
+        "n": 34
+      },
+      {
+        "tag": "DMN",
+        "n": 16
+      },
+      {
+        "tag": "A1",
+        "n": 10
+      },
+      {
+        "tag": "S1",
+        "n": 7
+      },
+      {
+        "tag": "Temporal",
+        "n": 7
+      },
+      {
+        "tag": "Ventral Stream",
+        "n": 7
+      },
+      {
+        "tag": "AAN",
+        "n": 4
+      },
+      {
+        "tag": "Cerebellum",
+        "n": 3
+      },
+      {
+        "tag": "Visual Network",
+        "n": 3
+      },
+      {
+        "tag": "Dorsal Stream",
+        "n": 2
+      },
+      {
+        "tag": "Sensorimotor",
+        "n": 2
+      },
+      {
+        "tag": "ARN",
+        "n": 1
+      },
+      {
+        "tag": "ART",
+        "n": 1
+      },
+      {
+        "tag": "Dorsal Attention Network",
+        "n": 1
+      },
+      {
+        "tag": "V4",
+        "n": 1
+      }
+    ],
+    "evidence_verdict": "CONTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed)"
+  },
+  "status": "clean",
+  "correction_note": null
+}

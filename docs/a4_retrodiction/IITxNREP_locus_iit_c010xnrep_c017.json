@@ -1,0 +1,45 @@
+{
+  "fork_id": "IIT×NREP:locus:iit_c010xnrep_c017",
+  "axis": "locus",
+  "pair": "IIT × NREP",
+  "side_resolution": {
+    "left": {
+      "theory": "IIT",
+      "value": "single_maximal_complex"
+    },
+    "right": {
+      "theory": "NREP",
+      "value": "distributed_multi_region"
+    }
+  },
+  "supporting": [
+    {
+      "ref": "koch2016",
+      "cite": "Koch, Massimini, Boly & Tononi (2016). Neural correlates of consciousness: progress and problems. Nature Reviews Neuroscience 17(5):307–321.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27094080/",
+      "line": "Best anatomical candidates for content-specific correlates sit in a posterior temporo-parietal-occipital zone, not the fronto-parietal task network."
+    },
+    {
+      "ref": "boly2017",
+      "cite": "Boly, Massimini, Tsuchiya, Postle, Koch & Tononi (2017). Are the Neural Correlates of Consciousness in the Front or in the Back of the Cerebral Cortex? J Neurosci 37(40):9603–9613.",
+      "url": "https://www.jneurosci.org/content/37/40/9603",
+      "line": "Clinical and neuroimaging evidence marshalled for a posterior locus of the correlates of conscious content."
+    }
+  ],
+  "challenging": [
+    {
+      "ref": "odegaard2017",
+      "cite": "Odegaard, Knight & Lau (2017). Should a Few Null Findings Falsify Prefrontal Theories of Conscious Perception? J Neurosci 37(40):9593–9602.",
+      "url": "https://www.jneurosci.org/content/37/40/9593",
+      "line": "Argues prefrontal / distributed cortical activity is essential to conscious perception, against an exclusively posterior locus."
+    },
+    {
+      "ref": "michel2020",
+      "cite": "Michel & Morales (2020). Minority reports: Consciousness and the prefrontal cortex. Mind & Language 35(4):493–513.",
+      "url": "https://philpapers.org/archive/MICMRC.pdf",
+      "line": "Reviews the case that prefrontal / distributed circuits contribute to conscious experience, not posterior cortex alone."
+    }
+  ],
+  "grade": "mixed",
+  "note": "Grade on the typed side-resolution; NOT on the held-out review."
+}

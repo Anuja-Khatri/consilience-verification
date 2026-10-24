@@ -1,0 +1,388 @@
+{
+  "n_subsample": 60,
+  "extractor": "claude-sonnet-4-6",
+  "seed": 20261022,
+  "acc_abstracted": 0.7966,
+  "acc_direct": 0.75,
+  "malformed_abstracted": 1,
+  "malformed_direct": 0,
+  "per_class": {
+    "abstracted": {
+      "pos": 0.286,
+      "neg": 0.956
+    },
+    "direct": {
+      "pos": 0.133,
+      "neg": 0.956
+    }
+  },
+  "n_pos": 14,
+  "n_neg": 45,
+  "direction_error_reject_acc": {
+    "abstracted": null,
+    "direct": null,
+    "n": 0
+  },
+  "items": [
+    {
+      "item_id": "ab_0001",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0002",
+      "reference": "positive",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0004",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0005",
+      "reference": "positive",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0006",
+      "reference": "positive",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0007",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0012",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0013",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0015",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0016",
+      "reference": "positive",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0019",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0021",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0022",
+      "reference": "positive",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0025",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0026",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0028",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0032",
+      "reference": "positive",
+      "abstracted": false,
+      "direct": true
+    },
+    {
+      "item_id": "ab_0037",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0038",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0040",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0041",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0043",
+      "reference": "positive",
+      "abstracted": true,
+      "direct": true
+    },
+    {
+      "item_id": "ab_0044",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0045",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0047",
+      "reference": "positive",
+      "abstracted": null,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0048",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0049",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0051",
+      "reference": "positive",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0052",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0055",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0058",
+      "reference": "positive",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0060",
+      "reference": "positive",
+      "abstracted": true,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0061",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0062",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0063",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0065",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0066",
+      "reference": "positive",
+      "abstracted": true,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0067",
+      "reference": "negative",
+      "abstracted": true,
+      "direct": true
+    },
+    {
+      "item_id": "ab_0068",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0073",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0074",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0075",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0076",
+      "reference": "negative",
+      "abstracted": true,
+      "direct": true
+    },
+    {
+      "item_id": "ab_0079",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0080",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0082",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0084",
+      "reference": "positive",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0085",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0086",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0089",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0090",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0091",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0101",
+      "reference": "positive",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0102",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0104",
+      "reference": "positive",
+      "abstracted": true,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0107",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0109",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0113",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0117",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    },
+    {
+      "item_id": "ab_0118",
+      "reference": "negative",
+      "abstracted": false,
+      "direct": false
+    }
+  ]
+}

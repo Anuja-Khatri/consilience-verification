@@ -1,0 +1,139 @@
+{
+  "fork_id": "iitxgnwt:substrate_dependence:iit_c002xgnwt_c012",
+  "axis": "substrate_dependence",
+  "pair": "iitxgnwt",
+  "beyond_key": true,
+  "sides": {
+    "left": {
+      "theory": "IIT",
+      "value": "substrate_dependent",
+      "polarity": "asserts",
+      "claim_ids": [
+        "iit_c002"
+      ],
+      "quotes": [
+        "Consciousness requires intrinsic, integrated, irreducible cause–effect power within the substrate itself, independent of any external observer."
+      ],
+      "provenance_check": {
+        "status": "FAIL",
+        "detail": "claim not grounded in cited passages"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "GNWT",
+      "value": "neuroanatomically_grounded",
+      "polarity": "asserts",
+      "claim_ids": [
+        "gnwt_c012"
+      ],
+      "quotes": [
+        "The GNW is substrate-dependent in that it is grounded in specific neuroanatomical recurrent connectivity in the human brain, not any substrate."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.50"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [
+      {
+        "passage_id": "iit_nrn_2016_0070",
+        "score": 10.5,
+        "excerpt": "Macro-states are defined according to the rule that if ≥50% of the neurons in the group are in a given micro-state (such as low firing, high firing or bursting), then…"
+      },
+      {
+        "passage_id": "iit_nrn_2016_0057",
+        "score": 7.5,
+        "excerpt": "Ideally, systematic manipulation and recording of this particular set of neuronal groups would show that it has the maximum value of Φ, whereas any other assortment of neuronal groups in…"
+      },
+      {
+        "passage_id": "iit_4_0_0185",
+        "score": 4.5,
+        "excerpt": "Again, because the modules are small, their Φ values are low. Intriguingly, a brain region such as the cerebellum, whose anatomical organization is highly modular, does not contribute to con-…"
+      },
+      {
+        "passage_id": "iit_3_0_0226",
+        "score": 3.0,
+        "excerpt": "Moreover, discrete, analytically tractable brain models based on neuroanatomical connectivity such as [68] could provide a suitable approximation of large-scale neural mechanisms yet permit the rigorous measurement of integrated information.…"
+      },
+      {
+        "passage_id": "iit_nrn_2016_0049",
+        "score": 2.667,
+        "excerpt": "In this case, IIT predicts that finer grained neural states, despite their demonstrable neuro- physiological effects, make no difference to the content of experience. Note that spatio-temporal grain and the…"
+      },
+      {
+        "passage_id": "iit_3_0_0171",
+        "score": 2.333,
+        "excerpt": "‘‘broadcast’’ the information they represent and ‘‘ignite’’ fronto-parietal networks [7,10]. This is because, in IIT, information is not in the message that is broadcasted by an element, but in the…"
+      },
+      {
+        "passage_id": "iit_3_0_0197",
+        "score": 1.5,
+        "excerpt": "For example, programs running on powerful computers can not only play chess better than humans, but win in difficult question games such as ‘‘Jeopardy’’ [3]. Moreover, recent advances in machine…"
+      },
+      {
+        "passage_id": "iit_3_0_0098",
+        "score": 1.333,
+        "excerpt": "that ‘‘causes should not be multiplied beyond necessity’’, i.e. that causal superposition is not allowed [6]. In the present context this means that only one set of synapses can be…"
+      },
+      {
+        "passage_id": "iit_3_0_0189",
+        "score": 1.333,
+        "excerpt": "As was discussed above, a complex can be conscious, at least in principle, even though none of its neurons may be firing, no feed-back or reentrant loop may be activated,…"
+      },
+      {
+        "passage_id": "iit_nrn_2016_0115",
+        "score": 1.167,
+        "excerpt": "This also implies that local strengthening or weakening of such horizontal connections in topographic areas should lead to a local distortion of experienced visual space, even though the feedforward mapping…"
+      }
+    ],
+    "right": [
+      {
+        "passage_id": "gnwt_neuron_2020_0062",
+        "score": 3.667,
+        "excerpt": "Taken together, these findings suggest that the critical brain regions engaging in the recurrent interactions for conscious perception may be task and stimulus dependent: whereas recurrent, metastable activity in the…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0064",
+        "score": 1.833,
+        "excerpt": "A study by Hasson et al. (2007) further suggests that the content of what we consciously hear does not depend on early modality-speciﬁc responses in auditory cortex, but rather on…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2020_0061",
+        "score": 1.833,
+        "excerpt": "On trials in which the monkeys failed to perceive the figure-ground stimulus, they presumably saw the texture elements, which were of high contrast, and only failed to perceive that the…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0014",
+        "score": 1.667,
+        "excerpt": "First, it tends to overestimate conscious perception: there are many conditions in which subjects perform better than chance, yet still deny perceiving the stimulus. Second, performance can be at chance…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2011_0104",
+        "score": 1.167,
+        "excerpt": "Due to these ﬂuctuations, across trials, the very same stimulus does or does not lead to global ignition, depending in part on the precise phase of the stimulus relative to…"
+      }
+    ]
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "not_current",
+    "rationale": "no shared observable at current technology",
+    "citation_rows": [],
+    "evidence_verdict": "UNTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed)"
+  },
+  "status": "clean",
+  "correction_note": null
+}

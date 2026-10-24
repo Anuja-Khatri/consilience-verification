@@ -1,0 +1,468 @@
+{
+  "match_sample_survivorship": "2/30",
+  "discovery_survivorship": "1/9",
+  "taxonomy_counts": {
+    "scale-mismatch": 10,
+    "relation-not-in-quote": 22,
+    "provenance": 19
+  },
+  "c2_draft_confirmed_agreement": 0.5,
+  "verdicts": {
+    "ed_match_01": {
+      "verdict": "FAIL",
+      "first_fail": "scale-mismatch",
+      "failures": [
+        {
+          "criterion": "scale-mismatch",
+          "where": "C5"
+        }
+      ],
+      "discovery": "D1"
+    },
+    "match_04": {
+      "verdict": "FAIL",
+      "first_fail": "relation-not-in-quote",
+      "failures": [
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "b:C2"
+        },
+        {
+          "criterion": "scale-mismatch",
+          "where": "C5"
+        }
+      ],
+      "discovery": "D2"
+    },
+    "match_13": {
+      "verdict": "FAIL",
+      "first_fail": "provenance",
+      "failures": [
+        {
+          "criterion": "provenance",
+          "where": "a:C1"
+        },
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "a:C2"
+        },
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "b:C2"
+        }
+      ],
+      "discovery": "D3"
+    },
+    "ed_match_17": {
+      "verdict": "FAIL",
+      "first_fail": "provenance",
+      "failures": [
+        {
+          "criterion": "provenance",
+          "where": "b:C1"
+        },
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "b:C2"
+        }
+      ],
+      "discovery": "D4"
+    },
+    "match_11": {
+      "verdict": "FAIL",
+      "first_fail": "relation-not-in-quote",
+      "failures": [
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "a:C2"
+        },
+        {
+          "criterion": "scale-mismatch",
+          "where": "C5"
+        }
+      ],
+      "discovery": "D5"
+    },
+    "ed_match_06": {
+      "verdict": "FAIL",
+      "first_fail": "scale-mismatch",
+      "failures": [
+        {
+          "criterion": "scale-mismatch",
+          "where": "C5"
+        }
+      ],
+      "discovery": "D6"
+    },
+    "supp_match_03": {
+      "verdict": "FAIL",
+      "first_fail": "relation-not-in-quote",
+      "failures": [
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "b:C2"
+        },
+        {
+          "criterion": "scale-mismatch",
+          "where": "C5"
+        }
+      ],
+      "discovery": "D7"
+    },
+    "ed_match_18": {
+      "verdict": "PASS",
+      "first_fail": null,
+      "failures": [],
+      "discovery": "D8"
+    },
+    "ed_match_05": {
+      "verdict": "FAIL",
+      "first_fail": "provenance",
+      "failures": [
+        {
+          "criterion": "provenance",
+          "where": "b:C1"
+        },
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "a:C2"
+        }
+      ],
+      "discovery": "D9"
+    },
+    "supp_match_14": {
+      "verdict": "FAIL",
+      "first_fail": "relation-not-in-quote",
+      "failures": [
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "b:C2"
+        }
+      ],
+      "discovery": null
+    },
+    "supp_match_21": {
+      "verdict": "FAIL",
+      "first_fail": "provenance",
+      "failures": [
+        {
+          "criterion": "provenance",
+          "where": "b:C1"
+        },
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "a:C2"
+        },
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "b:C2"
+        }
+      ],
+      "discovery": null
+    },
+    "match_17": {
+      "verdict": "FAIL",
+      "first_fail": "provenance",
+      "failures": [
+        {
+          "criterion": "provenance",
+          "where": "a:C1"
+        }
+      ],
+      "discovery": null
+    },
+    "match_10": {
+      "verdict": "FAIL",
+      "first_fail": "scale-mismatch",
+      "failures": [
+        {
+          "criterion": "scale-mismatch",
+          "where": "C5"
+        }
+      ],
+      "discovery": null
+    },
+    "match_48": {
+      "verdict": "FAIL",
+      "first_fail": "provenance",
+      "failures": [
+        {
+          "criterion": "provenance",
+          "where": "a:C1"
+        },
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "a:C2"
+        },
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "b:C2"
+        }
+      ],
+      "discovery": null
+    },
+    "match_19": {
+      "verdict": "FAIL",
+      "first_fail": "relation-not-in-quote",
+      "failures": [
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "a:C2"
+        }
+      ],
+      "discovery": null
+    },
+    "match_45": {
+      "verdict": "FAIL",
+      "first_fail": "provenance",
+      "failures": [
+        {
+          "criterion": "provenance",
+          "where": "a:C1"
+        },
+        {
+          "criterion": "provenance",
+          "where": "b:C1"
+        },
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "a:C2"
+        },
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "b:C2"
+        }
+      ],
+      "discovery": null
+    },
+    "match_46": {
+      "verdict": "FAIL",
+      "first_fail": "provenance",
+      "failures": [
+        {
+          "criterion": "provenance",
+          "where": "a:C1"
+        },
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "b:C2"
+        }
+      ],
+      "discovery": null
+    },
+    "match_08": {
+      "verdict": "FAIL",
+      "first_fail": "provenance",
+      "failures": [
+        {
+          "criterion": "provenance",
+          "where": "a:C1"
+        },
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "a:C2"
+        },
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "b:C2"
+        }
+      ],
+      "discovery": null
+    },
+    "supp_match_23": {
+      "verdict": "FAIL",
+      "first_fail": "provenance",
+      "failures": [
+        {
+          "criterion": "provenance",
+          "where": "b:C1"
+        },
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "b:C2"
+        }
+      ],
+      "discovery": null
+    },
+    "match_49": {
+      "verdict": "FAIL",
+      "first_fail": "provenance",
+      "failures": [
+        {
+          "criterion": "provenance",
+          "where": "a:C1"
+        },
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "a:C2"
+        }
+      ],
+      "discovery": null
+    },
+    "ed_match_13": {
+      "verdict": "FAIL",
+      "first_fail": "relation-not-in-quote",
+      "failures": [
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "a:C2"
+        }
+      ],
+      "discovery": null
+    },
+    "supp_match_22": {
+      "verdict": "FAIL",
+      "first_fail": "provenance",
+      "failures": [
+        {
+          "criterion": "provenance",
+          "where": "b:C1"
+        },
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "b:C2"
+        },
+        {
+          "criterion": "scale-mismatch",
+          "where": "C5"
+        }
+      ],
+      "discovery": null
+    },
+    "match_54": {
+      "verdict": "FAIL",
+      "first_fail": "provenance",
+      "failures": [
+        {
+          "criterion": "provenance",
+          "where": "a:C1"
+        }
+      ],
+      "discovery": null
+    },
+    "match_14": {
+      "verdict": "FAIL",
+      "first_fail": "provenance",
+      "failures": [
+        {
+          "criterion": "provenance",
+          "where": "a:C1"
+        },
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "b:C2"
+        },
+        {
+          "criterion": "scale-mismatch",
+          "where": "C5"
+        }
+      ],
+      "discovery": null
+    },
+    "match_57": {
+      "verdict": "FAIL",
+      "first_fail": "provenance",
+      "failures": [
+        {
+          "criterion": "provenance",
+          "where": "b:C1"
+        },
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "a:C2"
+        }
+      ],
+      "discovery": null
+    },
+    "supp_match_02": {
+      "verdict": "PASS",
+      "first_fail": null,
+      "failures": [],
+      "discovery": null
+    },
+    "ed_match_08": {
+      "verdict": "FAIL",
+      "first_fail": "provenance",
+      "failures": [
+        {
+          "criterion": "provenance",
+          "where": "b:C1"
+        },
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "a:C2"
+        },
+        {
+          "criterion": "scale-mismatch",
+          "where": "C5"
+        }
+      ],
+      "discovery": null
+    },
+    "match_23": {
+      "verdict": "FAIL",
+      "first_fail": "provenance",
+      "failures": [
+        {
+          "criterion": "provenance",
+          "where": "a:C1"
+        },
+        {
+          "criterion": "provenance",
+          "where": "b:C1"
+        }
+      ],
+      "discovery": null
+    },
+    "match_18": {
+      "verdict": "FAIL",
+      "first_fail": "provenance",
+      "failures": [
+        {
+          "criterion": "provenance",
+          "where": "a:C1"
+        },
+        {
+          "criterion": "provenance",
+          "where": "b:C1"
+        },
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "a:C2"
+        }
+      ],
+      "discovery": null
+    },
+    "match_59": {
+      "verdict": "FAIL",
+      "first_fail": "provenance",
+      "failures": [
+        {
+          "criterion": "provenance",
+          "where": "a:C1"
+        },
+        {
+          "criterion": "relation-not-in-quote",
+          "where": "a:C2"
+        },
+        {
+          "criterion": "scale-mismatch",
+          "where": "C5"
+        }
+      ],
+      "discovery": null
+    }
+  },
+  "discovery_verdicts": {
+    "D1": false,
+    "D2": false,
+    "D3": false,
+    "D4": false,
+    "D5": false,
+    "D6": false,
+    "D7": false,
+    "D8": true,
+    "D9": false
+  },
+  "disclosure": "Decisions were model-drafted suggestions (Claude) reviewed and confirmed by Anu."
+}

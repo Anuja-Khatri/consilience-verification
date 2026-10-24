@@ -1,0 +1,111 @@
+{
+  "fork_id": "iitxgnwt:observable_commitment:iit_n005xgnwt_c004",
+  "axis": "observable_commitment",
+  "pair": "iitxgnwt",
+  "beyond_key": true,
+  "sides": {
+    "left": {
+      "theory": "IIT",
+      "value": "empirically_measurable_via_causal_perturbation",
+      "polarity": "asserts",
+      "claim_ids": [
+        "iit_n005"
+      ],
+      "quotes": [
+        "The physical substrate of consciousness has a definite spatial grain, timescale, and state-space determined by maxima of cause–effect power, identifiable empirically via perturbation and observation."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.61"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "GNWT",
+      "value": "access_consciousness_primary",
+      "polarity": "asserts",
+      "claim_ids": [
+        "gnwt_c004"
+      ],
+      "quotes": [
+        "GNWT is focused on conscious access and information processing, and denies that the distinction between phenomenal and access consciousness is fundamental."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.62"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [
+      {
+        "passage_id": "iit_3_0_0211",
+        "score": 4.0,
+        "excerpt": "However, the correspondence between intrinsic and extrinsic perspective breaks down for the ports-in A,B,C: even though their state is partly determined by the external inputs, their concept specifies constraints about…"
+      },
+      {
+        "passage_id": "iit_4_0_0006",
+        "score": 3.667,
+        "excerpt": "Graham, Universite´ Paris Descartes, Centre National de la Recherche Scientifique, FRANCE Received: January 11, 2023 Accepted: August 26, 2023 Published: October 17, 2023 Copyright: © 2023 Albantakis et al. This…"
+      },
+      {
+        "passage_id": "iit_3_0_0082",
+        "score": 1.833,
+        "excerpt": "– A has selective causes within the system (ciw0), but not the future states of the system – A has no selective effects on the system (ei~0, what A does…"
+      },
+      {
+        "passage_id": "iit_3_0_0083",
+        "score": 1.833,
+        "excerpt": "In this case, the state of element A constrains the future states of the system – A has selective effects on the system (eiw0), but not the past states of…"
+      }
+    ],
+    "right": [
+      {
+        "passage_id": "gnwt_neuron_2020_0454",
+        "score": 4.0,
+        "excerpt": "Author Manuscript Author Manuscript Author Manuscript Author Manuscript Mashour et al. Page 44 Table 1. Comparison of Theories of Consciousness Theory A conscious process corresponds to… Neural mechanisms include… The…"
+      },
+      {
+        "passage_id": "gnwt_neuron_2020_0122",
+        "score": 1.5,
+        "excerpt": "(Koukouli et al., 2016). Of note, reversal of anesthesia by pharmacological stimulation of the cortex does not restore electroencephalographic measures of functional connectivity (Pal et al., 2019), which may relate…"
+      }
+    ]
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "now",
+    "rationale": "shared observable(s) ['connectivity_metrics', 'ignition_signature', 'regional_decoding', 'temporal_generalization'] at equal scale (brain_network)",
+    "citation_rows": [
+      {
+        "tag": "Complexity",
+        "n": 51
+      },
+      {
+        "tag": "Variability",
+        "n": 9
+      },
+      {
+        "tag": "PHI Approximation",
+        "n": 7
+      },
+      {
+        "tag": "Criticality",
+        "n": 1
+      }
+    ],
+    "evidence_verdict": "CONTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed)"
+  },
+  "status": "clean",
+  "correction_note": null
+}

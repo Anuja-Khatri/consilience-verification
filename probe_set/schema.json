@@ -1,0 +1,27 @@
+{
+  "fields": [
+    "item_id",
+    "cell",
+    "text_a",
+    "text_b",
+    "typed_a",
+    "typed_b",
+    "gold",
+    "gold_basis",
+    "source_a",
+    "source_b",
+    "license_note",
+    "provenance"
+  ],
+  "cell": [
+    "true_correspondence",
+    "equivocation",
+    "negation",
+    "control_expected_flip",
+    "control_invariant"
+  ],
+  "gold": [
+    "correspond",
+    "not_correspond"
+  ]
+}

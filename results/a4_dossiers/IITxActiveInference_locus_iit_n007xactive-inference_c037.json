@@ -1,0 +1,151 @@
+{
+  "fork_id": "IIT×ActiveInference:locus:iit_n007xactive-inference_c037",
+  "axis": "locus",
+  "pair": "IIT × Active Inference",
+  "register": "INTREPID-18",
+  "sides": {
+    "left": {
+      "theory": "IIT",
+      "value": "maximal_irreducible_complex",
+      "polarity": "asserts",
+      "claim_ids": [
+        "iit_n007"
+      ],
+      "quotes": [
+        "The PSC is a bounded complex of elements with maximal integrated information; elements outside this boundary (e.g., cerebellar neurons, peripheral sensory/motor pathways, basal ganglia loops)…"
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.65"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    },
+    "right": {
+      "theory": "Active Inference",
+      "value": "subcortical_basal_ganglia",
+      "polarity": "asserts",
+      "claim_ids": [
+        "active-inference_c037"
+      ],
+      "quotes": [
+        "Policy selection in Active Inference is implemented through basal ganglia circuitry (direct and indirect pathways), with dopaminergic signaling encoding precision over policies (expected free energy)."
+      ],
+      "provenance_check": {
+        "status": "PASS",
+        "detail": "token-overlap 0.77"
+      },
+      "support_check": {
+        "supported": true,
+        "missing": "",
+        "json_status": "OK"
+      }
+    }
+  },
+  "counter_evidence": {
+    "left": [],
+    "right": [
+      {
+        "passage_id": "ai_c_book_0165",
+        "score": 2.333,
+        "excerpt": "A mapping is ambigu- ous if the distribution of outcomes anticipated is highly dispersed (or entro- pic) even if we know the states generating them with complete confidence. For instance,…"
+      },
+      {
+        "passage_id": "ai_c_book_0453",
+        "score": 1.5,
+        "excerpt": "First, Active Inference does not consider utility maximization alone but the broader objective of (expected) ­free energy minimization, which also includes addi- tional (epistemic) imperatives, such as the disambiguation of…"
+      }
+    ]
+  },
+  "anchors": [],
+  "decidability": {
+    "verdict": "now",
+    "rationale": "",
+    "citation_rows": [
+      {
+        "tag": "Posterior",
+        "n": 165
+      },
+      {
+        "tag": "Parietal",
+        "n": 145
+      },
+      {
+        "tag": "Frontal",
+        "n": 144
+      },
+      {
+        "tag": "V1",
+        "n": 48
+      },
+      {
+        "tag": "Subcortical structures",
+        "n": 34
+      },
+      {
+        "tag": "DMN",
+        "n": 16
+      },
+      {
+        "tag": "A1",
+        "n": 10
+      },
+      {
+        "tag": "S1",
+        "n": 7
+      },
+      {
+        "tag": "Temporal",
+        "n": 7
+      },
+      {
+        "tag": "Ventral Stream",
+        "n": 7
+      },
+      {
+        "tag": "AAN",
+        "n": 4
+      },
+      {
+        "tag": "Cerebellum",
+        "n": 3
+      },
+      {
+        "tag": "Visual Network",
+        "n": 3
+      },
+      {
+        "tag": "Dorsal Stream",
+        "n": 2
+      },
+      {
+        "tag": "Sensorimotor",
+        "n": 2
+      },
+      {
+        "tag": "ARN",
+        "n": 1
+      },
+      {
+        "tag": "ART",
+        "n": 1
+      },
+      {
+        "tag": "Dorsal Attention Network",
+        "n": 1
+      },
+      {
+        "tag": "V4",
+        "n": 1
+      }
+    ],
+    "evidence_verdict": "CONTESTED",
+    "note": "ConTraSt finding-tag mentions; expert agreement deferred (never claimed); INTREPID review held out (§0.5)"
+  },
+  "status": "clean",
+  "correction_note": null,
+  "caveat": "A4 INTREPID-register dossiers (18-fork standing_predictions). instrument v1-era forks + approved store (frozen-store). The INTREPID review is a HELD-OUT answer key — never consulted here (§0.5); validity is checked against the theories' OWN corpora only."
+}

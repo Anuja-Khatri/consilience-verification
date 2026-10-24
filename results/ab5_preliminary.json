@@ -1,0 +1,743 @@
+{
+  "metrics": {
+    "n_queries": 26,
+    "n_nonempty": 20,
+    "n_empty": 6,
+    "tau": 0.5,
+    "beam_k": 5,
+    "p_at_1": {
+      "min": 0.95,
+      "product": 0.95
+    },
+    "p_at_5": {
+      "min": 0.95,
+      "product": 0.95
+    },
+    "empty_query_fpr": {
+      "min": 0.833,
+      "product": 0.833
+    }
+  },
+  "queries": [
+    {
+      "id": "q01",
+      "nl": "theories with a claim asserting a prefrontal/parietal cortical locus of consciousness",
+      "tag": "content",
+      "n_symbolic": 1,
+      "symbolic": [
+        "GNWT"
+      ],
+      "soft": {
+        "min": {
+          "top5": [
+            "GNWT",
+            "IIT",
+            "NREP"
+          ],
+          "top1_score": 0.806
+        },
+        "product": {
+          "top5": [
+            "GNWT",
+            "IIT",
+            "NREP"
+          ],
+          "top1_score": 0.806
+        }
+      }
+    },
+    {
+      "id": "q02",
+      "nl": "theories with a claim asserting a single maximal/irreducible complex as the locus",
+      "tag": "content",
+      "n_symbolic": 1,
+      "symbolic": [
+        "IIT"
+      ],
+      "soft": {
+        "min": {
+          "top5": [
+            "IIT",
+            "Orch-OR"
+          ],
+          "top1_score": 0.401
+        },
+        "product": {
+          "top5": [
+            "IIT",
+            "Orch-OR"
+          ],
+          "top1_score": 0.401
+        }
+      }
+    },
+    {
+      "id": "q03",
+      "nl": "theories with a claim denying that consciousness is computable",
+      "tag": "content",
+      "n_symbolic": 2,
+      "symbolic": [
+        "IIT",
+        "Orch-OR"
+      ],
+      "soft": {
+        "min": {
+          "top5": [
+            "Orch-OR",
+            "GNWT",
+            "CEMI",
+            "NREP"
+          ],
+          "top1_score": 0.765
+        },
+        "product": {
+          "top5": [
+            "Orch-OR",
+            "GNWT",
+            "CEMI",
+            "NREP"
+          ],
+          "top1_score": 0.765
+        }
+      }
+    },
+    {
+      "id": "q04",
+      "nl": "theories with a claim asserting consciousness is fundamental (not emergent)",
+      "tag": "content",
+      "n_symbolic": 2,
+      "symbolic": [
+        "IIT",
+        "Orch-OR"
+      ],
+      "soft": {
+        "min": {
+          "top5": [
+            "Orch-OR",
+            "IIT",
+            "NREP"
+          ],
+          "top1_score": 0.81
+        },
+        "product": {
+          "top5": [
+            "Orch-OR",
+            "IIT",
+            "NREP"
+          ],
+          "top1_score": 0.81
+        }
+      }
+    },
+    {
+      "id": "q05",
+      "nl": "theories with a claim asserting substrate dependence",
+      "tag": "content",
+      "n_symbolic": 4,
+      "symbolic": [
+        "CEMI",
+        "IIT",
+        "NREP",
+        "Orch-OR"
+      ],
+      "soft": {
+        "min": {
+          "top5": [
+            "IIT",
+            "CEMI"
+          ],
+          "top1_score": 0.844
+        },
+        "product": {
+          "top5": [
+            "IIT",
+            "CEMI"
+          ],
+          "top1_score": 0.844
+        }
+      }
+    },
+    {
+      "id": "q06",
+      "nl": "theories with a claim asserting free-energy / surprise minimization as the mechanism",
+      "tag": "content",
+      "n_symbolic": 1,
+      "symbolic": [
+        "Active Inference"
+      ],
+      "soft": {
+        "min": {
+          "top5": [
+            "Active Inference"
+          ],
+          "top1_score": 0.627
+        },
+        "product": {
+          "top5": [
+            "Active Inference"
+          ],
+          "top1_score": 0.627
+        }
+      }
+    },
+    {
+      "id": "q07",
+      "nl": "theories with a claim asserting neural synchrony as the mechanism or connectivity",
+      "tag": "content",
+      "n_symbolic": 1,
+      "symbolic": [
+        "CEMI"
+      ],
+      "soft": {
+        "min": {
+          "top5": [
+            "CEMI",
+            "GNWT"
+          ],
+          "top1_score": 0.734
+        },
+        "product": {
+          "top5": [
+            "CEMI",
+            "GNWT"
+          ],
+          "top1_score": 0.734
+        }
+      }
+    },
+    {
+      "id": "q08",
+      "nl": "theories with a claim asserting an electromagnetic field as the physical locus",
+      "tag": "content",
+      "n_symbolic": 1,
+      "symbolic": [
+        "CEMI"
+      ],
+      "soft": {
+        "min": {
+          "top5": [
+            "CEMI"
+          ],
+          "top1_score": 0.863
+        },
+        "product": {
+          "top5": [
+            "CEMI"
+          ],
+          "top1_score": 0.863
+        }
+      }
+    },
+    {
+      "id": "q09",
+      "nl": "theories with a claim asserting access consciousness / global broadcast as the observable commitment",
+      "tag": "content",
+      "n_symbolic": 1,
+      "symbolic": [
+        "GNWT"
+      ],
+      "soft": {
+        "min": {
+          "top5": [
+            "GNWT",
+            "NREP"
+          ],
+          "top1_score": 0.686
+        },
+        "product": {
+          "top5": [
+            "GNWT",
+            "NREP"
+          ],
+          "top1_score": 0.686
+        }
+      }
+    },
+    {
+      "id": "q10",
+      "nl": "theories with a claim asserting identity between experience and physical structure",
+      "tag": "content",
+      "n_symbolic": 2,
+      "symbolic": [
+        "Active Inference",
+        "IIT"
+      ],
+      "soft": {
+        "min": {
+          "top5": [
+            "IIT",
+            "NREP"
+          ],
+          "top1_score": 0.745
+        },
+        "product": {
+          "top5": [
+            "IIT",
+            "NREP"
+          ],
+          "top1_score": 0.745
+        }
+      }
+    },
+    {
+      "id": "q11",
+      "nl": "theories asserting a cortical locus AND asserting substrate dependence",
+      "tag": "content",
+      "n_symbolic": 6,
+      "symbolic": [
+        "Active Inference",
+        "CEMI",
+        "GNWT",
+        "IIT",
+        "NREP",
+        "Orch-OR"
+      ],
+      "soft": {
+        "min": {
+          "top5": [
+            "IIT",
+            "NREP"
+          ],
+          "top1_score": 0.788
+        },
+        "product": {
+          "top5": [
+            "IIT",
+            "NREP"
+          ],
+          "top1_score": 0.629
+        }
+      }
+    },
+    {
+      "id": "q12",
+      "nl": "theories asserting computability-related mechanism AND asserting a free-energy mechanism",
+      "tag": "content",
+      "n_symbolic": 1,
+      "symbolic": [
+        "Active Inference"
+      ],
+      "soft": {
+        "min": {
+          "top5": [
+            "IIT"
+          ],
+          "top1_score": 0.342
+        },
+        "product": {
+          "top5": [
+            "IIT"
+          ],
+          "top1_score": 0.225
+        }
+      }
+    },
+    {
+      "id": "q13",
+      "nl": "theories denying computability AND asserting fundamentality",
+      "tag": "content",
+      "n_symbolic": 2,
+      "symbolic": [
+        "IIT",
+        "Orch-OR"
+      ],
+      "soft": {
+        "min": {
+          "top5": [
+            "Orch-OR",
+            "NREP",
+            "IIT"
+          ],
+          "top1_score": 0.755
+        },
+        "product": {
+          "top5": [
+            "Orch-OR",
+            "NREP",
+            "IIT"
+          ],
+          "top1_score": 0.58
+        }
+      }
+    },
+    {
+      "id": "q14",
+      "nl": "claims that ground a claim which corresponds to an Active Inference claim",
+      "tag": "structural",
+      "n_symbolic": 13,
+      "symbolic": [
+        "cemi_c014",
+        "cemi_c026",
+        "gnwt_c003",
+        "gnwt_c020",
+        "gnwt_n004",
+        "gnwt_n010",
+        "iit_c001",
+        "iit_c005",
+        "iit_c012",
+        "iit_c013",
+        "iit_c016",
+        "nrep_c017"
+      ],
+      "soft": {
+        "min": {
+          "top5": [
+            "cemi_c014",
+            "cemi_c026",
+            "gnwt_c003",
+            "gnwt_c020",
+            "gnwt_n004"
+          ],
+          "top1_score": 1.0
+        },
+        "product": {
+          "top5": [
+            "cemi_c014",
+            "cemi_c026",
+            "gnwt_c003",
+            "gnwt_c020",
+            "gnwt_n004"
+          ],
+          "top1_score": 1.0
+        }
+      }
+    },
+    {
+      "id": "q15",
+      "nl": "theories having a claim in a partial correspondence with an IIT claim",
+      "tag": "structural",
+      "n_symbolic": 4,
+      "symbolic": [
+        "Active Inference",
+        "GNWT",
+        "NREP",
+        "Orch-OR"
+      ],
+      "soft": {
+        "min": {
+          "top5": [
+            "Active Inference",
+            "GNWT",
+            "NREP",
+            "Orch-OR"
+          ],
+          "top1_score": 1.0
+        },
+        "product": {
+          "top5": [
+            "Active Inference",
+            "GNWT",
+            "NREP",
+            "Orch-OR"
+          ],
+          "top1_score": 1.0
+        }
+      }
+    },
+    {
+      "id": "q16",
+      "nl": "claims that are in a fork with an IIT claim on the locus axis",
+      "tag": "mixed",
+      "n_symbolic": 5,
+      "symbolic": [
+        "active-inference_c037",
+        "gnwt_c003",
+        "nrep_c017",
+        "orch-or_c009",
+        "orch-or_c012"
+      ],
+      "soft": {
+        "min": {
+          "top5": [
+            "gnwt_c003"
+          ],
+          "top1_score": 0.672
+        },
+        "product": {
+          "top5": [
+            "gnwt_c003"
+          ],
+          "top1_score": 0.672
+        }
+      }
+    },
+    {
+      "id": "q17",
+      "nl": "GNWT claims that ground another GNWT claim about global access",
+      "tag": "mixed",
+      "n_symbolic": 2,
+      "symbolic": [
+        "gnwt_c020",
+        "gnwt_n010"
+      ],
+      "soft": {
+        "min": {
+          "top5": [
+            "gnwt_n010",
+            "gnwt_c001",
+            "gnwt_c017",
+            "gnwt_c020"
+          ],
+          "top1_score": 0.379
+        },
+        "product": {
+          "top5": [
+            "gnwt_n010",
+            "gnwt_c001",
+            "gnwt_c017",
+            "gnwt_c020"
+          ],
+          "top1_score": 0.379
+        }
+      }
+    },
+    {
+      "id": "q18",
+      "nl": "claims corresponding to a CEMI claim that asserts an electromagnetic field",
+      "tag": "mixed",
+      "n_symbolic": 26,
+      "symbolic": [
+        "active-inference_c001",
+        "active-inference_c006",
+        "active-inference_c009",
+        "active-inference_c011",
+        "active-inference_c026",
+        "active-inference_c029",
+        "active-inference_c035",
+        "gnwt_c001",
+        "gnwt_c002",
+        "gnwt_c013",
+        "gnwt_c015",
+        "gnwt_c017"
+      ],
+      "soft": {
+        "min": {
+          "top5": [
+            "active-inference_c001",
+            "active-inference_c009",
+            "active-inference_c011",
+            "active-inference_c035",
+            "gnwt_c001"
+          ],
+          "top1_score": 0.829
+        },
+        "product": {
+          "top5": [
+            "active-inference_c001",
+            "active-inference_c009",
+            "active-inference_c011",
+            "active-inference_c035",
+            "gnwt_c001"
+          ],
+          "top1_score": 0.829
+        }
+      }
+    },
+    {
+      "id": "q19",
+      "nl": "theories with a claim that corresponds to a claim asserting a free-energy mechanism",
+      "tag": "mixed",
+      "n_symbolic": 5,
+      "symbolic": [
+        "CEMI",
+        "GNWT",
+        "IIT",
+        "NREP",
+        "Orch-OR"
+      ],
+      "soft": {
+        "min": {
+          "top5": [
+            "CEMI",
+            "GNWT",
+            "IIT",
+            "NREP",
+            "Orch-OR"
+          ],
+          "top1_score": 0.663
+        },
+        "product": {
+          "top5": [
+            "CEMI",
+            "GNWT",
+            "IIT",
+            "NREP",
+            "Orch-OR"
+          ],
+          "top1_score": 0.663
+        }
+      }
+    },
+    {
+      "id": "q20",
+      "nl": "claims that ground a claim asserting a free-energy / surprise-minimization mechanism",
+      "tag": "mixed",
+      "n_symbolic": 1,
+      "symbolic": [
+        "active-inference_c013"
+      ],
+      "soft": {
+        "min": {
+          "top5": [
+            "active-inference_c013",
+            "active-inference_c029"
+          ],
+          "top1_score": 0.627
+        },
+        "product": {
+          "top5": [
+            "active-inference_c013",
+            "active-inference_c029"
+          ],
+          "top1_score": 0.627
+        }
+      }
+    },
+    {
+      "id": "e01",
+      "nl": "theories with a claim DENYING a posterior/cortical locus of consciousness",
+      "tag": "empty",
+      "n_symbolic": 0,
+      "symbolic": [],
+      "soft": {
+        "min": {
+          "top5": [
+            "GNWT",
+            "IIT",
+            "NREP"
+          ],
+          "top1_score": 0.79
+        },
+        "product": {
+          "top5": [
+            "GNWT",
+            "IIT",
+            "NREP"
+          ],
+          "top1_score": 0.79
+        }
+      }
+    },
+    {
+      "id": "e02",
+      "nl": "theories with a claim DENYING substrate dependence",
+      "tag": "empty",
+      "n_symbolic": 0,
+      "symbolic": [],
+      "soft": {
+        "min": {
+          "top5": [
+            "Orch-OR",
+            "IIT",
+            "CEMI",
+            "NREP"
+          ],
+          "top1_score": 0.713
+        },
+        "product": {
+          "top5": [
+            "Orch-OR",
+            "IIT",
+            "CEMI",
+            "NREP"
+          ],
+          "top1_score": 0.713
+        }
+      }
+    },
+    {
+      "id": "e03",
+      "nl": "theories with a claim DENYING a free-energy mechanism",
+      "tag": "empty",
+      "n_symbolic": 0,
+      "symbolic": [],
+      "soft": {
+        "min": {
+          "top5": [
+            "Active Inference",
+            "IIT",
+            "CEMI"
+          ],
+          "top1_score": 0.645
+        },
+        "product": {
+          "top5": [
+            "Active Inference",
+            "IIT",
+            "CEMI"
+          ],
+          "top1_score": 0.645
+        }
+      }
+    },
+    {
+      "id": "e04",
+      "nl": "theories asserting computability AND denying a cortical locus (no such pairing exists)",
+      "tag": "empty",
+      "n_symbolic": 0,
+      "symbolic": [],
+      "soft": {
+        "min": {
+          "top5": [
+            "Orch-OR",
+            "IIT"
+          ],
+          "top1_score": 0.393
+        },
+        "product": {
+          "top5": [
+            "Orch-OR",
+            "IIT"
+          ],
+          "top1_score": 0.311
+        }
+      }
+    },
+    {
+      "id": "e05",
+      "nl": "theories with a claim DENYING that consciousness is fundamental",
+      "tag": "empty",
+      "n_symbolic": 0,
+      "symbolic": [],
+      "soft": {
+        "min": {
+          "top5": [
+            "Orch-OR",
+            "IIT",
+            "NREP"
+          ],
+          "top1_score": 0.832
+        },
+        "product": {
+          "top5": [
+            "Orch-OR",
+            "IIT",
+            "NREP"
+          ],
+          "top1_score": 0.832
+        }
+      }
+    },
+    {
+      "id": "e06",
+      "nl": "claims that are in a fork with an NREP claim on the computability axis",
+      "tag": "empty",
+      "n_symbolic": 0,
+      "symbolic": [],
+      "soft": {
+        "min": {
+          "top5": [
+            "cemi_c026"
+          ],
+          "top1_score": 0.698
+        },
+        "product": {
+          "top5": [
+            "cemi_c026"
+          ],
+          "top1_score": 0.698
+        }
+      }
+    }
+  ]
+}

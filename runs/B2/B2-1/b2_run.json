@@ -1,0 +1,68 @@
+{
+  "osf": {
+    "url": "https://osf.io/5n24m",
+    "doi": "10.17605/OSF.IO/5N24M",
+    "date_registered": "2026-10-23"
+  },
+  "n_passages": 40,
+  "l1": {
+    "identity": {
+      "entity_type": 0.475,
+      "axis": 0.6125,
+      "polarity": 0.975,
+      "value_family": 0.475
+    },
+    "paraphrase_near": {
+      "entity_type": 0.3157894736842105,
+      "axis": 0.5526315789473685,
+      "polarity": 0.9736842105263158,
+      "value_family": 0.40789473684210525
+    },
+    "paraphrase_far": {
+      "entity_type": 0.4358974358974359,
+      "axis": 0.6410256410256411,
+      "polarity": 0.9615384615384616,
+      "value_family": 0.5
+    },
+    "casing": {
+      "entity_type": 0.3,
+      "axis": 0.5875,
+      "polarity": 0.975,
+      "value_family": 0.5
+    },
+    "typos": {
+      "entity_type": 0.4125,
+      "axis": 0.5375,
+      "polarity": 0.975,
+      "value_family": 0.4875
+    },
+    "notation": {
+      "entity_type": 0.45,
+      "axis": 0.5875,
+      "polarity": 0.975,
+      "value_family": 0.45
+    },
+    "register_formal": {
+      "entity_type": 0.47435897435897434,
+      "axis": 0.7564102564102564,
+      "polarity": 0.9743589743589743,
+      "value_family": 0.6025641025641025
+    },
+    "register_popsci": {
+      "entity_type": 0.359375,
+      "axis": 0.578125,
+      "polarity": 0.96875,
+      "value_family": 0.515625
+    }
+  },
+  "identity_rates": {
+    "entity_type": 0.475,
+    "axis": 0.6125,
+    "polarity": 0.975,
+    "value_family": 0.475
+  },
+  "negation_polarity_tracking": 0.17647058823529413,
+  "double_negation_restoration": 0.0,
+  "verdict_tracking_correct": 0.4189189189189189,
+  "negation_misses": 28
+}
