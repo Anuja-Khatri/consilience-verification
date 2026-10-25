@@ -5,6 +5,14 @@
 \usepackage{amsmath,amssymb}
 \usepackage[colorlinks=true,urlcolor=blue,linkcolor=black,citecolor=black]{hyperref}
 
+% Set the bibliography in a smaller font with tight inter-entry spacing (layout only; no content change).
+\makeatletter
+\let\oldthebibliography\thebibliography
+\renewcommand{\thebibliography}[1]{%
+  \small\oldthebibliography{#1}%
+  \setlength{\itemsep}{0pt}\setlength{\parsep}{0pt}}
+\makeatother
+
 \title{A deterministic, auditable engine for cross-theory claim comparison:\\
 cross-field discovery with built-in verification\thanks{Numbers locked to registry snapshot
 \texttt{e9c877812c8c6897\ldots} (2026-10), instrument v2 / corpus v1. Every figure renders from that one
@@ -39,9 +47,8 @@ typed record (entity type, axis, polarity, value), and a fixed rule-based judge 
 the typed fields alone, returning a correspondence grade or a fork. Because the judge is a function of
 typed fields, every comparison is reproducible, and the judge can be re-expressed as a logic program, as a
 first-order theory under an SMT solver \cite{z3}, and as machine-checked proof objects. This division of
-labour, in which a language model proposes typed candidates and a sound external program disposes, follows
-the LLM-Modulo pattern of pairing a generator with verifiers it cannot talk its way past
-\cite{kambhampati2024}.
+labour, a language model proposing typed candidates and a sound external program disposing, follows the
+LLM-Modulo pattern of a generator paired with verifiers it cannot talk its way past \cite{kambhampati2024}.
 
 I exercise the engine on a frozen corpus of six theories of consciousness, with bridge extensions that link
 active inference \cite{buckley2017} to machine learning (control as probabilistic inference
@@ -53,126 +60,186 @@ the COGITATE adversarial collaboration \cite{cogitate2025} and the eLife synergi
 \cite{luppi2024}, each scored against an explicit permutation chance rate. On the verification side, the
 judge's decisions are a transparent, checkable function of the typed fields, and a preregistered
 statement-level perturbation suite measures how the extraction front-end behaves under meaning-preserving
-and meaning-flipping edits. Throughout, I report the method's limits as first-class results rather than
-hiding them: discovery claims carry their chance rates, including an honest below-chance negative;
-single-pass extraction carries a measured noise floor; and the extraction front-end's under-propagation of
-negation is stated plainly. All figures render from a single numbers-locked registry snapshot.
+and meaning-flipping edits. Throughout, I report the method's limits as first-class results: discovery
+claims carry their chance rates, including an honest below-chance negative; single-pass extraction carries
+a measured noise floor; and the under-propagation of negation is stated plainly. All figures render from a
+single numbers-locked registry snapshot.
 
 \section{Discovery}
 
 \subsection{Cross-field re-adjudication}
-Re-running a founding physics$\times$neuroscience$\times$contemplative correspondence corpus through the
-frozen instrument (v2) and the deterministic judge: of the pairs carrying a recorded prior tier ($n = 7$),
-the new grade agrees with the prior at \textbf{0.1429} (1/7, $n = 7$) and downgrades or withdraws at
-\textbf{0.8571} (6/7, $n = 7$). Most originally-asserted cross-field correspondences do not survive
-re-typing under a fixed codebook; I report this as the method's discipline, not a headline.
+Before this evaluation, the engine's earliest corpus was a set of correspondences asserted across physics,
+neuroscience and contemplative texts. I chose that corpus deliberately: it is where the vocabularies are
+most alien to one another, the hardest place for surface wording to do the work, and where the original
+claims were made with the least discipline. The re-adjudication test asks a simple
+question: if the earliest asserted correspondences are re-typed under today's frozen instrument (v2) and
+judged by today's fixed rules, how many survive? Re-running every pair end to end through the deterministic
+judge: of the pairs that carry a recorded prior grade ($n = 7$), the new grade agrees with the old one for
+a single pair (agreement \textbf{0.1429}, that is 1 of 7) and downgrades or withdraws the other six
+(\textbf{0.8571}, 6 of 7). I read this as the method working rather than failing: most originally asserted
+cross-field correspondences do not survive re-typing under a fixed codebook, and a judge strict enough to
+retire most of its builder's own early claims is what makes its surviving claims worth attention.
 
 \subsection{Unification index}
-Ranking persisted node correspondences by a preregistered score (forks-touched $+$ support-cone $+$
-axis-reach, weights 1/1/1): Kendall's $\tau$ \cite{kendall1938} rank stability across the weight simplex is
-\textbf{0.7165} ($n = 216$ correspondences), moderately weight-sensitive and reported honestly; the
-generative grade dominates and is flagged.
+The unification index is a ranking: it orders the correspondences the engine has persisted by how much
+unifying work each one does, so that the pairs tying the most theories together rise to the top. A ranking
+like this is only useful if it is stable, and the worry is that the order is an artifact of the particular
+weights I chose when combining its ingredients. The weight-simplex test recomputes the ranking under every
+weighting across the simplex and asks whether the order holds. I scored
+each persisted node correspondence by a preregistered combination of forks-touched, support-cone and
+axis-reach (weights 1/1/1), then swept the weights across the simplex and measured Kendall's $\tau$
+\cite{kendall1938}, the rank correlation between the base ranking and each reweighted one. Across the 216
+correspondences in the ranking, the minimum $\tau$ over the simplex sweep is
+\textbf{0.7165} ($n = 216$). I report this as moderately weight-sensitive rather than robust: the order is
+largely but not entirely weight-independent, and the generative grade dominates the score, which I flag.
 
 \subsection{Held-out key recoveries, with chance rates}
-Against the held-out adversarial-collaboration key \cite{cogitate2025}, preregistered in advance
-\cite{cogitate_prereg}, the v2 instrument recovers \textbf{2 of 3} predictions (revised gated result
-\{2,0,1,9\}; $n = 3$). Outcome-informed disclosure (verbatim): ``iit\_c009 was initially rejected at the
-gate; after a sensitivity check showed it was the sole binding claim for P3, it was re-reviewed and
-approved on codebook-consistency grounds (matching approved canonical iit\_c025). Original gated result
-\{1,0,2,9\} and revised \{2,0,1,9\} are both reported; fully ungated sensitivity \{2,0,1,16\}.'' The
-remaining miss (P2, temporal\_profile) is attributed to the instrument: no IIT temporal\_profile claim was
-ever extracted (not a gate effect). Chance rate: 1000 random typed-row keys recover $\ge$ the real 2/3 with
-empirical permutation \textbf{$p = 0.075$} ($n = 1000$) beside a normal-approx $z = 2.2693$, from the same
-recovered-count null; the discrete, right-skewed null makes the $z$ overstate significance, so
-\textbf{$p = 0.075$} ($n = 1000$) governs: it does not reach $\alpha = 0.05$ and is suggestive only. The
-engine never ingested the key text (holdout clean).
+COGITATE is an adversarial collaboration in which proponents of two rival theories of consciousness,
+integrated information theory and global neuronal workspace theory, negotiated in advance, over several
+years, a shared set of predictions and the experiments that would adjudicate them \cite{cogitate2025}. That
+negotiated key is the right benchmark precisely because it was so expensive to produce: if the engine,
+reading only the theories' own texts, recovers predictions that took years of expert argument to fix, the
+typed judge is doing something surface text alone does not hand it. The key was
+preregistered before the collaboration's results were known \cite{cogitate_prereg}, and the engine never
+ingested the key text, so the holdout is clean. Running the v2 instrument end to end against the three
+held-out predictions, the engine recovers \textbf{2 of 3} (revised gated result \{2,0,1,9\}; $n = 3$).
+Outcome-informed disclosure (verbatim): ``iit\_c009 was initially rejected at the gate; after a sensitivity
+check showed it was the sole binding claim for P3, it was re-reviewed and approved on codebook-consistency
+grounds (matching approved canonical iit\_c025). Original gated result \{1,0,2,9\} and revised \{2,0,1,9\}
+are both reported; fully ungated sensitivity \{2,0,1,16\}.'' The one remaining miss (P2, temporal\_profile)
+is a property of the instrument rather than the gate: no IIT temporal\_profile claim was ever extracted. To
+judge whether recovering two of three is meaningful, I compared it against a null of 1000 random typed-row
+keys; the fraction recovering at least as much as the real key is the empirical permutation
+\textbf{$p = 0.075$} ($n = 1000$), beside a normal approximation $z = 2.2693$ from the same
+recovered-count null. Because that null is discrete and right-skewed, the $z$ overstates significance and
+the empirical \textbf{$p = 0.075$} ($n = 1000$) governs: it does not reach $\alpha = 0.05$, so I read the
+COGITATE recovery as suggestive only.
 
-Of \textbf{14 validated bridge rows} \cite{luppi2024} the engine's IIT$\times$GNWT fork/correspondence set
-recovers \textbf{0 exact} and \textbf{6 partial} ($n = 14$), misses 8, with \textbf{0} rows unmappable to
-any engine axis ($n = 14$; the one vocabulary-gap row in the provisional 16-row build was among the 2
-dropped at the format gate as methods, so the validated denominator of 14 carries 0 unmappable). Chance
-rate (honest negative): the 6-partial recovery does not beat chance. 1000 random typed-row keys recover
-more (null mean 9.2), empirical \textbf{$p = 0.981$} ($n = 1000$), below the null. I report it as found: on
-the engine's IIT$\times$GNWT set the eLife bridge's partial recovery is at or below chance.
+The eLife bridge is a second, independent key of a different kind: a published, information-theoretic
+analysis that formalises a quantitative bridge between the same two theories, deriving where integrated
+information and the global workspace should correspond \cite{luppi2024}. Built by different authors with
+different machinery than COGITATE, it is an independent check against a key no one on the engine side
+wrote. I diffed the engine's
+IIT$\times$GNWT fork and correspondence set against the \textbf{14 validated} bridge rows. Across those 14
+rows the engine recovers \textbf{0 exact} and \textbf{6 partial} ($n = 14$) and misses 8, with \textbf{0}
+rows unmappable to any engine axis ($n = 14$; the one vocabulary-gap row in the provisional 16-row build
+was among the 2 dropped at the format gate as methods, so the validated denominator of 14 carries 0
+unmappable). Scored against the same 1000-key null, the result does not beat chance: random keys recover
+more on average (null mean 9.2), and the fraction of null keys doing at least as well is empirical
+\textbf{$p = 0.981$} ($n = 1000$), below the null. I report this as found: on the engine's IIT$\times$GNWT
+set the eLife bridge's partial recovery is at or below chance.
 
 \section{Verification}
 
 \subsection{Audit method}
-A rule-based criterion audit (provenance, quote-support, Newman screen, testability, scale): discovery
-survivorship \textbf{1 of 9} ($n = 9$) and sampled-match survivorship \textbf{2 of 30} ($n = 30$); strict,
-since most prior discoveries fail at least one criterion.
+Can the engine's own earlier discoveries withstand a strict, rule-based audit? Before trusting any
+correspondence the engine surfaces, I wanted to know how many of its prior demonstration discoveries
+survive explicit criteria rather than impression. I applied a five-part criterion audit to each,
+checking provenance, quote-support, a Newman screen, testability and scale, and failing any discovery
+that misses even one criterion. Of the 9 demonstration discoveries, \textbf{1 of 9} survives all five
+criteria ($n = 9$); of a separate sample of 30 engine-asserted matches, \textbf{2 of 30} survive
+($n = 30$). The audit is deliberately strict: most prior discoveries fail at least one criterion, which I
+treat as the audit doing its job.
 
 \subsection{Instrument}
-Adopted decoding is \texttt{baseline-single-pass}. One stability estimator is used throughout: the sprint
-estimator \textbf{0.25} (95\% CI [0.1713, 0.3496], $n = 88$), a measured noise floor every downstream
-contrast is scored against. (The prior Task-5 estimator on the same 80 runs is 0.271, a coarser cluster
-unit, reported only for comparison.)
+How much does the extraction front-end disagree with itself when the input has not changed? Every
+downstream invariance and tracking figure is only interpretable against that noise floor, so I fix one
+estimate of it and use it throughout. The adopted decoding is \texttt{baseline-single-pass}, and
+I estimate self-consistency with the sprint estimator over repeated runs of the same passages. Across the
+88 repeated-run units the sprint estimator puts standing self-consistency at \textbf{0.25}
+(95\% CI [0.1713, 0.3496], $n = 88$); this is the measured noise floor against which every downstream
+contrast is scored. For comparison only, the prior Task-5 estimator on the same 80 runs reports 0.271, a
+coarser cluster unit, so a noise floor this high is itself a limitation that every invariance number below
+is read against.
 
 \subsection{The verified judge}
-Verdict equivalence \textbf{1.0} ($n = 213$); SMT congruence \textbf{1.0} ($n = 311$), discharged by the Z3
-solver \cite{z3}; proof coverage \textbf{0.9842} ($n = 316$), with derivations machine-checked in the
-spirit of formalised-mathematics libraries \cite{mathlib}; \textbf{0} integrity violations ($n = 316$).
+Can the judge's rules be proved correct rather than merely trusted? Because the judge is a function of the
+typed fields alone, independent formal re-expressions of the same rules should reproduce its verdicts
+exactly, making each verdict a checkable consequence of the inputs rather than a behaviour of one program.
+I re-expressed the judge three ways and compared each against it over the corpus: as a logic program, as a
+first-order theory discharged by the Z3 SMT solver \cite{z3}, and as machine-checked proof objects in the
+spirit of formalised-mathematics libraries \cite{mathlib}. Across the 213 theory pairs in the corpus the
+logic program returns the identical verdict in every case (verdict equivalence \textbf{1.0}, $n = 213$);
+across the 311 verdicts checked under the solver, congruence is \textbf{1.0} ($n = 311$); proof objects
+cover \textbf{0.9842} of the 316 derivations ($n = 316$), with \textbf{0} integrity violations across those
+same 316 ($n = 316$). Three re-expressions agreeing exactly is the result the verification lane rests on:
+the verdicts are provable from their inputs, not taken on trust.
 
 \subsection{Statement-level contracts: the negation headline}
-An OSF-preregistered perturbation suite (DOI
-\href{https://doi.org/10.17605/OSF.IO/5N24M}{10.17605/OSF.IO/5N24M}) with a re-extraction noise-floor
-control. Polarity caveat: the claim store is near single-class on polarity (92 asserts / 3 denies), so the
-identity-control polarity stability \textbf{0.975} ($n = 40$) and the panel polarity agreement reported
-below largely reflect the extractor's default rather than demonstrated polarity reading, which is why the
-negation figure is the informative one. Explicit negation flips polarity only \textbf{0.1765} of the time
-($n = 34$ valid); double negation restores to asserts \textbf{0.0} ($n = 8$ valid, low-$n$, since the
-perturber mostly fails to negate twice); L2 verdict tracking \textbf{0.4189} ($n = 74$). The deterministic
-judge is correct given fields; the extraction front-end under-propagates negation. A single-reviewer
-hand-check agrees with the automated verifier at \textbf{0.893} ($n = 28$).
+What happens to a verdict when a sentence's meaning is flipped by negation? A typed judge is only
+trustworthy if the fields it reads track meaning, so I ran a preregistered, statement-level perturbation
+suite that applies meaning-preserving and meaning-flipping edits and measures how the typed fields and
+verdicts respond against a re-extraction noise-floor control (OSF preregistration DOI
+\href{https://doi.org/10.17605/OSF.IO/5N24M}{10.17605/OSF.IO/5N24M}). One caveat frames the polarity
+numbers: the claim store is near single-class on polarity (92 asserts, 3 denies), so the identity-control
+polarity stability \textbf{0.975} ($n = 40$) and the panel polarity agreement below largely reflect the
+extractor's default rather than demonstrated polarity reading, which is why the negation figure is the
+informative one. Over the 34 valid explicit-negation items,
+negation flips the extracted polarity only \textbf{0.1765} of the time ($n = 34$); over the 8 valid
+double-negation items the extractor restores the assertion \textbf{0.0} of the time ($n = 8$, low-$n$,
+since the perturber mostly fails to negate twice); and verdict tracking under the L2 edits is correct for
+\textbf{0.4189} of the 74 items ($n = 74$). The deterministic judge is correct given its fields; what these
+numbers locate is the extraction front-end under-propagating negation into those fields. A single-reviewer
+hand-check agrees with the automated verifier on \textbf{0.893} of 28 items ($n = 28$), so the gap is in
+extraction, not the check.
 
 \subsection{Obfuscation control}
-Obfuscating surface vocabulary leaves fork recovery essentially unchanged (gap \textbf{0.072}, $n = 14$),
-but the extractor re-identifies the theories and emits their coined terms (\textbf{12} de-obfuscation
-leaks, $n = 14$): surface obfuscation does not reduce fork recovery and does not blind the model to theory
-identity.
+Does hiding each theory's coined vocabulary change the engine's verdicts? If the correspondences were
+driven by surface wording, masking the signature terms should degrade them; if by the typed fields,
+masking should leave them intact. I ran two arms of extraction and fork recovery, identical except that
+one operated on passages with the theories' surface vocabulary obfuscated, recording both the change in
+recovery and whether the extractor re-emitted the coined terms. Across the 14 canonical forks, obfuscation
+moves fork
+recovery by only \textbf{0.072} ($n = 14$), so surface masking does not reduce fork recovery. It does not,
+however, blind the model to theory identity: over those same 14 the extractor re-identifies the theories
+and re-emits their coined terms, producing \textbf{12} de-obfuscation leaks ($n = 14$): the verdicts
+survive obfuscation, but the model still recognises which theories it reads.
 
 \subsection{Reliability framing}
-A two-vendor panel (gpt-4.1 $\times$ gemini-3.1-pro-preview, full coverage) measures protocol
-reproducibility, not validity: cross-vendor entity $\kappa$ \cite{cohen1960} \textbf{0.525} ($n = 95$),
-axis $\kappa$ \textbf{0.503} ($n = 95$), polarity PABAK \cite{byrt1993} \textbf{0.811} ($n = 95$); the
-polarity PABAK carries the single-class caveat noted for the negation headline above. Standing
-self-consistency is the adopted stability \textbf{0.25} (sprint estimator, 95\% CI [0.1713, 0.3496],
-$n = 88$); the prior Task-5 estimator on the same runs is 0.271.
+Do two different vendors' models type the same claims the same way? Cross-vendor agreement speaks to
+whether the typing protocol is reproducible across independent models, not to whether its verdicts are
+valid. I ran a two-vendor panel (gpt-4.1 $\times$ gemini-3.1-pro-preview, full coverage) and measured
+inter-model agreement on each typed field. Over the 95 claims typed by both vendors, cross-vendor
+agreement is \textbf{0.525} on entity
+type (Cohen's $\kappa$ \cite{cohen1960}, $n = 95$), \textbf{0.503} on axis ($\kappa$, $n = 95$), and
+\textbf{0.811} on polarity (PABAK \cite{byrt1993}, $n = 95$); the polarity PABAK carries the single-class
+caveat noted for the negation headline above. Standing self-consistency within a single model is the
+adopted stability \textbf{0.25} (sprint estimator, 95\% CI [0.1713, 0.3496], $n = 88$; Task-5 estimator
+0.271 for comparison). Moderate cross-vendor agreement shows the protocol is reproducible across models,
+not that its typing is valid.
 
 \section{Limitations}
-These limitations import the pre-sprint evaluation's, which that report records and this paper supersedes
-under the lock.
-
-The engine's six theories are all theories of consciousness, so results may not transfer to other fields;
+These limitations import the pre-sprint evaluation's, which this paper supersedes under the lock. The
+engine's six theories are all theories of consciousness, so results may not transfer to other fields;
 cross-field reach rests on the re-adjudication record and the corpus extensions, not the core. The
-reference labels were produced by the builder: the judge-after-audit reference reflects one builder's
-choices, and a second, independent annotator is planned but not yet run, so human agreement, the ceiling
+reference labels were produced by the builder, so the judge-after-audit reference reflects one builder's
+choices; a second, independent annotator is planned but not yet run, so human agreement, the ceiling
 against which model agreement is read, is not yet available. In production a smaller same-family model
-cross-checks the main extractor; the gpt-4.1 $\times$ gemini-3.1-pro-preview panel is an evaluation add-on,
-not part of the production pipeline, and it measures reproducibility rather than validity. The corpus is
-small (95 approved claims, six theories); the deeper arms, embedding alignment, unsupervised optimal
-transport via Gromov-Wasserstein couplings \cite{memoli2011}, and partial-information decomposition of the
-verdict \cite{williams_beer2010}, are pilot-scale feasibility studies in a planned second paper.
+cross-checks the main extractor; the two-vendor panel is an evaluation add-on measuring reproducibility,
+not validity. The corpus is small (95 approved claims, six theories); the deeper arms, embedding
+alignment, unsupervised optimal transport via Gromov-Wasserstein
+couplings \cite{memoli2011}, and partial-information decomposition of the verdict \cite{williams_beer2010},
+are pilot-scale feasibility studies in a planned second paper.
 
-Single-pass extraction carries a measured noise floor (stability \textbf{0.25}, $n = 88$); every
+Single-pass extraction carries a measured noise floor (stability \textbf{0.25}, $n = 88$), so every
 invariance and tracking number is reported relative to the identity control, and negation tracking is
 itself a measured limitation. The store is near single-class on polarity (92 asserts / 3 denies), so
 polarity-stability figures reflect the extractor's default rather than demonstrated polarity reading.
 Holdout controls the prompt, not the training data: held-out keys never entered extraction or judging
-prompts (measured clean), but they may sit in a model's pretraining, and the obfuscation control is the
-measured response, which shows that identity is not blinded. Several review packets were judged at the
-statement level or from truncated excerpts, without full fork-side source text, so those arms are reported
+prompts (measured clean) but may sit in a model's pretraining, which the obfuscation control, showing
+identity is not blinded, addresses. Several review packets were judged at the
+statement level or from truncated excerpts without full fork-side source text, so those arms are reported
 as ``no fork flagged by the scan'', not as validation of the forks. Decisions were model-drafted
-suggestions (Claude) reviewed and confirmed by the author. Finally, the open-weight panel leg is not run (no
-hosted-open-weight key), so the panel is two-vendor, stated here as a limitation.
+suggestions (Claude) reviewed and confirmed by the author, and the open-weight panel leg is not run (no
+hosted-open-weight key), so the panel is two-vendor.
 
 \section{Conclusion}
 The engine turns cross-theory claim comparison into a reproducible, auditable computation: a typed
-intermediate representation, a deterministic judge, and three independent re-expressions of that judge that
-agree exactly. Its discovery claims are modest by construction: most prior cross-field correspondences do
-not survive re-typing, one held-out key is recovered only suggestively, and the other is recovered below
-chance. I report them that way. The verification lane, not the discovery headline, is the contribution I
-stand behind: a claim-comparison verdict that is a checkable function of its inputs.
+intermediate representation, a deterministic judge, and three independent re-expressions of it that agree
+exactly. Its discovery claims are modest by construction: most prior cross-field correspondences do
+not survive re-typing, one held-out key is recovered only suggestively, and the other below chance. I
+report them that way. The verification lane, not the discovery headline, is the contribution I stand
+behind: a claim-comparison verdict that is a checkable function of its inputs.
 
 \bibliographystyle{plain}
 \bibliography{refs}
